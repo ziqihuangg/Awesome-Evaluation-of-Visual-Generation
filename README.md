@@ -1,14 +1,22 @@
 # Awesome Evaluation of Visual Generation
 
-This repository collects methods for evaluating visual generation. 
+[![Visitor](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fziqihuangg%2FAwesome-Evaluation-of-Visual-Generation&count_bg=%23FFA500&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
+
+*This repository collects methods for evaluating visual generation.*
+
+
+#### What You'll Find Here
+
+Within this repository, we collect works that aim to answer some critical questions in the field of visual generation evaluation, such as:
 
 The works in this repo answers questions like:
-- How good is a particular image / video generation model? 
-- How good is a particular generated image / video? 
-- Are the generated images / videos consistent with the user controls?
+- **Model Evaluation**: How good is a particular image / video generation model? How does one determine the quality of a specific image or video generation model?
+- **Sample/Content Evaluation**: How good is a particular generated image / video?  What metrics or methods can be used to evaluate the quality of a particular generated image or video?
+- **User Control Consistency**: Are the generated images and videos aligning with the user controls or inputs?
 
-Sidenote:
-> This repository is updated periodically. We welcome suggestions that supplement any existing works and codes, as well as updates on expiring links, via GitHub Issues or email (`ZIQI002 at e dot ntu dot edu dot sg`).
+#### Updates
+
+This repository is updated periodically. If you have suggestions for additional resources, updates on methodologies, or fixes for expiring links, please feel free to reach out. For suggestions, feedback, or pointing out issues, please use the GitHub Issues tab. We are also contactable via email (`ZIQI002 at e dot ntu dot edu dot sg`).
 
 ## Evaluation Metrics of Generative Models
 
@@ -83,12 +91,10 @@ Papers for CLIP Similarity:
 
 + [Towards A Better Metric for Text-to-Video Generation](https://arxiv.org/abs/2401.07781) (2024-01)  
   [![Code](https://img.shields.io/github/stars/showlab/T2VScore.svg?style=social&label=Official)](https://github.com/showlab/T2VScore)
-  <!-- [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.17982) -->
   [![Website](https://img.shields.io/badge/Website-9cf)](https://showlab.github.io/T2VScore/)
 
 + [VBench: Comprehensive Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2311.17982) (2023-11)  
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
-  <!-- [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.17982) -->
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
 + [FETV: A Benchmark for Fine-Grained Evaluation of Open-Domain Text-to-Video Generation](https://arxiv.org/abs/2311.01813) (2023-11)  
@@ -119,3 +125,6 @@ Papers for CLIP Similarity:
 
 + [A Note on the Inception Score](https://arxiv.org/abs/1801.01973) (2018-01)
 
+
+## Useful Resources
+ + Stanford Course: CS236 "Deep Generative Models" - Lecture 15 "Evaluation of Generative Models" [[slides]](https://deepgenerativemodels.github.io/assets/slides/lecture15.pdf)
