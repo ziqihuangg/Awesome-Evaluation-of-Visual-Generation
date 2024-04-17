@@ -4,6 +4,7 @@
 
 *This repository collects methods for evaluating visual generation.*
 
+![overall_structure](./figures/fig_teaser.jpg)
 
 #### What You'll Find Here
 
@@ -17,12 +18,18 @@ Within this repository, we collect works that aim to answer some critical questi
 
 This repository is updated periodically. If you have suggestions for additional resources, updates on methodologies, or fixes for expiring links, please feel free to reach out. For suggestions, feedback, or pointing out issues, please use the GitHub Issues tab. We are also contactable via email (`ZIQI002 at e dot ntu dot edu dot sg`).
 
-## Evaluation Metrics of Generative Models
+## Table of Contents
+- [1. Evaluation Metrics of Generative Models](#1.)
+  - [1.1. Evaluation Metrics of Image Generation](#1.1.)
+  - [1.2. Evaluation Metrics of Video Generation](#1.2.)
 
-### Evaluation Metrics of Image Generation
+<a name="1."></a>
+## 1. Evaluation Metrics of Generative Models
+<a name="1.1"></a>
+### 1.1. Evaluation Metrics of Image Generation
 
 
-| Metrics | Paper | Code |
+| Metric | Paper | Code |
 | -------- |  -------- |  ------- |
 | Inception Score (IS) | [Improved Techniques for Training GANs](https://arxiv.org/abs/1606.03498) (NeurIPS 2016) |  |
 | Fréchet Inception Distance (FID) | [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) (NeurIPS 2017) | [![Code](https://img.shields.io/github/stars/bioinf-jku/TTUR.svg?style=social&label=Official)](https://github.com/bioinf-jku/TTUR) [![Code](https://img.shields.io/github/stars/mseitzer/pytorch-fid.svg?style=social&label=PyTorch)](https://github.com/mseitzer/pytorch-fid) |
@@ -30,20 +37,22 @@ This repository is updated periodically. If you have suggestions for additional 
 | CLIP-FID | [The Role of ImageNet Classes in Fréchet Inception Distance](https://arxiv.org/abs/2203.06026) (ICLR 2023) | [![Code](https://img.shields.io/github/stars/kynkaat/role-of-imagenet-classes-in-fid.svg?style=social&label=Official)](https://github.com/kynkaat/role-of-imagenet-classes-in-fid)  [![Code](https://img.shields.io/github/stars/GaParmar/clean-fid.svg?style=social&label=Official)](https://github.com/GaParmar/clean-fid?tab=readme-ov-file#computing-clip-fid) |
 | Precision-and-Recall | [Improved Precision and Recall Metric for Assessing Generative Models](https://arxiv.org/abs/1904.06991) (NeurIPS 2019) | [![Code](https://img.shields.io/github/stars/kynkaat/improved-precision-and-recall-metric.svg?style=social&label=OfficialTensowFlow)](https://github.com/kynkaat/improved-precision-and-recall-metric)   |
 
+<a name="1.2"></a>
+### 1.2. Evaluation Metrics of Video Generation
 
-### Evaluation Metrics of Video Generation
 
-
-| Metrics | Paper | Code |
+| Metric | Paper | Code |
 | -------- |  -------- |  ------- |
 | FID-vid | [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) (NeurIPS 2017) |  |
 | Fréchet Video Distance (FVD) | [Towards Accurate Generative Models of Video: A New Metric & Challenges](https://arxiv.org/abs/1812.01717) (arXiv 2018) | [![Code](https://img.shields.io/github/stars/songweige/TATS.svg?style=social&label=Unofficial)](https://github.com/songweige/TATS/blob/main/tats/fvd/fvd.py) |
 
 
-## Evaluation Metrics of Condition Consistency
+## 2. Evaluation Metrics of Condition Consistency
+
+### 2.1 Evaluation Metrics of Multi-Modal Condition Consistency
 
 
-| Metrics | Condition | Pipeline | Code | References | 
+| Metric | Condition | Pipeline | Code | References | 
 | -------- |  -------- |  ------- | -------- |  -------- |  
 | CLIP Score (`a.k.a.` CLIPSIM) | Text | cosine similarity between the CLIP image and text embeddings |  [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) | [CLIP Paper](https://arxiv.org/abs/2103.00020) (ICML 2021). Metrics first used in [CLIPScore Paper](https://arxiv.org/abs/2104.08718) (arXiv 2021) and [GODIVA Paper](https://arxiv.org/abs/2104.14806) (arXiv 2021) applies it in video evaluation. |
 | Mask Accuracy | Segmentation Mask | predict the segmentatio mask, and compute pixel-wise accuracy against the ground-truth segmentation mask | any segmentation method for your setting |
@@ -55,10 +64,31 @@ Papers for CLIP Similarity:
 [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (ICML 2021), [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718) (arXiv 2021), [GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions](https://arxiv.org/abs/2104.14806) (arXiv 2021) | [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) -->
 
 
+### 2.2. Evaluation Metrics of Image Similarity
 
-## Evaluation Systems of Generative Models
+| Metrics | Paper | Code |
+| -------- |  -------- |  ------- |
+| Learned Perceptual Image Patch Similarity (LPIPS) | [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/abs/1801.03924) (2018-01-11) (CVPR 2018) | [![Code](https://img.shields.io/github/stars/ssundaram21/dreamsim.svg?style=social&label=Official)](https://github.com/ssundaram21/dreamsim) [![Website](https://img.shields.io/badge/Website-9cf)](https://dreamsim-nights.github.io) |
+| Structural Similarity Index (SSIM) | [Image quality assessment: from error visibility to structural similarity](https://ieeexplore.ieee.org/document/1284395) (TIP 2004) |   [![Code](https://img.shields.io/github/stars/open-mmlab/mmagic.svg?style=social&label=MMEditing)](https://github.com/open-mmlab/mmagic/blob/main/tests/test_evaluation/test_metrics/test_ssim.py) [![Code](https://img.shields.io/github/stars/Po-Hsun-Su/pytorch-ssim.svg?style=social&label=Unofficial)](https://github.com/Po-Hsun-Su/pytorch-ssim) |
+| Peak Signal-to-Noise Ratio (PSNR) | - |   [![Code](https://img.shields.io/github/stars/open-mmlab/mmagic.svg?style=social&label=MMEditing)](https://github.com/open-mmlab/mmagic/blob/main/tests/test_evaluation/test_metrics/test_psnr.py) |
+| Multi-Scale Structural Similarity Index (MS-SSIM) | [Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216) (SSC 2004) | [PyTorch-Metrics](https://lightning.ai/docs/torchmetrics/stable/image/multi_scale_structural_similarity.html#:~:text=Compute%20MultiScaleSSIM%2C%20Multi%2Dscale%20Structural,details%20at%20different%20resolution%20scores.&text=a%20method%20to%20reduce%20metric%20score%20over%20labels.) |
+| Feature Similarity Index (FSIM) | [FSIM: A Feature Similarity Index for Image Quality Assessment](https://ieeexplore.ieee.org/document/5705575) (TIP 2011) | [![Code](https://img.shields.io/github/stars/mikhailiuk/pytorch-fsim.svg?style=social&label=Unofficial)](https://github.com/mikhailiuk/pytorch-fsim)
 
-### Evaluation of Text-to-Image
+
+
+The community has also been using [DINO](https://arxiv.org/abs/2104.14294) or [CLIP](https://arxiv.org/abs/2103.00020) features to measure the semantic similarity of two images / frames.
+
+
+There are also recent works on new methods to measure visual similarity (more will be added):
+
++ [DreamSim: Learning New Dimensions of Human Visual Similarity using Synthetic Data](https://arxiv.org/abs/2306.09344) (2023-06-15)  
+  [![Code](https://img.shields.io/github/stars/ssundaram21/dreamsim.svg?style=social&label=Official)](https://github.com/ssundaram21/dreamsim)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://dreamsim-nights.github.io)
+  
+
+## 3. Evaluation Systems of Generative Models
+
+### 3.1. Evaluation of Text-to-Image Generation
 
 
 + [Evaluating Text-to-Visual Generation with Image-to-Text Generation](https://arxiv.org/abs/2404.01291) (2024-04)  
@@ -73,6 +103,17 @@ Papers for CLIP Similarity:
 
 
 + [GPT-4V(ision) as a Generalist Evaluator for Vision-Language Tasks](https://arxiv.org/abs/2311.01361) (2023-11-02)
+
+
++ [DEsignBench: Exploring and Benchmarking DALL-E 3 for Imagining Visual Design](https://arxiv.org/abs/2310.15144) (2023-10-23)  
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://design-bench.github.io)
+  
+
++ [GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment](https://arxiv.org/abs/2310.11513) (2023-10-17)  
+  [![Code](https://img.shields.io/github/stars/djghosh13/geneval.svg?style=social&label=Official)](https://github.com/djghosh13/geneval)  
+
++ [Hypernymy Understanding Evaluation of Text-to-Image Models via WordNet Hierarchy](https://arxiv.org/abs/2310.09247) (2023-10-13)  
+  [![Code](https://img.shields.io/github/stars/yandex-research/text-to-img-hypernymy.svg?style=social&label=Official)](https://github.com/yandex-research/text-to-img-hypernymy)  
 
 + [ImagenHub: Standardizing the evaluation of conditional image generation models](https://arxiv.org/abs/2310.01596) (2023-10-02)  
   [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/ImagenHub.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/ImagenHub)
@@ -97,7 +138,7 @@ Papers for CLIP Similarity:
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
 
 
-### Evaluation of Text-to-Video
+### 3.2. Evaluation of Text-to-Video Generation
 
 
 + [Subjective-Aligned Dataset and Metric for Text-to-Video Quality Assessment](https://arxiv.org/abs/2403.11956) (2024-03-18)  
@@ -129,7 +170,7 @@ Papers for CLIP Similarity:
   [![Code](https://img.shields.io/github/stars/EvalCrafter/EvalCrafter.svg?style=social&label=Official)](https://github.com/EvalCrafter/EvalCrafter)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://evalcrafter.github.io)
 
-### Evaluation of Image-to-Video
+### 3.3. Evaluation of Image-to-Video Generation
 
 
 + I2V-Bench from [ConsistI2V: Enhancing Visual Consistency for Image-to-Video Generation](https://arxiv.org/abs/2402.04324) (2024-02-06)  
@@ -145,9 +186,9 @@ Papers for CLIP Similarity:
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
 
-### Evaluation of Model Trustworthiness
+### 3.4. Evaluation of Model Trustworthiness
 
-#### Evaluation of Visual-Generation-Model Trustworthiness
+#### 3.4.1. Evaluation of Visual-Generation-Model Trustworthiness
 
 
 + [VBench-Trustworthiness](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_reliability) (2024-03) from [VBench: Comprehensive Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2311.17982) (2023-11-29)  
@@ -159,7 +200,7 @@ Papers for CLIP Similarity:
   [![Code](https://img.shields.io/github/stars/stanford-crfm/helm.svg?style=social&label=Official)](https://github.com/stanford-crfm/helm)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://crfm.stanford.edu/helm/heim/v1.1.0/)
 
-#### Evaluation of Non-Visual-Generation-Model Trustworthiness
+#### 3.4.2. Evaluation of Non-Visual-Generation-Model Trustworthiness
 Not for visual generation, but related evaluations of other models like LLMs
 
 + [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal](https://arxiv.org/abs/2402.04249) (2024-02-06)  
@@ -168,7 +209,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 
 
-## Improving Visual Generation with Evaluation / Feedback / Reward
+## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
 
 + [InstructVideo: Instructing Video Diffusion Models with Human Feedback](https://arxiv.org/abs/2312.12490) (2023-12-19)  
@@ -189,9 +230,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 - ImageNet
 - COCO -->
 
-## Quality Assessment for AIGC
+## 5. Quality Assessment for AIGC
 
-### Image Quality Assessment for AIGC
+### 5.1. Image Quality Assessment for AIGC
 
 + [AIGIQA-20K: A Large Database for AI-Generated Image Quality Assessment](https://arxiv.org/abs/2404.03407) (2024-04)  
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.modelscope.cn/datasets/lcysyzxdxc/AIGCQA-30K-Image/summary)
@@ -204,28 +245,52 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [AIGCIQA2023: A Large-scale Image Quality Assessment Database for AI Generated Images: from the Perspectives of Quality, Authenticity and Correspondence](https://arxiv.org/abs/2307.00211) (2023-07-01)  
   
+### 5.2. Aesthetic Predictors for Generated Images
+
++ Aesthetic Scorer extension for SD Automatic WebUI (2023-01-15)  
+  [![Code](https://img.shields.io/github/stars/vladmandic/sd-extension-aesthetic-scorer.svg?style=social&label=Official)](https://github.com/vladmandic/sd-extension-aesthetic-scorer)
+
+
++ Simulacra Aesthetic-Models (2022-07-09)  
+  [![Code](https://img.shields.io/github/stars/crowsonkb/simulacra-aesthetic-models.svg?style=social&label=Official)](https://github.com/crowsonkb/simulacra-aesthetic-models)
+
+
++ LAION-Aesthetics_Predictor V2: CLIP+MLP Aesthetic Score Predictor (2022-06-26)  
+  [![Code](https://img.shields.io/github/stars/christophschuhmann/improved-aesthetic-predictor.svg?style=social&label=Official)](https://github.com/christophschuhmann/improved-aesthetic-predictor)
+  [![Website](https://img.shields.io/badge/Visualizer-9cf)](http://captions.christoph-schuhmann.de/aesthetic_viz_laion_sac+logos+ava1-l14-linearMSE-en-2.37B.html)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://laion.ai/blog/laion-aesthetics/#laion-aesthetics-v2)
+
+
++ LAION-Aesthetics_Predictor V1 (2022-05-21)  
+  [![Code](https://img.shields.io/github/stars/LAION-AI/aesthetic-predictor.svg?style=social&label=Official)](https://github.com/LAION-AI/aesthetic-predictor)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://laion.ai/blog/laion-aesthetics/#laion-aesthetics-v1)
+
 
 <!-- ## Video Quality Assessment for AIGC
 - To be added -->
 
-## Study and Rethinking
+## 6. Study and Rethinking
 
-### Evaluation of Evaluations
+### 6.1. Evaluation of Evaluations
 + [Who Evaluates the Evaluations? Objectively Scoring Text-to-Image Prompt Coherence Metrics with T2IScoreScore (TS2)](https://arxiv.org/abs/2404.04251) (2024-04)  
   [![Code](https://img.shields.io/github/stars/michaelsaxon/T2IScoreScore.svg?style=social&label=Official)](https://github.com/michaelsaxon/T2IScoreScore)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://t2iscorescore.github.io)
 
-### Survey
+### 6.2. Survey
 
 + [Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics](https://arxiv.org/abs/2403.11821) (2024-03-18)  
 
 
-### Study
+### 6.3. Study
 
 + [A Study on the Evaluation of Generative Models](https://arxiv.org/abs/2206.10935) (2022-06)
 
 + [A Note on the Inception Score](https://arxiv.org/abs/1801.01973) (2018-01)
 
 
-## Useful Resources
+## 7. Useful Resources
  + Stanford Course: CS236 "Deep Generative Models" - Lecture 15 "Evaluation of Generative Models" [[slides]](https://deepgenerativemodels.github.io/assets/slides/lecture15.pdf)
+
+<!-- 
+Papers to read and to organize:
+Rethinking FID: Towards a Better Evaluation Metric for Image Generation -->
