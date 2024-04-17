@@ -4,26 +4,34 @@
 
 *This repository collects methods for evaluating visual generation.*
 
-![overall_structure](./figures/fig_teaser.jpg)
+![overall_structure](./figures/fig_teaser_combined.jpg)
 
-#### What You'll Find Here
+## Overview
 
-Within this repository, we collect works that aim to answer some critical questions in the field of visual generation evaluation, such as:
+### What You'll Find Here
 
-- **Model Evaluation**: How good is a particular image / video generation model? How does one determine the quality of a specific image or video generation model?
-- **Sample/Content Evaluation**: How good is a particular generated image / video?  What metrics or methods can be used to evaluate the quality of a particular generated image or video?
-- **User Control Consistency**: Are the generated images and videos aligning with the user controls or inputs?
+Within this repository, we collect works that aim to answer some critical questions in the field of evaluating visual generation, such as:
 
-#### Updates
+- **Model Evaluation**: How does one determine the quality of a specific image or video generation model?
+- **Sample/Content Evaluation**: What methods can be used to evaluate the quality of a particular generated image or video?
+- **User Control Consistency Evaluation**: How to tell how well the generated images and videos align with the user controls or inputs?
 
-This repository is updated periodically. If you have suggestions for additional resources, updates on methodologies, or fixes for expiring links, please feel free to reach out. For suggestions, feedback, or pointing out issues, please use the GitHub Issues tab. We are also contactable via email (`ZIQI002 at e dot ntu dot edu dot sg`).
+### Updates
 
-## Table of Contents
+This repository is updated periodically. If you have suggestions for additional resources, updates on methodologies, or fixes for expiring links, please feel free to raise a GitHub Issue. We are also contactable via email (`ZIQI002 at e dot ntu dot edu dot sg`).
+
+### Table of Contents
 - [1. Evaluation Metrics of Generative Models](#1.)
   - [1.1. Evaluation Metrics of Image Generation](#1.1.)
   - [1.2. Evaluation Metrics of Video Generation](#1.2.)
 - [2. Evaluation Metrics of Condition Consistency](#2.)
+  - [2.1 Evaluation Metrics of Multi-Modal Condition Consistency](#2.1.)
+  - [2.2. Evaluation Metrics of Image Similarity](#2.2.)
 - [3. Evaluation Systems of Generative Models](#3.)
+  - [3.1. Evaluation of Text-to-Image Generation](#3.1.)
+  - [3.2. Evaluation of Text-to-Video Generation](#3.2.)
+  - [3.3. Evaluation of Image-to-Video Generation](#3.3.)
+  - [3.4. Evaluation of Model Trustworthiness](#3.4.)
 - [4. Improving Visual Generation with Evaluation / Feedback / Reward](#4.)
 - [5. Quality Assessment for AIGC](#5.)
 - [6. Study and Rethinking](#6.)
@@ -54,7 +62,7 @@ This repository is updated periodically. If you have suggestions for additional 
 
 <a name="2."></a>
 ## 2. Evaluation Metrics of Condition Consistency
-
+<a name="2.1."></a>
 ### 2.1 Evaluation Metrics of Multi-Modal Condition Consistency
 
 
@@ -69,7 +77,7 @@ This repository is updated periodically. If you have suggestions for additional 
 Papers for CLIP Similarity:
 [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (ICML 2021), [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718) (arXiv 2021), [GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions](https://arxiv.org/abs/2104.14806) (arXiv 2021) | [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) -->
 
-
+<a name="2.2."></a>
 ### 2.2. Evaluation Metrics of Image Similarity
 
 | Metrics | Paper | Code |
@@ -93,7 +101,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   
 <a name="3."></a>
 ## 3. Evaluation Systems of Generative Models
-
+<a name="3.1."></a>
 ### 3.1. Evaluation of Text-to-Image Generation
 
 
@@ -143,7 +151,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/tgxs002/align_sd.svg?style=social&label=Official)](https://github.com/tgxs002/align_sd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
 
-
+<a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Video Generation
 
 
@@ -176,6 +184,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/EvalCrafter/EvalCrafter.svg?style=social&label=Official)](https://github.com/EvalCrafter/EvalCrafter)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://evalcrafter.github.io)
 
+<a name="3.3."></a>
 ### 3.3. Evaluation of Image-to-Video Generation
 
 
@@ -191,7 +200,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
-
+<a name="3.4."></a>
 ### 3.4. Evaluation of Model Trustworthiness
 
 #### 3.4.1. Evaluation of Visual-Generation-Model Trustworthiness
