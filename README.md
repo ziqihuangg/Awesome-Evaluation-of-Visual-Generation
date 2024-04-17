@@ -22,10 +22,16 @@ This repository is updated periodically. If you have suggestions for additional 
 - [1. Evaluation Metrics of Generative Models](#1.)
   - [1.1. Evaluation Metrics of Image Generation](#1.1.)
   - [1.2. Evaluation Metrics of Video Generation](#1.2.)
+- [2. Evaluation Metrics of Condition Consistency](#2.)
+- [3. Evaluation Systems of Generative Models](#3.)
+- [4. Improving Visual Generation with Evaluation / Feedback / Reward](#4.)
+- [5. Quality Assessment for AIGC](#5.)
+- [6. Study and Rethinking](#6.)
+- [7. Other Useful Resources](#7.)
 
 <a name="1."></a>
 ## 1. Evaluation Metrics of Generative Models
-<a name="1.1"></a>
+<a name="1.1."></a>
 ### 1.1. Evaluation Metrics of Image Generation
 
 
@@ -37,7 +43,7 @@ This repository is updated periodically. If you have suggestions for additional 
 | CLIP-FID | [The Role of ImageNet Classes in Fréchet Inception Distance](https://arxiv.org/abs/2203.06026) (ICLR 2023) | [![Code](https://img.shields.io/github/stars/kynkaat/role-of-imagenet-classes-in-fid.svg?style=social&label=Official)](https://github.com/kynkaat/role-of-imagenet-classes-in-fid)  [![Code](https://img.shields.io/github/stars/GaParmar/clean-fid.svg?style=social&label=Official)](https://github.com/GaParmar/clean-fid?tab=readme-ov-file#computing-clip-fid) |
 | Precision-and-Recall | [Improved Precision and Recall Metric for Assessing Generative Models](https://arxiv.org/abs/1904.06991) (NeurIPS 2019) | [![Code](https://img.shields.io/github/stars/kynkaat/improved-precision-and-recall-metric.svg?style=social&label=OfficialTensowFlow)](https://github.com/kynkaat/improved-precision-and-recall-metric)   |
 
-<a name="1.2"></a>
+<a name="1.2."></a>
 ### 1.2. Evaluation Metrics of Video Generation
 
 
@@ -46,7 +52,7 @@ This repository is updated periodically. If you have suggestions for additional 
 | FID-vid | [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) (NeurIPS 2017) |  |
 | Fréchet Video Distance (FVD) | [Towards Accurate Generative Models of Video: A New Metric & Challenges](https://arxiv.org/abs/1812.01717) (arXiv 2018) | [![Code](https://img.shields.io/github/stars/songweige/TATS.svg?style=social&label=Unofficial)](https://github.com/songweige/TATS/blob/main/tats/fvd/fvd.py) |
 
-
+<a name="2."></a>
 ## 2. Evaluation Metrics of Condition Consistency
 
 ### 2.1 Evaluation Metrics of Multi-Modal Condition Consistency
@@ -85,7 +91,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/ssundaram21/dreamsim.svg?style=social&label=Official)](https://github.com/ssundaram21/dreamsim)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://dreamsim-nights.github.io)
   
-
+<a name="3."></a>
 ## 3. Evaluation Systems of Generative Models
 
 ### 3.1. Evaluation of Text-to-Image Generation
@@ -208,7 +214,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.harmbench.org)
 
 
-
+<a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
 
@@ -230,6 +236,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 - ImageNet
 - COCO -->
 
+<a name="5."></a>
 ## 5. Quality Assessment for AIGC
 
 ### 5.1. Image Quality Assessment for AIGC
@@ -269,6 +276,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 <!-- ## Video Quality Assessment for AIGC
 - To be added -->
 
+<a name="6."></a>
 ## 6. Study and Rethinking
 
 ### 6.1. Evaluation of Evaluations
@@ -287,8 +295,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [A Note on the Inception Score](https://arxiv.org/abs/1801.01973) (2018-01)
 
-
-## 7. Useful Resources
+<a name="7."></a>
+## 7. Other Useful Resources
  + Stanford Course: CS236 "Deep Generative Models" - Lecture 15 "Evaluation of Generative Models" [[slides]](https://deepgenerativemodels.github.io/assets/slides/lecture15.pdf)
 
 <!-- 
