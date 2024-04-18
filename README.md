@@ -29,9 +29,10 @@ This repository is updated periodically. If you have suggestions for additional 
   - [2.2. Evaluation Metrics of Image Similarity](#2.2.)
 - [3. Evaluation Systems of Generative Models](#3.)
   - [3.1. Evaluation of Text-to-Image Generation](#3.1.)
-  - [3.2. Evaluation of Text-to-Video Generation](#3.2.)
-  - [3.3. Evaluation of Image-to-Video Generation](#3.3.)
-  - [3.4. Evaluation of Model Trustworthiness](#3.4.)
+  - [3.2. Evaluation of Text-Based Image Editing](#3.2.)
+  - [3.3. Evaluation of Text-to-Video Generation](#3.3.)
+  - [3.4. Evaluation of Image-to-Video Generation](#3.4.)
+  - [3.5. Evaluation of Model Trustworthiness](#3.5.)
 - [4. Improving Visual Generation with Evaluation / Feedback / Reward](#4.)
 - [5. Quality Assessment for AIGC](#5.)
 - [6. Study and Rethinking](#6.)
@@ -82,7 +83,7 @@ Papers for CLIP Similarity:
 
 | Metrics | Paper | Code |
 | -------- |  -------- |  ------- |
-| Learned Perceptual Image Patch Similarity (LPIPS) | [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/abs/1801.03924) (2018-01-11) (CVPR 2018) | [![Code](https://img.shields.io/github/stars/ssundaram21/dreamsim.svg?style=social&label=Official)](https://github.com/ssundaram21/dreamsim) [![Website](https://img.shields.io/badge/Website-9cf)](https://dreamsim-nights.github.io) |
+| Learned Perceptual Image Patch Similarity (LPIPS) | [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/abs/1801.03924) (2018-01-11) (CVPR 2018) | [![Code](https://img.shields.io/github/stars/richzhang/PerceptualSimilarity.svg?style=social&label=Official)](https://github.com/richzhang/PerceptualSimilarity) [![Website](https://img.shields.io/badge/Website-9cf)](https://richzhang.github.io/PerceptualSimilarity/) |
 | Structural Similarity Index (SSIM) | [Image quality assessment: from error visibility to structural similarity](https://ieeexplore.ieee.org/document/1284395) (TIP 2004) |   [![Code](https://img.shields.io/github/stars/open-mmlab/mmagic.svg?style=social&label=MMEditing)](https://github.com/open-mmlab/mmagic/blob/main/tests/test_evaluation/test_metrics/test_ssim.py) [![Code](https://img.shields.io/github/stars/Po-Hsun-Su/pytorch-ssim.svg?style=social&label=Unofficial)](https://github.com/Po-Hsun-Su/pytorch-ssim) |
 | Peak Signal-to-Noise Ratio (PSNR) | - |   [![Code](https://img.shields.io/github/stars/open-mmlab/mmagic.svg?style=social&label=MMEditing)](https://github.com/open-mmlab/mmagic/blob/main/tests/test_evaluation/test_metrics/test_psnr.py) |
 | Multi-Scale Structural Similarity Index (MS-SSIM) | [Multiscale structural similarity for image quality assessment](https://ieeexplore.ieee.org/document/1292216) (SSC 2004) | [PyTorch-Metrics](https://lightning.ai/docs/torchmetrics/stable/image/multi_scale_structural_similarity.html#:~:text=Compute%20MultiScaleSSIM%2C%20Multi%2Dscale%20Structural,details%20at%20different%20resolution%20scores.&text=a%20method%20to%20reduce%20metric%20score%20over%20labels.) |
@@ -152,7 +153,16 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
 
 <a name="3.2."></a>
-### 3.2. Evaluation of Text-to-Video Generation
+### 3.2. Evaluation of Text-Based Image Editing
+
+
++ [EditVal: Benchmarking Diffusion Based Text-Guided Image Editing Methods](https://arxiv.org/abs/2310.02426) (2023-10-03)  
+  [![Code](https://img.shields.io/github/stars/deep-ml-research/editval_code.svg?style=social&label=Official)](https://github.com/deep-ml-research/editval_code)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://deep-ml-research.github.io/editval/)
+
+
+<a name="3.3."></a>
+### 3.3. Evaluation of Text-to-Video Generation
 
 
 + [Subjective-Aligned Dataset and Metric for Text-to-Video Quality Assessment](https://arxiv.org/abs/2403.11956) (2024-03-18)  
@@ -184,8 +194,8 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/EvalCrafter/EvalCrafter.svg?style=social&label=Official)](https://github.com/EvalCrafter/EvalCrafter)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://evalcrafter.github.io)
 
-<a name="3.3."></a>
-### 3.3. Evaluation of Image-to-Video Generation
+<a name="3.4."></a>
+### 3.4. Evaluation of Image-to-Video Generation
 
 
 + I2V-Bench from [ConsistI2V: Enhancing Visual Consistency for Image-to-Video Generation](https://arxiv.org/abs/2402.04324) (2024-02-06)  
@@ -200,10 +210,10 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
-<a name="3.4."></a>
-### 3.4. Evaluation of Model Trustworthiness
+<a name="3.5."></a>
+### 3.5. Evaluation of Model Trustworthiness
 
-#### 3.4.1. Evaluation of Visual-Generation-Model Trustworthiness
+#### 3.5.1. Evaluation of Visual-Generation-Model Trustworthiness
 
 
 + [VBench-Trustworthiness](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_reliability) (2024-03) from [VBench: Comprehensive Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2311.17982) (2023-11-29)  
@@ -215,7 +225,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/stanford-crfm/helm.svg?style=social&label=Official)](https://github.com/stanford-crfm/helm)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://crfm.stanford.edu/helm/heim/v1.1.0/)
 
-#### 3.4.2. Evaluation of Non-Visual-Generation-Model Trustworthiness
+#### 3.5.2. Evaluation of Non-Visual-Generation-Model Trustworthiness
 Not for visual generation, but related evaluations of other models like LLMs
 
 + [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal](https://arxiv.org/abs/2402.04249) (2024-02-06)  
@@ -310,4 +320,6 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <!-- 
 Papers to read and to organize:
-Rethinking FID: Towards a Better Evaluation Metric for Image Generation -->
+- Rethinking FID: Towards a Better Evaluation Metric for Image Generation 
+- Wasserstein Distortion: Unifying Fidelity and Realism
+-->
