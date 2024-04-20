@@ -216,7 +216,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.5.1. Evaluation of Visual-Generation-Model Trustworthiness
 
 
-+ [VBench-Trustworthiness](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_reliability) (2024-03) from [VBench: Comprehensive Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2311.17982) (2023-11-29)  
++ [VBench-Trustworthiness](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_trustworthiness) (2024-03) from [VBench: Comprehensive Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2311.17982) (2023-11-29)  
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
