@@ -236,6 +236,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [VersaT2I: Improving Text-to-Image Models with Versatile Reward](https://arxiv.org/abs/2403.18493) (2024-03-27)  
+
 
 + [InstructVideo: Instructing Video Diffusion Models with Human Feedback](https://arxiv.org/abs/2312.12490) (2023-12-19)  
   [![Website](https://img.shields.io/badge/Website-9cf)](https://instructvideo.github.io)
