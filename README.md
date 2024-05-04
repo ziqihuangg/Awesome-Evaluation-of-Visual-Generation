@@ -18,7 +18,10 @@ Within this repository, we collect works that aim to answer some critical questi
 
 ### Updates
 
-This repository is updated periodically. If you have suggestions for additional resources, updates on methodologies, or fixes for expiring links, please feel free to raise a GitHub Issue. We are also contactable via email (`ZIQI002 at e dot ntu dot edu dot sg`).
+This repository is updated periodically. If you have suggestions for additional resources, updates on methodologies, or fixes for expiring links, please feel free to do any of the following:
+- raise an [Issue](https://github.com/ziqihuangg/Awesome-Evaluation-of-Visual-Generation/issues),
+- nominate awesome related works with [Pull Requests](https://github.com/ziqihuangg/Awesome-Evaluation-of-Visual-Generation/pulls),
+- We are also contactable via email (`ZIQI002 at e dot ntu dot edu dot sg`).
 
 ### Table of Contents
 - [1. Evaluation Metrics of Generative Models](#1.)
