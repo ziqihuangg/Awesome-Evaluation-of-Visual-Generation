@@ -54,10 +54,26 @@ This repository is updated periodically. If you have suggestions for additional 
 | Fréchet Inception Distance (FID) | [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) (NeurIPS 2017) | [![Code](https://img.shields.io/github/stars/bioinf-jku/TTUR.svg?style=social&label=Official)](https://github.com/bioinf-jku/TTUR) [![Code](https://img.shields.io/github/stars/mseitzer/pytorch-fid.svg?style=social&label=PyTorch)](https://github.com/mseitzer/pytorch-fid) |
 | Kernel Inception Distance (KID) | [Demystifying MMD GANs](https://arxiv.org/abs/1801.01401) (ICLR 2018) |   [![Code](https://img.shields.io/github/stars/toshas/torch-fidelity.svg?style=social&label=Unofficial)](https://github.com/toshas/torch-fidelity) [![Code](https://img.shields.io/github/stars/NVlabs/stylegan2-ada-pytorch.svg?style=social&label=Unofficial)](https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/metrics/kernel_inception_distance.py) 
 | CLIP-FID | [The Role of ImageNet Classes in Fréchet Inception Distance](https://arxiv.org/abs/2203.06026) (ICLR 2023) | [![Code](https://img.shields.io/github/stars/kynkaat/role-of-imagenet-classes-in-fid.svg?style=social&label=Official)](https://github.com/kynkaat/role-of-imagenet-classes-in-fid)  [![Code](https://img.shields.io/github/stars/GaParmar/clean-fid.svg?style=social&label=Official)](https://github.com/GaParmar/clean-fid?tab=readme-ov-file#computing-clip-fid) |
-| Precision-and-Recall | [Improved Precision and Recall Metric for Assessing Generative Models](https://arxiv.org/abs/1904.06991) (NeurIPS 2019) | [![Code](https://img.shields.io/github/stars/kynkaat/improved-precision-and-recall-metric.svg?style=social&label=OfficialTensowFlow)](https://github.com/kynkaat/improved-precision-and-recall-metric)   |
+| Precision-and-Recall |[Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) (2018-05-31, NeurIPS 2018) <br> [Improved Precision and Recall Metric for Assessing Generative Models](https://arxiv.org/abs/1904.06991) (NeurIPS 2019) |    [![Code](https://img.shields.io/github/stars/msmsajjadi/precision-recall-distributions.svg?style=social&label=Official)](https://github.com/msmsajjadi/precision-recall-distributions) [![Code](https://img.shields.io/github/stars/kynkaat/improved-precision-and-recall-metric.svg?style=social&label=OfficialTensowFlow)](https://github.com/kynkaat/improved-precision-and-recall-metric)   |
 | Renyi Kernel Entropy (RKE) | [An Information-Theoretic Evaluation of Generative Models in Learning Multi-modal Distributions](https://openreview.net/forum?id=PdZhf6PiAb) (NeurIPS 2023) | [![Code](https://img.shields.io/github/stars/mjalali/renyi-kernel-entropy.svg?style=social&label=Official)](https://github.com/mjalali/renyi-kernel-entropy)   |
 | CLIP Maximum Mean Discrepancy (CMMD) | [Rethinking FID: Towards a Better Evaluation Metric for Image Generation](https://arxiv.org/abs/2401.09603) (CVPR 2024) | [![Code](https://img.shields.io/github/stars/google-research/google-research.svg?style=social&label=Official)](https://github.com/google-research/google-research/tree/master/cmmd) |
-| Kernel-based Entropic Novelty (KEN)  | [An Interpretable Evaluation of Entropy-based Novelty of Generative Models](https://arxiv.org/abs/2402.17287) (2024-02-27)  |  |
+
+
+
+
+
++ [Unifying and extending Precision Recall metrics for assessing generative models](https://arxiv.org/abs/2405.01611) (2024-05-02)
+
++ [An Interpretable Evaluation of Entropy-based Novelty of Generative Models](https://arxiv.org/abs/2402.17287) (2024-02-27)
++ [Rarity Score: A New Metric to Evaluate the Uncommonness of Synthesized Images](https://arxiv.org/abs/2206.08549) (2022-06-17) [![Code](https://img.shields.io/github/stars/hichoe95/Rarity-Score.svg?style=social&label=Official)](https://github.com/hichoe95/Rarity-Score)
+
++ [TREND: Truncated Generalized Normal Density Estimation of Inception Embeddings for GAN Evaluation](https://arxiv.org/abs/2104.14767) (2021-04-30, ECCV 2022)
+
++ [Reliable Fidelity and Diversity Metrics for Generative Models](https://arxiv.org/abs/2002.09797) (2020-02-23, ICML 2020)  [![Code](https://img.shields.io/github/stars/clovaai/generative-evaluation-prdc.svg?style=social&label=Official)](https://github.com/clovaai/generative-evaluation-prdc) 
+
++ [Effectively Unbiased FID and Inception Score and where to find them](https://arxiv.org/abs/1911.07023) (2019-11-16, CVPR 2020)  [![Code](https://img.shields.io/github/stars/mchong6/FID_IS_infinity.svg?style=social&label=Official)](https://github.com/mchong6/FID_IS_infinity)
+
+
 
 <a name="1.2."></a>
 ### 1.2. Evaluation Metrics of Video Generation
@@ -66,7 +82,7 @@ This repository is updated periodically. If you have suggestions for additional 
 | Metric | Paper | Code |
 | -------- |  -------- |  ------- |
 | FID-vid | [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) (NeurIPS 2017) |  |
-| Fréchet Video Distance (FVD) | [Towards Accurate Generative Models of Video: A New Metric & Challenges](https://arxiv.org/abs/1812.01717) (arXiv 2018) | [![Code](https://img.shields.io/github/stars/songweige/TATS.svg?style=social&label=Unofficial)](https://github.com/songweige/TATS/blob/main/tats/fvd/fvd.py) |
+| Fréchet Video Distance (FVD) | [Towards Accurate Generative Models of Video: A New Metric & Challenges](https://arxiv.org/abs/1812.01717) (arXiv 2018) <br> [FVD: A new Metric for Video Generation](https://openreview.net/forum?id=rylgEULtdN) (2019-05-04)  <i> (Note: ICLR 2019 Workshop DeepGenStruct Program Chairs)</i>| [![Code](https://img.shields.io/github/stars/songweige/TATS.svg?style=social&label=Unofficial)](https://github.com/songweige/TATS/blob/main/tats/fvd/fvd.py) |
 
 <a name="2."></a>
 ## 2. Evaluation Metrics of Condition Consistency
@@ -113,6 +129,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.1."></a>
 ### 3.1. Evaluation of Unconditional Image Generation
 + [Anomaly Score: Evaluating Generative Models and Individual Generated Images based on Complexity and Vulnerability](https://arxiv.org/abs/2312.10634) (2023-12-17, CVPR 2024)  
+
++ [HYPE: A Benchmark for Human eYe Perceptual Evaluation of Generative Models](https://arxiv.org/abs/1904.01121) (2019-04-01)  [![Website](https://img.shields.io/badge/Website-9cf)](https://stanfordhci.github.io/gen-eval/)
+
 
 
 
@@ -224,6 +243,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation](https://arxiv.org/abs/2305.01569) (2023-05-02)  
   [![Code](https://img.shields.io/github/stars/yuvalkirstain/PickScore.svg?style=social&label=Official)](https://github.com/yuvalkirstain/PickScore)
 
++ [HRS-Bench: Holistic, Reliable and Scalable Benchmark for Text-to-Image Models](https://arxiv.org/abs/2304.05390) (2023-04-11, ICCV 2023)  
+  [![Code](https://img.shields.io/github/stars/eslambakr/HRS_benchmark.svg?style=social&label=Official)](https://github.com/eslambakr/HRS_benchmark)  [![Website](https://img.shields.io/badge/Website-9cf)](https://eslambakr.github.io/hrsbench.github.io/)
+
 + [Human Preference Score: Better Aligning Text-to-Image Models with Human Preference](https://arxiv.org/abs/2303.14420) (2023-03-25, ICCV 2023)  
   [![Code](https://img.shields.io/github/stars/tgxs002/align_sd.svg?style=social&label=Official)](https://github.com/tgxs002/align_sd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
@@ -233,6 +255,18 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Benchmarking Spatial Relationships in Text-to-Image Generation](https://arxiv.org/abs/2212.10015) (2022-12-20)  
   [![Code](https://img.shields.io/github/stars/microsoft/VISOR.svg?style=social&label=Official)](https://github.com/microsoft/VISOR)
+
++ [Human Evaluation of Text-to-Image Models on a Multi-Task Benchmark](https://arxiv.org/abs/2211.12112) (2022-11-22)
+
++ [Re-Imagen: Retrieval-Augmented Text-to-Image Generator](https://arxiv.org/abs/2209.14491) (2022-09-29)
+
++ [Benchmark for Compositional Text-to-Image Synthesis](https://openreview.net/forum?id=bKBhQhPeKaF) (2021-07-29)  
+  [![Code](https://img.shields.io/github/stars/Seth-Park/comp-t2i-dataset.svg?style=social&label=Official)](https://github.com/Seth-Park/comp-t2i-dataset)
+
++ [TISE: Bag of Metrics for Text-to-Image Synthesis Evaluation](https://arxiv.org/abs/2112.01398) (2021-12-02, ECCV 2022)  [![Code](https://img.shields.io/github/stars/VinAIResearch/tise-toolbox.svg?style=social&label=Official)](https://github.com/VinAIResearch/tise-toolbox)
+
++ [Semantic Object Accuracy for Generative Text-to-Image Synthesis](https://arxiv.org/abs/1910.13321) (2019-10-29)  
+  [![Code](https://img.shields.io/github/stars/tohinz/semantic-object-accuracy-for-generative-text-to-image-synthesis.svg?style=social&label=Official)](https://github.com/tohinz/semantic-object-accuracy-for-generative-text-to-image-synthesis?tab=readme-ov-file)  [![Website](https://img.shields.io/badge/Website-9cf)](https://www.tobiashinz.com/2019/10/30/semantic-object-accuracy-for-generative-text-to-image-synthesis)
 
 
 <a name="3.3."></a>
@@ -284,6 +318,8 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/EvalCrafter/EvalCrafter.svg?style=social&label=Official)](https://github.com/EvalCrafter/EvalCrafter)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://evalcrafter.github.io) [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) [![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-blue)](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)
 
++ [Measuring the Quality of Text-to-Video Model Outputs: Metrics and Dataset](https://arxiv.org/abs/2309.08009) (2023-09-14)
+
 + [StoryBench: A Multifaceted Benchmark for Continuous Story Visualization](https://arxiv.org/abs/2308.11606) (2023-08-22, NeurIPS 2023)  
   [![Code](https://img.shields.io/github/stars/google/storybench.svg?style=social&label=Official)](https://github.com/google/storybench)
 
@@ -300,13 +336,27 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
++ [A Benchmark for Controllable Text-Image-to-Video Generation](https://ieeexplore.ieee.org/abstract/document/10148799) (2023-06-12)
+
+
 #### 3.4.3. Evaluation of Talking Face Generation
 + [Audio-Visual Speech Representation Expert for Enhanced Talking Face Video Generation and Evaluation](https://arxiv.org/abs/2405.04327) (2024-05-07)  
+
++ [THQA: A Perceptual Quality Assessment Database for Talking Heads](https://arxiv.org/abs/2404.09003) (2024-04-13)  
+  [![Code](https://img.shields.io/github/stars/zyj-2000/THQA.svg?style=social&label=Official)](https://github.com/zyj-2000/THQA)
+
++ [A Comparative Study of Perceptual Quality Metrics for Audio-driven Talking Head Videos](https://arxiv.org/abs/2403.06421) (2024-03-11)  
+  [![Code](https://img.shields.io/github/stars/zwx8981/ADTH-QA.svg?style=social&label=Official)](https://github.com/zwx8981/ADTH-QA)
+
++ [Seeing What You Said: Talking Face Generation Guided by a Lip Reading Expert](https://arxiv.org/abs/2303.17480) (2023-03-29, CVPR 2023)  
+  [![Code](https://img.shields.io/github/stars/Sxjdwang/TalkLip.svg?style=social&label=Official)](https://github.com/Sxjdwang/TalkLip)
 
 <a name="3.5."></a>
 ### 3.5. Evaluation of Text-to-Motion Generation
 
 + [MoDiPO: text-to-motion alignment via AI-feedback-driven Direct Preference Optimization](https://arxiv.org/abs/2405.03803) (2024-05-06)  
+
++ [Text-to-Motion Retrieval: Towards Joint Understanding of Human Motion Data and Natural Language](https://arxiv.org/abs/2305.15842) (2023-05-25)  [![Code](https://img.shields.io/github/stars/mesnico/text-to-motion-retrieval.svg?style=social&label=Official)](https://github.com/mesnico/text-to-motion-retrieval)
 
 
 <a name="3.6."></a>
@@ -321,10 +371,21 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
++ [Lost in Translation? Translation Errors and Challenges for Fair Assessment of Text-to-Image Models on Multilingual Concepts](https://arxiv.org/abs/2403.11092) (2024-03-17, NAACL 2024)
+
 
 + [Holistic Evaluation of Text-To-Image Models](https://arxiv.org/abs/2311.04287) (2023-11-07)  
   [![Code](https://img.shields.io/github/stars/stanford-crfm/helm.svg?style=social&label=Official)](https://github.com/stanford-crfm/helm)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://crfm.stanford.edu/helm/heim/v1.1.0/)
+
++ [Disparities in Text-to-Image Model Concept Possession Across Languages](https://dl.acm.org/doi/abs/10.1145/3593013.3594123) (2023-06-12)
+
++ [Multilingual Conceptual Coverage in Text-to-Image Models](https://arxiv.org/abs/2306.01735) (2023-06-02, ACL 2023)  
+  [![Code](https://img.shields.io/github/stars/michaelsaxon/CoCoCroLa.svg?style=social&label=Official)](https://github.com/michaelsaxon/CoCoCroLa)  
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://saxon.me/coco-crola/)
+
++ [DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models](https://arxiv.org/abs/2202.04053) (2022-02-08, ICCV 2023)  
+  [![Code](https://img.shields.io/github/stars/j-min/DallEval.svg?style=social&label=Official)](https://github.com/j-min/DallEval)
 
 #### 3.6.2. Evaluation of Non-Visual-Generation-Model Trustworthiness
 Not for visual generation, but related evaluations of other models like LLMs
@@ -336,6 +397,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [Understanding and Evaluating Human Preferences for AI Generated Images with Instruction Tuning](https://arxiv.org/abs/2405.07346) (2024-05-12)
 
 + [Deep Reward Supervisions for Tuning Text-to-Image Diffusion Models](https://arxiv.org/abs/2405.00760) (2024-05-01)  
 
@@ -366,6 +429,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [AGFSync: Leveraging AI-Generated Feedback for Preference Optimization in Text-to-Image Generation](https://arxiv.org/abs/2403.13352) (2024-03-20)  
 
++ [Reward Guided Latent Consistency Distillation](https://arxiv.org/abs/2403.11027) (2024-03-16)  
+  [![Code](https://img.shields.io/github/stars/Ji4chenLi/rg-lcd.svg?style=social&label=Official)](https://github.com/Ji4chenLi/rg-lcd)  [![Website](https://img.shields.io/badge/Website-9cf)](https://rg-lcd.github.io/)
+
+
 + [A Dense Reward View on Aligning Text-to-Image Diffusion with Preference](https://arxiv.org/abs/2402.08265) (2024-02-13, ICML 2024)  
   [![Code](https://img.shields.io/github/stars/Shentao-YANG/Dense_Reward_T2I.svg?style=social&label=Official)](https://github.com/Shentao-YANG/Dense_Reward_T2I)
 
@@ -373,6 +440,8 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Website](https://img.shields.io/badge/Website-9cf)](https://instructvideo.github.io)
 
 + [Rich Human Feedback for Text-to-Image Generation](https://arxiv.org/abs/2312.10240) (2023-12-15, CVPR 2024)  
+
++ [InstructBooth: Instruction-following Personalized Text-to-Image Generation](https://arxiv.org/abs/2312.03011) (2023-12-04)  [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/instructbooth)
 
 + [DreamSync: Aligning Text-to-Image Generation with Image Understanding Feedback](https://arxiv.org/abs/2311.17946) (2023-11-29)  
 
@@ -401,6 +470,8 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/tgxs002/align_sd.svg?style=social&label=Official)](https://github.com/tgxs002/align_sd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
 
++ [Aligning Text-to-Image Models using Human Feedback](https://arxiv.org/abs/2302.12192) (2023-02-23)
+
 <!-- ## Evaluation Datasets
 - UCF101
 - ImageNet
@@ -410,6 +481,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 ## 5. Quality Assessment for AIGC
 
 ### 5.1. Image Quality Assessment for AIGC
++ [Large Multi-modality Model Assisted AI-Generated Image Quality Assessment](https://arxiv.org/abs/2404.17762) (2024-04-27)  
+  [![Code](https://img.shields.io/github/stars/wangpuyi/MA-AGIQA.svg?style=social&label=Official)](https://github.com/wangpuyi/MA-AGIQA)
 
 + [Adaptive Mixed-Scale Feature Fusion Network for Blind AI-Generated Image Quality Assessment](https://arxiv.org/abs/2404.15163) (2024-04-23)  
 
@@ -418,6 +491,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [AIGIQA-20K: A Large Database for AI-Generated Image Quality Assessment](https://arxiv.org/abs/2404.03407) (2024-04-04)  
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.modelscope.cn/datasets/lcysyzxdxc/AIGCQA-30K-Image/summary)
   
++ [AIGCOIQA2024: Perceptual Quality Assessment of AI Generated Omnidirectional Images](https://arxiv.org/abs/2404.01024) (2024-04-01)
 
 + [Exploring the Naturalness of AI-Generated Images](https://arxiv.org/abs/2312.05476) (2023-12-09)  
   [![Code](https://img.shields.io/github/stars/zijianchen98/AGIN.svg?style=social&label=Official)](https://github.com/zijianchen98/AGIN)
@@ -429,6 +503,8 @@ Not for visual generation, but related evaluations of other models like LLMs
   
 + [AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment](https://arxiv.org/abs/2306.04717) (2023-06-07)  
   [![Code](https://img.shields.io/github/stars/lcysyzxdxc/AGIQA-3k-Database.svg?style=social&label=Official)](https://github.com/lcysyzxdxc/AGIQA-3k-Database)
+
++ [A Perceptual Quality Assessment Exploration for AIGC Images](https://arxiv.org/abs/2303.12618) (2023-03-22)
 
 ### 5.2. Aesthetic Predictors for Generated Images
 
@@ -460,12 +536,14 @@ Not for visual generation, but related evaluations of other models like LLMs
 ## 6. Study and Rethinking
 
 ### 6.1. Evaluation of Evaluations
-+ [Who Evaluates the Evaluations? Objectively Scoring Text-to-Image Prompt Coherence Metrics with T2IScoreScore (TS2)](https://arxiv.org/abs/2404.04251) (2024-04)  
++ [Who Evaluates the Evaluations? Objectively Scoring Text-to-Image Prompt Coherence Metrics with T2IScoreScore (TS2)](https://arxiv.org/abs/2404.04251) (2024-04-05)  
   [![Code](https://img.shields.io/github/stars/michaelsaxon/T2IScoreScore.svg?style=social&label=Official)](https://github.com/michaelsaxon/T2IScoreScore)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://t2iscorescore.github.io) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/saxon/T2IScoreScore)
 
 ### 6.2. Survey
 
++ [A Survey on Long Video Generation: Challenges, Methods, and Prospects](https://arxiv.org/abs/2403.16407) (2024-03-25)
+> <i>Note: Refer to table 2 for evaluation metrics for long video generation</i>
 + [Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics](https://arxiv.org/abs/2403.11821) (2024-03-18)  
 
 
@@ -474,10 +552,24 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/songweige/content-debiased-fvd.svg?style=social&label=Official)](https://github.com/songweige/content-debiased-fvd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://content-debiased-fvd.github.io)
 
-+ [A Study on the Evaluation of Generative Models](https://arxiv.org/abs/2206.10935) (2022-06)
++ [On the Evaluation of Generative Models in Distributed Learning Tasks](https://arxiv.org/abs/2310.11714) (2023-10-18)
+
++ [Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models](https://arxiv.org/abs/2306.04675) (2023-06-07, NeurIPS 2023)  
+  [![Code](https://img.shields.io/github/stars/layer6ai-labs/dgm-eval.svg?style=social&label=Official)](https://github.com/layer6ai-labs/dgm-eval)
+
++ [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](https://arxiv.org/abs/2304.01816) (2023-04-04, CVPR 2023)
+
++ [Revisiting the Evaluation of Image Synthesis with GANs](https://arxiv.org/abs/2304.01999) (2023-04-04)
+
++ [A Study on the Evaluation of Generative Models](https://arxiv.org/abs/2206.10935) (2022-06-22)
+
++ [On the Robustness of Quality Measures for GANs](https://arxiv.org/abs/2201.13019) (2022-01-31, ECCV 2022)  
+  [![Code](https://img.shields.io/github/stars/MotasemAlfarra/R-FID-Robustness-of-Quality-Measures-for-GANs.svg?style=social&label=Official)](https://github.com/MotasemAlfarra/R-FID-Robustness-of-Quality-Measures-for-GANs)
 
 + [A Note on the Inception Score](https://arxiv.org/abs/1801.01973) (2018-01)
 
++ [An empirical study on evaluation metrics of generative adversarial networks](https://arxiv.org/abs/1806.07755) (2018-06-19)  
+  [![Code](https://img.shields.io/github/stars/xuqiantong/GAN-Metrics.svg?style=social&label=Official)](https://github.com/xuqiantong/GAN-Metrics)
 ### 6.4. Competition
 + [NTIRE 2024 Quality Assessment of AI-Generated Content Challenge](https://arxiv.org/abs/2404.16687) (2024-04-25)
 
