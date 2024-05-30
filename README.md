@@ -27,7 +27,7 @@ This repository is updated periodically. If you have suggestions for additional 
 - [1. Evaluation Metrics of Generative Models](#1.)
   - [1.1. Evaluation Metrics of Image Generation](#1.1.)
   - [1.2. Evaluation Metrics of Video Generation](#1.2.)
-  - [1.3. Evaluation Metrics for feature representation](#1.3.)
+  - [1.3. Evaluation Metrics for Latent Representation](#1.3.)
 - [2. Evaluation Metrics of Condition Consistency](#2.)
   - [2.1 Evaluation Metrics of Multi-Modal Condition Consistency](#2.1.)
   - [2.2. Evaluation Metrics of Image Similarity](#2.2.)
@@ -38,7 +38,7 @@ This repository is updated periodically. If you have suggestions for additional 
   - [3.4. Evaluation of Video Generation](#3.4.)
   - [3.5. Evaluation of Text-to-Motion Generation](#3.5.)
   - [3.6. Evaluation of Model Trustworthiness](#3.6.)
-  - [3.7. Evaluation of entity relation](#3.7.)
+  - [3.7. Evaluation of Entity Relation](#3.7.)
 - [4. Improving Visual Generation with Evaluation / Feedback / Reward](#4.)
 - [5. Quality Assessment for AIGC](#5.)
 - [6. Study and Rethinking](#6.)
@@ -108,9 +108,9 @@ This repository is updated periodically. If you have suggestions for additional 
 | Fréchet Video Distance (FVD) | [Towards Accurate Generative Models of Video: A New Metric & Challenges](https://arxiv.org/abs/1812.01717) (arXiv 2018) <br> [FVD: A new Metric for Video Generation](https://openreview.net/forum?id=rylgEULtdN) (2019-05-04)  <i> (Note: ICLR 2019 Workshop DeepGenStruct Program Chairs)</i>| [![Code](https://img.shields.io/github/stars/songweige/TATS.svg?style=social&label=Unofficial)](https://github.com/songweige/TATS/blob/main/tats/fvd/fvd.py) |
 
 <a name="1.3."></a>
-### 1.3. Evaluation Metrics for feature representation
+### 1.3. Evaluation Metrics for Latent Representation
 
-+ Linear separability & PPL from [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) (2020-01-09)
++ Linear Separability & Perceptual Path Length (PPL) from [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) (2020-01-09)
 
 
 <a name="2."></a>
@@ -130,17 +130,17 @@ This repository is updated periodically. If you have suggestions for additional 
 Papers for CLIP Similarity:
 [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (ICML 2021), [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718) (arXiv 2021), [GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions](https://arxiv.org/abs/2104.14806) (arXiv 2021) | [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) -->
 
-+ Manipulation Direction from [Manipulation Direction: Evaluating Text-Guided Image Manipulation Based on Similarity between Changes in Image and Text Modalities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10675000/) (2023-11-20)
++ Manipulation Direction (MD) from [Manipulation Direction: Evaluating Text-Guided Image Manipulation Based on Similarity between Changes in Image and Text Modalities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10675000/) (2023-11-20)
 
 + [Semantic Similarity Distance: Towards better text-image consistency metric in text-to-image generation](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320323005812?via%3Dihub) (2022-12-02)
 
-+ VS similarity from [Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network](https://arxiv.org/abs/1802.09178v2) (2018-12-26)
++ Visual-Semantic (VS) Similarity from [Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network](https://arxiv.org/abs/1802.09178v2) (2018-12-26)
 
 + [Semantically Invariant Text-to-Image Generation](https://arxiv.org/abs/1809.10274) (2018-09-06)
-> **_NOTE:_** evaluating image text similarity via image captioning 
+    > <i>Note: They evaluate image-text similarity via image captioning</i>
 
 + [Inferring Semantic Layout for Hierarchical Text-to-Image Synthesis](https://arxiv.org/abs/1801.05091v2) (2018-01-16) 
-> **_NOTE:_** evaluating image text similarity via image captioning 
+    > <i>Note: An object detector based metric is proposed.</i>
 
 
 
@@ -182,7 +182,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
-+ Multidimensional preference score from [Learning Multi-dimensional Human Preference for Text-to-Image Generation](https://arxiv.org/abs/2405.14705) (2024-05-23)
++ Multidimensional Preference Score from [Learning Multi-dimensional Human Preference for Text-to-Image Generation](https://arxiv.org/abs/2405.14705) (2024-05-23)
 
 + [Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings](https://arxiv.org/abs/2404.16820) (2024-04-25)  
 
@@ -252,7 +252,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Navigating Text-To-Image Customization: From LyCORIS Fine-Tuning to Model Evaluation](https://arxiv.org/abs/2309.14859) (2023-09-26, ICLR 2024)  
   [![Code](https://img.shields.io/github/stars/KohakuBlueleaf/LyCORIS.svg?style=social&label=Official)](https://github.com/KohakuBlueleaf/LyCORIS)
 
-+ Concept score from [Text-to-Image Generation for Abstract Concepts](https://paperswithcode.com/paper/text-to-image-generation-for-abstract) (2023-09-26) 
++ Concept Score from [Text-to-Image Generation for Abstract Concepts](https://paperswithcode.com/paper/text-to-image-generation-for-abstract) (2023-09-26) 
 
 + [OpenLEAF: Open-Domain Interleaved Image-Text Generation and Evaluation](https://openreview.net/forum?id=SeiL55hCnu) (2023-09-23) 
 > **_NOTE:_** evaluates task of image and text generation
@@ -524,9 +524,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Fairness Indicators for Systematic Assessments of Visual Feature Extractors](https://arxiv.org/abs/2202.07603) (2022-02-15)
 
 <a name="3.7."></a>
-### 3.7. Evaluation of entity relation
+### 3.7. Evaluation of Entity Relation
 
-+ Scene Graph(SG)-IoU, Relation-IoU, and Entity-IoU [derived from GPT-4v] from [SG-Adapter: Enhancing Text-to-Image Generation with Scene Graph Guidance](https://arxiv.org/abs/2405.15321) (2024-05-24)
++ Scene Graph(SG)-IoU, Relation-IoU, and Entity-IoU (using GPT-4v) from [SG-Adapter: Enhancing Text-to-Image Generation with Scene Graph Guidance](https://arxiv.org/abs/2405.15321) (2024-05-24)
 
 + Relation Accuracy & Entity Accuracy from [ReVersion: Diffusion-Based Relation Inversion from Images](https://arxiv.org/abs/2303.13495) (2023-03-23)
 
