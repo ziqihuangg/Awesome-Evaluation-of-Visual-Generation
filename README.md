@@ -115,7 +115,7 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + Linear Separability & Perceptual Path Length (PPL) from [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) (2020-01-09)
 [![Code](https://img.shields.io/github/stars/NVlabs/stylegan.svg?style=social&label=Official)](https://github.com/NVlabs/stylegan?tab=readme-ov-file)
-[![Code](https://img.shields.io/github/stars/NVlabs/ffhq-dataset.svg?style=social&label=Unofficial)](https://github.com/NVlabs/ffhq-dataset)
+[![Code](https://img.shields.io/github/stars/NVlabs/ffhq-dataset.svg?style=social&label=Official)](https://github.com/NVlabs/ffhq-dataset)
 
 
 <a name="2."></a>
