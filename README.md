@@ -83,6 +83,9 @@ This repository is updated periodically. If you have suggestions for additional 
 + [TREND: Truncated Generalized Normal Density Estimation of Inception Embeddings for GAN Evaluation](https://arxiv.org/abs/2104.14767) (2021-04-30, ECCV 2022)
 
 + CFID from [Conditional Frechet Inception Distance](https://arxiv.org/abs/2103.11521) (2021-03-21)
+[![Code](https://img.shields.io/github/stars/Michael-Soloveitchik/CFID.svg?style=social&label=Official)](https://github.com/Michael-Soloveitchik/CFID/)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://michael-soloveitchik.github.io/CFID/)
+
 
 + CIS from [Evaluation Metrics for Conditional Image Generation](https://arxiv.org/abs/2004.12361) (2020-04-26)
 
@@ -111,6 +114,7 @@ This repository is updated periodically. If you have suggestions for additional 
 ### 1.3. Evaluation Metrics for Latent Representation
 
 + Linear Separability & Perceptual Path Length (PPL) from [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) (2020-01-09)
+[![Code](https://img.shields.io/github/stars/NVlabs/stylegan.svg?style=social&label=Unofficial)](https://github.com/NVlabs/stylegan?tab=readme-ov-file)
 
 
 <a name="2."></a>
@@ -135,6 +139,8 @@ Papers for CLIP Similarity:
 + [Semantic Similarity Distance: Towards better text-image consistency metric in text-to-image generation](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320323005812?via%3Dihub) (2022-12-02)
 
 + Visual-Semantic (VS) Similarity from [Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network](https://arxiv.org/abs/1802.09178v2) (2018-12-26)
+[![Code](https://img.shields.io/github/stars/ypxie/HDGan.svg?style=social&label=Unofficial)](https://github.com/ypxie/HDGan) |
+
 
 + [Semantically Invariant Text-to-Image Generation](https://arxiv.org/abs/1809.10274) (2018-09-06)
     > <i>Note: They evaluate image-text similarity via image captioning</i>
@@ -529,6 +535,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + Scene Graph(SG)-IoU, Relation-IoU, and Entity-IoU (using GPT-4v) from [SG-Adapter: Enhancing Text-to-Image Generation with Scene Graph Guidance](https://arxiv.org/abs/2405.15321) (2024-05-24)
 
 + Relation Accuracy & Entity Accuracy from [ReVersion: Diffusion-Based Relation Inversion from Images](https://arxiv.org/abs/2303.13495) (2023-03-23)
+[![Code](https://img.shields.io/github/stars/ziqihuangg/ReVersion.svg?style=social&label=Official)](https://github.com/ziqihuangg/ReVersion)
 
 
 <a name="4."></a>
