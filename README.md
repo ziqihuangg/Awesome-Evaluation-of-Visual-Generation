@@ -115,6 +115,7 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + Linear Separability & Perceptual Path Length (PPL) from [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) (2020-01-09)
 [![Code](https://img.shields.io/github/stars/NVlabs/stylegan.svg?style=social&label=Unofficial)](https://github.com/NVlabs/stylegan?tab=readme-ov-file)
+[![Code](https://img.shields.io/github/stars/NVlabs/ffhq-dataset.svg?style=social&label=Unofficial)](https://github.com/NVlabs/ffhq-dataset)
 
 
 <a name="2."></a>
@@ -139,10 +140,12 @@ Papers for CLIP Similarity:
 + [Semantic Similarity Distance: Towards better text-image consistency metric in text-to-image generation](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320323005812?via%3Dihub) (2022-12-02)
 
 + Visual-Semantic (VS) Similarity from [Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network](https://arxiv.org/abs/1802.09178v2) (2018-12-26)
-[![Code](https://img.shields.io/github/stars/ypxie/HDGan.svg?style=social&label=Unofficial)](https://github.com/ypxie/HDGan) |
+[![Code](https://img.shields.io/github/stars/ypxie/HDGan.svg?style=social&label=Unofficial)](https://github.com/ypxie/HDGan)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://alexhex7.github.io/2018/05/30/Photographic%20Text-to-Image%20Synthesis%20with%20a%20Hierarchically-nested%20Adversarial%20Network/)
 
 
 + [Semantically Invariant Text-to-Image Generation](https://arxiv.org/abs/1809.10274) (2018-09-06)
+[![Code](https://img.shields.io/github/stars/sxs4337/MMVR.svg?style=social&label=Unofficial)](https://github.com/sxs4337/MMVR)
     > <i>Note: They evaluate image-text similarity via image captioning</i>
 
 + [Inferring Semantic Layout for Hierarchical Text-to-Image Synthesis](https://arxiv.org/abs/1801.05091v2) (2018-01-16) 
@@ -253,7 +256,8 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/yandex-research/text-to-img-hypernymy.svg?style=social&label=Official)](https://github.com/yandex-research/text-to-img-hypernymy)  
 
 + [ImagenHub: Standardizing the evaluation of conditional image generation models](https://arxiv.org/abs/2310.01596) (2023-10-02)  
-  [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/ImagenHub.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/ImagenHub) [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/ImagenHub/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/ImagenHub) [GenAI-Arena](https://huggingface.co/spaces/TIGER-Lab/GenAI-Arena)
+  [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/ImagenHub.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/ImagenHub) [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/ImagenHub/) 
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/ImagenHub) [GenAI-Arena](https://huggingface.co/spaces/TIGER-Lab/GenAI-Arena)
 
 + [Navigating Text-To-Image Customization: From LyCORIS Fine-Tuning to Model Evaluation](https://arxiv.org/abs/2309.14859) (2023-09-26, ICLR 2024)  
   [![Code](https://img.shields.io/github/stars/KohakuBlueleaf/LyCORIS.svg?style=social&label=Official)](https://github.com/KohakuBlueleaf/LyCORIS)
@@ -261,6 +265,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + Concept Score from [Text-to-Image Generation for Abstract Concepts](https://paperswithcode.com/paper/text-to-image-generation-for-abstract) (2023-09-26) 
 
 + [OpenLEAF: Open-Domain Interleaved Image-Text Generation and Evaluation](https://openreview.net/forum?id=SeiL55hCnu) (2023-09-23) 
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/ImagenHub) [GenAI-Arena](https://huggingface.co/papers/2310.07749)
 > **_NOTE:_** evaluates task of image and text generation
 
 <!-- + [JourneyDB: A Benchmark for Generative Image Understanding](https://arxiv.org/abs/2307.00716) (2023-07-03, NeurIPS 2023)  
@@ -316,6 +321,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/microsoft/VISOR.svg?style=social&label=Official)](https://github.com/microsoft/VISOR)
 
 + MMI and MOR from from [Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift](https://arxiv.org/abs/2212.08044) (2022-12-15)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://mmrobustness.github.io/)
 
 + [Human Evaluation of Text-to-Image Models on a Multi-Task Benchmark](https://arxiv.org/abs/2211.12112) (2022-11-22)
 
@@ -355,6 +361,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [MagicBrush: A Manually Annotated Dataset for Instruction-Guided Image Editing](https://arxiv.org/abs/2306.10012) (2023-06-16) 
 [![Code](https://img.shields.io/github/stars/OSU-NLP-Group/MagicBrush.svg?style=social&label=Official)](https://github.com/OSU-NLP-Group/MagicBrush)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://osu-nlp-group.github.io/MagicBrush/)
+  [![Hugging Face Code](https://img.shields.io/badge/Hugging%20Face-Code-blue)](https://huggingface.co/datasets/osunlp/MagicBrush)
   > **_NOTE:_**  dataset only
 
   
@@ -482,6 +489,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [ViSAGe: A Global-Scale Analysis of Visual Stereotypes in Text-to-Image Generation](https://arxiv.org/abs/2401.06310) (2024-01-02)
 
 + Distribution Bias, Jaccard Hallucination, Generative Miss Rate from [Quantifying Bias in Text-to-Image Generative Models](https://arxiv.org/abs/2312.13053) (2023-12-20)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/JVice/try-before-you-bias)
+[![Code](https://img.shields.io/github/stars/JJ-Vice/TryBeforeYouBias.svg?style=social&label=Official)](https://github.com/JJ-Vice/TryBeforeYouBias)
+
 
 + [Holistic Evaluation of Text-To-Image Models](https://arxiv.org/abs/2311.04287) (2023-11-07)  
   [![Code](https://img.shields.io/github/stars/stanford-crfm/helm.svg?style=social&label=Official)](https://github.com/stanford-crfm/helm)
@@ -496,6 +506,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/facebookresearch/DIG-In.svg?style=social&label=Official)](https://github.com/facebookresearch/DIG-In)
 
 + [On the Cultural Gap in Text-to-Image Generation](https://arxiv.org/abs/2307.02971) (2023-07-06)
+[![Code](https://img.shields.io/github/stars/longyuewangdcu/C3-Bench.svg?style=social&label=Official)](https://github.com/longyuewangdcu/C3-Bench)
 
 
 + [Disparities in Text-to-Image Model Concept Possession Across Languages](https://dl.acm.org/doi/abs/10.1145/3593013.3594123) (2023-06-12)
@@ -523,11 +534,16 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.harmbench.org)
 
 + [FACET: Fairness in Computer Vision Evaluation Benchmark](https://arxiv.org/abs/2309.00035) (2023-08-31) 
+[![Website](https://img.shields.io/badge/Website-9cf)](https://ai.meta.com/research/publications/facet-fairness-in-computer-vision-evaluation-benchmark/)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://facet.metademolab.com/)
+
 
 + [Gender Biases in Automatic Evaluation Metrics for Image Captioning](https://arxiv.org/abs/2305.14711) (2023-05-24) 
 
 + [Fairness Indicators for Systematic Assessments of Visual Feature Extractors](https://arxiv.org/abs/2202.07603) (2022-02-15)
+[![Code](https://img.shields.io/github/stars/facebookresearch/vissl.svg?style=social&label=Official)](https://github.com/facebookresearch/vissl/tree/main/projects/fairness_indicators)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://ai.meta.com/blog/meta-ai-research-explores-new-public-fairness-benchmarks-for-computer-vision-models/)
+
 
 <a name="3.7."></a>
 ### 3.7. Evaluation of Entity Relation
@@ -536,6 +552,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + Relation Accuracy & Entity Accuracy from [ReVersion: Diffusion-Based Relation Inversion from Images](https://arxiv.org/abs/2303.13495) (2023-03-23)
 [![Code](https://img.shields.io/github/stars/ziqihuangg/ReVersion.svg?style=social&label=Official)](https://github.com/ziqihuangg/ReVersion)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://ziqihuangg.github.io/projects/reversion.html)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/Ziqi/ReVersion)
 
 
 <a name="4."></a>
@@ -652,6 +670,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/Coobiw/IP-IQA.svg?style=social&label=Official)](https://github.com/Coobiw/IP-IQA)
 
 + [TIER: Text-Image Encoder-based Regression for AIGC Image Quality Assessment](https://arxiv.org/abs/2401.03854) (2024-01-08) 
+[![Code](https://img.shields.io/github/stars/jiquan123/TIER.svg?style=social&label=Official)](https://github.com/jiquan123/TIER)
 
 + [Exploring the Naturalness of AI-Generated Images](https://arxiv.org/abs/2312.05476) (2023-12-09)  
   [![Code](https://img.shields.io/github/stars/zijianchen98/AGIN.svg?style=social&label=Official)](https://github.com/zijianchen98/AGIN)
@@ -667,6 +686,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [A Perceptual Quality Assessment Exploration for AIGC Images](https://arxiv.org/abs/2303.12618) (2023-03-22)
 
 + [GIQA: Generated Image Quality Assessment](https://arxiv.org/abs/2003.08932) (2020-03-19)
+[![Code](https://img.shields.io/github/stars/cientgu/GIQA.svg?style=social&label=Official)](https://github.com/cientgu/GIQA)
 
 ### 5.2. Aesthetic Predictors for Generated Images
 
