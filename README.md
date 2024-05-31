@@ -114,7 +114,7 @@ This repository is updated periodically. If you have suggestions for additional 
 ### 1.3. Evaluation Metrics for Latent Representation
 
 + Linear Separability & Perceptual Path Length (PPL) from [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) (2020-01-09)
-[![Code](https://img.shields.io/github/stars/NVlabs/stylegan.svg?style=social&label=Unofficial)](https://github.com/NVlabs/stylegan?tab=readme-ov-file)
+[![Code](https://img.shields.io/github/stars/NVlabs/stylegan.svg?style=social&label=Official)](https://github.com/NVlabs/stylegan?tab=readme-ov-file)
 [![Code](https://img.shields.io/github/stars/NVlabs/ffhq-dataset.svg?style=social&label=Unofficial)](https://github.com/NVlabs/ffhq-dataset)
 
 
@@ -140,12 +140,12 @@ Papers for CLIP Similarity:
 + [Semantic Similarity Distance: Towards better text-image consistency metric in text-to-image generation](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320323005812?via%3Dihub) (2022-12-02)
 
 + Visual-Semantic (VS) Similarity from [Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network](https://arxiv.org/abs/1802.09178v2) (2018-12-26)
-[![Code](https://img.shields.io/github/stars/ypxie/HDGan.svg?style=social&label=Unofficial)](https://github.com/ypxie/HDGan)
+[![Code](https://img.shields.io/github/stars/ypxie/HDGan.svg?style=social&label=Official)](https://github.com/ypxie/HDGan)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://alexhex7.github.io/2018/05/30/Photographic%20Text-to-Image%20Synthesis%20with%20a%20Hierarchically-nested%20Adversarial%20Network/)
 
 
 + [Semantically Invariant Text-to-Image Generation](https://arxiv.org/abs/1809.10274) (2018-09-06)
-[![Code](https://img.shields.io/github/stars/sxs4337/MMVR.svg?style=social&label=Unofficial)](https://github.com/sxs4337/MMVR)
+[![Code](https://img.shields.io/github/stars/sxs4337/MMVR.svg?style=social&label=Official)](https://github.com/sxs4337/MMVR)
     > <i>Note: They evaluate image-text similarity via image captioning</i>
 
 + [Inferring Semantic Layout for Hierarchical Text-to-Image Synthesis](https://arxiv.org/abs/1801.05091v2) (2018-01-16) 
