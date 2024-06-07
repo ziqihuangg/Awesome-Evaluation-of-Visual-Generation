@@ -379,7 +379,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/OSU-NLP-Group/MagicBrush.svg?style=social&label=Official)](https://github.com/OSU-NLP-Group/MagicBrush)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://osu-nlp-group.github.io/MagicBrush/)
   [![Hugging Face Code](https://img.shields.io/badge/Hugging%20Face-Code-blue)](https://huggingface.co/datasets/osunlp/MagicBrush)
-  > <i>Note: dataset only
+  > <i>Note: dataset only</i>
 
   
 + [Imagen Editor and EditBench: Advancing and Evaluating Text-Guided Image Inpainting](https://arxiv.org/abs/2212.06909) (2022-12-13, CVPR 2023)  
@@ -407,7 +407,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Sora Detector: A Unified Hallucination Detection for Large Text-to-Video Models](https://arxiv.org/abs/2405.04180) (2024-05-07) 
 [![Website](https://img.shields.io/badge/Website-9cf)](https://bytez.com/docs/arxiv/2405.04180/llm)
-  > <i>Note: hallucination detection
+  > <i>Note: hallucination detection</i>
 
 + [Exploring AIGC Video Quality: A Focus on Visual Harmony, Video-Text Consistency and Domain Distribution Gap](https://arxiv.org/abs/2404.13573) (2024-04-21)  
   [![Code](https://img.shields.io/github/stars/Coobiw/TriVQA.svg?style=social&label=Official)](https://github.com/Coobiw/TriVQA)
