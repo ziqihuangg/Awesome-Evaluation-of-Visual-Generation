@@ -492,6 +492,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.6.1. Evaluation of Visual-Generation-Model Trustworthiness
 
++ [AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark](https://arxiv.org/abs/2406.00783) (2024-06-02)  
+  [![Code](https://img.shields.io/github/stars/Purdue-M2/AI-Face-FairnessBench.svg?style=social&label=Official)](https://github.com/Purdue-M2/AI-Face-FairnessBench)
+
 + [FAIntbench: A Holistic and Precise Benchmark for Bias Evaluation in Text-to-Image Models](https://arxiv.org/abs/2405.17814) (2024-05-28)
 
 + Condition Likelihood Discrepancy from [Membership Inference on Text-to-Image Diffusion Models via Conditional Likelihood Discrepancy](https://arxiv.org/abs/2405.14800) (2024-05-23)
@@ -776,6 +779,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 
 ### 6.3. Study
+
++ [A-Bench: Are LMMs Masters at Evaluating AI-generated Images?](https://arxiv.org/abs/2406.03070) (2024-06-05)
+  [![Code](https://img.shields.io/github/stars/Q-Future/A-Bench.svg?style=social&label=Official)](https://github.com/Q-Future/A-Bench)
+
 + [On the Content Bias in Fréchet Video Distance](https://arxiv.org/abs/2404.12391) (2024-04-18, CVPR 2024)  
   [![Code](https://img.shields.io/github/stars/songweige/content-debiased-fvd.svg?style=social&label=Official)](https://github.com/songweige/content-debiased-fvd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://content-debiased-fvd.github.io)
