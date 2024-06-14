@@ -92,7 +92,7 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [Mutual Information Divergence: A Unified Metric for Multimodal Generative Models](https://arxiv.org/abs/2205.13445) (2022-05-25)
 [![Code](https://img.shields.io/github/stars/naver-ai/mid.metric.svg?style=social&label=Official)](https://github.com/naver-ai/mid.metric)
-> **_NOTE:_** evaluates text to image and utilizes vision language models (VLM)
+  ><i>Note: evaluates text to image and utilizes vision language models (VLM)
 
 
 + [TREND: Truncated Generalized Normal Density Estimation of Inception Embeddings for GAN Evaluation](https://arxiv.org/abs/2104.14767) (2021-04-30, ECCV 2022)
@@ -106,7 +106,7 @@ This repository is updated periodically. If you have suggestions for additional 
     > <i>Note: SwAV, self-supervised image representation model</i>
 
 + [Random Network Distillation as a Diversity Metric for Both Image and Text Generation](https://arxiv.org/abs/2010.06715) (2020-10-13)
-> **_NOTE:_** RND metric introduced
+  ><i>Note: RND metric introduced
 
 + [The Vendi Score: A Diversity Evaluation Metric for Machine Learning](https://arxiv.org/abs/2210.02410) (2022-10-05) 
 [![Code](https://img.shields.io/github/stars/vertaix/Vendi-Score.svg?style=social&label=Official)](https://github.com/vertaix/Vendi-Score)
@@ -127,7 +127,7 @@ This repository is updated periodically. If you have suggestions for additional 
 [![Code](https://img.shields.io/github/stars/mchong6/FID_IS_infinity.svg?style=social&label=Official)](https://github.com/mchong6/FID_IS_infinity)
 
 + [On the Evaluation of Conditional GANs](https://arxiv.org/abs/1907.08175) (2019-07-11)
-> **_NOTE:_** Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.
+  ><i>Note:Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.
 
 + [Quality Evaluation of GANs Using Cross Local Intrinsic Dimensionality](https://arxiv.org/abs/1905.00643) (2019-05-02)
   > <i>CrossLID, assesses the local intrinsic dimensionality </i>
@@ -175,7 +175,7 @@ Papers for CLIP Similarity:
 + [Semantic Similarity Distance: Towards better text-image consistency metric in text-to-image generation](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320323005812?via%3Dihub) (2022-12-02)
 
 + [On the Evaluation of Conditional GANs](https://arxiv.org/abs/1907.08175) (2019-07-11)
-> **_NOTE:_** Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.
+  ><i>Note: Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.
 
 + [Classification Accuracy Score for Conditional Generative Models](https://arxiv.org/abs/1905.10887) (2019-05-26)
     > <i>Note: New metric Classification Accuracy Score (CAS)</i>
@@ -260,10 +260,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + Multidimensional Preference Score from [Learning Multi-dimensional Human Preference for Text-to-Image Generation](https://arxiv.org/abs/2405.14705) (2024-05-23)
 
 + [Evolving Storytelling: Benchmarks and Methods for New Character Customization with Diffusion Models](https://arxiv.org/abs/2405.11852) (2024-05-20) 
-> **_NOTE:_** NewEpisode benchmark introduced
+  ><i>Note: NewEpisode benchmark introduced
 
 + [Training-free Subject-Enhanced Attention Guidance for Compositional Text-to-image Generation](https://arxiv.org/abs/2405.06948) (2024-05-11) 
-> **_NOTES:_** GroundingScore metric introduced
+  ><i>Note: GroundingScore metric introduced
 
 + [Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings](https://arxiv.org/abs/2404.16820) (2024-04-25)  
 
@@ -307,7 +307,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [EmoGen: Emotional Image Content Generation with Text-to-Image Diffusion Models](https://arxiv.org/abs/2401.04608) (2024-01-09) 
 [![Code](https://img.shields.io/github/stars/JingyuanYY/EmoGen.svg?style=social&label=Official)](https://github.com/JingyuanYY/EmoGen)
-> **_NOTE:_** emotion accuracy, semantic clarity and semantic diversity are not core contributions of this paper
+  ><i>Note: emotion accuracy, semantic clarity and semantic diversity are not core contributions of this paper
 
 + [VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation](https://arxiv.org/abs/2312.14867) (2023-12-22)  
   [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/VIEScore.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/VIEScore)  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/VIEScore/)
@@ -416,7 +416,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Is This Loss Informative? Faster Text-to-Image Customization by Tracking Objective Dynamics](https://arxiv.org/abs/2302.04841) (2023-02-09) 
 [![Code](https://img.shields.io/github/stars/yandex-research/DVAR.svg?style=social&label=Official)](https://github.com/yandex-research/DVAR)
-> **_NOTE:_** an evaluation approach for early stopping criterion in T2I customization
+  ><i>Note: an evaluation approach for early stopping criterion in T2I customization
 
 + [Benchmarking Spatial Relationships in Text-to-Image Generation](https://arxiv.org/abs/2212.10015) (2022-12-20)  
   [![Code](https://img.shields.io/github/stars/microsoft/VISOR.svg?style=social&label=Official)](https://github.com/microsoft/VISOR)
@@ -442,7 +442,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [GR-GAN: Gradual Refinement Text-to-image Generation](https://arxiv.org/abs/2205.11273) (2022-05-23) 
 [![Code](https://img.shields.io/github/stars/BoO-18/GR-GAN.svg?style=social&label=Unofficial)](https://github.com/BoO-18/GR-GAN)
-> **_NOTE:_** new metric Cross-Model Distance introduced 
+  > <i>Note: new metric Cross-Model Distance introduced 
 
 + [DrawBench from Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) (2022-05-23)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://imagen.research.google/)
@@ -482,7 +482,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [FlexEdit: Flexible and Controllable Diffusion-based Object-centric Image Editing](https://arxiv.org/abs/2403.18605) (2024-03-27) 
 [![Website](https://img.shields.io/badge/Website-9cf)](https://flex-edit.github.io/) 
-> **_NOTE:_** novel automatic mask-based evaluation metric tailored to various object-centric editing scenarios
+  ><i>Note: novel automatic mask-based evaluation metric tailored to various object-centric editing scenarios
 
 + TransformationOriented Paired Benchmark from [InstructBrush: Learning Attention-based Instruction Optimization for Image Editing](https://arxiv.org/abs/2403.18660) (2024-03-27)
 [![Code](https://img.shields.io/github/stars/RoyZhao926/InstructBrush.svg?style=social&label=Official)](https://github.com/RoyZhao926/InstructBrush)
@@ -533,7 +533,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [ManiGAN: Text-Guided Image Manipulation](https://arxiv.org/abs/1912.06203) (2019-12-12) 
 [![Code](https://img.shields.io/github/stars/mrlibw/ManiGAN.svg?style=social&label=Official)](https://github.com/mrlibw/ManiGAN)
-> **_NOTE:_** manipulative precision metric introduced 
+  ><i>Note: manipulative precision metric introduced 
 
 <a name="3.4."></a>
 ### 3.4. Evaluation of Neural Style Transfer
@@ -632,7 +632,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [VASA-1: Lifelike Audio-Driven Talking Faces Generated in Real Time](https://arxiv.org/abs/2404.10667) (2024-04-16)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://www.microsoft.com/en-us/research/project/vasa-1/)
-> **_NOTE:_** Contrastive Audio and Pose Pretraining (CAPP) score introduced
+  ><i>Note: Contrastive Audio and Pose Pretraining (CAPP) score introduced
 
 + [THQA: A Perceptual Quality Assessment Database for Talking Heads](https://arxiv.org/abs/2404.09003) (2024-04-13)  
   [![Code](https://img.shields.io/github/stars/zyj-2000/THQA.svg?style=social&label=Official)](https://github.com/zyj-2000/THQA)
@@ -729,7 +729,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/JJ-Vice/TryBeforeYouBias.svg?style=social&label=Official)](https://github.com/JJ-Vice/TryBeforeYouBias)
 
 + [TIBET: Identifying and Evaluating Biases in Text-to-Image Generative Models](https://arxiv.org/abs/2312.01261) (2023-12-03) 
-> **_NOTE:_** CAS and BAV novel metric introduced
+  ><i>Note: CAS and BAV novel metric introduced
 
 + [Holistic Evaluation of Text-To-Image Models](https://arxiv.org/abs/2311.04287) (2023-11-07)  
   [![Code](https://img.shields.io/github/stars/stanford-crfm/helm.svg?style=social&label=Official)](https://github.com/stanford-crfm/helm)
