@@ -74,6 +74,8 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [An Interpretable Evaluation of Entropy-based Novelty of Generative Models](https://arxiv.org/abs/2402.17287) (2024-02-27)
 
++ Semantic Shift Rate from [Discovering Universal Semantic Triggers for Text-to-Image Synthesis](https://arxiv.org/abs/2402.07562) (2024-02-12)
+
 + [Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation](https://arxiv.org/abs/2312.15289) (2023-12-23) 
 
 + [Attribute Based Interpretable Evaluation Metrics for Generative Models](https://arxiv.org/abs/2310.17261) (2023-10-26) 
@@ -94,7 +96,7 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [Mutual Information Divergence: A Unified Metric for Multimodal Generative Models](https://arxiv.org/abs/2205.13445) (2022-05-25)
 [![Code](https://img.shields.io/github/stars/naver-ai/mid.metric.svg?style=social&label=Official)](https://github.com/naver-ai/mid.metric)
-> **_NOTE:_** evaluates text to image and utilizes vision language models (VLM)
+  ><i>Note: evaluates text to image and utilizes vision language models (VLM)</i>
 
 
 + [TREND: Truncated Generalized Normal Density Estimation of Inception Embeddings for GAN Evaluation](https://arxiv.org/abs/2104.14767) (2021-04-30, ECCV 2022)
@@ -108,7 +110,7 @@ This repository is updated periodically. If you have suggestions for additional 
     > <i>Note: SwAV, self-supervised image representation model</i>
 
 + [Random Network Distillation as a Diversity Metric for Both Image and Text Generation](https://arxiv.org/abs/2010.06715) (2020-10-13)
-> **_NOTE:_** RND metric introduced
+  ><i>Note: RND metric introduced</i>
 
 + [The Vendi Score: A Diversity Evaluation Metric for Machine Learning](https://arxiv.org/abs/2210.02410) (2022-10-05) 
 [![Code](https://img.shields.io/github/stars/vertaix/Vendi-Score.svg?style=social&label=Official)](https://github.com/vertaix/Vendi-Score)
@@ -129,7 +131,7 @@ This repository is updated periodically. If you have suggestions for additional 
 [![Code](https://img.shields.io/github/stars/mchong6/FID_IS_infinity.svg?style=social&label=Official)](https://github.com/mchong6/FID_IS_infinity)
 
 + [On the Evaluation of Conditional GANs](https://arxiv.org/abs/1907.08175) (2019-07-11)
-> **_NOTE:_** Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.
+  ><i>Note:Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.</i>
 
 + [Quality Evaluation of GANs Using Cross Local Intrinsic Dimensionality](https://arxiv.org/abs/1905.00643) (2019-05-02)
   > <i>CrossLID, assesses the local intrinsic dimensionality </i>
@@ -177,7 +179,7 @@ Papers for CLIP Similarity:
 + [Semantic Similarity Distance: Towards better text-image consistency metric in text-to-image generation](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320323005812?via%3Dihub) (2022-12-02)
 
 + [On the Evaluation of Conditional GANs](https://arxiv.org/abs/1907.08175) (2019-07-11)
-> **_NOTE:_** Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.
+  ><i>Note: Fréchet Joint Distance (FJD), which is able to assess image quality, conditional consistency, and intra-conditioning diversity within a single metric.</i>
 
 + [Classification Accuracy Score for Conditional Generative Models](https://arxiv.org/abs/1905.10887) (2019-05-26)
     > <i>Note: New metric Classification Accuracy Score (CAS)</i>
@@ -262,10 +264,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + Multidimensional Preference Score from [Learning Multi-dimensional Human Preference for Text-to-Image Generation](https://arxiv.org/abs/2405.14705) (2024-05-23)
 
 + [Evolving Storytelling: Benchmarks and Methods for New Character Customization with Diffusion Models](https://arxiv.org/abs/2405.11852) (2024-05-20) 
-> **_NOTE:_** NewEpisode benchmark introduced
+  ><i>Note: NewEpisode benchmark introduced</i>
 
 + [Training-free Subject-Enhanced Attention Guidance for Compositional Text-to-image Generation](https://arxiv.org/abs/2405.06948) (2024-05-11) 
-> **_NOTES:_** GroundingScore metric introduced
+  ><i>Note: GroundingScore metric introduced</i>
 
 + [Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings](https://arxiv.org/abs/2404.16820) (2024-04-25)  
 
@@ -309,7 +311,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [EmoGen: Emotional Image Content Generation with Text-to-Image Diffusion Models](https://arxiv.org/abs/2401.04608) (2024-01-09) 
 [![Code](https://img.shields.io/github/stars/JingyuanYY/EmoGen.svg?style=social&label=Official)](https://github.com/JingyuanYY/EmoGen)
-> **_NOTE:_** emotion accuracy, semantic clarity and semantic diversity are not core contributions of this paper
+  ><i>Note: emotion accuracy, semantic clarity and semantic diversity are not core contributions of this paper</i>
 
 + [VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation](https://arxiv.org/abs/2312.14867) (2023-12-22)  
   [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/VIEScore.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/VIEScore)  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/VIEScore/)
@@ -418,7 +420,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Is This Loss Informative? Faster Text-to-Image Customization by Tracking Objective Dynamics](https://arxiv.org/abs/2302.04841) (2023-02-09) 
 [![Code](https://img.shields.io/github/stars/yandex-research/DVAR.svg?style=social&label=Official)](https://github.com/yandex-research/DVAR)
-> **_NOTE:_** an evaluation approach for early stopping criterion in T2I customization
+  ><i>Note: an evaluation approach for early stopping criterion in T2I customization</i>
 
 + [Benchmarking Spatial Relationships in Text-to-Image Generation](https://arxiv.org/abs/2212.10015) (2022-12-20)  
   [![Code](https://img.shields.io/github/stars/microsoft/VISOR.svg?style=social&label=Official)](https://github.com/microsoft/VISOR)
@@ -446,7 +448,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [GR-GAN: Gradual Refinement Text-to-image Generation](https://arxiv.org/abs/2205.11273) (2022-05-23) 
 [![Code](https://img.shields.io/github/stars/BoO-18/GR-GAN.svg?style=social&label=Unofficial)](https://github.com/BoO-18/GR-GAN)
-> **_NOTE:_** new metric Cross-Model Distance introduced 
+  > <i>Note: new metric Cross-Model Distance introduced </i>
 
 + [DrawBench from Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) (2022-05-23)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://imagen.research.google/)
@@ -482,6 +484,9 @@ There are also recent works on new methods to measure visual similarity (more wi
  [![Website](https://img.shields.io/badge/Website-9cf)](https://mingzhenhuang.com/projects/MultiEdits.html) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/UB-CVML-Group/PIE_Bench_pp)
   > <i>Note: PIE-Bench++, evaluating image-editing tasks involving multiple objects and attributes</i>
 
++ [DiffUHaul: A Training-Free Method for Object Dragging in Images](https://arxiv.org/abs/2406.01594) (2024-06-03)
+><i>Note: foreground similarity, object traces and realism metric introduced</i>
+
 + [HQ-Edit: A High-Quality Dataset for Instruction-based Image Editing](https://arxiv.org/abs/2404.09990) (2024-04-15) 
 [![Code](https://img.shields.io/github/stars/UCSC-VLAA/HQ-Edit.svg?style=social&label=Official)](https://github.com/UCSC-VLAA/HQ-Edit)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://thefllood.github.io/HQEdit_web/) 
@@ -489,7 +494,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [FlexEdit: Flexible and Controllable Diffusion-based Object-centric Image Editing](https://arxiv.org/abs/2403.18605) (2024-03-27) 
 [![Website](https://img.shields.io/badge/Website-9cf)](https://flex-edit.github.io/) 
-> **_NOTE:_** novel automatic mask-based evaluation metric tailored to various object-centric editing scenarios
+  ><i>Note: novel automatic mask-based evaluation metric tailored to various object-centric editing scenarios</i>
 
 + TransformationOriented Paired Benchmark from [InstructBrush: Learning Attention-based Instruction Optimization for Image Editing](https://arxiv.org/abs/2403.18660) (2024-03-27)
 [![Code](https://img.shields.io/github/stars/RoyZhao926/InstructBrush.svg?style=social&label=Official)](https://github.com/RoyZhao926/InstructBrush)
@@ -499,10 +504,17 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/SilentView/EMCID.svg?style=social&label=Official)](https://github.com/SilentView/EMCID)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://silentview.github.io/EMCID/)
 
++ [Make Me Happier: Evoking Emotions Through Image Diffusion Models](https://arxiv.org/abs/2403.08255) (2024-03-13) 
+><i>Note: EMR, ESR, ENRD, ESS metric introduced</i>
+
 
 + [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) (2024-02-27)  
   [![Code](https://img.shields.io/github/stars/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods.svg?style=social&label=Official)](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods)
   > <i>Note: EditEval, benchmark for text-guided image editing and LLM Score</i>
+
++ [RotationDrag: Point-based Image Editing with Rotated Diffusion Features](https://arxiv.org/abs/2401.06442) (2024-01-12)
+[![Code](https://img.shields.io/github/stars/Tony-Lowe/RotationDrag.svg?style=social&label=Official)](https://github.com/Tony-Lowe/RotationDrag)
+><i>Note: RotationBench introduced</i>
 
 + [LEDITS++: Limitless Image Editing using Text-to-Image Models](https://arxiv.org/abs/2311.16711) (2023-11-28)  
   [![Hugging Face Code](https://img.shields.io/badge/Hugging%20Face-Code-blue)](https://huggingface.co/spaces/editing-images/leditsplusplus/tree/main)  [![Website](https://img.shields.io/badge/Website-9cf)](https://leditsplusplus-project.static.hf.space/index.html)  [![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-blue)](https://huggingface.co/spaces/editing-images/leditsplusplus)
@@ -520,6 +532,16 @@ There are also recent works on new methods to measure visual similarity (more wi
 + PIE-Bench from [Direct Inversion: Boosting Diffusion-based Editing with 3 Lines of Code](https://arxiv.org/abs/2310.01506) (2023-10-02) 
 [![Code](https://img.shields.io/github/stars/cure-lab/PnPInversion.svg?style=social&label=Official)](https://github.com/cure-lab/PnPInversion)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://cure-lab.github.io/PnPInversion/)
+
++ [DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing](https://arxiv.org/abs/2306.14435) (2023-06-26) 
+[![Website](https://img.shields.io/badge/Website-9cf)](https://yujun-shi.github.io/projects/dragdiffusion.html)
+[![Code](https://img.shields.io/github/stars/Yujun-Shi/DragDiffusion.svg?style=social&label=Official)](https://github.com/Yujun-Shi/DragDiffusion)
+> <i>Note: drawbench benchmark introduced</i>
+
++ [DreamEdit: Subject-driven Image Editing](https://arxiv.org/abs/2306.12624) (2023-06-22)
+> <i>Note: DreamEditBench benchmark introduced</i>
+[![Website](https://img.shields.io/badge/Website-9cf)](https://dreameditbenchteam.github.io/)
+[![Code](https://img.shields.io/github/stars/DreamEditBenchTeam/DreamEdit.svg?style=social&label=Official)](https://github.com/DreamEditBenchTeam/DreamEdit)
 
 + [MagicBrush: A Manually Annotated Dataset for Instruction-Guided Image Editing](https://arxiv.org/abs/2306.10012) (2023-06-16) 
 [![Code](https://img.shields.io/github/stars/OSU-NLP-Group/MagicBrush.svg?style=social&label=Official)](https://github.com/OSU-NLP-Group/MagicBrush)
@@ -544,8 +566,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [ManiGAN: Text-Guided Image Manipulation](https://arxiv.org/abs/1912.06203) (2019-12-12) 
 [![Code](https://img.shields.io/github/stars/mrlibw/ManiGAN.svg?style=social&label=Official)](https://github.com/mrlibw/ManiGAN)
-> **_NOTE:_** manipulative precision metric introduced 
+  ><i>Note: manipulative precision metric introduced</i>
 
++ [Text Guided Person Image Synthesis](https://arxiv.org/abs/1904.05118) (2019-04-10)
+  ><i>Note: VQA perceptual score introduced</i>
+ 
 <a name="3.4."></a>
 ### 3.4. Evaluation of Neural Style Transfer
 
@@ -556,9 +581,15 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
++ [TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation](https://arxiv.org/abs/2406.08656) (2024-06-12)
+><i>Note: TC-Bench, TCR and TC-Score introduced</i>
+
 + [VideoPhy: Evaluating Physical Commonsense for Video Generation](https://arxiv.org/abs/2406.03520v1) (2024-06-05) 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://videophy.github.io)
   [![Code](https://img.shields.io/github/stars/Hritikbansal/videophy.svg?style=social&label=Official)](https://github.com/Hritikbansal/videophy)
+
++ [Illumination Histogram Consistency Metric for Quantitative Assessment of Video Sequences](https://arxiv.org/abs/2405.09716) (2024-05-15)
+[![Code](https://img.shields.io/github/stars/LongChenCV/IHC-Metric.svg?style=social&label=Official)](https://github.com/LongChenCV/IHC-Metric)
 
 + [The Lost Melody: Empirical Observations on Text-to-Video Generation From A Storytelling Perspective](https://arxiv.org/abs/2405.08720) (2024-05-13)  
   > <i>Note: New evaluation framework T2Vid2T, Evaluation for storytelling aspects of videos</i>
@@ -645,7 +676,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [VASA-1: Lifelike Audio-Driven Talking Faces Generated in Real Time](https://arxiv.org/abs/2404.10667) (2024-04-16)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://www.microsoft.com/en-us/research/project/vasa-1/)
-> **_NOTE:_** Contrastive Audio and Pose Pretraining (CAPP) score introduced
+  ><i>Note: Contrastive Audio and Pose Pretraining (CAPP) score introduced</i>
 
 + [THQA: A Perceptual Quality Assessment Database for Talking Heads](https://arxiv.org/abs/2404.09003) (2024-04-13)  
   [![Code](https://img.shields.io/github/stars/zyj-2000/THQA.svg?style=social&label=Official)](https://github.com/zyj-2000/THQA)
@@ -659,6 +690,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Responsive Listening Head Generation: A Benchmark Dataset and Baseline](https://arxiv.org/abs/2112.13548) (2021-12-27, ECCV 2022)  
   [![Code](https://img.shields.io/github/stars/dc3ea9f/vico_challenge_baseline.svg?style=social&label=Official)](https://github.com/dc3ea9f/vico_challenge_baseline)  [![Website](https://img.shields.io/badge/Website-9cf)](https://project.mhzhou.com/vico/)
+
++ [A Lip Sync Expert Is All You Need for Speech to Lip Generation In The Wild](https://arxiv.org/abs/2008.10010) (2020-08-23) 
+><i>Note: new metric LSE-D and LSE-C introduced</i>
 
 + [What comprises a good talking-head video generation?: A Survey and Benchmark](https://arxiv.org/abs/2005.03201) (2020-05-07) 
 [![Code](https://img.shields.io/github/stars/lelechen63/talking-head-generation-survey.svg?style=social&label=Official)](https://github.com/lelechen63/talking-head-generation-survey)
@@ -685,6 +719,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.7. Evaluation of Model Trustworthiness
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
+
++ [EquiPrompt: Debiasing Diffusion Models via Iterative Bootstrapping in Chain of Thoughts](https://arxiv.org/abs/2406.09070) (2024-06-13)
+><i>Note: Normalized Entropy metric introduced</i>
 
 + [Latent Directions: A Simple Pathway to Bias Mitigation in Generative AI](https://arxiv.org/abs/2406.06352) (2024-06-10)
 [![Code](https://img.shields.io/github/stars/blclo/latent-debiasing-directions)](https://github.com/blclo/latent-debiasing-directions) [![Website](https://img.shields.io/badge/Website-9cf)](https://latent-debiasing-directions.compute.dtu.dk/)
@@ -745,7 +782,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/JJ-Vice/TryBeforeYouBias.svg?style=social&label=Official)](https://github.com/JJ-Vice/TryBeforeYouBias)
 
 + [TIBET: Identifying and Evaluating Biases in Text-to-Image Generative Models](https://arxiv.org/abs/2312.01261) (2023-12-03) 
-> **_NOTE:_** CAS and BAV novel metric introduced
+  ><i>Note: CAS and BAV novel metric introduced</i>
 
 + [Holistic Evaluation of Text-To-Image Models](https://arxiv.org/abs/2311.04287) (2023-11-07)  
   [![Code](https://img.shields.io/github/stars/stanford-crfm/helm.svg?style=social&label=Official)](https://github.com/stanford-crfm/helm)
@@ -817,6 +854,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.7.2. Evaluation of Non-Visual-Generation-Model Trustworthiness
 Not for visual generation, but related evaluations of other models like LLMs
 
++ [Benchmarking Trustworthiness of Multimodal Large Language Models: A Comprehensive Study](https://arxiv.org/abs/2406.07057) (2024-06-11) 
+
 + [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal](https://arxiv.org/abs/2402.04249) (2024-02-06)  
   [![Code](https://img.shields.io/github/stars/centerforaisafety/HarmBench.svg?style=social&label=Official)](https://github.com/centerforaisafety/HarmBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.harmbench.org)
@@ -853,6 +892,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Diffusion-RPO: Aligning Diffusion Models through Relative Preference Optimization](https://arxiv.org/abs/2406.06382) (2024-06-10)
     > <i>Note: new evaluation metric: style alignment</i>
 
++ [Margin-aware Preference Optimization for Aligning Diffusion Models without Reference](https://arxiv.org/abs/2406.06424) (2024-06-10)
 
 + [ReNO: Enhancing One-step Text-to-Image Models through Reward-based Noise Optimization](https://arxiv.org/abs/2406.04312) (2024-06-06) 
 [![Code](https://img.shields.io/github/stars/ExplainableML/ReNO.svg?style=social&label=Official)](https://github.com/ExplainableML/ReNO)
@@ -861,6 +901,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [Improving GFlowNets for Text-to-Image Diffusion Alignment](https://arxiv.org/abs/2406.00633) (2024-06-02)
   > <i>Note: Improves text-to-image alignment with reward function</i>
+
++ [Enhancing Reinforcement Learning Finetuned Text-to-Image Generative Model Using Reward Ensemble](https://link.springer.com/chapter/10.1007/978-3-031-63031-6_19) (2024-06-01)
 
 + [Boost Your Own Human Image Generation Model via Direct Preference Optimization with AI Feedback](https://arxiv.org/abs/2405.20216) (2024-05-30)
 
@@ -880,9 +922,13 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/Weifeng-Chen/ID-Aligner.svg?style=social&label=Official)](https://github.com/Weifeng-Chen/ID-Aligner)   [![Website](https://img.shields.io/badge/Website-9cf)](https://idaligner.github.io)
 
 
++ [Prompt Optimizer of Text-to-Image Diffusion Models for Abstract Concept Understanding](https://arxiv.org/abs/2404.11589) (2024-04-17)
+
 + [ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback](https://arxiv.org/abs/2404.07987) (2024-04-11)  
 
 + [UniFL: Improve Stable Diffusion via Unified Feedback Learning](https://arxiv.org/abs/2404.05595) (2024-04-08)  
+
++ [YaART: Yet Another ART Rendering Technology](https://arxiv.org/abs/2404.05666) (2024-04-08)
 
 + [ByteEdit: Boost, Comply and Accelerate Generative Image Editing](https://arxiv.org/abs/2404.04860) (2024-04-07)  
   [![Website](https://img.shields.io/badge/Website-9cf)](https://byte-edit.github.io/)
@@ -912,6 +958,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Reward Guided Latent Consistency Distillation](https://arxiv.org/abs/2403.11027) (2024-03-16)  
   [![Code](https://img.shields.io/github/stars/Ji4chenLi/rg-lcd.svg?style=social&label=Official)](https://github.com/Ji4chenLi/rg-lcd)  [![Website](https://img.shields.io/badge/Website-9cf)](https://rg-lcd.github.io/)
 
++ [Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation](https://arxiv.org/abs/2403.07605) (2024-03-12)
+
 + [Universal Prompt Optimizer for Safe Text-to-Image Generation](https://arxiv.org/abs/2402.10882) (2024-02-16, NAACL 2024)  
   [![Code](https://img.shields.io/github/stars/wzongyu/POSI.svg?style=social&label=Official)](https://github.com/wzongyu/POSI)
 
@@ -926,7 +974,6 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [PRDP: Proximal Reward Difference Prediction for Large-Scale Reward Finetuning of Diffusion Models](https://arxiv.org/abs/2402.08714) (2024-02-13)
 
-
 + [Human Aesthetic Preference-Based Large Text-to-Image Model Personalization: Kandinsky Generation as an Example](https://arxiv.org/abs/2402.06389) (2024-02-09)
 
 + [Divide and Conquer: Language Models can Plan and Self-Correct for Compositional Text-to-Image Generation](https://arxiv.org/abs/2401.15688) (2024-01-28)
@@ -940,6 +987,8 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Website](https://img.shields.io/badge/Website-9cf)](https://instructvideo.github.io)
 
 + [Rich Human Feedback for Text-to-Image Generation](https://arxiv.org/abs/2312.10240) (2023-12-15, CVPR 2024)  
+
++ [iDesigner: A High-Resolution and Complex-Prompt Following Text-to-Image Diffusion Model for Interior Design](https://arxiv.org/abs/2312.04326) (2023-12-07)
 
 + [InstructBooth: Instruction-following Personalized Text-to-Image Generation](https://arxiv.org/abs/2312.03011) (2023-12-04)  [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/instructbooth)
 
@@ -1003,6 +1052,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Human Preference Score: Better Aligning Text-to-Image Models with Human Preference](https://arxiv.org/abs/2303.14420) (2023-03-25)  
   [![Code](https://img.shields.io/github/stars/tgxs002/align_sd.svg?style=social&label=Official)](https://github.com/tgxs002/align_sd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
+
++ [HIVE: Harnessing Human Feedback for Instructional Visual Editing](https://arxiv.org/abs/2303.09618) (2023-03-16) 
+![Code](https://img.shields.io/github/stars/salesforce/HIVE.svg?style=social&label=Official)](https://github.com/salesforce/HIVE)
 
 + [Aligning Text-to-Image Models using Human Feedback](https://arxiv.org/abs/2302.12192) (2023-02-23)
 
@@ -1149,6 +1201,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Recent Progress on Generative Adversarial Networks (GANs): A Survey](https://ieeexplore.ieee.org/document/8667290) (2019-03-14)
     > <i>Note: Refer to section 5 for Evaluation Metrics</i>
 
++ [Video Description: A Survey of Methods, Datasets and Evaluation Metrics](https://arxiv.org/abs/1806.00186) (2018-06-01)
+> <i>Note: Refer to section 5 for Evaluation Metrics</i>
+
 ### 6.3. Study
 
 + [A-Bench: Are LMMs Masters at Evaluating AI-generated Images?](https://arxiv.org/abs/2406.03070) (2024-06-05)
@@ -1185,6 +1240,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [On the Robustness of Quality Measures for GANs](https://arxiv.org/abs/2201.13019) (2022-01-31, ECCV 2022)  
   [![Code](https://img.shields.io/github/stars/MotasemAlfarra/R-FID-Robustness-of-Quality-Measures-for-GANs.svg?style=social&label=Official)](https://github.com/MotasemAlfarra/R-FID-Robustness-of-Quality-Measures-for-GANs)
+
++ [Multimodal Image Synthesis and Editing: The Generative AI Era](https://arxiv.org/abs/2112.13592) (2021-12-27) 
+[![Code](https://img.shields.io/github/stars/fnzhan/Generative-AI.svg?style=social&label=Official)](https://github.com/fnzhan/Generative-AI)
 
 + [An Analysis of Text-to-Image Synthesis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3852950) (2021-05-25)
 
