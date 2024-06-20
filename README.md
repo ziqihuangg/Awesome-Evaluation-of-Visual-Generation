@@ -322,6 +322,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Measuring Style Similarity in Diffusion Models](https://arxiv.org/abs/2404.01292) (2024-04-01)  
   [![Code](https://img.shields.io/github/stars/learn2phoenix/CSD.svg?style=social&label=Official)](https://github.com/learn2phoenix/CSD)
 
++ [AAPMT: AGI Assessment Through Prompt and Metric Transformer](https://arxiv.org/abs/2403.19101) (2024-03-28)
+[![Code](https://img.shields.io/github/stars/huskydoge/CS3324-Digital-Image-Processing)](https://github.com/huskydoge/CS3324-Digital-Image-Processing/tree/main/Assignment1)
+
+
 + [FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models](https://arxiv.org/abs/2403.16379) (2024-03-25)
 
 + [Refining Text-to-Image Generation: Towards Accurate Training-Free Glyph-Enhanced Image Generation](https://arxiv.org/abs/2403.16422) (2024-03-25) 
@@ -403,6 +407,17 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/ImagenHub) [GenAI-Arena](https://huggingface.co/papers/2310.07749)
   > <i>Note: Evaluates task of image and text generation</i>
   
++ [Progressive Text-to-Image Diffusion with Soft Latent Direction](https://arxiv.org/abs/2309.09466) (2023-09-18)
+[![Code](https://img.shields.io/github/stars/babahui/Progressive-Text-to-Image)](https://github.com/babahui/Progressive-Text-to-Image)
+    ><i>Note: Benchmark for text-to-image generation tasks</i>
+
+
++ [AltDiffusion: A Multilingual Text-to-Image Diffusion Model](https://arxiv.org/abs/2308.09991) (2023-08-19, AAAI 2024)
+[![Code](https://img.shields.io/github/stars/superhero-7/AltDiffusion)](https://github.com/superhero-7/AltDiffusion)
+    ><i>Note: Benchmark with focus on multilingual generation aspect</i>
+
+
+
 
 <!-- + [JourneyDB: A Benchmark for Generative Image Understanding](https://arxiv.org/abs/2307.00716) (2023-07-03, NeurIPS 2023)  
   [![Code](https://img.shields.io/github/stars/JourneyDB/JourneyDB.svg?style=social&label=Official)](https://github.com/JourneyDB/JourneyDB)
@@ -542,6 +557,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/SilentView/EMCID.svg?style=social&label=Official)](https://github.com/SilentView/EMCID)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://silentview.github.io/EMCID/)
 
++ [Editing Massive Concepts in Text-to-Image Diffusion Models](https://arxiv.org/abs/2403.13807) (2024-03-20)
+[![Code](https://img.shields.io/github/stars/SilentView/EMCID)](https://github.com/SilentView/EMCID) [![Website](https://img.shields.io/badge/Website-9cf)](https://silentview.github.io/EMCID/)
+    ><i>Note: ImageNet Concept Editing Benchmark (ICEB), for evaluating massive concept editing for T2I models</i>
+
 + [Make Me Happier: Evoking Emotions Through Image Diffusion Models](https://arxiv.org/abs/2403.08255) (2024-03-13) 
   ><i>Note: EMR, ESR, ENRD, ESS metric introduced</i>
 
@@ -549,6 +568,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) (2024-02-27)  
   [![Code](https://img.shields.io/github/stars/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods.svg?style=social&label=Official)](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods)
   > <i>Note: EditEval, benchmark for text-guided image editing and LLM Score</i>
+
++ [Towards Efficient Diffusion-Based Image Editing with Instant Attention Masks](https://arxiv.org/abs/2401.07709) (2024-01-15, AAAI 2024)
+[![Code](https://img.shields.io/github/stars/xiaotianqing/InstDiffEdit)](https://github.com/xiaotianqing/InstDiffEdit)
+    ><i>Note: Editing-Mask, new benchmark to examine the mask accuracy and local editing ability</i>
 
 + [RotationDrag: Point-based Image Editing with Rotated Diffusion Features](https://arxiv.org/abs/2401.06442) (2024-01-12)
 [![Code](https://img.shields.io/github/stars/Tony-Lowe/RotationDrag.svg?style=social&label=Official)](https://github.com/Tony-Lowe/RotationDrag)
@@ -570,6 +593,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 + PIE-Bench from [Direct Inversion: Boosting Diffusion-based Editing with 3 Lines of Code](https://arxiv.org/abs/2310.01506) (2023-10-02) 
 [![Code](https://img.shields.io/github/stars/cure-lab/PnPInversion.svg?style=social&label=Official)](https://github.com/cure-lab/PnPInversion)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://cure-lab.github.io/PnPInversion/)
+
++ [Iterative Multi-granular Image Editing using Diffusion Models](https://arxiv.org/abs/2309.00613) (2023-09-01)
 
 + [DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing](https://arxiv.org/abs/2306.14435) (2023-06-26) 
 [![Website](https://img.shields.io/badge/Website-9cf)](https://yujun-shi.github.io/projects/dragdiffusion.html)
@@ -804,6 +829,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/abs/2403.05125) (2024-03-08) 
 
++ [Position: Towards Implicit Prompt For Text-To-Image Models](https://arxiv.org/abs/2403.02118) (2024-03-04)
+    ><i>Note: ImplicitBench, new benchmark</i>
+
+
 + [The Male CEO and the Female Assistant: Probing Gender Biases in Text-To-Image Models Through Paired Stereotype Test](https://arxiv.org/abs/2402.11089) (2024-02-16) 
 
 + [Multilingual Text-to-Image Generation Magnifies Gender Stereotypes and Prompt Engineering May Not Help You](https://arxiv.org/abs/2401.16092) (2024-01-29) 
@@ -929,6 +958,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [Batch-Instructed Gradient for Prompt Evolution: Systematic Prompt Optimization for Enhanced Text-to-Image Synthesis](https://arxiv.org/abs/2406.08713) (2024-06-13)
+
+
 + [InstructRL4Pix: Training Diffusion for Image Editing by Reinforcement Learning](https://arxiv.org/abs/2406.09973) (2024-06-14) 
 [![Website](https://img.shields.io/badge/Website-9cf)](https://bair.berkeley.edu/blog/2023/07/14/ddpo/)
 
@@ -963,6 +995,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [ID-Aligner: Enhancing Identity-Preserving Text-to-Image Generation with Reward Feedback Learning](https://arxiv.org/abs/2404.15449) (2024-04-23)  
   [![Code](https://img.shields.io/github/stars/Weifeng-Chen/ID-Aligner.svg?style=social&label=Official)](https://github.com/Weifeng-Chen/ID-Aligner)   [![Website](https://img.shields.io/badge/Website-9cf)](https://idaligner.github.io)
+
++ [Hyper-SD: Trajectory Segmented Consistency Model for Efficient Image Synthesis](https://arxiv.org/abs/2404.13686) (2024-04-21)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/ByteDance/Hyper-SD) [![Website](https://img.shields.io/badge/Website-9cf)](https://hyper-sd.github.io/) [![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/ByteDance/Hyper-SDXL-1Step-T2I)
+    ><i>Note: Human feedback learning to enhance model performance in low-steps regime</i>
 
 
 + [Prompt Optimizer of Text-to-Image Diffusion Models for Abstract Concept Understanding](https://arxiv.org/abs/2404.11589) (2024-04-17)
@@ -1049,6 +1085,11 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/SalesforceAIResearch/DiffusionDPO.svg?style=social&label=Official)](https://github.com/SalesforceAIResearch/DiffusionDPO)[![Code](https://img.shields.io/github/stars/huggingface/diffusers.svg?style=social&label=diffusers)](https://github.com/huggingface/diffusers/tree/main/examples/research_projects/diffusion_dpo) [![Website](https://img.shields.io/badge/Website-9cf)](https://blog.salesforceairesearch.com/diffusion-dpo/)
 
 + [BeautifulPrompt: Towards Automatic Prompt Engineering for Text-to-Image Synthesis](https://arxiv.org/abs/2311.06752) (2023-11-12) 
+
+
++ [Quality Diversity through Human Feedback: Towards Open-Ended Diversity-Driven Optimization](https://arxiv.org/abs/2310.12103) (2023-10-18, ICML 2024)
+[![Code](https://img.shields.io/github/stars/ld-ing/qdhf)](https://github.com/ld-ing/qdhf) [![Website](https://img.shields.io/badge/Website-9cf)](https://liding.info/qdhf/)
+
 
 + [Aligning Text-to-Image Diffusion Models with Reward Backpropagation](https://arxiv.org/abs/2310.03739) (2023-10-05)  
   [![Code](https://img.shields.io/github/stars/mihirp1998/AlignProp.svg?style=social&label=Official)](https://github.com/mihirp1998/AlignProp/)
@@ -1214,6 +1255,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   > <i> Note: Refere to Section 6 for Evaluation Datasets and Metrics</i>
 
 + [A Survey on Long Video Generation: Challenges, Methods, and Prospects](https://arxiv.org/abs/2403.16407) (2024-03-25)
+
   > <i>Note: Refer to table 2 for evaluation metrics for long video generation</i>
 + [Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics](https://arxiv.org/abs/2403.11821) (2024-03-18)  
 
@@ -1222,6 +1264,11 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [State of the Art on Diffusion Models for Visual Computing](https://arxiv.org/abs/2310.07204) (2023-10-11)  
   > <i> Note: Refer to Section 9 for Metrics</i>
 
+
++ [AI-Generated Images as Data Source: The Dawn of Synthetic Era](https://arxiv.org/abs/2310.01830) (2023-10-03)
+[![Code](https://img.shields.io/github/stars/mwxely/AIGS)](https://github.com/mwxely/AIGS)
+    ><i>Note: Refer to Section 4.2 for Evaluation Metrics</i>
+    
 + [A Survey on Video Diffusion Models](https://arxiv.org/abs/2310.10647) (2023-10-06)  
   [![Code](https://img.shields.io/github/stars/ChenHsing/Awesome-Video-Diffusion-Models.svg?style=social&label=Official)](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models)
   ><i> Note: Refer to Section 2.3 for Evaluation Datasets and Metrics</i>
@@ -1245,7 +1292,7 @@ Not for visual generation, but related evaluations of other models like LLMs
     > <i>Note: Refer to section 5 for Evaluation Metrics</i>
 
 + [Video Description: A Survey of Methods, Datasets and Evaluation Metrics](https://arxiv.org/abs/1806.00186) (2018-06-01)
-> <i>Note: Refer to section 5 for Evaluation Metrics</i>
+  > <i>Note: Refer to section 5 for Evaluation Metrics</i>
 
 ### 6.3. Study
 
