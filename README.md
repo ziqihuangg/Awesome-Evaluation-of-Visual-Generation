@@ -245,11 +245,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Decomposed evaluations of geographic disparities in text-to-image models](https://arxiv.org/abs/2406.11988) (2024-06-17)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://ai.meta.com/research/publications/decomposed-evaluations-of-geographic-disparities-in-text-to-image-models/)
-> <i>Note: new metric Decomposed Indicators of Disparities introduced</i>
+    > <i>Note: new metric Decomposed Indicators of Disparities introduced</i>
 
 + [PhyBench: A Physical Commonsense Benchmark for Evaluating Text-to-Image Models](https://arxiv.org/abs/2406.11802) (2024-06-17) 
 [![Code](https://img.shields.io/github/stars/OpenGVLab/PhyBench)](https://github.com/OpenGVLab/PhyBench)
-> <i>Note: PhyBench introduced</i>
+    > <i>Note: PhyBench introduced</i>
 
 + [Make It Count: Text-to-Image Generation with an Accurate Number of Objects](https://arxiv.org/abs/2406.10210) (2024-06-14)
 [![Code](https://img.shields.io/github/stars/Litalby1/make-it-count)](https://github.com/Litalby1/make-it-count)
@@ -284,7 +284,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [TheaterGen: Character Management with LLM for Consistent Multi-turn Image Generation](https://arxiv.org/abs/2404.18919) (2024-04-29)
 [![Code](https://img.shields.io/github/stars/donahowe/Theatergen.svg?style=social&label=Official)](https://github.com/donahowe/Theatergen)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://howe140.github.io/theatergen.io/)
-><i>Note: consistent score r introduced</i>
+  ><i>Note: consistent score r introduced</i>
 
 + [Exposing Text-Image Inconsistency Using Diffusion Models](https://arxiv.org/abs/2404.18033) (2024-04-28) 
 
@@ -293,7 +293,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Multimodal Large Language Model is a Human-Aligned Annotator for Text-to-Image Generation](https://arxiv.org/abs/2404.15100) (2024-04-23)  
 
 + [Infusion: Preventing Customized Text-to-Image Diffusion from Overfitting](https://arxiv.org/abs/2404.14007) (2024-04-22)
-><i>Note: Latent Fisher divergence and Wasserstein metric introduced</i>
+  ><i>Note: Latent Fisher divergence and Wasserstein metric introduced</i>
 
 + [TAVGBench: Benchmarking Text to Audible-Video Generation](https://arxiv.org/abs/2404.14381) (2024-04-22)  
   [![Code](https://img.shields.io/github/stars/OpenNLPLab/TAVGBench.svg?style=social&label=Official)](https://github.com/OpenNLPLab/TAVGBench)
@@ -303,7 +303,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Magic Clothing: Controllable Garment-Driven Image Synthesis](https://arxiv.org/abs/2404.09512) (2024-04-15) 
 [![Code](https://img.shields.io/github/stars/ShineChen1024/MagicClothing.svg?style=social&label=Official)](https://github.com/ShineChen1024/MagicClothing)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/ShineChen1024/MagicClothing)
-> <i>Note: new metric Matched-Points-LPIPS introduced</i>
+  > <i>Note: new metric Matched-Points-LPIPS introduced</i>
 
 + [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym) (2024-04-09)
   > <i>Note: GenAI-Bench was introduced in a previous paper 'Evaluating Text-to-Visual Generation with Image-to-Text Generation'</i>
@@ -325,13 +325,13 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models](https://arxiv.org/abs/2403.16379) (2024-03-25)
 
 + [Refining Text-to-Image Generation: Towards Accurate Training-Free Glyph-Enhanced Image Generation](https://arxiv.org/abs/2403.16422) (2024-03-25) 
- > <i>Note: LenCom-Eval introduced</i>
+  > <i>Note: LenCom-Eval introduced</i>
 
 + [Exploring GPT-4 Vision for Text-to-Image Synthesis Evaluation](https://openreview.net/forum?id=xmQoodG82a) (2024-03-20)
 
 + [DialogGen: Multi-modal Interactive Dialogue System for Multi-turn Text-to-Image Generation](https://arxiv.org/abs/2403.08857) (2024-03-13) 
 [![Code](https://img.shields.io/github/stars/Centaurusalpha/DialogGen.svg?style=social&label=Official)](https://github.com/Centaurusalpha/DialogGen)
-> <i>Note: DialogBen introduced</i>
+  > <i>Note: DialogBen introduced</i>
 
 + [Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/abs/2403.05125) (2024-03-08) 
 
@@ -341,7 +341,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [MIGC: Multi-Instance Generation Controller for Text-to-Image Synthesis](https://arxiv.org/abs/2402.05408) (2024-02-08) 
 [![Code](https://img.shields.io/github/stars/limuloo/MIGC.svg?style=social&label=Official)](https://github.com/limuloo/MIGC)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://migcproject.github.io/)
-> <i>Note: COCO-MIG benchmark introduced</i>
+  > <i>Note: COCO-MIG benchmark introduced</i>
 
 + [CAS: A Probability-Based Approach for Universal Condition Alignment Score](https://openreview.net/forum?id=E78OaH2s3f) (2024-01-16)  
   [![Code](https://img.shields.io/github/stars/unified-metric/unified_metric.svg?style=social&label=Official)](https://github.com/unified-metric/unified_metric)  [![Website](https://img.shields.io/badge/Website-9cf)](https://unified-metric.github.io/)
@@ -523,7 +523,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   > <i>Note: PIE-Bench++, evaluating image-editing tasks involving multiple objects and attributes</i>
 
 + [DiffUHaul: A Training-Free Method for Object Dragging in Images](https://arxiv.org/abs/2406.01594) (2024-06-03)
-><i>Note: foreground similarity, object traces and realism metric introduced</i>
+  ><i>Note: foreground similarity, object traces and realism metric introduced</i>
 
 + [HQ-Edit: A High-Quality Dataset for Instruction-based Image Editing](https://arxiv.org/abs/2404.09990) (2024-04-15) 
 [![Code](https://img.shields.io/github/stars/UCSC-VLAA/HQ-Edit.svg?style=social&label=Official)](https://github.com/UCSC-VLAA/HQ-Edit)
@@ -543,7 +543,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Website](https://img.shields.io/badge/Website-9cf)](https://silentview.github.io/EMCID/)
 
 + [Make Me Happier: Evoking Emotions Through Image Diffusion Models](https://arxiv.org/abs/2403.08255) (2024-03-13) 
-><i>Note: EMR, ESR, ENRD, ESS metric introduced</i>
+  ><i>Note: EMR, ESR, ENRD, ESS metric introduced</i>
 
 
 + [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) (2024-02-27)  
@@ -552,7 +552,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [RotationDrag: Point-based Image Editing with Rotated Diffusion Features](https://arxiv.org/abs/2401.06442) (2024-01-12)
 [![Code](https://img.shields.io/github/stars/Tony-Lowe/RotationDrag.svg?style=social&label=Official)](https://github.com/Tony-Lowe/RotationDrag)
-><i>Note: RotationBench introduced</i>
+  ><i>Note: RotationBench introduced</i>
 
 + [LEDITS++: Limitless Image Editing using Text-to-Image Models](https://arxiv.org/abs/2311.16711) (2023-11-28)  
   [![Hugging Face Code](https://img.shields.io/badge/Hugging%20Face-Code-blue)](https://huggingface.co/spaces/editing-images/leditsplusplus/tree/main)  [![Website](https://img.shields.io/badge/Website-9cf)](https://leditsplusplus-project.static.hf.space/index.html)  [![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-blue)](https://huggingface.co/spaces/editing-images/leditsplusplus)
@@ -574,10 +574,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing](https://arxiv.org/abs/2306.14435) (2023-06-26) 
 [![Website](https://img.shields.io/badge/Website-9cf)](https://yujun-shi.github.io/projects/dragdiffusion.html)
 [![Code](https://img.shields.io/github/stars/Yujun-Shi/DragDiffusion.svg?style=social&label=Official)](https://github.com/Yujun-Shi/DragDiffusion)
-> <i>Note: drawbench benchmark introduced</i>
+  > <i>Note: drawbench benchmark introduced</i>
 
 + [DreamEdit: Subject-driven Image Editing](https://arxiv.org/abs/2306.12624) (2023-06-22)
-> <i>Note: DreamEditBench benchmark introduced</i>
+  > <i>Note: DreamEditBench benchmark introduced</i>
 [![Website](https://img.shields.io/badge/Website-9cf)](https://dreameditbenchteam.github.io/)
 [![Code](https://img.shields.io/github/stars/DreamEditBenchTeam/DreamEdit.svg?style=social&label=Official)](https://github.com/DreamEditBenchTeam/DreamEdit)
 
@@ -620,7 +620,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
 + [TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation](https://arxiv.org/abs/2406.08656) (2024-06-12)
-><i>Note: TC-Bench, TCR and TC-Score introduced</i>
+  ><i>Note: TC-Bench, TCR and TC-Score introduced</i>
 
 + [VideoPhy: Evaluating Physical Commonsense for Video Generation](https://arxiv.org/abs/2406.03520v1) (2024-06-05) 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://videophy.github.io)
@@ -730,7 +730,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/dc3ea9f/vico_challenge_baseline.svg?style=social&label=Official)](https://github.com/dc3ea9f/vico_challenge_baseline)  [![Website](https://img.shields.io/badge/Website-9cf)](https://project.mhzhou.com/vico/)
 
 + [A Lip Sync Expert Is All You Need for Speech to Lip Generation In The Wild](https://arxiv.org/abs/2008.10010) (2020-08-23) 
-><i>Note: new metric LSE-D and LSE-C introduced</i>
+  ><i>Note: new metric LSE-D and LSE-C introduced</i>
 
 + [What comprises a good talking-head video generation?: A Survey and Benchmark](https://arxiv.org/abs/2005.03201) (2020-05-07) 
 [![Code](https://img.shields.io/github/stars/lelechen63/talking-head-generation-survey.svg?style=social&label=Official)](https://github.com/lelechen63/talking-head-generation-survey)
@@ -759,7 +759,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
 
 + [EquiPrompt: Debiasing Diffusion Models via Iterative Bootstrapping in Chain of Thoughts](https://arxiv.org/abs/2406.09070) (2024-06-13)
-><i>Note: Normalized Entropy metric introduced</i>
+  ><i>Note: Normalized Entropy metric introduced</i>
 
 + [Latent Directions: A Simple Pathway to Bias Mitigation in Generative AI](https://arxiv.org/abs/2406.06352) (2024-06-10)
 [![Code](https://img.shields.io/github/stars/blclo/latent-debiasing-directions)](https://github.com/blclo/latent-debiasing-directions) [![Website](https://img.shields.io/badge/Website-9cf)](https://latent-debiasing-directions.compute.dtu.dk/)
