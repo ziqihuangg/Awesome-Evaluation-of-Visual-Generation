@@ -70,6 +70,9 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [Unifying and extending Precision Recall metrics for assessing generative models](https://arxiv.org/abs/2405.01611) (2024-05-02)
 
++ [Enhancing Plausibility Evaluation for Generated Designs with Denoising Autoencoder](https://arxiv.org/abs/2403.05352) (2024-03-08) 
+  ><i>Note: Fréchet Denoised Distance introduced</i>
+
 + Virtual Classifier Error (VCE) from [Virtual Classifier: A Reversed Approach for Robust Image Evaluation](https://openreview.net/forum?id=IE6FbueT47) (2024-03-04)
 
 + [An Interpretable Evaluation of Entropy-based Novelty of Generative Models](https://arxiv.org/abs/2402.17287) (2024-02-27)
@@ -80,13 +83,26 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [Attribute Based Interpretable Evaluation Metrics for Generative Models](https://arxiv.org/abs/2310.17261) (2023-10-26) 
 
++ [On quantifying and improving realism of images generated with diffusion](https://arxiv.org/abs/2309.14756) (2023-09-26)
+ ><i>Note: Image Realism Score introduced</i>
+ 
++ [Probabilistic Precision and Recall Towards Reliable Evaluation of Generative Models](https://arxiv.org/abs/2309.01590) (2023-09-04) 
+[![Code](https://img.shields.io/github/stars/kdst-team/Probablistic_precision_recall.svg?style=social&label=Official)](https://github.com/kdst-team/Probablistic_precision_recall)
+  ><i>Note: P-precision and P-recall introduced</i>
+
 + [Learning to Evaluate the Artness of AI-generated Images](https://arxiv.org/abs/2305.04923) (2023-05-08)
   ><i>Note: ArtScore, metric for images resembling authentic artworks by artists</i>
 
 + [Training-Free Location-Aware Text-to-Image Synthesis](https://arxiv.org/abs/2304.13427) (2023-04-26)  
   > <i>Note: New evaluation metric for control capability of location aware generation task</i>
 
++ [Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples](https://arxiv.org/abs/2302.04440) (2023-02-09)
+[![Code](https://img.shields.io/github/stars/marcojira/fld.svg?style=social&label=Official)](https://github.com/marcojira/fld)
+
 + [LGSQE: Lightweight Generated Sample Quality Evaluatoin](https://arxiv.org/abs/2211.04590) (2022-11-08)
+
++ [SSD: Towards Better Text-Image Consistency Metric in Text-to-Image Generation](https://arxiv.org/abs/2210.15235) (2022-10-27)
+ > <i>Note: Semantic Similarity Distance introduced</i>
 
 + [Layout-Bridging Text-to-Image Synthesis](https://arxiv.org/abs/2208.06162) (2022-08-12)
   > <i>Note: Layout Quality Score (LQS), new metric for evaluating the generated layout</i>
@@ -138,6 +154,8 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [A domain agnostic measure for monitoring and evaluating GANs](https://arxiv.org/abs/1811.05512) (2018-11-13) 
 
++ [Learning to Generate Images with Perceptual Similarity Metrics](https://arxiv.org/abs/1511.06409) (2015-11-19)
+ > <i>Multiscale structural-similarity score introduced</i>
 
 
 <a name="1.2."></a>
@@ -227,7 +245,12 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.1."></a>
 ### 3.1. Evaluation of Unconditional Image Generation
 
-+ [Anomaly Score: Evaluating Generative Models and Individual Generated Images based on Complexity and Vulnerability](https://arxiv.org/abs/2312.10634) (2023-12-17, CVPR 2024)  
++ [A Lightweight Generalizable Evaluation and Enhancement Framework for Generative Models and Generated Samples](https://ieeexplore.ieee.org/document/10495634) (2024-04-16) 
+
++ [Anomaly Score: Evaluating Generative Models and Individual Generated Images based on Complexity and Vulnerability](https://arxiv.org/abs/2312.10634) (2023-12-17, CVPR 2024) 
+
++ [Using Skew to Assess the Quality of GAN-generated Image Features](https://arxiv.org/abs/2310.20636) (2023-10-31) 
+ > <i>Note: Skew Inception Distance introduced</i>
 
 + [StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis](https://arxiv.org/abs/2206.09479) (2022-06-19)
 [![Code](https://img.shields.io/github/stars/POSTECH-CVLab/PyTorch-StudioGAN)](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Mingguksky/PyTorch-StudioGAN/tree/main)
@@ -237,11 +260,23 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [HYPE: A Benchmark for Human eYe Perceptual Evaluation of Generative Models](https://arxiv.org/abs/1904.01121) (2019-04-01)  
 [![Website](https://img.shields.io/badge/Website-9cf)](https://stanfordhci.github.io/gen-eval/)
 
-
++ [An Improved Evaluation Framework for Generative Adversarial Networks](https://arxiv.org/abs/1803.07474) (2018-03-20) 
+ > <i>Note: Class-Aware Frechet Distance introduced</i>
 
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
+
++ [Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models](https://arxiv.org/pdf/2406.14855) (2024-06-21) 
+[![Code](https://img.shields.io/github/stars/Artanisax/Six-CDh)](https://github.com/Artanisax/Six-CD)
+
++ [Evaluating Numerical Reasoning in Text-to-Image Models](https://arxiv.org/abs/2406.14774) (2024-06-20) 
+    > <i>Note: GeckoNum introduced</i>
+
++ [Holistic Evaluation for Interleaved Text-and-Image Generation](https://arxiv.org/abs/2406.14643) (2024-06-20) 
+    > <i>Note: InterleavedBench and InterleavedEval metric introduced</i>
+
++ [GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation](https://arxiv.org/abs/2406.13743) (2024-06-19)
 
 + [Decomposed evaluations of geographic disparities in text-to-image models](https://arxiv.org/abs/2406.11988) (2024-06-17)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://ai.meta.com/research/publications/decomposed-evaluations-of-geographic-disparities-in-text-to-image-models/)
@@ -370,6 +405,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [A Contrastive Compositional Benchmark for Text-to-Image Synthesis: A Study with Unified Text-to-Image Fidelity Metrics](https://arxiv.org/abs/2312.02338) (2023-12-04)  
   [![Code](https://img.shields.io/github/stars/zhuxiangru/Winoground-T2I.svg?style=social&label=Official)](https://github.com/zhuxiangru/Winoground-T2I)
 
++ [The Challenges of Image Generation Models in Generating Multi-Component Images](https://arxiv.org/abs/2311.13620) (2023-11-22) 
+
 
 + [SelfEval: Leveraging the discriminative nature of generative models for evaluation](https://arxiv.org/abs/2311.10708) (2023-11-17)
 
@@ -460,6 +497,10 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/yuvalkirstain/PickScore.svg?style=social&label=Official)](https://github.com/yuvalkirstain/PickScore)
 
 + [Analysis of Appeal for Realistic AI-Generated Photos](https://ieeexplore.ieee.org/document/10103686) (2023-04-17)
+
++ [Diagnostic Benchmark and Iterative Inpainting for Layout-Guided Image Generation](https://arxiv.org/abs/2304.06671) (2023-04-13) 
+[![Code](https://img.shields.io/github/stars/j-min/IterInpaint.svg?style=social&label=Official)](https://github.com/j-min/IterInpaint)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://layoutbench.github.io/)
 
 + [HRS-Bench: Holistic, Reliable and Scalable Benchmark for Text-to-Image Models](https://arxiv.org/abs/2304.05390) (2023-04-11, ICCV 2023)  
   [![Code](https://img.shields.io/github/stars/eslambakr/HRS_benchmark.svg?style=social&label=Official)](https://github.com/eslambakr/HRS_benchmark)  [![Website](https://img.shields.io/badge/Website-9cf)](https://eslambakr.github.io/hrsbench.github.io/)
@@ -1247,6 +1288,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 6.2. Survey
 
++ [A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models](https://arxiv.org/abs/2406.14555) (2024-06-20) 
+
 + [From Sora What We Can See: A Survey of Text-to-Video Generation](https://arxiv.org/abs/2405.10674) (2024-05-17)  
   [![Code](https://img.shields.io/github/stars/soraw-ai/Awesome-Text-to-Video-Generation.svg?style=social&label=Official)](https://github.com/soraw-ai/Awesome-Text-to-Video-Generation) 
   > <i> Note: Refer to Section 3.4 for Evaluation Datasets and Metrics</i>
@@ -1344,6 +1387,8 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/xuqiantong/GAN-Metrics.svg?style=social&label=Official)](https://github.com/xuqiantong/GAN-Metrics)
 
 + [Are GANs Created Equal? A Large-Scale Study](https://arxiv.org/abs/1711.10337) (2017-11-28, NeurIPS 2018)
+
++ [A note on the evaluation of generative models](https://arxiv.org/abs/1511.01844) (2015-11-05)
 
 
 ### 6.4. Competition
