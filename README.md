@@ -84,7 +84,7 @@ This repository is updated periodically. If you have suggestions for additional 
 + [Attribute Based Interpretable Evaluation Metrics for Generative Models](https://arxiv.org/abs/2310.17261) (2023-10-26) 
 
 + [On quantifying and improving realism of images generated with diffusion](https://arxiv.org/abs/2309.14756) (2023-09-26)
- ><i>Note: Image Realism Score introduced</i>
+  ><i>Note: Image Realism Score introduced</i>
  
 + [Probabilistic Precision and Recall Towards Reliable Evaluation of Generative Models](https://arxiv.org/abs/2309.01590) (2023-09-04) 
 [![Code](https://img.shields.io/github/stars/kdst-team/Probablistic_precision_recall.svg?style=social&label=Official)](https://github.com/kdst-team/Probablistic_precision_recall)
@@ -102,7 +102,7 @@ This repository is updated periodically. If you have suggestions for additional 
 + [LGSQE: Lightweight Generated Sample Quality Evaluatoin](https://arxiv.org/abs/2211.04590) (2022-11-08)
 
 + [SSD: Towards Better Text-Image Consistency Metric in Text-to-Image Generation](https://arxiv.org/abs/2210.15235) (2022-10-27)
- > <i>Note: Semantic Similarity Distance introduced</i>
+  > <i>Note: Semantic Similarity Distance introduced</i>
 
 + [Layout-Bridging Text-to-Image Synthesis](https://arxiv.org/abs/2208.06162) (2022-08-12)
   > <i>Note: Layout Quality Score (LQS), new metric for evaluating the generated layout</i>
@@ -155,7 +155,7 @@ This repository is updated periodically. If you have suggestions for additional 
 + [A domain agnostic measure for monitoring and evaluating GANs](https://arxiv.org/abs/1811.05512) (2018-11-13) 
 
 + [Learning to Generate Images with Perceptual Similarity Metrics](https://arxiv.org/abs/1511.06409) (2015-11-19)
- > <i>Multiscale structural-similarity score introduced</i>
+  > <i>Multiscale structural-similarity score introduced</i>
 
 
 <a name="1.2."></a>
