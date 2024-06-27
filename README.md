@@ -267,6 +267,17 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
+
++ [EvalAlign: Evaluating Text-to-Image Models through Precision Alignment of Multimodal Large Models with Supervised Fine-Tuning to Human Annotations](https://arxiv.org/abs/2406.16562) (2024-06-24)
+[![Code](https://img.shields.io/github/stars/SAIS-FUXI/EvalAlign)](https://github.com/SAIS-FUXI/EvalAlign)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Fudan-FUXI/evalalign-v1.0-13b)
+
+
++ [DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation](https://arxiv.org/abs/2406.16855) (2024-06-24)
+[![Code](https://img.shields.io/github/stars/yuangpeng/dreambench_plus)](https://github.com/yuangpeng/dreambench_plus)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://dreambenchplus.github.io/)
+
+
 + [Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models](https://arxiv.org/pdf/2406.14855) (2024-06-21) 
 [![Code](https://img.shields.io/github/stars/Artanisax/Six-CDh)](https://github.com/Artanisax/Six-CD)
 
@@ -574,6 +585,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ [GIM: A Million-scale Benchmark for Generative Image Manipulation Detection and Localization](https://arxiv.org/abs/2406.16531) (2024-06-24)
+[![Code](https://img.shields.io/github/stars/chenyirui/GIM)](https://github.com/chenyirui/GIM)
+
+
 + [MultiEdits: Simultaneous Multi-Aspect Editing with Text-to-Image Diffusion Models](https://arxiv.org/abs/2406.00985) (2024-06-03)
  [![Website](https://img.shields.io/badge/Website-9cf)](https://mingzhenhuang.com/projects/MultiEdits.html) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/UB-CVML-Group/PIE_Bench_pp)
   > <i>Note: PIE-Bench++, evaluating image-editing tasks involving multiple objects and attributes</i>
@@ -685,6 +700,15 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
+
+
++ [ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation](https://arxiv.org/abs/2406.18522) (2024-06-26)
+[![Code](https://img.shields.io/github/stars/PKU-YuanGroup/ChronoMagic-Bench)](https://github.com/PKU-YuanGroup/ChronoMagic-Bench)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/ChronoMagic-Bench/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/BestWishYsh/ChronoMagic-Bench)
+
+
+
 + [TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation](https://arxiv.org/abs/2406.08656) (2024-06-12)
   ><i>Note: TC-Bench, TCR and TC-Score introduced</i>
 
@@ -939,6 +963,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](https://arxiv.org/abs/2304.02828) (2023-04-06, CVPR 2023)  
   [![Code](https://img.shields.io/github/stars/noagarcia/phase.svg?style=social&label=Official)](https://github.com/noagarcia/phase)
 
+
++ [Stable Bias: Analyzing Societal Representations in Diffusion Models](https://arxiv.org/abs/2303.11408) (2023-03-20)
+
+
+
 + [Auditing Gender Presentation Differences in Text-to-Image Models](https://arxiv.org/abs/2302.03675) (2023-02-07)
  [![Code](https://img.shields.io/github/stars/SALT-NLP/GEP_data.svg?style=social&label=Official)](https://github.com/SALT-NLP/GEP_data) [![Website](https://img.shields.io/badge/Website-9cf)](https://salt-nlp.github.io/GEP/)
 
@@ -998,6 +1027,11 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
+
++ [Beyond Thumbs Up/Down: Untangling Challenges of Fine-Grained Feedback for Text-to-Image Generation](https://arxiv.org/abs/2406.16807) (2024-06-24)
+
+
 
 + [Batch-Instructed Gradient for Prompt Evolution: Systematic Prompt Optimization for Enhanced Text-to-Image Synthesis](https://arxiv.org/abs/2406.08713) (2024-06-13)
 
@@ -1079,6 +1113,11 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/Ji4chenLi/rg-lcd.svg?style=social&label=Official)](https://github.com/Ji4chenLi/rg-lcd)  [![Website](https://img.shields.io/badge/Website-9cf)](https://rg-lcd.github.io/)
 
 + [Optimizing Negative Prompts for Enhanced Aesthetics and Fidelity in Text-To-Image Generation](https://arxiv.org/abs/2403.07605) (2024-03-12)
+
+
++ [Debiasing Text-to-Image Diffusion Models](https://arxiv.org/abs/2402.14577) (2024-02-22)
+
+
 
 + [Universal Prompt Optimizer for Safe Text-to-Image Generation](https://arxiv.org/abs/2402.10882) (2024-02-16, NAACL 2024)  
   [![Code](https://img.shields.io/github/stars/wzongyu/POSI.svg?style=social&label=Official)](https://github.com/wzongyu/POSI)
