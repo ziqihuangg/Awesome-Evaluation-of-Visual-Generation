@@ -64,7 +64,8 @@ This repository is updated periodically. If you have suggestions for additional 
 
 
 
-
++ [Fine-tuning Diffusion Models for Enhancing Face Quality in Text-to-image Generation](https://arxiv.org/abs/2406.17100) (2024-06-24)
+  ><i>Note: Face Score introduced</i>
 
 + [Global-Local Image Perceptual Score (GLIPS): Evaluating Photorealistic Quality of AI-Generated Images](https://arxiv.org/abs/2405.09426) (2024-05-15)
 
@@ -78,6 +79,9 @@ This repository is updated periodically. If you have suggestions for additional 
 + [An Interpretable Evaluation of Entropy-based Novelty of Generative Models](https://arxiv.org/abs/2402.17287) (2024-02-27)
 
 + Semantic Shift Rate from [Discovering Universal Semantic Triggers for Text-to-Image Synthesis](https://arxiv.org/abs/2402.07562) (2024-02-12)
+
++ [Optimizing Prompts Using In-Context Few-Shot Learning for Text-to-Image Generative Models](https://ieeexplore.ieee.org/document/10378642) (2024-01-01)
+  ><i>Note: Quality Loss introduced</i>
 
 + [Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation](https://arxiv.org/abs/2312.15289) (2023-12-23) 
 
@@ -520,6 +524,9 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/tgxs002/align_sd.svg?style=social&label=Official)](https://github.com/tgxs002/align_sd)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://tgxs002.github.io/align_sd_web/)
 
++ [A study of the evaluation metrics for generative images containing combinational creativity](https://www-cambridge-org.remotexs.ntu.edu.sg/core/journals/ai-edam/article/study-of-the-evaluation-metrics-for-generative-images-containing-combinational-creativity/FBB623857EE474ED8CD2114450EA8484) (2023-03-23) 
+  ><i>Note: Consensual Assessment Technique and Turing Test used in T2I evaluation</i>
+
 + [TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering](https://arxiv.org/abs/2303.11897) (2023-03-21, ICCV 2023)  
   [![Code](https://img.shields.io/github/stars/Yushi-Hu/tifa.svg?style=social&label=Official)](https://github.com/Yushi-Hu/tifa) [![Website](https://img.shields.io/badge/Website-9cf)](https://tifa-benchmark.github.io/)
 
@@ -707,7 +714,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/ChronoMagic-Bench/)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/BestWishYsh/ChronoMagic-Bench)
 
-
++ [VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation](https://arxiv.org/abs/2406.15252) (2024-06-21)
+[![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/VideoScore)](https://github.com/TIGER-AI-Lab/VideoScore)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/TIGER-Lab/VideoFeedback)
 
 + [TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation](https://arxiv.org/abs/2406.08656) (2024-06-12)
   ><i>Note: TC-Bench, TCR and TC-Score introduced</i>
@@ -962,6 +971,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](https://arxiv.org/abs/2304.02828) (2023-04-06, CVPR 2023)  
   [![Code](https://img.shields.io/github/stars/noagarcia/phase.svg?style=social&label=Official)](https://github.com/noagarcia/phase)
+
++ [Social Biases through the Text-to-Image Generation Lens](https://arxiv.org/abs/2304.06034) (2023-03-30) 
 
 
 + [Stable Bias: Analyzing Societal Representations in Diffusion Models](https://arxiv.org/abs/2303.11408) (2023-03-20)
@@ -1358,6 +1369,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Text-to-image Diffusion Models in Generative AI: A Survey](https://arxiv.org/abs/2303.07909) (2023-03-14) 
   ><i> Note: Refer to Section 5 for Evaulation from Techincal and Ethical Perspective</i>
 
++ [Image synthesis: a review of methods, datasets, evaluation metrics, and future outlook](https://link-springer-com.remotexs.ntu.edu.sg/article/10.1007/s10462-023-10434-2#Sec20) (2023-02-28)
+  ><i> Note: Refer to section 4 for evaluation metrics</i> 
+
 + [Adversarial Text-to-Image Synthesis: A Review](https://arxiv.org/abs/2101.09983) (2021-01-25)  
   > <i> Note: Refer to Section 5 for Evaluation of T2I Models</i>
 
@@ -1397,6 +1411,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](https://arxiv.org/abs/2304.01816) (2023-04-04, CVPR 2023)
 
 + [Revisiting the Evaluation of Image Synthesis with GANs](https://arxiv.org/abs/2304.01999) (2023-04-04)
+
 
 + [A Study on the Evaluation of Generative Models](https://arxiv.org/abs/2206.10935) (2022-06-22)
 
