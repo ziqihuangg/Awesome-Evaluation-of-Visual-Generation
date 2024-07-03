@@ -803,6 +803,13 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [A Benchmark for Controllable Text-Image-to-Video Generation](https://ieeexplore.ieee.org/abstract/document/10148799) (2023-06-12)
 
++ [Temporal Shift GAN for Large Scale Video Generation](https://arxiv.org/abs/2004.01823) (2020-04-04) 
+[![Code](https://img.shields.io/github/stars/amunozgarza/tsb-gan.svg?style=social&label=Official)](https://github.com/amunozgarza/tsb-gan)
+  ><i>Note: Symmetric-Similarity-Score introduced</i>
+
++ [Video Imagination from a Single Image with Transformation Generation](https://arxiv.org/abs/1706.04124) (2017-06-13) 
+  ><i>Note: RIQA metric introduced</i>
+
 
 #### 3.5.3. Evaluation of Talking Face Generation
 
