@@ -271,6 +271,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [Analyzing Quality, Bias, and Performance in Text-to-Image Generative Models](https://arxiv.org/abs/2407.00138) (2024-06-28)
+
 
 + [EvalAlign: Evaluating Text-to-Image Models through Precision Alignment of Multimodal Large Models with Supervised Fine-Tuning to Human Annotations](https://arxiv.org/abs/2406.16562) (2024-06-24)
 [![Code](https://img.shields.io/github/stars/SAIS-FUXI/EvalAlign)](https://github.com/SAIS-FUXI/EvalAlign)
@@ -708,6 +710,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
 
++ [Evaluation of Text-to-Video Generation Models: A Dynamics Perspective](https://arxiv.org/abs/2407.01094) (2024-07-01)
+
+
 
 + [ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation](https://arxiv.org/abs/2406.18522) (2024-06-26)
 [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/ChronoMagic-Bench)](https://github.com/PKU-YuanGroup/ChronoMagic-Bench)
@@ -863,6 +868,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.7. Evaluation of Model Trustworthiness
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
+
++ [The Factuality Tax of Diversity-Intervened Text-to-Image Generation: Benchmark and Fact-Augmented Intervention](https://arxiv.org/abs/2407.00377) (2024-06-29)
+
 
 + [EquiPrompt: Debiasing Diffusion Models via Iterative Bootstrapping in Chain of Thoughts](https://arxiv.org/abs/2406.09070) (2024-06-13)
   ><i>Note: Normalized Entropy metric introduced</i>
@@ -1045,6 +1053,13 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [PopAlign: Population-Level Alignment for Fair Text-to-Image Generation](https://arxiv.org/abs/2406.19668) (2024-06-28)
+[![Code](https://img.shields.io/github/stars/jacklishufan/PopAlignSDXL)](https://github.com/jacklishufan/PopAlignSDXL)
+
+
++ [Prompt Refinement with Image Pivot for Text-to-Image Generation](https://arxiv.org/abs/2407.00247) (2024-06-28, ACL 2024)
+
 
 
 + [Beyond Thumbs Up/Down: Untangling Challenges of Fine-Grained Feedback for Text-to-Image Generation](https://arxiv.org/abs/2406.16807) (2024-06-24)
