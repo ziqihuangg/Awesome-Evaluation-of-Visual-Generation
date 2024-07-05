@@ -62,7 +62,7 @@ This repository is updated periodically. If you have suggestions for additional 
 | CLIP Maximum Mean Discrepancy (CMMD) | [Rethinking FID: Towards a Better Evaluation Metric for Image Generation](https://arxiv.org/abs/2401.09603) (CVPR 2024) | [![Code](https://img.shields.io/github/stars/google-research/google-research.svg?style=social&label=Official)](https://github.com/google-research/google-research/tree/master/cmmd) |
 
 
-
++ [Towards a Scalable Reference-Free Evaluation of Generative Models](https://arxiv.org/abs/2407.02961) (2024-07-03)
 
 + [Fine-tuning Diffusion Models for Enhancing Face Quality in Text-to-image Generation](https://arxiv.org/abs/2406.17100) (2024-06-24)
   ><i>Note: Face Score introduced</i>
@@ -270,6 +270,12 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
+
++ [MIGC++: Advanced Multi-Instance Generation Controller for Image Synthesis](https://arxiv.org/abs/2407.02329) (2024-07-02) 
+[![Code](https://img.shields.io/github/stars/limuloo/MIGC)](https://github.com/limuloo/MIGC)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://migcproject.github.io/)
+  > <i>Note: Benchmark COCO-MIG and Multimodal-MIG introduced</i>
+
 
 + [Analyzing Quality, Bias, and Performance in Text-to-Image Generative Models](https://arxiv.org/abs/2407.00138) (2024-06-28)
 
@@ -1017,6 +1023,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.7.2. Evaluation of Non-Visual-Generation-Model Trustworthiness
 Not for visual generation, but related evaluations of other models like LLMs
 
++ [The African Woman is Rhythmic and Soulful: Evaluation of Open-ended Generation for Implicit Biases](https://arxiv.org/abs/2407.01270) (2024-07-01) 
+
 + [Extrinsic Evaluation of Cultural Competence in Large Language Models](https://arxiv.org/abs/2406.11565) (2024-06-17)
 
 + [Benchmarking Trustworthiness of Multimodal Large Language Models: A Comprehensive Study](https://arxiv.org/abs/2406.07057) (2024-06-11) 
@@ -1053,6 +1061,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [Aligning Human Motion Generation with Human Perceptions](https://arxiv.org/abs/2407.02272) (2024-07-02) 
+[![Code](https://img.shields.io/github/stars/ou524u/AlignHP)](https://github.com/ou524u/AlignHP)
+
 
 + [PopAlign: Population-Level Alignment for Fair Text-to-Image Generation](https://arxiv.org/abs/2406.19668) (2024-06-28)
 [![Code](https://img.shields.io/github/stars/jacklishufan/PopAlignSDXL)](https://github.com/jacklishufan/PopAlignSDXL)
