@@ -271,6 +271,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation?](https://arxiv.org/abs/2407.04842) (2024-07-05) 
+  > <i>Note: MJ-Bench introduced</i>
+
 + [MIGC++: Advanced Multi-Instance Generation Controller for Image Synthesis](https://arxiv.org/abs/2407.02329) (2024-07-02) 
 [![Code](https://img.shields.io/github/stars/limuloo/MIGC)](https://github.com/limuloo/MIGC)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://migcproject.github.io/)
@@ -600,6 +603,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ [Learning Action and Reasoning-Centric Image Editing from Videos and Simulations](https://arxiv.org/abs/2407.03471) (2024-07-03) 
+  > <i>Note: AURORA-Bench introduced</i>
+
 + [GIM: A Million-scale Benchmark for Generative Image Manipulation Detection and Localization](https://arxiv.org/abs/2406.16531) (2024-06-24)
 [![Code](https://img.shields.io/github/stars/chenyirui/GIM)](https://github.com/chenyirui/GIM)
 
@@ -716,9 +722,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
 
++ [T2VSafetyBench: Evaluating the Safety of Text-to-Video Generative Models](https://arxiv.org/abs/2407.05965) (2024-07-08)
+  ><i>Note: T2VSafetyBench introduced</i>
+
 + [Evaluation of Text-to-Video Generation Models: A Dynamics Perspective](https://arxiv.org/abs/2407.01094) (2024-07-01)
-
-
 
 + [ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation](https://arxiv.org/abs/2406.18522) (2024-06-26)
 [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/ChronoMagic-Bench)](https://github.com/PKU-YuanGroup/ChronoMagic-Bench)
