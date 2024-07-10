@@ -271,6 +271,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [Beyond Aesthetics: Cultural Competence in Text-to-Image Models](https://arxiv.org/abs/2407.06863) (2024-07-09)
+  > <i>Note: CUBE benchmark introduced</i>
+
 + [MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation?](https://arxiv.org/abs/2407.04842) (2024-07-05) 
   > <i>Note: MJ-Bench introduced</i>
 
@@ -1068,6 +1071,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2407.06642) (2024-07-09) 
+[![Code](https://img.shields.io/github/stars/wfanyue/DPG-T2I-Personalization)](https://github.com/wfanyue/DPG-T2I-Personalization)
 
 + [Aligning Human Motion Generation with Human Perceptions](https://arxiv.org/abs/2407.02272) (2024-07-02) 
 [![Code](https://img.shields.io/github/stars/ou524u/AlignHP)](https://github.com/ou524u/AlignHP)
