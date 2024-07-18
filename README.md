@@ -888,7 +888,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 
 + [Towards Understanding Unsafe Video Generation](https://arxiv.org/abs/2407.12581) (2024-07-17)
-
+  ><i>Note: Proposes Latent Variable Defense (LVD) which works within the model's internal sampling process</i>
 
 
 + [The Factuality Tax of Diversity-Intervened Text-to-Image Generation: Benchmark and Fact-Augmented Intervention](https://arxiv.org/abs/2407.00377) (2024-06-29)
