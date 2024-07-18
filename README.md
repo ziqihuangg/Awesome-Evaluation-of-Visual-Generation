@@ -885,6 +885,12 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
 
+
+
++ [Towards Understanding Unsafe Video Generation](https://arxiv.org/abs/2407.12581) (2024-07-17)
+
+
+
 + [The Factuality Tax of Diversity-Intervened Text-to-Image Generation: Benchmark and Fact-Augmented Intervention](https://arxiv.org/abs/2407.00377) (2024-06-29)
 
 
@@ -1071,6 +1077,17 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
+
++ [Subject-driven Text-to-Image Generation via Preference-based Reinforcement Learning](https://arxiv.org/abs/2407.12164) (2024-07-16)
+
+
+
+
++ [Video Diffusion Alignment via Reward Gradients](https://arxiv.org/abs/2407.08737) (2024-07-11)
+[![Code](https://img.shields.io/github/stars/mihirp1998/VADER)](https://github.com/mihirp1998/VADER) [![Website](https://img.shields.io/badge/Website-9cf)](https://vader-vid.github.io/)
+
+
 
 + [Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2407.06642) (2024-07-09) 
 [![Code](https://img.shields.io/github/stars/wfanyue/DPG-T2I-Personalization)](https://github.com/wfanyue/DPG-T2I-Personalization)
