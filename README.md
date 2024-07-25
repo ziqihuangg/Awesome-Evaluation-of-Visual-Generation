@@ -907,6 +907,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 
 
++ [BIGbench: A Unified Benchmark for Social Bias in Text-to-Image Generative Models Based on Multi-modal LLM](https://arxiv.org/abs/2407.15240) (2024-07-21) 
+  [![Code](https://img.shields.io/github/stars/BIGbench2024/BIGbench2024.svg?style=social&label=Official)](https://github.com/BIGbench2024/BIGbench2024/)
+
+
 + [Towards Understanding Unsafe Video Generation](https://arxiv.org/abs/2407.12581) (2024-07-17)
   ><i>Note: Proposes Latent Variable Defense (LVD) which works within the model's internal sampling process</i>
 
