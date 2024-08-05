@@ -1102,6 +1102,13 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [Direct Unlearning Optimization for Robust and Safe Text-to-Image Models](https://arxiv.org/abs/2407.21035) (2024-07-17) 
+
++ [Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion](https://arxiv.org/abs/2407.21032) (2024-07-17, ECCV 2024) 
+
+
+
+
 
 + [Subject-driven Text-to-Image Generation via Preference-based Reinforcement Learning](https://arxiv.org/abs/2407.12164) (2024-07-16)
 
