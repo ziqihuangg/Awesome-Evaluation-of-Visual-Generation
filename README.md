@@ -271,6 +271,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [ABHINAW: A method for Automatic Evaluation of Typography within AI-Generated Images](https://arxiv.org/abs/2409.11874) (2024-09-18)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://github.com/Abhinaw3906/ABHINAW-MATRIX)
+
++ [Finding the Subjective Truth: Collecting 2 Million Votes for Comprehensive Gen-AI Model Evaluation](https://arxiv.org/abs/2409.11904) (2024-09-18)
+
 + [Beyond Aesthetics: Cultural Competence in Text-to-Image Models](https://arxiv.org/abs/2407.06863) (2024-07-09)
   > <i>Note: CUBE benchmark introduced</i>
 
