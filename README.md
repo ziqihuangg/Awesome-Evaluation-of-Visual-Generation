@@ -729,7 +729,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
-+ [TOWARDS WORLD SIMULATOR: CRAFTING PHYSICAL COMMONSENSE-BASED BENCHMARK FOR VIDEO GENERATION](https://arxiv.org/abs/2410.05363) (2024-10-07)
++ [Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation](https://arxiv.org/abs/2410.05363) (2024-10-07)
   [![Code](https://img.shields.io/github/stars/OpenGVLab/PhyGenBench.svg?style=social&label=Official)](https://github.com/OpenGVLab/PhyGenBench) 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://phygenbench123.github.io/)
 
