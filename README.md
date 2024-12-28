@@ -729,6 +729,13 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
++ [Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](https://arxiv.org/abs/2411.16718) (2024-12-03)
+  ><i>Note: focus on temporally text-video alignment</i>
+
+
++ [What You See Is What Matters: A Novel Visual and Physics-Based Metric for Evaluating Video Generation Quality](https://arxiv.org/abs/2411.13609) (2024-11-24)
+  ><i>Note: texture evaluation scheme introduced</i>
+
 + [A Survey of AI-Generated Video Evaluation](https://arxiv.org/abs/2410.19884) (2024-10-24)
 
 
