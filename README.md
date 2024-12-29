@@ -734,11 +734,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 
 + [Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](https://arxiv.org/abs/2411.16718) (2024-12-03)
-  ><i>Note: focus on temporally text-video alignment</i>
+  ><i>Note: focus on temporally text-video alignment (event order, accuracy)</i>
 
 + [AIGV-Assessor: Benchmarking and Evaluating the Perceptual Quality of Text-to-Video Generation with LMM](https://arxiv.org/abs/2411.17221) (2024-11-26)
   [![Code](https://img.shields.io/github/stars/wangjiarui153/AIGV-Assessor.svg?style=social&label=Official)](https://github.com/wangjiarui153/AIGV-Assessor) 
-  ><i>Note: collected and annotated 3w videos for evaluation by tuning LMM. </i>
+  ><i>Note: fuild motion, light change, motion speed, event order. </i>
 
 + [What You See Is What Matters: A Novel Visual and Physics-Based Metric for Evaluating Video Generation Quality](https://arxiv.org/abs/2411.13609) (2024-11-24)
   ><i>Note: texture evaluation scheme introduced</i>
@@ -751,7 +751,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation](https://arxiv.org/abs/2410.05363) (2024-10-07)
   [![Code](https://img.shields.io/github/stars/OpenGVLab/PhyGenBench.svg?style=social&label=Official)](https://github.com/OpenGVLab/PhyGenBench) 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://phygenbench123.github.io/)
-  ><i>Note: Comprehensive physical benchmark introduced</i>
+  ><i>Note: Comprehensive physical (optical, mechanic, thermal, material) benchmark introduced</i>
 
 + [Benchmarking AIGC Video Quality Assessment: A Dataset and Unified Model](https://arxiv.org/abs/2407.21408) (2024-07-31)
 
