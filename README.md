@@ -947,6 +947,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
 
 
++ [VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2411.13503) (2024-11-20) 
+  [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_trustworthiness)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
 + [BIGbench: A Unified Benchmark for Social Bias in Text-to-Image Generative Models Based on Multi-modal LLM](https://arxiv.org/abs/2407.15240) (2024-07-21) 
   [![Code](https://img.shields.io/github/stars/BIGbench2024/BIGbench2024.svg?style=social&label=Official)](https://github.com/BIGbench2024/BIGbench2024/)
@@ -996,10 +999,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/Picsart-AI-Research/OpenBias.svg?style=social&label=Official)](https://github.com/Picsart-AI-Research/OpenBias)
 
 + [Survey of Bias In Text-to-Image Generation: Definition, Evaluation, and Mitigation](https://arxiv.org/abs/2404.01030) (2024-04-01)
-
-+ [VBench-Trustworthiness](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_trustworthiness) (2024-03) from [VBench: Comprehensive Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2311.17982) (2023-11-29)  
-  [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
 
 + [Lost in Translation? Translation Errors and Challenges for Fair Assessment of Text-to-Image Models on Multilingual Concepts](https://arxiv.org/abs/2403.11092) (2024-03-17, NAACL 2024)
 
