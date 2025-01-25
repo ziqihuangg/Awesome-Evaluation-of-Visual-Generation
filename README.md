@@ -1142,6 +1142,14 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [improved video generation with human feedback](https://arxiv.org/pdf/2501.13918) (2025-01-23) [![Website](https://img.shields.io/badge/Website-9cf)](https://gongyeliu.github.io/videoalign/)
+
++ [LiFT: Leveraging Human Feedback for Text-to-Video Model Alignment](https://arxiv.org/pdf/2412.04814) (2024-12-24) [![Code](https://img.shields.io/github/stars/codegoat24/LiFT.svg?style=social&label=Official)]() [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/LiFT/)
+
++ [VideoDPO: Omni-Preference Alignment for Video Diffusion Generation](https://arxiv.org/abs/2412.14167) (2024-12-18) [![Code](https://img.shields.io/github/stars/CIntellifusion/VideoDPO.svg?style=social&label=Official)]() [![Website](https://img.shields.io/badge/Website-9cf)](https://github.com/CIntellifusion/VideoDPO)
+
++ [Boosting Text-to-Video Generative Model with MLLMs Feedback](https://openreview.net/pdf/4c9eebaad669788792e0a010be4031be5bdc426e.pdf) (2024-09-26,NeurIPS 2024)
+
 + [Direct Unlearning Optimization for Robust and Safe Text-to-Image Models](https://arxiv.org/abs/2407.21035) (2024-07-17) 
 
 + [Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion](https://arxiv.org/abs/2407.21032) (2024-07-17, ECCV 2024) 
