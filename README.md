@@ -923,6 +923,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [What comprises a good talking-head video generation?: A Survey and Benchmark](https://arxiv.org/abs/2005.03201) (2020-05-07) 
 [![Code](https://img.shields.io/github/stars/lelechen63/talking-head-generation-survey.svg?style=social&label=Official)](https://github.com/lelechen63/talking-head-generation-survey)
 
+#### 3.5.4. Evaluation of World Generation
+
++ [WorldScore: A Unified Evaluation Benchmark for World Generation](https://arxiv.org/abs/2504.00983) (2025-04-01)
+  [![Code](https://img.shields.io/github/stars/haoyi-duan/WorldScore.svg?style=social&label=Official)](https://github.com/haoyi-duan/WorldScore)  [![Website](https://img.shields.io/badge/Website-9cf)]([https://project.mhzhou.com/vico/](https://haoyi-duan.github.io/WorldScore/))
+
 <a name="3.6."></a>
 ### 3.6. Evaluation of Text-to-Motion Generation
 
