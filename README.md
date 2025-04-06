@@ -869,6 +869,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Make It Move: Controllable Image-to-Video Generation with Text Descriptions](https://arxiv.org/abs/2112.02815) (2021-12-06, CVPR 2022)  
   [![Code](https://img.shields.io/github/stars/Youncy-Hu/MAGE.svg?style=social&label=Official)](https://github.com/Youncy-Hu/MAGE)
 
++ [VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://arxiv.org/abs/2503.23452) (2025-03-30)  
+  [![Code](https://img.shields.io/github/stars/AILab-CVC/VideoGen-Eval.svg?style=social&label=Official)](https://github.com/AILab-CVC/VideoGen-Eval)
+
 #### 3.5.2. Evaluation of Image-to-Video Generation
 
 + [VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2411.13503) (2024-11-20) 
