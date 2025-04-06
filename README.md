@@ -613,6 +613,9 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/tohinz/semantic-object-accuracy-for-generative-text-to-image-synthesis.svg?style=social&label=Official)](https://github.com/tohinz/semantic-object-accuracy-for-generative-text-to-image-synthesis?tab=readme-ov-file)  [![Website](https://img.shields.io/badge/Website-9cf)](https://www.tobiashinz.com/2019/10/30/semantic-object-accuracy-for-generative-text-to-image-synthesis)
   > <i>Note: new evaluation metric, Semantic Object Accuracy (SOA)</i>
 
++ [GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation](https://arxiv.org/abs/2504.02782) (2025-04-03)
+[![Code](https://img.shields.io/github/stars/PicoTrex/GPT-ImgEval.svg?style=social&label=Official)](https://github.com/PicoTrex/GPT-ImgEval)
+
 
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
