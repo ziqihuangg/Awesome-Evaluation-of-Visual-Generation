@@ -875,6 +875,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://arxiv.org/abs/2503.23452) (2025-03-30)  
   [![Code](https://img.shields.io/github/stars/AILab-CVC/VideoGen-Eval.svg?style=social&label=Official)](https://github.com/AILab-CVC/VideoGen-Eval)
 
++ [Video-Bench: Human Preference Aligned Video Generation Benchmark](https://arxiv.org/abs/2504.04907) (2025-04-07)  
+  [![Code](https://img.shields.io/github/stars/Video-Bench/Video-Bench.svg?style=social&label=Official)](https://github.com/Video-Bench/Video-Bench)
+  
+
 #### 3.5.2. Evaluation of Image-to-Video Generation
 
 + [VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2411.13503) (2024-11-20) 
