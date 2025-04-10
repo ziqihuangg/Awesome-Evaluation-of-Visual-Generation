@@ -621,6 +621,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing](https://arxiv.org/abs/2504.02826) (2025-04-03)
 [![Code](https://img.shields.io/github/stars/PhoenixZ810/RISEBench.svg?style=social&label=Official)](https://github.com/PhoenixZ810/RISEBench)
 
++ [VinaBench: Benchmark for Faithful and Consistent Visual Narratives](https://arxiv.org/abs/2503.20871) (2025-03-26)
+[![Code](https://img.shields.io/github/stars/Silin159/VinaBench.svg?style=social&label=Official)](https://github.com/Silin159/VinaBench)
+
++ [ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867) (2025-03-21)
+
 
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
