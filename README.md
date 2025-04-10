@@ -618,7 +618,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/abs/2504.02918) (2025-04-03)
 
-+ [Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing](https://arxiv.org/abs/2504.02782) (2025-04-03)
++ [Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing](https://arxiv.org/abs/2504.02826) (2025-04-03)
 [![Code](https://img.shields.io/github/stars/PhoenixZ810/RISEBench.svg?style=social&label=Official)](https://github.com/PhoenixZ810/RISEBench)
 
 
