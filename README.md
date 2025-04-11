@@ -40,6 +40,7 @@ This repository is updated periodically. If you have suggestions for additional 
   - [3.6. Evaluation of Text-to-Motion Generation](#3.6.)
   - [3.7. Evaluation of Model Trustworthiness](#3.7.)
   - [3.8. Evaluation of Entity Relation](#3.8.)
+  - [3.9. Agentic Evaluation](#3.9.)
 - [4. Improving Visual Generation with Evaluation / Feedback / Reward](#4.)
 - [5. Quality Assessment for AIGC](#5.)
 - [6. Study and Rethinking](#6.)
@@ -1162,6 +1163,21 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [Testing Relational Understanding in Text-Guided Image Generation](https://arxiv.org/abs/2208.00005) (2022-07-29)  
 
+<a name="3.9."></a>
+### 3.9. Agentic Evaluation
+
++ [A Unified Agentic Framework for Evaluating Conditional Image Generation](https://arxiv.org/abs/2504.07046) (2025-04-09)
+[![Code](https://img.shields.io/github/stars/HITsz-TMG/Agentic-CIGEval.svg?style=social&label=Official)](https://github.com/HITsz-TMG/Agentic-CIGEval)
+
++ [Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models](https://arxiv.org/abs/2412.09645) (2024-12-10)
+[![Code](https://img.shields.io/github/stars/Vchitect/Evaluation-Agent.svg?style=social&label=Official)](https://github.com/Vchitect/Evaluation-Agent)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/Evaluation-Agent-project/)
+
++ [VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://arxiv.org/abs/2503.23452) (2025-03-30)
+[![Code](https://img.shields.io/github/stars/AILab-CVC/VideoGen-Eval.svg?style=social&label=Official)](https://github.com/AILab-CVC/VideoGen-Eval)
+[![Website](https://img.shields.io/badge/Website-9cf)](https://ailab-cvc.github.io/VideoGen-Eval/)
+
++ [Evaluating Hallucination in Text-to-Image Diffusion Models with Scene-Graph based Question-Answering Agent](https://arxiv.org/abs/2412.05722) (2024-12-07)
 
 
 <a name="4."></a>
