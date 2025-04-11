@@ -739,6 +739,21 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
++ [VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://arxiv.org/abs/2503.23452) (2025-03-30)  
+  [![Code](https://img.shields.io/github/stars/AILab-CVC/VideoGen-Eval.svg?style=social&label=Official)](https://github.com/AILab-CVC/VideoGen-Eval)
+
++ [Video-Bench: Human Preference Aligned Video Generation Benchmark](https://arxiv.org/abs/2504.04907) (2025-04-07)  
+  [![Code](https://img.shields.io/github/stars/Video-Bench/Video-Bench.svg?style=social&label=Official)](https://github.com/Video-Bench/Video-Bench)
+
++ [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/abs/2504.02918) (2025-04-03)
+
++ [Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing](https://arxiv.org/abs/2504.02826) (2025-04-03)
+[![Code](https://img.shields.io/github/stars/PhoenixZ810/RISEBench.svg?style=social&label=Official)](https://github.com/PhoenixZ810/RISEBench)
+
++ [VinaBench: Benchmark for Faithful and Consistent Visual Narratives](https://arxiv.org/abs/2503.20871) (2025-03-26)
+[![Code](https://img.shields.io/github/stars/Silin159/VinaBench.svg?style=social&label=Official)](https://github.com/Silin159/VinaBench)
+
++ [ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867) (2025-03-21)
 + [Is Your World Simulator a Good Story Presenter? A Consecutive Events-Based Benchmark for Future Long Video Generation](https://arxiv.org/abs/2412.16211) (2024-12-17)
   ><i>Note: focus on storytelling. </i>
 
@@ -872,22 +887,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [Make It Move: Controllable Image-to-Video Generation with Text Descriptions](https://arxiv.org/abs/2112.02815) (2021-12-06, CVPR 2022)  
   [![Code](https://img.shields.io/github/stars/Youncy-Hu/MAGE.svg?style=social&label=Official)](https://github.com/Youncy-Hu/MAGE)
-
-+ [VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://arxiv.org/abs/2503.23452) (2025-03-30)  
-  [![Code](https://img.shields.io/github/stars/AILab-CVC/VideoGen-Eval.svg?style=social&label=Official)](https://github.com/AILab-CVC/VideoGen-Eval)
-
-+ [Video-Bench: Human Preference Aligned Video Generation Benchmark](https://arxiv.org/abs/2504.04907) (2025-04-07)  
-  [![Code](https://img.shields.io/github/stars/Video-Bench/Video-Bench.svg?style=social&label=Official)](https://github.com/Video-Bench/Video-Bench)
-
-+ [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/abs/2504.02918) (2025-04-03)
-
-+ [Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing](https://arxiv.org/abs/2504.02826) (2025-04-03)
-[![Code](https://img.shields.io/github/stars/PhoenixZ810/RISEBench.svg?style=social&label=Official)](https://github.com/PhoenixZ810/RISEBench)
-
-+ [VinaBench: Benchmark for Faithful and Consistent Visual Narratives](https://arxiv.org/abs/2503.20871) (2025-03-26)
-[![Code](https://img.shields.io/github/stars/Silin159/VinaBench.svg?style=social&label=Official)](https://github.com/Silin159/VinaBench)
-
-+ [ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867) (2025-03-21)
   
 
 #### 3.5.2. Evaluation of Image-to-Video Generation
