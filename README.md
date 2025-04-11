@@ -951,6 +951,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.6."></a>
 ### 3.6. Evaluation of Text-to-Motion Generation
 
++ [VMBench: A Benchmark for Perception-Aligned Video Motion Generation](https://arxiv.org/abs/2503.10076) (2024-03-13)  
+
 + [MoDiPO: text-to-motion alignment via AI-feedback-driven Direct Preference Optimization](https://arxiv.org/abs/2405.03803) (2024-05-06)  
 
 + [What is the Best Automated Metric for Text to Motion Generation?](https://arxiv.org/abs/2309.10248) (2023-09-19) 
