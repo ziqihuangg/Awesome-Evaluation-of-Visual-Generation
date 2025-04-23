@@ -898,6 +898,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [StoryBench: A Multifaceted Benchmark for Continuous Story Visualization](https://arxiv.org/abs/2308.11606) (2023-08-22, NeurIPS 2023)  
   [![Code](https://img.shields.io/github/stars/google/storybench.svg?style=social&label=Official)](https://github.com/google/storybench)
 
++ [Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives](https://arxiv.org/abs/2211.04894) (2023-03-07, ICCV 2023)  
+  [![Code](https://img.shields.io/github/stars/VQAssessment/DOVER.svg?style=social&label=Official)](https://github.com/VQAssessment/DOVER)
+  > <i>Note: Aesthetic View & Technical View</i>
+
 + [CelebV-Text: A Large-Scale Facial Text-Video Dataset](https://arxiv.org/abs/2303.14717) (2023-03-26, CVPR 2023)  
   [![Code](https://img.shields.io/github/stars/CelebV-Text/CelebV-Text.svg?style=social&label=Official)](https://github.com/CelebV-Text/CelebV-Text)  [![Website](https://img.shields.io/badge/Website-9cf)](https://celebv-text.github.io/)  
   > <i>Note: Benchmark on Facial Text-to-Video Generation</i>
