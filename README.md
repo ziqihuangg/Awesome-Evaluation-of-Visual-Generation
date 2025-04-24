@@ -548,9 +548,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation](https://arxiv.org/abs/2305.01569) (2023-05-02)  
   [![Code](https://img.shields.io/github/stars/yuvalkirstain/PickScore.svg?style=social&label=Official)](https://github.com/yuvalkirstain/PickScore)
 
-+ [Analysis of Appeal for Realistic AI-Generated Photos](https://ieeexplore.ieee.org/document/10103686) (2023-04-17) [![Code](https://img.shields.io/github/stars/yuvalkirstain/PickScore.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/avt_ai_images)
++ [Analysis of Appeal for Realistic AI-Generated Photos](https://ieeexplore.ieee.org/document/10103686) (2023-04-17) [![Code](https://img.shields.io/github/stars/Telecommunication-Telemedia-Assessment/avt_ai_images.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/avt_ai_images)
 
-+ [Appeal and quality assessment for AI-generated images](https://ieeexplore.ieee.org/document/10178486) (2023-06-22) [![Code](https://img.shields.io/github/stars/yuvalkirstain/PickScore.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/avt_ai_images)
++ [Appeal and quality assessment for AI-generated images](https://ieeexplore.ieee.org/document/10178486) (2023-06-22) [![Code](https://img.shields.io/github/stars/Telecommunication-Telemedia-Assessment/avt_ai_images.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/avt_ai_images)
 
 + [Diagnostic Benchmark and Iterative Inpainting for Layout-Guided Image Generation](https://arxiv.org/abs/2304.06671) (2023-04-13) 
 [![Code](https://img.shields.io/github/stars/j-min/IterInpaint.svg?style=social&label=Official)](https://github.com/j-min/IterInpaint)
@@ -1646,7 +1646,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [A note on the evaluation of generative models](https://arxiv.org/abs/1511.01844) (2015-11-05)
 
-+ [Appeal prediction for AI up-scaled Images](https://arxiv.org/abs/2502.14013) (2024-12-12) [![Code](https://img.shields.io/github/stars/yuvalkirstain/PickScore.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/ai_upscaling)
++ [Appeal prediction for AI up-scaled Images](https://arxiv.org/abs/2502.14013) (2024-12-12) [![Code](https://img.shields.io/github/stars/Telecommunication-Telemedia-Assessment/ai_upscaling.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/ai_upscaling)
 
 ### 6.4. Competition
 + [NTIRE 2024 Quality Assessment of AI-Generated Content Challenge](https://arxiv.org/abs/2404.16687) (2024-04-25)
