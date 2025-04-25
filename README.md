@@ -271,7 +271,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.2. Evaluation of Text-to-Image Generation
 
 + [LMM4LMM: Benchmarking and Evaluating Large-multimodal Image Generation with LMMs](https://arxiv.org/abs/2504.08358) (2025-04-11)
-  [![Code](https://img.shields.io/github/stars/IntMeGroup/LMM4LMM.svg?style=social&label=Official)](https://github.com/IntMeGroup/LMM4LMM) 
+  [![Code](https://img.shields.io/github/stars/IntMeGroup/LMM4LMM.svg?style=social&label=Official)](https://github.com/IntMeGroup/LMM4LMM)
+
++ [Robust and Discriminative Speaker Embedding via  Intra-Class Distance Variance Regularization](https://www.isca-archive.org/interspeech_2018/le18_interspeech.html) (2018-09)
+  ><i>Note: IntraClass Average Distance(ICAD) - Diversity </i>
 
 + [REAL: Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation](https://arxiv.org/abs/2502.10663). (2025-02-15)
 
