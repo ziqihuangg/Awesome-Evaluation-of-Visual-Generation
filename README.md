@@ -273,14 +273,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [LMM4LMM: Benchmarking and Evaluating Large-multimodal Image Generation with LMMs](https://arxiv.org/abs/2504.08358) (2025-04-11)
   [![Code](https://img.shields.io/github/stars/IntMeGroup/LMM4LMM.svg?style=social&label=Official)](https://github.com/IntMeGroup/LMM4LMM) 
 
-+ [POET: Supporting Prompting Creativity and Personalization with Automated Expansion of Text-to-Image Generation](https://arxiv.org/abs/2504.13392) (2025-04-18)
-
-+ [Wavelet-based Variational Autoencoders for High-Resolution Image Generation](https://arxiv.org/abs/2504.13214) (2025-04-16)
-
-+ [Instruction-augmented Multimodal Alignment for Image-Text and Element Matching](https://arxiv.org/abs/2504.12018) (2025-04-16)
-
-+ [Generalized Visual Relation Detection with Diffusion Models](https://arxiv.org/abs/2504.12100) (2025-04-16)
-
 + [REAL: Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation](https://arxiv.org/abs/2502.10663). (2025-02-15)
 
 + [Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models](https://arxiv.org/abs/2412.09645) (2024-12-16)
@@ -633,8 +625,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
-
-+ [SmartFreeEdit: Mask-Free Spatial-Aware Image Editing with Complex Instruction Understanding](https://arxiv.org/abs/2504.12704) (2025-04-17) 
 
 + [Learning Action and Reasoning-Centric Image Editing from Videos and Simulations](https://arxiv.org/abs/2407.03471) (2024-07-03) 
   > <i>Note: AURORA-Bench introduced</i>
