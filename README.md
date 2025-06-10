@@ -65,7 +65,7 @@ This repository is updated periodically. If you have suggestions for additional 
 
 + [Towards a Scalable Reference-Free Evaluation of Generative Models](https://arxiv.org/abs/2407.02961) (2024-07-03)
 
-+ [Fine-tuning Diffusion Models for Enhancing Face Quality in Text-to-image Generation](https://arxiv.org/abs/2406.17100) (2024-06-24)
++ [FaceScore: Benchmarking and Enhancing Face Quality in Human Generation](https://arxiv.org/abs/2406.17100) (2024-06-24)
   ><i>Note: Face Score introduced</i>
 
 + [Global-Local Image Perceptual Score (GLIPS): Evaluating Photorealistic Quality of AI-Generated Images](https://arxiv.org/abs/2405.09426) (2024-05-15)
