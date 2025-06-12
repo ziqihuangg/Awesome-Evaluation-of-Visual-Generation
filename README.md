@@ -248,6 +248,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.1."></a>
 ### 3.1. Evaluation of Unconditional Image Generation
 
++ [AesBench: An Expert Benchmark for Multimodal Large Language Models on Image Aesthetics Perception](https://arxiv.org/abs/2401.08276) (2024-01-16) 
+
 + [A Lightweight Generalizable Evaluation and Enhancement Framework for Generative Models and Generated Samples](https://ieeexplore.ieee.org/document/10495634) (2024-04-16) 
 
 + [Anomaly Score: Evaluating Generative Models and Individual Generated Images based on Complexity and Vulnerability](https://arxiv.org/abs/2312.10634) (2023-12-17, CVPR 2024) 
