@@ -627,6 +627,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation](https://arxiv.org/abs/2504.02782) (2025-04-03)
 [![Code](https://img.shields.io/github/stars/PicoTrex/GPT-ImgEval.svg?style=social&label=Official)](https://github.com/PicoTrex/GPT-ImgEval)
 
++ [R2I-Bench: Benchmarking Reasoning-Driven Text-to-Image Generation](https://arxiv.org/abs/2505.23493) (2025-05-28)
 
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
