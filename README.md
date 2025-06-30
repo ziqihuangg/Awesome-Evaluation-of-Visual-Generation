@@ -750,6 +750,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
 
++ [BrokenVideos: A Benchmark Dataset for Fine-Grained Artifact Localization in AI-Generated Videos](https://arxiv.org/abs/2506.20103) (2025-06-25) 
+
 + [LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation](https://arxiv.org/abs/2505.12098) (2025-05-17) 
 
 + [AIGVE-Tool: AI-Generated Video Evaluation Toolkit with Multifaceted Benchmark](https://arxiv.org/abs/2503.14064) (2025-04-18) 
