@@ -1013,7 +1013,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [The Factuality Tax of Diversity-Intervened Text-to-Image Generation: Benchmark and Fact-Augmented Intervention](https://arxiv.org/abs/2407.00377) (2024-06-29)
 
 
-+ [EquiPrompt: Debiasing Diffusion Models via Iterative Bootstrapping in Chain of Thoughts](https://arxiv.org/abs/2406.09070) (2024-06-13)
++ [FairCoT: Enhancing Fairness in Text-to-Image Generation via Chain of Thought Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2406.09070) (2024-06-13)
   ><i>Note: Normalized Entropy metric introduced</i>
 
 + [Latent Directions: A Simple Pathway to Bias Mitigation in Generative AI](https://arxiv.org/abs/2406.06352) (2024-06-10)
