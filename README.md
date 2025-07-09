@@ -272,6 +272,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [Why Settle for One? Text-to-ImageSet Generation and Evaluation](https://arxiv.org/abs/2506.23275) (2025-06-29)
+
 + [LMM4LMM: Benchmarking and Evaluating Large-multimodal Image Generation with LMMs](https://arxiv.org/abs/2504.08358) (2025-04-11)
   [![Code](https://img.shields.io/github/stars/IntMeGroup/LMM4LMM.svg?style=social&label=Official)](https://github.com/IntMeGroup/LMM4LMM)
 
@@ -750,6 +752,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
+
++ [Are Synthetic Videos Useful? A Benchmark for Retrieval-Centric Evaluation of Synthetic Videos](https://arxiv.org/abs/2507.02316) (2025-07-03) 
+
++ [AIGVE-MACS: Unified Multi-Aspect Commenting and Scoring Model for AI-Generated Video Evaluation](https://arxiv.org/abs/2507.01255) (2025-07-02) 
 
 + [BrokenVideos: A Benchmark Dataset for Fine-Grained Artifact Localization in AI-Generated Videos](https://arxiv.org/abs/2506.20103) (2025-06-25) 
 
