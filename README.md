@@ -272,6 +272,12 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [Commonsense-T2I Challenge: Can Text-to-Image Generation Models Understand Commonsense?](https://arxiv.org/abs/2406.07546) (2024-08-12)
+ [![Website](https://img.shields.io/badge/Website-9cf)](https://zeyofu.github.io/CommonsenseT2I/)
+
++ [WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation](https://arxiv.org/abs/2503.07265) (2025-05-27)
+  [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/WISE.svg?style=social&label=Official)](https://github.com/PKU-YuanGroup/WISE)
+
 + [Why Settle for One? Text-to-ImageSet Generation and Evaluation](https://arxiv.org/abs/2506.23275) (2025-06-29)
 
 + [LMM4LMM: Benchmarking and Evaluating Large-multimodal Image Generation with LMMs](https://arxiv.org/abs/2504.08358) (2025-04-11)
