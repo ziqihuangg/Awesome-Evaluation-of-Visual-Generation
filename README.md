@@ -1562,6 +1562,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 6.2. Survey
 
++ [Motion Generation: A Survey of Generative Approaches and Benchmarks](https://arxiv.org/abs/2507.05419) (2025-07-07)
+
++ [Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions](https://arxiv.org/abs/2507.02900) (2025-06-23)
+
 + [Survey of Video Diffusion Models: Foundations, Implementations, and Applications](https://arxiv.org/abs/2504.16081) (2025-04-22)
 
 + [A Survey on Quality Metrics for Text-to-Image Generation](https://arxiv.org/abs/2403.11821) (2024-03-18)
