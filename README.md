@@ -1588,7 +1588,6 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [A Survey on Long Video Generation: Challenges, Methods, and Prospects](https://arxiv.org/abs/2403.16407) (2024-03-25)
 
   > <i>Note: Refer to table 2 for evaluation metrics for long video generation</i>
-+ [Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics](https://arxiv.org/abs/2403.11821) (2024-03-18)  
 
 + [Sora as an AGI World Model? A Complete Survey on Text-to-Video Generation](https://arxiv.org/abs/2403.05131) (2024-03-08) 
 
