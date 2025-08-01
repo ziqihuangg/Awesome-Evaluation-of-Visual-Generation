@@ -160,6 +160,8 @@ This repository is updated periodically. If you have suggestions for additional 
 + [Learning to Generate Images with Perceptual Similarity Metrics](https://arxiv.org/abs/1511.06409) (2015-11-19)
   > <i>Multiscale structural-similarity score introduced</i>
 
++ [A No-Reference Image Blur Metric Based on the Cumulative Probability of Blur Detection (CPBD)](https://ieeexplore.ieee.org/document/5739529) (2011-03-28) 
+
 
 <a name="1.2."></a>
 ### 1.2. Evaluation Metrics of Video Generation
