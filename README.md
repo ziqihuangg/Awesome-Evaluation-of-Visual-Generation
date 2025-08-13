@@ -191,11 +191,20 @@ This repository is updated periodically. If you have suggestions for additional 
 | CLIP Score (`a.k.a.` CLIPSIM) | Text | cosine similarity between the CLIP image and text embeddings |  [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) | [CLIP Paper](https://arxiv.org/abs/2103.00020) (ICML 2021). Metrics first used in [CLIPScore Paper](https://arxiv.org/abs/2104.08718) (arXiv 2021) and [GODIVA Paper](https://arxiv.org/abs/2104.14806) (arXiv 2021) applies it in video evaluation. |
 | Mask Accuracy | Segmentation Mask | predict the segmentatio mask, and compute pixel-wise accuracy against the ground-truth segmentation mask | any segmentation method for your setting |
 | DINO Similarity | Image of a Subject (human / object *etc*) | cosine similarity between the DINO embeddings of the generated image and the condition image | [![Code](https://img.shields.io/github/stars/facebookresearch/dino.svg?style=social&label=DINO)](https://github.com/facebookresearch/dino) | [DINO paper](https://arxiv.org/abs/2104.14294). Metric is proposed in [DreamBooth](https://arxiv.org/abs/2208.12242).
+| FaceSim-Cur | Face image of human | cosine similarity between the curricularface embeddings of the generated face and the input face | [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/ConsisID.svg?style=social&label=FaceSim-Cur)](https://github.com/PKU-YuanGroup/ConsisID) | Metric is proposed in [ConsisID](https://arxiv.org/abs/2411.17440).
+| NexusScore | Identity Consistency | image retrieval + cosine similarity | [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/OpenS2V-Nexus.svg?style=social&label=NexusScore)](https://github.com/PKU-YuanGroup/OpenS2V-Nexus) | Metric is proposed in [OpenS2V-Nexus](https://arxiv.org/abs/2505.20292).
+| NaturalScore | Identity Naturalness | prompting gpt4o | [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/OpenS2V-Nexus.svg?style=social&label=NexusScore)](https://github.com/PKU-YuanGroup/OpenS2V-Nexus) | Metric is proposed in [OpenS2V-Nexus](https://arxiv.org/abs/2505.20292).
+| GmeScore | Text | cosine similarity between the GME image and text embeddings | [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/OpenS2V-Nexus.svg?style=social&label=NexusScore)](https://github.com/PKU-YuanGroup/OpenS2V-Nexus) | Metric is proposed in [OpenS2V-Nexus](https://arxiv.org/abs/2505.20292).
+
 <!-- | Identity Consistency | Image of a Face |  | - | -->
 
 <!-- 
 Papers for CLIP Similarity:
 [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (ICML 2021), [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718) (arXiv 2021), [GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions](https://arxiv.org/abs/2104.14806) (arXiv 2021) | [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) -->
+
++ NexusScore, NaturalScore and GmeScore from [OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for Subject-to-Video Generation](https://arxiv.org/abs/2505.20292) (2025-06-03)
+
++ FaceSim-Cur from [Identity-Preserving Text-to-Video Generation by Frequency Decomposition](https://arxiv.org/abs/2411.17440) (2024-11-26)
 
 + Manipulation Direction (MD) from [Manipulation Direction: Evaluating Text-Guided Image Manipulation Based on Similarity between Changes in Image and Text Modalities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10675000/) (2023-11-20)
 
@@ -767,6 +776,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [BrokenVideos: A Benchmark Dataset for Fine-Grained Artifact Localization in AI-Generated Videos](https://arxiv.org/abs/2506.20103) (2025-06-25) 
 
++ [OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for Subject-to-Video Generation](https://arxiv.org/abs/2505.20292) (2025-06-03)
+  [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/OpenS2V-Nexus.svg?style=social&label=Official)](https://github.com/PKU-YuanGroup/OpenS2V-Nexus) 
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/OpenS2V-Nexus/)
+  ><i>Note: The first open-sourced infrastructure (OpenS2V-Eval & OpenS2V-5M) for Subject-to-Video generation</i>
+
 + [LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation](https://arxiv.org/abs/2505.12098) (2025-05-17) 
 
 + [AIGVE-Tool: AI-Generated Video Evaluation Toolkit with Multifaceted Benchmark](https://arxiv.org/abs/2503.14064) (2025-04-18) 
@@ -831,7 +845,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Evaluation of Text-to-Video Generation Models: A Dynamics Perspective](https://arxiv.org/abs/2407.01094) (2024-07-01)
 
 
-
 + [T2VBench: Benchmarking Temporal Dynamics for Text-to-Video Generation](https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/html/Ji_T2VBench_Benchmarking_Temporal_Dynamics_for_Text-to-Video_Generation_CVPRW_2024_paper.html) (2024-06)
 
 
@@ -842,10 +855,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 
 + [ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation](https://arxiv.org/abs/2406.18522) (2024-06-26)
-[![Code](https://img.shields.io/github/stars/PKU-YuanGroup/ChronoMagic-Bench)](https://github.com/PKU-YuanGroup/ChronoMagic-Bench)
-[![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/ChronoMagic-Bench/)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/BestWishYsh/ChronoMagic-Bench)
-
+  [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/ChronoMagic-Bench)](https://github.com/PKU-YuanGroup/ChronoMagic-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/ChronoMagic-Bench/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/BestWishYsh/ChronoMagic-Bench)
+  ><i>Note: Comprehensive time-lapse (biological, human created, meteorological, physical) benchmark introduced</i>
+  
 + [VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation](https://arxiv.org/abs/2406.15252) (2024-06-21)
 [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/VideoScore)](https://github.com/TIGER-AI-Lab/VideoScore)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/TIGER-Lab/VideoFeedback)
