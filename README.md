@@ -199,8 +199,10 @@ Papers for CLIP Similarity:
 [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (ICML 2021), [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718) (arXiv 2021), [GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions](https://arxiv.org/abs/2104.14806) (arXiv 2021) | [![Code](https://img.shields.io/github/stars/openai/CLIP.svg?style=social&label=CLIP)](https://github.com/openai/CLIP) [PyTorch Lightning](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html) -->
 
 + NexusScore, NaturalScore and GmeScore from [OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for Subject-to-Video Generation](https://arxiv.org/abs/2505.20292) (2025-06-03)
+  ><i>Note: NexusScore - Identity Consistency - image retrieval + cosine similarity; NaturalScore - Identity Naturalness - prompting gpt4o; GmeScore - Text - cosine similarity between the GME image and text embeddings.</i>
 
 + FaceSim-Cur from [Identity-Preserving Text-to-Video Generation by Frequency Decomposition](https://arxiv.org/abs/2411.17440) (2024-11-26)
+  ><i>Note: NFaceSim-Cur - Face image of human - cosine similarity between the curricularface embeddings of the generated face and the input face.</i>
 
 + Manipulation Direction (MD) from [Manipulation Direction: Evaluating Text-Guided Image Manipulation Based on Similarity between Changes in Image and Text Modalities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10675000/) (2023-11-20)
 
