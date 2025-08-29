@@ -1024,6 +1024,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
 
++ [MLLM-as-a-Judge for Image Safety without Human Labeling](https://arxiv.org/abs/2501.00192) (2024-12-31) 
 
 + [VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2411.13503) (2024-11-20) 
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_trustworthiness)
