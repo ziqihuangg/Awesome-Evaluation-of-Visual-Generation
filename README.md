@@ -281,6 +281,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [What Makes a Scene ? Scene Graph-based Evaluation and Feedback for Controllable Generation](https://arxiv.org/abs/2411.15435) (2024-05-26)
+
 + [Commonsense-T2I Challenge: Can Text-to-Image Generation Models Understand Commonsense?](https://arxiv.org/abs/2406.07546) (2024-08-12)
  [![Website](https://img.shields.io/badge/Website-9cf)](https://zeyofu.github.io/CommonsenseT2I/)
 
@@ -779,7 +781,9 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/OpenS2V-Nexus/)
   ><i>Note: The first open-sourced infrastructure (OpenS2V-Eval & OpenS2V-5M) for Subject-to-Video generation</i>
 
-+ [LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation](https://arxiv.org/abs/2505.12098) (2025-05-17) 
++ [LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation](https://arxiv.org/abs/2505.12098) (2025-05-17)
+
++ [On the Consistency of Video Large Language Models in Temporal Comprehension](https://arxiv.org/abs/2411.12951) (2025-05-17) 
 
 + [AIGVE-Tool: AI-Generated Video Evaluation Toolkit with Multifaceted Benchmark](https://arxiv.org/abs/2503.14064) (2025-04-18) 
 
@@ -805,7 +809,6 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Vchitect/Evaluation-Agent.svg?style=social&label=Official)](https://github.com/Vchitect/Evaluation-Agent) 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/Evaluation-Agent-project/)
   ><i>Note: focus on efficient and dynamic evaluation. </i>
-
 
 + [Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](https://arxiv.org/abs/2411.16718) (2024-12-03)
   ><i>Note: focus on temporally text-video alignment (event order, accuracy)</i>
