@@ -1239,6 +1239,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning](https://arxiv.org/abs/2508.21066) (2025-08-28)[![Code](https://img.shields.io/github/stars/bytedance/OneReward)](https://github.com/bytedance/OneReward) [![Website](https://img.shields.io/badge/Website-9cf)](https://one-reward.github.io)
+
 + [Prompt-A-Video: Prompt Your Video Diffusion Model via Preference-Aligned LLM](https://arxiv.org/abs/2412.15156) (2024-12-19) [![Code](https://img.shields.io/github/stars/jiyt17/Prompt-A-Video.svg?style=social&label=Official)](https://github.com/jiyt17/Prompt-A-Video)
 
 + [Improved video generation with human feedback](https://arxiv.org/pdf/2501.13918) (2025-01-23) [![Website](https://img.shields.io/badge/Website-9cf)](https://gongyeliu.github.io/videoalign/)
@@ -1253,14 +1255,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion](https://arxiv.org/abs/2407.21032) (2024-07-17, ECCV 2024) 
 
-
-
-
-
 + [Subject-driven Text-to-Image Generation via Preference-based Reinforcement Learning](https://arxiv.org/abs/2407.12164) (2024-07-16)
-
-
-
 
 + [Video Diffusion Alignment via Reward Gradients](https://arxiv.org/abs/2407.08737) (2024-07-11)
 [![Code](https://img.shields.io/github/stars/mihirp1998/VADER)](https://github.com/mihirp1998/VADER) [![Website](https://img.shields.io/badge/Website-9cf)](https://vader-vid.github.io/)
