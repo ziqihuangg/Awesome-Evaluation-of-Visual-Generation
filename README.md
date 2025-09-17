@@ -1577,6 +1577,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 6.2. Survey
 
++ [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) (2025-03-23)
+
 + [Survey of Bias In Text-to-Image Generation: Definition, Evaluation, and Mitigation](https://arxiv.org/abs/2404.01030) (2024-05-01)
 
 + [Motion Generation: A Survey of Generative Approaches and Benchmarks](https://arxiv.org/abs/2507.05419) (2025-07-07)
