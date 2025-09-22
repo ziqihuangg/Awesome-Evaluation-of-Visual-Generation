@@ -280,6 +280,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
++ [GenExam: A Multidisciplinary Text-to-Image Exam](https://arxiv.org/abs/2509.14232) (2025-09-18)
+  [![Code](https://img.shields.io/github/stars/OpenGVLab/GenExam.svg?style=social&label=Official)](https://github.com/OpenGVLab/GenExam)
 
 + [What Makes a Scene ? Scene Graph-based Evaluation and Feedback for Controllable Generation](https://arxiv.org/abs/2411.15435) (2024-05-26)
 
