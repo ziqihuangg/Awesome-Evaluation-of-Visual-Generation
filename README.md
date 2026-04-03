@@ -772,6 +772,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
 
++ [LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference](https://arxiv.org/abs/2510.11512) (2025-10-13)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://yuanjianhao508.github.io/LikePhys/)
+  ><i>Note: likelihood-preference benchmark for evaluating intuitive physics understanding in video diffusion models.</i>
+
 + [Are Synthetic Videos Useful? A Benchmark for Retrieval-Centric Evaluation of Synthetic Videos](https://arxiv.org/abs/2507.02316) (2025-07-03) 
 
 + [AIGVE-MACS: Unified Multi-Aspect Commenting and Scoring Model for AI-Generated Video Evaluation](https://arxiv.org/abs/2507.01255) (2025-07-02) 
