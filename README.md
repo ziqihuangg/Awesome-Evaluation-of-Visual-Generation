@@ -1234,6 +1234,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [A Unified Agentic Framework for Evaluating Conditional Image Generation](https://arxiv.org/abs/2504.07046) (2025-04-09)
 [![Code](https://img.shields.io/github/stars/HITsz-TMG/Agentic-CIGEval.svg?style=social&label=Official)](https://github.com/HITsz-TMG/Agentic-CIGEval)
 
++ [StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs](https://arxiv.org/abs/2505.20139) (TMLR 2025)
+[![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/StructEval.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/StructEval) [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/StructEval/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/TIGER-Lab/StructEval)
+
 + [Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models](https://arxiv.org/abs/2412.09645) (2024-12-10)
 [![Code](https://img.shields.io/github/stars/Vchitect/Evaluation-Agent.svg?style=social&label=Official)](https://github.com/Vchitect/Evaluation-Agent)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/Evaluation-Agent-project/)
