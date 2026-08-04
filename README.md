@@ -40,6 +40,7 @@ This repository is updated periodically. If you have suggestions for additional 
   - [3.7. Evaluation of Model Trustworthiness](#3.7.)
   - [3.8. Evaluation of Entity Relation](#3.8.)
   - [3.9. Agentic Evaluation](#3.9.)
+  - [3.10. Evaluation of Unified Multimodal Models](#3.10.)
 - [4. Improving Visual Generation with Evaluation / Feedback / Reward](#4.)
 - [5. Quality Assessment for AIGC](#5.)
 - [6. Study and Rethinking](#6.)
@@ -280,6 +281,23 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
++ Scendi Score from [Scendi Score: Prompt-Aware Diversity Evaluation via Schur Complement of CLIP Embeddings](https://openaccess.thecvf.com/content/ICCV2025/papers/Ospanov_Scendi_Score_Prompt-Aware_Diversity_Evaluation_via_Schur_Complement_of_CLIP_ICCV_2025_paper.pdf) (ICCV 2025)
+  [![Code](https://img.shields.io/github/stars/aziksh-ospanov/scendi-score.svg?style=social&label=Official)](https://github.com/aziksh-ospanov/scendi-score)
+  ><i>Note: Introduces the Scendi Score for prompt-aware diversity evaluation.</i>
+
++ [P2P: Automated Paper-to-Poster Generation and Fine-Grained Benchmark](https://proceedings.iclr.cc/paper_files/paper/2026/file/1fe6f635fe265292aba3987b5123ae3d-Paper-Conference.pdf) (ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/multimodal-art-projection/P2P.svg?style=social&label=Official)](https://github.com/multimodal-art-projection/P2P)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ASC8384/P2PInstruct)
+
++ [Too Vivid to Be Real? Benchmarking and Calibrating Generative Color Fidelity](https://arxiv.org/abs/2603.10990) (CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/ZhengyaoFang/CFM.svg?style=social&label=Official)](https://github.com/ZhengyaoFang/CFM)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Nineve/CFM_7B)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zhengyaofang.github.io/CFM/)
+  ><i>Note: Introduces the Color Fidelity Metric (CFM).</i>
+
++ [PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](https://arxiv.org/pdf/2603.24078) (2026-03)
+  [![Code](https://img.shields.io/github/stars/ArtmeScienceLab/PosterIQ-Benchmark.svg?style=social&label=Official)](https://github.com/ArtmeScienceLab/PosterIQ-Benchmark)
+
 + [MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](https://arxiv.org/abs/2511.22989) (2025/11/28) ![Code](https://img.shields.io/github/stars/matsuolab/multibanana.svg?style=social&label=Star)
 + [GenExam: A Multidisciplinary Text-to-Image Exam](https://arxiv.org/abs/2509.14232) (2025-09-18)
   [![Code](https://img.shields.io/github/stars/OpenGVLab/GenExam.svg?style=social&label=Official)](https://github.com/OpenGVLab/GenExam)
@@ -654,6 +672,15 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ ChartE³: A Comprehensive Benchmark for End-to-End Chart Editing
+  [![Code](https://img.shields.io/github/stars/galactic123/ChartE3.svg?style=social&label=Official)](https://github.com/galactic123/ChartE3)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/lishuo123/ChartE3/tree/main)
+
++ [UnicEdit-10M: A Dataset and Benchmark Breaking the Scale-Quality Barrier via Unified Verification for Reasoning-Enriched Edits](https://openaccess.thecvf.com/content/CVPR2026/papers/Ye_UnicEdit-10M_A_Dataset_and_Benchmark_Breaking_the_Scale-Quality_Barrier_via_CVPR_2026_paper.pdf) (CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/WeChatCV/UnicBench.svg?style=social&label=Official)](https://github.com/WeChatCV/UnicBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/xiaotanhua/UnicBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://hongsexiaotanhua.github.io/UnicEdit-10M/)
+
 + [Learning Action and Reasoning-Centric Image Editing from Videos and Simulations](https://arxiv.org/abs/2407.03471) (2024-07-03) 
   > <i>Note: AURORA-Bench introduced</i>
 
@@ -772,6 +799,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
+
++ [ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhuang_ViStoryBench_Comprehensive_Benchmark_Suite_for_Story_Visualization_CVPR_2026_paper.pdf) (CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/ViStoryBench/vistorybench.svg?style=social&label=Official)](https://github.com/ViStoryBench/vistorybench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ViStoryBench/ViStoryBench)
 
 + [LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference](https://arxiv.org/abs/2510.11512) (2025-10-13)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://yuanjianhao508.github.io/LikePhys/)
@@ -973,6 +1004,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.3. Evaluation of Talking Face Generation
 
++ [Who is a Better Talker: Subjective and Objective Quality Assessment for AI-Generated Talking Heads](https://arxiv.org/pdf/2507.23343) (2025-07)
+
 + [OpFlowTalker: Realistic and Natural Talking Face Generation via Optical Flow Guidance](https://arxiv.org/abs/2405.14709) (2024-05-23)
   > <i>Note: VTCS to measures lip-readability in synthesized videos</i>
 
@@ -1006,6 +1039,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.4. Evaluation of World Generation
 
++ [WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World](https://worldbench.github.io/worldlens)
+  [![Code](https://img.shields.io/github/stars/worldbench/WorldLens.svg?style=social&label=Official)](https://github.com/worldbench/WorldLens)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/worldbench/videogen)
+
 + [WorldScore: A Unified Evaluation Benchmark for World Generation](https://arxiv.org/abs/2504.00983) (2025-04-01)
   [![Code](https://img.shields.io/github/stars/haoyi-duan/WorldScore.svg?style=social&label=Official)](https://github.com/haoyi-duan/WorldScore)  [![Website](https://img.shields.io/badge/Website-9cf)](https://haoyi-duan.github.io/WorldScore/)
 
@@ -1033,6 +1070,18 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.7. Evaluation of Model Trustworthiness
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
+
++ [HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing](https://arxiv.org/pdf/2605.24687) (2026-05)
+  [![Code](https://img.shields.io/github/stars/1059684669/HoloFair.svg?style=social&label=Official)](https://github.com/1059684669/HoloFair)
+  ><i>Note: Introduces the Multi-attribute, Group-wise Bias Index (MGBI).</i>
+
++ [JailbreakDiffBench: A Comprehensive Benchmark for Jailbreaking Diffusion Models](https://openaccess.thecvf.com/content/ICCV2025/html/Jin_JailbreakDiffBench_A_Comprehensive_Benchmark_for_Jailbreaking_Diffusion_Models_ICCV_2025_paper.html) (ICCV 2025)
+  [![Code](https://img.shields.io/github/stars/Jinxiaolong1129/JailbreakDiffusionBench.svg?style=social&label=Official)](https://github.com/Jinxiaolong1129/JailbreakDiffusionBench)
+
++ [EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Evaluation](https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_EMMA_Concept_Erasure_Benchmark_with_Comprehensive_Semantic_Metrics_and_Diverse_CVPR_2026_paper.pdf) (CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/lobsterlulu/EMMA.svg?style=social&label=Official)](https://github.com/lobsterlulu/EMMA)
+
++ [Erasing More Than Intended? How Concept Erasure Degrades the Generation of Non-Target Concepts](https://arxiv.org/pdf/2501.09833) (2025-01)
 
 + [Bias in Gender Bias Benchmarks: How Spurious Features Distort Evaluation](https://arxiv.org/abs/2509.07596) (2025-09-09)
 
@@ -1245,8 +1294,41 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Evaluating Hallucination in Text-to-Image Diffusion Models with Scene-Graph based Question-Answering Agent](https://arxiv.org/abs/2412.05722) (2024-12-07)
 
 
+<a name="3.10."></a>
+### 3.10. Evaluation of Unified Multimodal Models
+
++ [Unison: Benchmarking Unified Multimodal Models via Synergistic Understanding and Generation](https://fudancvl.github.io/Unison)
+  [![Code](https://img.shields.io/github/stars/FudanCVL/Unison.svg?style=social&label=Official)](https://github.com/FudanCVL/Unison)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/FudanCVL/Unison)
+
++ [MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models](https://proceedings.iclr.cc/paper_files/paper/2026/file/d8308c2c45cf95bfebb736be377f0982-Paper-Conference.pdf) (ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/MME-Benchmarks/MME-Unify.svg?style=social&label=Official)](https://github.com/MME-Benchmarks/MME-Unify)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/wulin222/MME-Unify)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mme-unify.github.io/)
+
++ [WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation](https://openaccess.thecvf.com/content/CVPR2026/papers/Chow_WEAVE_Unleashing_and_Benchmarking_the_In-context_Interleaved_Comprehension_and_Generation_CVPR_2026_paper.pdf) (CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/weichow23/weave.svg?style=social&label=Official)](https://github.com/weichow23/weave)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/WeiChow/WEAVE)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://weichow23.github.io/weave/)
+
++ [UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark](https://any2any-mllm.github.io/unim/)
+  [![Code](https://img.shields.io/github/stars/liyanlin06/UniM.svg?style=social&label=Official)](https://github.com/liyanlin06/UniM)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/yanlinli/UniM)
+
+
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [StyleDoctor: Towards Specialist Reward Model for Style-centric Generation Tasks](https://openaccess.thecvf.com/content/CVPR2026/papers/He_StyleDoctor_Towards_Specialist_Reward_Model_for_Style-centric_Generation_Tasks_CVPR_2026_paper.pdf) (CVPR 2026)
+
++ [PosterReward: Unlocking Accurate Evaluation for High-Quality Graphic Design Generation](https://openaccess.thecvf.com/content/CVPR2026/papers/Lai_PosterReward_Unlocking_Accurate_Evaluation_for_High-Quality_Graphic_Design_Generation_CVPR_2026_paper.pdf) (CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/MeiGen-AI/PosterReward.svg?style=social&label=Official)](https://github.com/MeiGen-AI/PosterReward)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/MeiGen-AI/PosterReward_v1)
+
++ [HPSv3: Towards Wide-Spectrum Human Preference Score](https://arxiv.org/pdf/2508.03789) (2025-08)
+  [![Code](https://img.shields.io/github/stars/MizzenAI/HPSv3.svg?style=social&label=Official)](https://github.com/MizzenAI/HPSv3)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/MizzenAI/HPSv3)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mizzenai.github.io/HPSv3.project/)
 
 + [OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning](https://arxiv.org/abs/2508.21066) (2025-08-28)[![Code](https://img.shields.io/github/stars/bytedance/OneReward)](https://github.com/bytedance/OneReward) [![Website](https://img.shields.io/badge/Website-9cf)](https://one-reward.github.io)
 
@@ -1492,6 +1574,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 ## 5. Quality Assessment for AIGC
 
 ### 5.1. Image Quality Assessment for AIGC
+
++ [E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_E-comIQ-ZH_A_Human-Aligned_Dataset_and_Benchmark_for_Fine-Grained_Evaluation_of_CVPR_2026_paper.html) (CVPR 2026)
 
 + [Descriptive Image Quality Assessment in the Wild](https://arxiv.org/abs/2405.18842) (2024-05-29)   
   [![Website](https://img.shields.io/badge/Website-9cf)](https://depictqa.github.io/depictqa-wild/)
