@@ -281,6 +281,21 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
++ [MMIG-Bench: Towards Comprehensive and Explainable Evaluation of Multi-Modal Image Generation Models](https://arxiv.org/pdf/2505.19415) (2025-05)
+  [![Code](https://img.shields.io/github/stars/hanghuacs/MMIG-Bench.svg?style=social&label=Official)](https://github.com/hanghuacs/MMIG-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://hanghuacs.github.io/MMIG-Bench/)
+  ><i>Note: Introduces the Aspect Matching Score (AMS).</i>
+
++ [SciFlow-Bench: Evaluating Structure-Aware Scientific Diagram Generation via Inverse Parsing](https://arxiv.org/pdf/2602.09809) (2026-02)
+  [![Code](https://img.shields.io/github/stars/Tong-0302/SciFlow-Bench.svg?style=social&label=Official)](https://github.com/Tong-0302/SciFlow-Bench)
+
++ [IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation](https://arxiv.org/pdf/2601.04498) (2026-01)
+  [![Code](https://img.shields.io/github/stars/MisterBrookT/IGenBench.svg?style=social&label=Official)](https://github.com/MisterBrookT/IGenBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Brookseeworld/IGenBench-Dataset)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://igen-bench.vercel.app/)
+
++ [Automatic and Reliable Evaluation for Academic Caption-to-Figure Generation with LMMs](https://aclanthology.org/2026.acl-long.2055.pdf) (ACL 2026)
+
 + Scendi Score from [Scendi Score: Prompt-Aware Diversity Evaluation via Schur Complement of CLIP Embeddings](https://openaccess.thecvf.com/content/ICCV2025/papers/Ospanov_Scendi_Score_Prompt-Aware_Diversity_Evaluation_via_Schur_Complement_of_CLIP_ICCV_2025_paper.pdf) (ICCV 2025)
   [![Code](https://img.shields.io/github/stars/aziksh-ospanov/scendi-score.svg?style=social&label=Official)](https://github.com/aziksh-ospanov/scendi-score)
   ><i>Note: Introduces the Scendi Score for prompt-aware diversity evaluation.</i>
@@ -672,6 +687,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ [Taming I2V Models for Image HOI Editing: A Cognitive Benchmark and Agentic Self-Correcting Framework](https://arxiv.org/pdf/2606.19073) (2026-06)
+  [![Code](https://img.shields.io/github/stars/oceanflowlab/HOI-Edit.svg?style=social&label=Official)](https://github.com/oceanflowlab/HOI-Edit)
+
++ [MICE-Bench: A Challenging and Comprehensive Benchmark for Multi-Reference Image Creation and Editing](https://icml.cc/virtual/2026/poster/66534) (ICML 2026)
+
 + ChartE³: A Comprehensive Benchmark for End-to-End Chart Editing
   [![Code](https://img.shields.io/github/stars/galactic123/ChartE3.svg?style=social&label=Official)](https://github.com/galactic123/ChartE3)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/lishuo123/ChartE3/tree/main)
@@ -808,6 +828,9 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://yuanjianhao508.github.io/LikePhys/)
   ><i>Note: likelihood-preference benchmark for evaluating intuitive physics understanding in video diffusion models.</i>
 
++ [Stable Cinemetrics: Structured Taxonomy and Evaluation for Professional Video Generation](https://arxiv.org/pdf/2509.26555) (2025-09)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://stable-cinemetrics.github.io/)
+
 + [Are Synthetic Videos Useful? A Benchmark for Retrieval-Centric Evaluation of Synthetic Videos](https://arxiv.org/abs/2507.02316) (2025-07-03) 
 
 + [AIGVE-MACS: Unified Multi-Aspect Commenting and Scoring Model for AI-Generated Video Evaluation](https://arxiv.org/abs/2507.01255) (2025-07-02) 
@@ -818,6 +841,10 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/OpenS2V-Nexus.svg?style=social&label=Official)](https://github.com/PKU-YuanGroup/OpenS2V-Nexus) 
   [![Website](https://img.shields.io/badge/Website-9cf)](https://pku-yuangroup.github.io/OpenS2V-Nexus/)
   ><i>Note: The first open-sourced infrastructure (OpenS2V-Eval & OpenS2V-5M) for Subject-to-Video generation</i>
+
++ [CineTechBench: A Benchmark for Cinematographic Technique Understanding and Generation](https://arxiv.org/pdf/2505.15145) (2025-05)
+  [![Code](https://img.shields.io/github/stars/PRIS-CV/CineTechBench.svg?style=social&label=Official)](https://github.com/PRIS-CV/CineTechBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Xinran0906/CineTechBench)
 
 + [LOVE: Benchmarking and Evaluating Text-to-Video Generation and Video-to-Text Interpretation](https://arxiv.org/abs/2505.12098) (2025-05-17)
 
@@ -840,6 +867,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/Silin159/VinaBench.svg?style=social&label=Official)](https://github.com/Silin159/VinaBench)
 
 + [ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867) (2025-03-21)
+
++ [UVE: Are MLLMs Unified Evaluators for AI-Generated Videos?](https://arxiv.org/pdf/2503.09949) (2025-03)
+  [![Code](https://img.shields.io/github/stars/bytedance/UVE.svg?style=social&label=Official)](https://github.com/bytedance/UVE)
+
 + [Is Your World Simulator a Good Story Presenter? A Consecutive Events-Based Benchmark for Future Long Video Generation](https://arxiv.org/abs/2412.16211) (2024-12-17)
   ><i>Note: focus on storytelling. </i>
 
@@ -854,6 +885,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [AIGV-Assessor: Benchmarking and Evaluating the Perceptual Quality of Text-to-Video Generation with LMM](https://arxiv.org/abs/2411.17221) (2024-11-26)
   [![Code](https://img.shields.io/github/stars/wangjiarui153/AIGV-Assessor.svg?style=social&label=Official)](https://github.com/wangjiarui153/AIGV-Assessor) 
   ><i>Note: fuild motion, light change, motion speed, event order. </i>
+
++ [Human-Activity AGV Quality Assessment: A Benchmark Dataset and an Objective Evaluation Metric](https://arxiv.org/abs/2411.16619) (2024-11)
+  [![Code](https://img.shields.io/github/stars/zczhang-sjtu/GHVQ.svg?style=social&label=Official)](https://github.com/zczhang-sjtu/GHVQ)
+  ><i>Note: Introduces the AI-Generated Human Activity Video Quality metric (GHVQ).</i>
 
 + [What You See Is What Matters: A Novel Visual and Physics-Based Metric for Evaluating Video Generation Quality](https://arxiv.org/abs/2411.13609) (2024-11-24)
   ><i>Note: texture evaluation scheme introduced</i>
@@ -1039,6 +1074,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.4. Evaluation of World Generation
 
++ [WorldModelBench: Judging Video Generation Models As World Models](https://arxiv.org/pdf/2502.20694) (2025-02)
+  [![Code](https://img.shields.io/github/stars/WorldModelBench-Team/WorldModelBench.svg?style=social&label=Official)](https://github.com/WorldModelBench-Team/WorldModelBench/tree/main?tab=readme-ov-file#evaluation)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://worldmodelbench-team.github.io/)
+
 + [WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World](https://worldbench.github.io/worldlens)
   [![Code](https://img.shields.io/github/stars/worldbench/WorldLens.svg?style=social&label=Official)](https://github.com/worldbench/WorldLens)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/worldbench/videogen)
@@ -1070,6 +1109,13 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.7. Evaluation of Model Trustworthiness
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
+
++ [OVERT: A Benchmark for Over-Refusal Evaluation on Text-to-Image Models](https://arxiv.org/pdf/2505.21347) (2025-05)
+  [![Code](https://img.shields.io/github/stars/yixiao-huang/OVERT.svg?style=social&label=Official)](https://github.com/yixiao-huang/OVERT)
+
++ [Proactive Defense Benchmark against Deepfake Generation](https://openreview.net/pdf?id=keNT1SyQI6) (ICML 2026)
+  [![Code](https://img.shields.io/github/stars/proactivedefensebenchmark/proactivedefensebenchmark.svg?style=social&label=Official)](https://github.com/proactivedefensebenchmark/proactivedefensebenchmark)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://proactivedefensebenchmark.github.io/)
 
 + [HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing](https://arxiv.org/pdf/2605.24687) (2026-05)
   [![Code](https://img.shields.io/github/stars/1059684669/HoloFair.svg?style=social&label=Official)](https://github.com/1059684669/HoloFair)
@@ -1736,6 +1782,9 @@ Not for visual generation, but related evaluations of other models like LLMs
   > <i>Note: Refer to section 5 for Evaluation Metrics</i>
 
 ### 6.3. Study
+
++ [The Intricate Dance of Prompt Complexity, Quality, Diversity, and Consistency in T2I Models](https://arxiv.org/pdf/2510.19557) (2025-10)
+  [![Code](https://img.shields.io/github/stars/facebookresearch/synthetic_data_utility_prompt_complexity.svg?style=social&label=Official)](https://github.com/facebookresearch/synthetic_data_utility_prompt_complexity)
 
 + [A-Bench: Are LMMs Masters at Evaluating AI-generated Images?](https://arxiv.org/abs/2406.03070) (2024-06-05)
   [![Code](https://img.shields.io/github/stars/Q-Future/A-Bench.svg?style=social&label=Official)](https://github.com/Q-Future/A-Bench)
