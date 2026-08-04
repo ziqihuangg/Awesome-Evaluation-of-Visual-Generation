@@ -281,6 +281,29 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
++ [LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-Structured Annotations](https://arxiv.org/pdf/2512.09271) (2025-12)
+  [![Code](https://img.shields.io/github/stars/yzc-ippl/LongT2IBench.svg?style=social&label=Official)](https://github.com/yzc-ippl/LongT2IBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/yzc002/LongT2IBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://welldky.github.io/LongT2IBench-Homepage/)
+
++ [OverLayBench: A Benchmark for Layout-to-Image Generation with Dense Overlaps](https://arxiv.org/pdf/2509.19282) (2025-09)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mlpc-ucsd.github.io/OverLayBench/)
+  ><i>Note: Introduces OverLayScore.</i>
+
++ [ICE-Bench: A Unified and Comprehensive Benchmark for Image Creating and Editing](https://arxiv.org/pdf/2503.14482) (2025-03)
+  [![Code](https://img.shields.io/github/stars/ali-vilab/ICE-Bench.svg?style=social&label=Official)](https://github.com/ali-vilab/ICE-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ali-vilab/ICE-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://ali-vilab.github.io/ICE-Bench-Page/)
+  ><i>Note: Introduces VLLM-QA.</i>
+
++ [MultiHuman-Testbench: Benchmarking Image Generation for Multiple Humans](https://arxiv.org/pdf/2506.20879) (2025-06)
+  [![Code](https://img.shields.io/github/stars/Qualcomm-AI-research/MultiHuman-Testbench.svg?style=social&label=Official)](https://github.com/Qualcomm-AI-research/MultiHuman-Testbench)
+
++ [MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning](https://arxiv.org/pdf/2506.10963) (2025-06)
+  [![Code](https://img.shields.io/github/stars/MMMGBench/MMMG.svg?style=social&label=Official)](https://github.com/MMMGBench/MMMG/)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mmmgbench.github.io/)
+  ><i>Note: Introduces MMMG-Score.</i>
+
 + [MMIG-Bench: Towards Comprehensive and Explainable Evaluation of Multi-Modal Image Generation Models](https://arxiv.org/pdf/2505.19415) (2025-05)
   [![Code](https://img.shields.io/github/stars/hanghuacs/MMIG-Bench.svg?style=social&label=Official)](https://github.com/hanghuacs/MMIG-Bench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://hanghuacs.github.io/MMIG-Bench/)
@@ -687,6 +710,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ [Does FLUX Already Know How to Perform Physically Plausible Image Composition?](https://arxiv.org/pdf/2509.21278) (2025-09)
+  [![Code](https://img.shields.io/github/stars/ZhumingLian/SHINE.svg?style=social&label=Official)](https://github.com/ZhumingLian/SHINE)
+
 + [Taming I2V Models for Image HOI Editing: A Cognitive Benchmark and Agentic Self-Correcting Framework](https://arxiv.org/pdf/2606.19073) (2026-06)
   [![Code](https://img.shields.io/github/stars/oceanflowlab/HOI-Edit.svg?style=social&label=Official)](https://github.com/oceanflowlab/HOI-Edit)
 
@@ -819,6 +845,16 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
+
++ [OSCBench: Benchmarking Object State Change in Text-to-Video Generation](https://arxiv.org/pdf/2603.11698) (2026-03)
+  [![Code](https://img.shields.io/github/stars/iLearn-Lab/ACL26-OSCBench.svg?style=social&label=Official)](https://github.com/iLearn-Lab/ACL26-OSCBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/XianjingHan/OSCBench_Dataset)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://hanxjing.github.io/OSCBench/)
+
++ [MTAVG-Bench: A Diagnostic Benchmark for Multi-Talker Dialogue-Centric Audio-Video Generation](https://arxiv.org/pdf/2602.00607) (2026-02)
+
++ [VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning](https://arxiv.org/pdf/2506.18564) (2025-06)
+  [![Code](https://img.shields.io/github/stars/xuanyuzhang21/VQ-Insight.svg?style=social&label=Official)](https://github.com/xuanyuzhang21/VQ-Insight)
 
 + [ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhuang_ViStoryBench_Comprehensive_Benchmark_Suite_for_Story_Visualization_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/ViStoryBench/vistorybench.svg?style=social&label=Official)](https://github.com/ViStoryBench/vistorybench)
@@ -1110,6 +1146,14 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
 
++ [How Bias Binds: Measuring Hidden Associations for Bias Control in Text-to-Image Compositions](https://arxiv.org/pdf/2511.07091) (2025-11)
+  ><i>Note: Introduces the bias adherence score.</i>
+
++ [T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](https://arxiv.org/pdf/2510.22300) (2025-10)
+  [![Code](https://img.shields.io/github/stars/datar001/T2I-RiskyPrompt.svg?style=social&label=Official)](https://github.com/datar001/T2I-RiskyPrompt)
+
++ [Towards Culturally Fair Multimodal Generation: Quantifying and Mitigating Orientalist Biases in Text-to-Visual Models](https://dl.acm.org/doi/epdf/10.1145/3746027.3755251)
+
 + [OVERT: A Benchmark for Over-Refusal Evaluation on Text-to-Image Models](https://arxiv.org/pdf/2505.21347) (2025-05)
   [![Code](https://img.shields.io/github/stars/yixiao-huang/OVERT.svg?style=social&label=Official)](https://github.com/yixiao-huang/OVERT)
 
@@ -1326,6 +1370,12 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="3.9."></a>
 ### 3.9. Agentic Evaluation
 
++ [EdiVal-Agent: An Object-Centric Framework for Automated, Fine-Grained Evaluation of Multi-Turn Editing](https://arxiv.org/pdf/2509.13399) (2025-09)
+  [![Code](https://img.shields.io/github/stars/TianyuCodings/EdiVal.svg?style=social&label=Official)](https://github.com/TianyuCodings/EdiVal)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/C-Tianyu/EdiVal)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tianyucodings.github.io/EdiVAL-page/)
+  ><i>Note: Introduces EdiVal-IF, EdiVal-CC, and EdiVal-VQ.</i>
+
 + [A Unified Agentic Framework for Evaluating Conditional Image Generation](https://arxiv.org/abs/2504.07046) (2025-04-09)
 [![Code](https://img.shields.io/github/stars/HITsz-TMG/Agentic-CIGEval.svg?style=social&label=Official)](https://github.com/HITsz-TMG/Agentic-CIGEval)
 
@@ -1342,6 +1392,12 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="3.10."></a>
 ### 3.10. Evaluation of Unified Multimodal Models
+
++ [FactVerse: A Benchmark for Factual Consistency in Interleaved Image–Text Generation](https://aclanthology.org/2026.acl-long.1323.pdf) (ACL 2026)
+
++ [ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](https://arxiv.org/pdf/2511.01163) (2025-11)
+  [![Code](https://img.shields.io/github/stars/cheryyunl/ROVER.svg?style=social&label=Official)](https://github.com/cheryyunl/ROVER)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/cheryyunl/ROVER)
 
 + [Unison: Benchmarking Unified Multimodal Models via Synergistic Understanding and Generation](https://fudancvl.github.io/Unison)
   [![Code](https://img.shields.io/github/stars/FudanCVL/Unison.svg?style=social&label=Official)](https://github.com/FudanCVL/Unison)
@@ -1364,6 +1420,13 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [A Benchmark for Text-to-Image Alignment and Kernelized Direct Preference Optimization](https://arxiv.org/pdf/2506.14903) (2025-06)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/DetonateT2I/DetonateT2I)
+  ><i>Note: Introduces the Alignment Quality Index (AQI).</i>
+
++ [VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation](https://arxiv.org/pdf/2412.21059) (2024-12)
+  [![Code](https://img.shields.io/github/stars/THUDM/VisionReward.svg?style=social&label=Official)](https://github.com/THUDM/VisionReward)
 
 + [StyleDoctor: Towards Specialist Reward Model for Style-centric Generation Tasks](https://openaccess.thecvf.com/content/CVPR2026/papers/He_StyleDoctor_Towards_Specialist_Reward_Model_for_Style-centric_Generation_Tasks_CVPR_2026_paper.pdf) (CVPR 2026)
 
@@ -1621,6 +1684,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 5.1. Image Quality Assessment for AIGC
 
++ [Towards Explainable Partial-AIGC Image Quality Assessment](https://arxiv.org/pdf/2504.09291) (2025-04)
+
++ [Multi-Dimensional Text-to-Face Image Quality Assessment Using LLM: Database and Method](https://dl.acm.org/doi/epdf/10.1145/3746027.3755379)
+
 + [E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_E-comIQ-ZH_A_Human-Aligned_Dataset_and_Benchmark_for_Fine-Grained_Evaluation_of_CVPR_2026_paper.html) (CVPR 2026)
 
 + [Descriptive Image Quality Assessment in the Wild](https://arxiv.org/abs/2405.18842) (2024-05-29)   
@@ -1673,6 +1740,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 5.2. Aesthetic Predictors for Generated Images
 
++ [ArtFRD: A Fisher-Rao Mixture Metric for Generative Model Aesthetic Evaluation](https://dl.acm.org/doi/epdf/10.1145/3746027.3755259)
+  ><i>Note: Introduces ArtFRD.</i>
+
 + [Multi-modal Learnable Queries for Image Aesthetics Assessment](https://arxiv.org/abs/2405.01326) (2024-05-02, ICME 2024)  
 
 + Aesthetic Scorer extension for SD Automatic WebUI (2023-01-15)  
@@ -1704,6 +1774,13 @@ Not for visual generation, but related evaluations of other models like LLMs
 ## 6. Study and Rethinking
 
 ### 6.1. Evaluation of Evaluations
++ [EvalMuse-40K: A Reliable and Fine-Grained Benchmark with Comprehensive Human Annotations for Text-to-Image Generation Model Evaluation](https://arxiv.org/pdf/2412.18150) (2024-12)
+  [![Code](https://img.shields.io/github/stars/DYEvaLab/EvalMuse.svg?style=social&label=Official)](https://github.com/DYEvaLab/EvalMuse)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/DY-Evalab/EvalMuse)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://shh-han.github.io/EvalMuse-project/)
+
++ [What Makes a Good Generated Image? Investigating Human and Multimodal LLM Image Preference Alignment](https://arxiv.org/pdf/2509.12750) (2025-09)
+
 + [GAIA: Rethinking Action Quality Assessment for AI-Generated Videos](https://arxiv.org/abs/2406.06087) (2024-06-10)
 
 + [Who Evaluates the Evaluations? Objectively Scoring Text-to-Image Prompt Coherence Metrics with T2IScoreScore (TS2)](https://arxiv.org/abs/2404.04251) (2024-04-05)  
