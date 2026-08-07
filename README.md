@@ -2011,6 +2011,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [Use of Neural Signals to Evaluate the Quality of Generative Adversarial Network Performance in Facial Image Generation](https://arxiv.org/abs/1811.04172) (2018-11-10)
 
++ [ImageBench](https://imagebench.ai) - Public benchmark and comparison site for text-to-image models with side-by-side outputs, pass-rate summaries, and methodology pages.
+
 
 <!-- 
 Papers to read and to organize:
