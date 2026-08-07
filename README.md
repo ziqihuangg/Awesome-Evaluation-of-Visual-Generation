@@ -903,6 +903,10 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://yuanjianhao508.github.io/LikePhys/)
   ><i>Note: likelihood-preference benchmark for evaluating intuitive physics understanding in video diffusion models.</i>
 
++ [VideoScore2: Think before You Score in Generative Video Evaluation](https://arxiv.org/abs/2509.22799) (2025-09-26)
+  [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/VideoScore2.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/VideoScore2)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/VideoScore2/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/TIGER-Lab/VideoScore2)
+
 + [Stable Cinemetrics: Structured Taxonomy and Evaluation for Professional Video Generation](https://arxiv.org/pdf/2509.26555) (2025-09)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://stable-cinemetrics.github.io/)
 
