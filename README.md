@@ -64,6 +64,18 @@ This repository is updated periodically. If you have suggestions for additional 
 | Fréchet Wavelet Distance (FWD) | [Fréchet Wavelet Distance: A Domain-Agnostic Metric For Image Generation](https://openreview.net/pdf?id=QinkNNKZ3b) (ICLR 2025) | [![Code](https://img.shields.io/github/stars/BonnBytes/PyTorch-FWD.svg?style=social&label=Official)](https://github.com/BonnBytes/PyTorch-FWD) |
 
 
++ [Physics-Based Benchmarking Metrics for Multimodal Synthetic Images](https://arxiv.org/abs/2511.15204) (2025-11-19)
+
++ [Making Reconstruction FID Predictive of Diffusion Generation FID](https://arxiv.org/abs/2603.05630) (2026-03-05)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tongdaxu.github.io/pages/ifid.html)
+  ><i>Note: Introduces iFID.</i>
+
++ [Gram-MMD: A Texture-Aware Metric for Image Realism Assessment](https://arxiv.org/abs/2604.03064) (2026-04-03)
+  ><i>Note: Introduces Gram-MMD (GMMD).</i>
+
++ [Relative Classification Accuracy: A Calibrated Metric for Identity Consistency in Fine-Grained K-pop Face Generation](https://arxiv.org/abs/2601.15560) (2026-01-22)
+  ><i>Note: Introduces Relative Classification Accuracy (RCA).</i>
+
 + [Towards a Scalable Reference-Free Evaluation of Generative Models](https://arxiv.org/abs/2407.02961) (2024-07-03)
 
 + [FaceScore: Benchmarking and Enhancing Face Quality in Human Generation](https://arxiv.org/abs/2406.17100) (2024-06-24)
@@ -281,6 +293,14 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
+
++ [Visual Personalization Turing Test](https://arxiv.org/abs/2601.22680) (2026-01-30, CVPR 2026)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://snap-research.github.io/vptt/)
+
++ [Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation](https://arxiv.org/abs/2512.19026) (2025-12-22)
+
++ [Human Preference-Aligned Concept Customization Benchmark via Decomposed Evaluation](https://arxiv.org/abs/2509.03385) (2025-09-03)
+  [![Code](https://img.shields.io/github/stars/ReinaIshikawa/D-GPTScore.svg?style=social&label=Official)](https://github.com/ReinaIshikawa/D-GPTScore)
 + [GenColorBench: A Color Evaluation Benchmark for Text-to-Image Generation Models](https://arxiv.org/pdf/2510.20586) (2025-10)
 
 + [SCIEval: Evaluating and Benchmarking the Faithfulness of Scientific Image Generation and Interpretation with Large Multimodal Models](https://openaccess.thecvf.com/content/CVPR2026/papers/Ye_SCIEval_Evaluating_and_Benchmarking_the_Faithfulness_of_Scientific_Image_Generation_CVPR_2026_paper.pdf) (CVPR 2026)
@@ -367,11 +387,6 @@ There are also recent works on new methods to measure visual similarity (more wi
   ><i>Note: IntraClass Average Distance(ICAD) - Diversity </i>
 
 + [REAL: Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation](https://arxiv.org/abs/2502.10663). (2025-02-15)
-
-+ [Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models](https://arxiv.org/abs/2412.09645) (2024-12-16)
-  [![Code](https://img.shields.io/github/stars/Vchitect/Evaluation-Agent.svg?style=social&label=Official)](https://github.com/Vchitect/Evaluation-Agent) 
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/Evaluation-Agent-project/)
-  ><i>Note: focus on efficient and dynamic evaluation. </i>
 
 
 + [ABHINAW: A method for Automatic Evaluation of Typography within AI-Generated Images](https://arxiv.org/abs/2409.11874) (2024-09-18)
@@ -720,20 +735,26 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
-+ [Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](https://arxiv.org/abs/2603.13057) (ECCV 2026)
++ [Probing Visual Planning in Image Editing Models](https://arxiv.org/abs/2604.22868) (2026-04-23)
+  [![Code](https://img.shields.io/github/stars/spatigen/amaze.svg?style=social&label=Official)](https://github.com/spatigen/amaze)
+
++ [EditInspector: A Benchmark for Evaluation of Text-Guided Image Edits](https://arxiv.org/abs/2506.09988) (2025-06-11, ACL 2025)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://editinspector.github.io/)
+
++ [Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](https://arxiv.org/abs/2603.13057) (2026-03-13, ECCV 2026)
   [![Code](https://img.shields.io/github/stars/litelightlite/VTON-IQA.svg?style=social&label=Official)](https://github.com/litelightlite/VTON-IQA)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/zozonext/vtonqbench)
   [![Hugging Face Demo](https://img.shields.io/badge/Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/zozonext/VTON-IQA)
   ><i>Note: Introduces the reference-free VTON-IQA framework and the human-annotated VTON-QBench.</i>
 
-+ [VTEdit-Bench: A Comprehensive Benchmark for Multi-Reference Image Editing Models in Virtual Try-On](https://arxiv.org/abs/2603.11734) (ECCV 2026)
++ [VTEdit-Bench: A Comprehensive Benchmark for Multi-Reference Image Editing Models in Virtual Try-On](https://arxiv.org/abs/2603.11734) (2026-03-12, ECCV 2026)
   [![Code](https://img.shields.io/github/stars/Hiuyee124/VTEdit-Bench.svg?style=social&label=Official)](https://github.com/Hiuyee124/VTEdit-Bench)
   ><i>Note: Introduces VTEdit-QA to assess model consistency, cloth consistency, and overall image quality.</i>
 
 + [Virtual Try-On for Cultural Clothing: A Benchmarking Study](https://arxiv.org/abs/2603.07291) (2026-03-07)
   ><i>Note: Introduces BD-VITON for benchmarking virtual try-on on culturally diverse Bangladeshi garments.</i>
 
-+ [OpenVTON-Bench: A Large-Scale High-Resolution Benchmark for Controllable Virtual Try-On Evaluation](https://arxiv.org/abs/2601.22725) (2026-01)
++ [OpenVTON-Bench: A Large-Scale High-Resolution Benchmark for Controllable Virtual Try-On Evaluation](https://arxiv.org/abs/2601.22725) (2026-01-30)
   [![Code](https://img.shields.io/github/stars/RenxingIntelligence/OpenVTON-Bench.svg?style=social&label=Official)](https://github.com/RenxingIntelligence/OpenVTON-Bench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/RenxingIntelligence/OpenVTON)
   ><i>Note: Evaluates background consistency, identity fidelity, texture fidelity, shape plausibility, and overall realism.</i>
@@ -894,14 +915,82 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
 
++ [Beyond Time Shifts: Adapting Omni-LLM as a Reference-Free Evaluator for Generative Audio-Visual Models](https://arxiv.org/abs/2607.09091) (2026-07-10)
+
++ [Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos](https://arxiv.org/abs/2605.18984) (2026-05-18)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/DogNeverSleep/Artifact-Bench)
+
++ [EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation](https://arxiv.org/abs/2605.15199) (2026-05-14)
+  [![Code](https://img.shields.io/github/stars/Catherine-R-He/EntityBench.svg?style=social&label=Official)](https://github.com/Catherine-R-He/EntityBench/)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://catherine-r-he.github.io/EntityBench/)
+
++ [Omni-Judge: Can Omni-LLMs Serve as Human-Aligned Judges for Text-Conditioned Audio-Video Generation?](https://arxiv.org/abs/2602.01623) (2026-02-02)
+
++ [VideoASMR-Bench: Can AI-Generated ASMR Videos Fool VLMs and Humans?](https://arxiv.org/abs/2512.13281) (2025-12-15)
+  [![Code](https://img.shields.io/github/stars/video-reality-test/video-reality-test.svg?style=social&label=Official)](https://github.com/video-reality-test/video-reality-test)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://video-reality-test.github.io/)
+
++ [Spotlight: Identifying and Localizing Video Generation Errors Using VLMs](https://arxiv.org/abs/2511.18102) (2025-11-22)
+
++ [NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation](https://arxiv.org/abs/2507.11245) (2025-07-15, ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/AMAP-ML/NarrLV.svg?style=social&label=Official)](https://github.com/AMAP-ML/NarrLV)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://amap-ml.github.io/NarrLV-Website/)
+
++ [Comparison Drives Preference: Reference-Aware Modeling for AI-Generated Video Quality Assessment](https://arxiv.org/abs/2604.17074) (2026-04-18)
+  ><i>Note: Introduces Reference-aware Video Quality Assessment (RefVQA).</i>
+
++ [Towards Holistic Visual Quality Assessment of AI-Generated Videos: A LLM-Based Multi-Dimensional Evaluation Model](https://arxiv.org/abs/2506.04715) (2025-06-05, CVPR Workshop 2025)
+  [![Code](https://img.shields.io/github/stars/QiZelu/AIGVEval.svg?style=social&label=Official)](https://github.com/QiZelu/AIGVEval)
+
++ [Physics Question Scene Graph: Fine-grained Evaluation of Physical Plausibility in Text-to-Video Generation](https://arxiv.org/abs/2606.25306) (2026-06-24)
+  [![Code](https://img.shields.io/github/stars/atinpothiraj/pqsg.svg?style=social&label=Official)](https://github.com/atinpothiraj/pqsg)
+
++ [Trimming the Long-Tail of Visual World Modeling Evaluation](https://arxiv.org/abs/2606.24256) (2026-06-23)
+
++ [Quantitative Video World Model Evaluation for Geometric-Consistency](https://arxiv.org/abs/2605.15185) (2026-05-14)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://pdi-bench.github.io/)
+
++ [PhyGround: Benchmarking Physical Reasoning in Generative World Models](https://arxiv.org/abs/2605.10806) (2026-05-11)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://phyground.github.io/)
+
++ [Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning](https://arxiv.org/abs/2603.19607) (2026-03-20)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/PhysionLabs/Physion-Eval)
+
++ [3DSPA: A 3D Semantic Point Autoencoder for Evaluating Video Realism](https://arxiv.org/abs/2602.20354) (2026-02-23)
+  [![Code](https://img.shields.io/github/stars/TheProParadox/3dspa_code.svg?style=social&label=Official)](https://github.com/TheProParadox/3dspa_code)
+
++ [Benchmarking Scientific Understanding and Reasoning for Video Generation using VideoScience-Bench](https://arxiv.org/abs/2512.02942) (2025-12-02)
+  [![Code](https://img.shields.io/github/stars/hao-ai-lab/VideoScience.svg?style=social&label=Official)](https://github.com/hao-ai-lab/VideoScience)
+
++ [PhyDetEx: Detecting and Explaining the Physical Plausibility of T2V Models](https://arxiv.org/abs/2512.01843) (2025-12-01)
+  [![Code](https://img.shields.io/github/stars/Zeqing-Wang/PhyDetEx.svg?style=social&label=Official)](https://github.com/Zeqing-Wang/PhyDetEx)
+
++ [Objects in Generated Videos Are Slower Than They Appear: Models Suffer Sub-Earth Gravity and Don't Know Galileo's Principle...for now](https://arxiv.org/abs/2512.02016) (2025-12-01)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://gravity-eval.github.io/)
+
++ [World Consistency Score: A Unified Metric for Video Generation Quality](https://arxiv.org/abs/2508.00144) (2025-07-31)
+
++ [Can Your Model Separate Yolks with a Water Bottle? Benchmarking Physical Commonsense Understanding in Video Generation Models](https://arxiv.org/abs/2507.15824) (2025-07-21)
+
++ ["PhyWorldBench": A Comprehensive Evaluation of Physical Realism in Text-to-Video Models](https://arxiv.org/abs/2507.13428) (2025-07-17)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/phyworldbench/phyworldbench)
+
++ [VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness](https://arxiv.org/abs/2503.21755) (2025-03-27)
+  [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
+
++ [Artifact-Aware Evaluation for High-Quality Video Generation](https://arxiv.org/abs/2601.20297) (2026-01-28)
+
++ [How Far are AI-generated Videos from Simulating the 3D Visual World: A Learned 3D Evaluation Approach](https://arxiv.org/abs/2406.19568) (2024-06-27)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://justin-crchang.github.io/l3de-project-page/)
+
 + [EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation](https://arxiv.org/abs/2605.23271) (2026-05-22)
   ><i>Note: Introduces a pipeline-aware, expert-calibrated framework for evaluating cinematic quality, acting, aesthetics, multi-shot sequencing, and audio-visual integration.</i>
 
-+ [MuSS: A Large-Scale Dataset and Cinematic Narrative Benchmark for Multi-Shot Subject-to-Video Generation](https://arxiv.org/abs/2604.23789) (2026-04)
++ [MuSS: A Large-Scale Dataset and Cinematic Narrative Benchmark for Multi-Shot Subject-to-Video Generation](https://arxiv.org/abs/2604.23789) (2026-04-26)
   [![Code](https://img.shields.io/github/stars/zhang-haojie/MuSS.svg?style=social&label=Official)](https://github.com/zhang-haojie/MuSS)
   ><i>Note: Introduces the Cinematic Narrative Benchmark and Anti-Copy-Paste Variance (ACP-Var) metric for evaluating continuous storytelling and 3D structural consistency.</i>
 
-+ [VGA-Bench: A Unified Benchmark and Multi-Model Framework for Video Aesthetics and Generation Quality Evaluation](https://arxiv.org/abs/2604.10127) (CVPR 2026)
++ [VGA-Bench: A Unified Benchmark and Multi-Model Framework for Video Aesthetics and Generation Quality Evaluation](https://arxiv.org/abs/2604.10127) (2026-04-11, CVPR 2026)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/BestiVictoryLab/VGA-Bench)
   ><i>Note: Jointly evaluates aesthetic quality, aesthetic tagging, and generation quality with VAQA-Net, VTag-Net, and VGQA-Net.</i>
 
@@ -927,7 +1016,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/ViStoryBench/vistorybench.svg?style=social&label=Official)](https://github.com/ViStoryBench/vistorybench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ViStoryBench/ViStoryBench)
 
-+ [LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference](https://arxiv.org/abs/2510.11512) (2025-10-13)
++ [LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference](https://arxiv.org/abs/2510.11512) (2025-10-13, ICLR 2026)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://yuanjianhao508.github.io/LikePhys/)
   ><i>Note: likelihood-preference benchmark for evaluating intuitive physics understanding in video diffusion models.</i>
 
@@ -975,16 +1064,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867) (2025-03-21)
 
-+ [UVE: Are MLLMs Unified Evaluators for AI-Generated Videos?](https://arxiv.org/pdf/2503.09949) (2025-03)
++ [UVE: Are MLLMs Unified Evaluators for AI-Generated Videos?](https://arxiv.org/pdf/2503.09949) (2025-03-13)
   [![Code](https://img.shields.io/github/stars/bytedance/UVE.svg?style=social&label=Official)](https://github.com/bytedance/UVE)
 
 + [Is Your World Simulator a Good Story Presenter? A Consecutive Events-Based Benchmark for Future Long Video Generation](https://arxiv.org/abs/2412.16211) (2024-12-17)
   ><i>Note: focus on storytelling. </i>
-
-+ [Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models](https://arxiv.org/abs/2412.09645) (2024-12-16)
-  [![Code](https://img.shields.io/github/stars/Vchitect/Evaluation-Agent.svg?style=social&label=Official)](https://github.com/Vchitect/Evaluation-Agent) 
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/Evaluation-Agent-project/)
-  ><i>Note: focus on efficient and dynamic evaluation. </i>
 
 + [Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](https://arxiv.org/abs/2411.16718) (2024-12-03)
   ><i>Note: focus on temporally text-video alignment (event order, accuracy)</i>
@@ -999,8 +1083,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [What You See Is What Matters: A Novel Visual and Physics-Based Metric for Evaluating Video Generation Quality](https://arxiv.org/abs/2411.13609) (2024-11-24)
   ><i>Note: texture evaluation scheme introduced</i>
-
-+ [A Survey of AI-Generated Video Evaluation](https://arxiv.org/abs/2410.19884) (2024-10-24)
 
 + [The Dawn of Video Generation: Preliminary Explorations with SORA-like Models](https://arxiv.org/abs/2410.05227) (2024-10-10)
 
@@ -1122,6 +1204,71 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.2. Evaluation of Image-to-Video Generation
 
++ [Thinking in Video: Can Video Generators Really Reason About the Real World?](https://arxiv.org/abs/2607.17523) (2026-07-20)
+
++ [KeyFrame-Compass: Towards Comprehensive Evaluation of Keyframe-Conditioned Video Generation](https://arxiv.org/abs/2607.14202) (2026-07-15)
+
++ [Beyond the Last Frame: Process-aware Evaluation for Generative Video Reasoning](https://arxiv.org/abs/2512.24952) (2025-12-31)
+  [![Code](https://img.shields.io/github/stars/RUCAIBox/VIPER.svg?style=social&label=Official)](https://github.com/RUCAIBox/VIPER)
+
++ [Can World Simulators Reason? Gen-ViRe: A Generative Visual Reasoning Benchmark](https://arxiv.org/abs/2511.13853) (2025-11-17)
+
++ [Drive&Gen: Co-Evaluating End-to-End Driving and Video Generation Models](https://arxiv.org/abs/2510.06209) (2025-10-07)
+
++ [SimWorld: A Unified Benchmark for Simulator-Conditioned Scene Generation via World Model](https://arxiv.org/abs/2503.13952) (2025-03-18)
+  [![Code](https://img.shields.io/github/stars/Li-Zn-H/SimWorld.svg?style=social&label=Official)](https://github.com/Li-Zn-H/SimWorld)
+  ><i>Note: Benchmarks simulator-conditioned world-model image generation for autonomous-driving scenes.</i>
+
++ [MechVerse: Evaluating Physical Motion Consistency in Video Generation Models](https://arxiv.org/abs/2605.14843) (2026-05-14)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Mayank-p3108/MechVerse)
+
++ [WorldMark: A Unified Benchmark Suite for Interactive Video World Models](https://arxiv.org/abs/2604.21686) (2026-04-23)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://alaya-studio.github.io/WorldMark/)
+
++ [DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving](https://arxiv.org/abs/2601.01528) (2026-01-04)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/yangzhou99/DrivingGen)
+
++ [WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World](https://arxiv.org/abs/2512.10958) (2025-12-11)
+  [![Code](https://img.shields.io/github/stars/worldbench/WorldLens.svg?style=social&label=Official)](https://github.com/worldbench/WorldLens)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/worldbench/videogen)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://worldbench.github.io/worldlens)
+
++ [Evaluating Newtonian Mechanics in Video Generative Models with Real Physical Systems](https://arxiv.org/abs/2504.02918) (2025-04-03, ICML 2026)
+  [![Code](https://img.shields.io/github/stars/physics-from-video/Morpheus.svg?style=social&label=Official)](https://github.com/physics-from-video/Morpheus)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/physics-from-video/morpheus-real-world)
+
++ [WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity](https://arxiv.org/abs/2608.02603) (2026-08-03)
+  [![Code](https://img.shields.io/github/stars/YuxueYang1204/WorldExam.svg?style=social&label=Official)](https://github.com/YuxueYang1204/WorldExam)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://worldexam.github.io/)
+  ><i>Note: Evaluates visual quality, control adherence, spatial consistency, and inherent world reactivity.</i>
+
++ [Learning Explicit Physical Parameter Control and Benchmarking for Video Generation](https://arxiv.org/abs/2607.18924) (2026-07-21)
+  ><i>Note: Introduces PhyParam-Bench for temporal dynamics, spatial stability, and semantic-physical alignment in I2V generation.</i>
+
++ [AnimationBench: Are Video Models Good at Character-Centric Animation?](https://arxiv.org/abs/2604.15299) (2026-04-16)
+  [![Code](https://img.shields.io/github/stars/VideoVerses/AnimationBench.svg?style=social&label=Official)](https://github.com/VideoVerses/AnimationBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://animationbench.github.io/)
+  ><i>Note: Evaluates animation principles, IP preservation, semantic consistency, motion rationality, and camera-motion consistency.</i>
+
++ [Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](https://arxiv.org/abs/2603.13215) (2026-03-13)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/JhanLiufu/StEvo-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://glab-caltech.github.io/STEVOBench/)
+  ><i>Note: Introduces STEVO-Bench to evaluate whether state evolution continues correctly under interrupted observation.</i>
+
++ [TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models](https://arxiv.org/abs/2511.13704) (2025-11-17)
+  [![Code](https://img.shields.io/github/stars/EnVision-Research/TiViBench.svg?style=social&label=Official)](https://github.com/EnVision-Research/TiViBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://haroldchen19.github.io/TiViBench-Page/)
+  ><i>Note: Benchmarks structural, spatial, logical, and action-planning reasoning in I2V models.</i>
+
++ [UI2V-Bench: An Understanding-based Image-to-video Generation Benchmark](https://arxiv.org/abs/2509.24427) (2025-09-29)
+  ><i>Note: Evaluates spatial understanding, attribute binding, category understanding, and reasoning in I2V models.</i>
+
++ [HyperMotionX: The Dataset and Benchmark with DiT-Based Pose-Guided Human Image Animation of Complex Motions](https://arxiv.org/abs/2505.22977) (2025-05-29)
+  [![Code](https://img.shields.io/github/stars/vivoCameraResearch/Hyper-Motion.svg?style=social&label=Official)](https://github.com/vivoCameraResearch/Hyper-Motion)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/shuolin/HyperMotion)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vivocameraresearch.github.io/hypermotion/)
+  ><i>Note: Introduces HyperMotionX Bench for pose-guided human image animation under complex motions.</i>
+
 + [VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models](https://arxiv.org/abs/2411.13503) (2024-11-20) 
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench/tree/master/vbench2_beta_i2v)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-project/)
@@ -1146,7 +1293,26 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.3. Evaluation of Talking Face Generation
 
-+ [Who is a Better Talker: Subjective and Objective Quality Assessment for AI-Generated Talking Heads](https://arxiv.org/pdf/2507.23343) (2025-07)
++ [Temporally-Aligned Evaluation for Audio-Driven Talking Head Generation](https://arxiv.org/abs/2606.01031) (2026-05-31)
+
++ [REACT 2026: The Fourth Multiple Appropriate Facial Reaction Generation Challenge: Personalised MAFRG and Appropriate EEG Reaction Prediction](https://arxiv.org/abs/2606.07935) (2026-06-06)
+  [![Code](https://img.shields.io/github/stars/reactmultimodalchallenge/baseline_react2026.svg?style=social&label=Official)](https://github.com/reactmultimodalchallenge/baseline_react2026)
+
++ [EvalTalker: Learning to Evaluate Real-Portrait-Driven Multi-Subject Talking Humans](https://arxiv.org/abs/2512.01340) (2025-12-01)
+
++ [THEval. Evaluation Framework for Talking Head Video Generation](https://arxiv.org/abs/2511.04520) (2025-11-06, CVPR 2026 Findings)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://newbyl.github.io/theval_project_page/)
+
++ [Assessing Identity Leakage in Talking Face Generation: Metrics and Evaluation Framework](https://arxiv.org/abs/2511.08613) (2025-11-05, ICASSP 2026)
+
++ [Preview WB-DH: Towards Whole Body Digital Human Bench for the Generation of Whole-body Talking Avatar Videos](https://arxiv.org/abs/2508.08891) (2025-08-12)
+  [![Code](https://img.shields.io/github/stars/deepreasonings/WholeBodyBenchmark.svg?style=social&label=Official)](https://github.com/deepreasonings/WholeBodyBenchmark)
+
++ [Who is a Better Talker: Subjective and Objective Quality Assessment for AI-Generated Talking Heads](https://arxiv.org/abs/2507.23343) (2025-07-31)
+  [![Code](https://img.shields.io/github/stars/zyj-2000/Talker.svg?style=social&label=Official)](https://github.com/zyj-2000/Talker)
+
++ [JWB-DH-V1: Benchmark for Joint Whole-Body Talking Avatar and Speech Generation Version 1](https://arxiv.org/abs/2507.20987) (2025-07-28)
+  [![Code](https://img.shields.io/github/stars/deepreasonings/WholeBodyBenchmark.svg?style=social&label=Official)](https://github.com/deepreasonings/WholeBodyBenchmark)
 
 + [OpFlowTalker: Realistic and Natural Talking Face Generation via Optical Flow Guidance](https://arxiv.org/abs/2405.14709) (2024-05-23)
   > <i>Note: VTCS to measures lip-readability in synthesized videos</i>
@@ -1185,23 +1351,102 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/WorldModelBench-Team/WorldModelBench.svg?style=social&label=Official)](https://github.com/WorldModelBench-Team/WorldModelBench/tree/main?tab=readme-ov-file#evaluation)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://worldmodelbench-team.github.io/)
 
-+ [WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World](https://worldbench.github.io/worldlens)
-  [![Code](https://img.shields.io/github/stars/worldbench/WorldLens.svg?style=social&label=Official)](https://github.com/worldbench/WorldLens)
-  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/worldbench/videogen)
-
 + [WorldScore: A Unified Evaluation Benchmark for World Generation](https://arxiv.org/abs/2504.00983) (2025-04-01)
   [![Code](https://img.shields.io/github/stars/haoyi-duan/WorldScore.svg?style=social&label=Official)](https://github.com/haoyi-duan/WorldScore)  [![Website](https://img.shields.io/badge/Website-9cf)](https://haoyi-duan.github.io/WorldScore/)
 
 #### 3.5.5. Evaluation of Video Editing
 
-+ [EgoEdit: Dataset, Real-Time Streaming Model, and Benchmark for Egocentric Video Editing](https://arxiv.org/pdf/2512.06065) (2025-12)
++ [OmniEdit-Bench: A Comprehensive Benchmark for Instruction-based Video Editing](https://arxiv.org/abs/2608.05049) (2026-08-05)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/OmniEdit-Bench/OmniEdit-Bench)
+
++ [MEDit-Bench: A Dataset for Evaluating Message-Driven Narrative Video Editing](https://arxiv.org/abs/2607.25300) (2026-07-28)
+
++ [AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities](https://arxiv.org/abs/2607.24821) (2026-07-17)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/NJU-LINK/AVE-Compass-v2)
+
++ [Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing](https://arxiv.org/abs/2606.30599) (2026-06-29)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://flying-sky999.github.io/Goku.github.io/)
+
++ [CoVEBench: Can Video Editing Models Handle Complex Instructions?](https://arxiv.org/abs/2606.08415) (2026-06-07)
+  [![Code](https://img.shields.io/github/stars/NJU-LINK/CoVEBench.svg?style=social&label=Official)](https://github.com/NJU-LINK/CoVEBench)
+
++ [V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation](https://arxiv.org/abs/2606.05665) (2026-06-04, ICML 2026 Workshop)
+
++ [PROVE: A Perceptual RemOVal cohErence Benchmark for Visual Media](https://arxiv.org/abs/2605.14534) (2026-05-14, ACM MM 2026)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://xiaomi-research.github.io/prove/)
+
++ [VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects](https://arxiv.org/abs/2604.16272) (2026-04-17)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/xiangbog/VEFX-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://xiangbogaobarry.github.io/VEFX-Bench/)
+
++ [UniEditBench: A Unified and Cost-Effective Benchmark for Image and Video Editing via Distilled MLLMs](https://arxiv.org/abs/2604.15871) (2026-04-17)
+  [![Code](https://img.shields.io/github/stars/wesar1/UniEditBench.svg?style=social&label=Official)](https://github.com/wesar1/UniEditBench)
+
++ [Physics-Aware Video Instance Removal Benchmark](https://arxiv.org/abs/2604.05898) (2026-04-07)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/xiangbog/Physics-aware-Video-Instance-Removal-Challenge-Dataset)
+
++ [Hi-Light: A Path to high-fidelity, high-resolution video relighting with a Novel Evaluation Paradigm](https://arxiv.org/abs/2601.23167) (2026-01-30)
+
++ [Beyond Rigid: Benchmarking Non-Rigid Video Editing](https://arxiv.org/abs/2601.18340) (2026-01-26)
+
++ [DirectSwap: Mask-Free Cross-Identity Training and Benchmarking for Expression-Consistent Video Head Swapping](https://arxiv.org/abs/2512.09417) (2025-12-10)
+
++ [EgoEdit: Dataset, Real-Time Streaming Model, and Benchmark for Egocentric Video Editing](https://arxiv.org/abs/2512.06065) (2025-12-05)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://snap-research.github.io/EgoEdit/)
+
++ [IVEBench: Modern Benchmark Suite for Instruction-Guided Video Editing Assessment](https://arxiv.org/abs/2510.11647) (2025-10-13, ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/RyanChenYN/IVEBench.svg?style=social&label=Official)](https://github.com/RyanChenYN/IVEBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Coraxor/IVEBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://ryanchenyn.github.io/projects/IVEBench/)
+
++ [FiVE: A Fine-grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models](https://arxiv.org/abs/2503.13684) (2025-03-17)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/five-benchmark)
 
 + [EditBoard: Towards a Comprehensive Evaluation Benchmark for Text-Based Video Editing Models](https://arxiv.org/pdf/2409.09668) (2024-09)
   [![Code](https://img.shields.io/github/stars/Samchen2003/EditBoard.svg?style=social&label=Official)](https://github.com/Samchen2003/EditBoard)
 
++ [Multi-modal Segment Assemblage Network for Ad Video Editing with Importance-Coherence Reward](https://arxiv.org/abs/2209.12164) (2022-09-25, ACCV 2022)
+  [![Code](https://img.shields.io/github/stars/yunlong10/Ads-1k.svg?style=social&label=Official)](https://github.com/yunlong10/Ads-1k)
+
 <a name="3.6."></a>
 ### 3.6. Evaluation of Text-to-Motion Generation
+
++ [Self-Consistency for LLM-Based Motion Trajectory Generation and Verification](https://arxiv.org/abs/2603.29301) (2026-03-31, CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/jama1017/trajectory-self-consistency.svg?style=social&label=Official)](https://github.com/jama1017/trajectory-self-consistency)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://majiaju.io/trajectory-self-consistency)
+  ><i>Note: Uses transformation-aware self-consistency to generate and verify motion-graphics trajectories.</i>
+
++ [Bilingual Text-to-Motion Generation: A New Benchmark and Baselines](https://arxiv.org/abs/2603.25178) (2026-03-26)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://wengwanjiang.github.io/BilingualT2M-page)
+  ><i>Note: Introduces the bilingual BiHumanML3D benchmark and the BiMD baseline.</i>
+
++ [T2MBench: A Benchmark for Out-of-Distribution Text-to-Motion Generation](https://arxiv.org/abs/2602.13751) (2026-02-14)
+  ><i>Note: Evaluates semantic alignment, generalizability, physical quality, and fine-grained accuracy under OOD prompts.</i>
+
++ [IRG-MotionLLM: Interleaving Motion Generation, Assessment and Refinement for Text-to-Motion Generation](https://arxiv.org/abs/2512.10730) (2025-12-11)
+  [![Code](https://img.shields.io/github/stars/HumanMLLM/IRG-MotionLLM.svg?style=social&label=Official)](https://github.com/HumanMLLM/IRG-MotionLLM)
+  [![Hugging Face HumanML3D](https://img.shields.io/badge/Hugging%20Face-HumanML3D-blue)](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D)
+  [![Hugging Face KIT-ML](https://img.shields.io/badge/Hugging%20Face-KIT--ML-blue)](https://huggingface.co/Lymann/IRG-MotionLLM-KITML)
+  ><i>Note: Interleaves motion generation, assessment, and refinement through iterative text-motion dialogue.</i>
+
++ [ReAlign: Text-to-Motion Generation via Step-Aware Reward-Guided Alignment](https://arxiv.org/abs/2511.19217) (2025-11-24, AAAI 2026)
+  [![Code](https://img.shields.io/github/stars/wengwanjiang/ReAlign.svg?style=social&label=Official)](https://github.com/wengwanjiang/ReAlign)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://wengwanjiang.github.io/ReAlign-page/)
+  ><i>Note: Introduces a step-aware reward model for text-motion semantic consistency and motion realism.</i>
+
++ [The Quest for Generalizable Motion Generation: Data, Model, and Evaluation](https://arxiv.org/abs/2510.26794) (2025-10-30, ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/MotrixLab/ViMoGen.svg?style=social&label=Official)](https://github.com/MotrixLab/ViMoGen)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://linjing7.github.io/vimogen/)
+  ><i>Note: Introduces MBench for motion quality, prompt fidelity, and generalization ability.</i>
+
++ [FineMotion: A Dataset and Benchmark with both Spatial and Temporal Annotation for Fine-grained Motion Generation and Editing](https://arxiv.org/abs/2507.19850) (2025-07-26, ICCV 2025)
+  [![Code](https://img.shields.io/github/stars/CVI-SZU/FineMotion.svg?style=social&label=Official)](https://github.com/CVI-SZU/FineMotion)
+  ><i>Note: Provides fine-grained spatial and temporal annotations for motion generation and editing.</i>
+
++ [ReAlign: Bilingual Text-to-Motion Generation via Step-Aware Reward-Guided Alignment](https://arxiv.org/abs/2505.04974) (2025-05-08)
+  [![Code](https://img.shields.io/github/stars/wengwanjiang/ReAlign.svg?style=social&label=Official)](https://github.com/wengwanjiang/ReAlign)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://wengwanjiang.github.io/ReAlign-page/)
+  ><i>Note: Combines the BiHumanML3D benchmark with step-aware reward-guided alignment.</i>
 
 + [VMBench: A Benchmark for Perception-Aligned Video Motion Generation](https://arxiv.org/abs/2503.10076) (2024-03-13)  
 
@@ -1451,20 +1696,20 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="3.9."></a>
 ### 3.9. Agentic Evaluation
 
-+ [VideoArgus: Agentic Rubric-Grounded Unified Evaluation for Video Generation and Editing](https://arxiv.org/abs/2608.05485) (2026-08)
++ [VideoArgus: Agentic Rubric-Grounded Unified Evaluation for Video Generation and Editing](https://arxiv.org/abs/2608.05485) (2026-08-06)
   [![Code](https://img.shields.io/github/stars/zzzmyyzeng/VideoArgus.svg?style=social&label=Official)](https://github.com/zzzmyyzeng/VideoArgus)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/zengziyun/VideoArgusBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://zzzmyyzeng.github.io/VideoArgus/)
   ><i>Note: Introduces VideoArgus-Bench and sample-specific, evidence-grounded rubrics for five video generation and editing settings.</i>
 
-+ [VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation](https://arxiv.org/abs/2606.08091) (2026-06)
++ [VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation](https://arxiv.org/abs/2606.08091) (2026-06-06)
   [![Code](https://img.shields.io/github/stars/JianhuiWei7/VideoWeaver.svg?style=social&label=Official)](https://github.com/JianhuiWei7/VideoWeaver)
   ><i>Note: Evaluates both agent execution traces and final long videos with an evidence-grounded agent-as-judge.</i>
 
-+ [BackTranslation2.0 -- A Linguistically Motivated Metric to Assess Sign Language Production](https://arxiv.org/abs/2606.28673) (ECCV 2026)
++ [BackTranslation2.0 -- A Linguistically Motivated Metric to Assess Sign Language Production](https://arxiv.org/abs/2606.28673) (2026-06-27, ECCV 2026)
   ><i>Note: Introduces an agentic, linguistically grounded metric for grammatical correctness, phonological accuracy, motion fluency, and generation fidelity in sign language production.</i>
 
-+ [Do Joint Audio-Video Generation Models Understand Physics?](https://arxiv.org/abs/2605.07061) (2026-05)
++ [Do Joint Audio-Video Generation Models Understand Physics?](https://arxiv.org/abs/2605.07061) (2026-05-08)
   [![Code](https://img.shields.io/github/stars/ZijunCui02/AV-Phys.svg?style=social&label=Official)](https://github.com/ZijunCui02/AV-Phys)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ZijunCui/AV-Phys-Bench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://zijuncui.com/AV-Phys/)
@@ -1496,28 +1741,51 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="3.10."></a>
 ### 3.10. Evaluation of Unified Multimodal Models
 
-+ [MICON-Bench: Benchmarking and Enhancing Multi-Image Context Image Generation in Unified Multimodal Models](https://arxiv.org/pdf/2602.19497) (2026-02)
++ [UEval: A Benchmark for Unified Multimodal Generation](https://arxiv.org/abs/2601.22155) (2026-01-29)
+
++ [A High-Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation](https://arxiv.org/abs/2506.09427) (2025-06-11, ICLR 2026)
+  ><i>Note: Introduces the InterSyn dataset and SynJudge evaluator.</i>
+
++ [Unison: Benchmarking Unified Multimodal Models via Synergistic Understanding and Generation](https://arxiv.org/abs/2606.26984) (2026-06-25)
+  [![Code](https://img.shields.io/github/stars/FudanCVL/Unison.svg?style=social&label=Official)](https://github.com/FudanCVL/Unison)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/FudanCVL/Unison)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://fudancvl.github.io/Unison)
+
++ [Do Text Edits Generalize to Visual Generation? Benchmarking Cross-Modal Knowledge Editing in UMMs](https://arxiv.org/abs/2606.00477) (2026-05-30, ICML 2026)
+  [![Code](https://img.shields.io/github/stars/gxx27/UniKE.svg?style=social&label=Official)](https://github.com/gxx27/UniKE)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/gxx27/UniKE)
+
++ [AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward](https://arxiv.org/abs/2605.12495) (2026-05-12)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huangrh99.github.io/AlphaGRPO/)
+
++ [MICON-Bench: Benchmarking and Enhancing Multi-Image Context Image Generation in Unified Multimodal Models](https://arxiv.org/abs/2602.19497) (2026-02-23)
   [![Code](https://img.shields.io/github/stars/Angusliuuu/MICON-Bench.svg?style=social&label=Official)](https://github.com/Angusliuuu/MICON-Bench)
 
-+ [FactVerse: A Benchmark for Factual Consistency in Interleaved Image–Text Generation](https://aclanthology.org/2026.acl-long.1323.pdf) (ACL 2026)
++ [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](https://arxiv.org/abs/2512.12756) (2025-12-14)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Fysics-AI/FysicsWorld)
 
-+ [ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](https://arxiv.org/pdf/2511.01163) (2025-11)
++ [WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation](https://openaccess.thecvf.com/content/CVPR2026/papers/Chow_WEAVE_Unleashing_and_Benchmarking_the_In-context_Interleaved_Comprehension_and_Generation_CVPR_2026_paper.pdf) (2025-11-14, CVPR 2026)
+  [![Code](https://img.shields.io/github/stars/weichow23/weave.svg?style=social&label=Official)](https://github.com/weichow23/weave)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/WeiChow/WEAVE)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://weichow23.github.io/weave/)
+
++ [ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](https://arxiv.org/abs/2511.01163) (2025-11-03)
   [![Code](https://img.shields.io/github/stars/cheryyunl/ROVER.svg?style=social&label=Official)](https://github.com/cheryyunl/ROVER)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/cheryyunl/ROVER)
 
-+ [Unison: Benchmarking Unified Multimodal Models via Synergistic Understanding and Generation](https://fudancvl.github.io/Unison)
-  [![Code](https://img.shields.io/github/stars/FudanCVL/Unison.svg?style=social&label=Official)](https://github.com/FudanCVL/Unison)
-  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/FudanCVL/Unison)
++ [GIR-Bench: Versatile Benchmark for Generating Images with Reasoning](https://arxiv.org/abs/2510.11026) (2025-10-13)
+  [![Code](https://img.shields.io/github/stars/HKUST-LongGroup/GIR-Bench.svg?style=social&label=Official)](https://github.com/HKUST-LongGroup/GIR-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/lihxxx/GIR-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://hkust-longgroup.github.io/GIR-Bench/)
+
++ [SUDER: Self-Improving Unified Large Multimodal Models for Understanding and Generation with Dual Self-Rewards](https://arxiv.org/abs/2506.07963) (2025-06-09)
+
++ [FactVerse: A Benchmark for Factual Consistency in Interleaved Image–Text Generation](https://aclanthology.org/2026.acl-long.1323.pdf) (ACL 2026)
 
 + [MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models](https://proceedings.iclr.cc/paper_files/paper/2026/file/d8308c2c45cf95bfebb736be377f0982-Paper-Conference.pdf) (ICLR 2026)
   [![Code](https://img.shields.io/github/stars/MME-Benchmarks/MME-Unify.svg?style=social&label=Official)](https://github.com/MME-Benchmarks/MME-Unify)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/wulin222/MME-Unify)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://mme-unify.github.io/)
-
-+ [WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation](https://openaccess.thecvf.com/content/CVPR2026/papers/Chow_WEAVE_Unleashing_and_Benchmarking_the_In-context_Interleaved_Comprehension_and_Generation_CVPR_2026_paper.pdf) (CVPR 2026)
-  [![Code](https://img.shields.io/github/stars/weichow23/weave.svg?style=social&label=Official)](https://github.com/weichow23/weave)
-  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/WeiChow/WEAVE)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://weichow23.github.io/weave/)
 
 + [UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark](https://any2any-mllm.github.io/unim/)
   [![Code](https://img.shields.io/github/stars/liyanlin06/UniM.svg?style=social&label=Official)](https://github.com/liyanlin06/UniM)
@@ -1527,8 +1795,32 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [MagicWand: A Universal Agent for Generation and Evaluation Aligned with User Preference](https://arxiv.org/abs/2511.18352) (2025-11-23)
+  ><i>Note: Introduces the human-preference-oriented UniPrefer-100K dataset and UniPreferBench for image and video generation.</i>
+
++ [Local Intrinsic Dimension Unveils Hallucinations in Diffusion Models](https://arxiv.org/abs/2605.05026) (2026-05-06)
+  ><i>Note: Introduces local intrinsic dimension as a structural-hallucination signal and Intrinsic Quenching as its corrective mechanism.</i>
+
++ [CRAFT: Clinical Reward-Aligned Finetuning for Medical Image Synthesis](https://arxiv.org/abs/2605.12650) (2026-05-12)
+  ><i>Note: Introduces the Clinical Alignment Score (CAS) as a clinical reward, supported by a blinded physician preference study.</i>
+
++ [GT-SVJ: Generative-Transformer-Based Self-Supervised Video Judge For Efficient Video Reward Modeling](https://arxiv.org/abs/2602.05202) (2026-02-05, CVPR 2026)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/sasuke-ss1/GT-SVJ)
+  ><i>Note: Introduces a temporally-aware video reward model aligned with human preferences.</i>
+
++ [Proprio: Latent Self-Scoring and Inference-Time Refinement for Physically Plausible Video Generation](https://arxiv.org/abs/2605.28230) (2026-05-27)
+
++ [PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models](https://arxiv.org/abs/2601.11087) (2026-01-16)
+
++ [What about gravity in video generation? Post-Training Newton's Laws with Verifiable Rewards](https://arxiv.org/abs/2512.00425) (2025-11-29)
+  [![Code](https://img.shields.io/github/stars/cvlab-stonybrook/NewtonRewards.svg?style=social&label=Official)](https://github.com/cvlab-stonybrook/NewtonRewards)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://cvlab-stonybrook.github.io/NewtonRewards/)
+
 + [WearWow: Native 2K Multi-Garment Virtual Try-On via Adaptive Token Packing and Preference Alignment](https://arxiv.org/abs/2607.19923) (2026-07-22)
   ><i>Note: Introduces the Multi-dimensional Try-on Reward (MTR) system for semantic guidance and cloth-distribution alignment.</i>
+
++ [Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation](https://arxiv.org/abs/2505.23525) (2025-05-29)
+  [![Code](https://img.shields.io/github/stars/xyz123xyz456/hallo4.svg?style=social&label=Official)](https://github.com/xyz123xyz456/hallo4)
 
 + [SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models](https://arxiv.org/pdf/2512.22170) (2025-12)
   [![Code](https://img.shields.io/github/stars/lian700/SoliReward.svg?style=social&label=Official)](https://github.com/lian700/SoliReward)
@@ -1802,6 +2094,20 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 5.1. Image Quality Assessment for AIGC
 
++ [Patch Knowledge Transfer for Efficient AI-Generated Image Quality Assessment](https://arxiv.org/abs/2607.05605) (2026-07-06)
+
++ [Decoupling Semantics from Distortions: Multi-Scale Two-Stream Vision-Language Alignment for AI-Generated Image Quality Assessment](https://arxiv.org/abs/2606.16799) (2026-06-15, ICME 2026 Spotlight)
+  [![Code](https://img.shields.io/github/stars/YMlinfeng/MST-CLIPIQA.svg?style=social&label=Official)](https://github.com/YMlinfeng/MST-CLIPIQA)
+
++ [Plug In, Grade Right: Psychology-Inspired AGIQA](https://arxiv.org/abs/2512.22780) (2025-12-28)
+
++ [CAS-IQA: Teaching Vision-Language Models for Synthetic Angiography Quality Assessment](https://arxiv.org/abs/2505.17619) (2025-05-23, ICONIP 2025)
+
++ [M3-AGIQA: Multimodal, Multi-Round, Multi-Aspect AI-Generated Image Quality Assessment](https://arxiv.org/abs/2502.15167) (2025-02-21)
+  [![Code](https://img.shields.io/github/stars/strawhatboy/M3-AGIQA.svg?style=social&label=Official)](https://github.com/strawhatboy/M3-AGIQA)
+
++ [CLIP-AGIQA: Boosting the Performance of AI-Generated Image Quality Assessment with CLIP](https://arxiv.org/abs/2408.15098) (2024-08-27)
+
 + [DPGF-Net: Dual-Prior Guided Fusion Network for Joint Assessment of Perceptual Quality and Semantic Consistency in AI-Generated Images](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_DPGF-Net_Dual-Prior_Guided_Fusion_Network_for_Joint_Assessment_of_Perceptual_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/leeto221/AGIQA.svg?style=social&label=Official)](https://github.com/leeto221/AGIQA)
 
@@ -1901,7 +2207,40 @@ Not for visual generation, but related evaluations of other models like LLMs
 ## 6. Study and Rethinking
 
 ### 6.1. Evaluation of Evaluations
-+ [SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](https://arxiv.org/pdf/2603.29186) (2026-03)
++ [Can We Predict The Human Preference For Text-to-Image Content Prior To Generation And Is It Even Useful To Do So?](https://arxiv.org/abs/2606.05478) (2026-06-03)
+  [![Code](https://img.shields.io/github/stars/LSU-ATHENA/HPM-Predict.svg?style=social&label=Official)](https://github.com/LSU-ATHENA/HPM-Predict)
+
++ [DynT2I-Eval: A Dynamic Evaluation Framework for Text-to-Image Models](https://arxiv.org/abs/2605.06170) (2026-05-07)
+
++ [Guidance Matters: Rethinking the Evaluation Pitfall for Text-to-Image Generation](https://arxiv.org/abs/2602.22570) (2026-02-26, ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/Maxwells-Demons/Guidance-Matters.svg?style=social&label=Official)](https://github.com/Maxwells-Demons/Guidance-Matters)
+
++ [GenArena: How Can We Achieve Human-Aligned Evaluation for Visual Generation Tasks?](https://arxiv.org/abs/2602.06013) (2026-02-05)
+  [![Code](https://img.shields.io/github/stars/ruihanglix/genarena.svg?style=social&label=Official)](https://github.com/ruihanglix/genarena)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://genarena.github.io/)
+
++ [AMVICC: A Novel Benchmark for Cross-Modal Failure Mode Profiling for VLMs and IGMs](https://arxiv.org/abs/2601.17037) (2026-01-20)
+  [![Code](https://img.shields.io/github/stars/AahanaB24/AMVICC.svg?style=social&label=Official)](https://github.com/AahanaB24/AMVICC)
+
++ [FineGRAIN: Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges](https://arxiv.org/abs/2512.02161) (2025-12-01)
+
++ [Evaluating the Evaluators: Metrics for Compositional Text-to-Image Generation](https://arxiv.org/abs/2509.21227) (2025-09-25)
+
++ [Evaluating Compositional Generalisation in VLMs and Diffusion Models](https://arxiv.org/abs/2508.20783) (2025-08-28, IWCS 2025)
+  [![Code](https://img.shields.io/github/stars/otmive/diffusion_classifier_clip.svg?style=social&label=Official)](https://github.com/otmive/diffusion_classifier_clip)
+
++ [ConceptMix++: Leveling the Playing Field in Text-to-Image Benchmarking via Iterative Prompt Optimization](https://arxiv.org/abs/2507.03275) (2025-07-04)
+
++ [MINOS: A Multimodal Evaluation Model for Bidirectional Generation Between Image and Text](https://arxiv.org/abs/2506.02494) (2025-06-03)
+
++ [CROC: Evaluating and Training T2I Metrics with Pseudo- and Human-Labeled Contrastive Robustness Checks](https://arxiv.org/abs/2505.11314) (2025-05-16)
+
++ [K-Sort Eval: Efficient Preference Evaluation for Visual Generation via Corrected VLM-as-a-Judge](https://arxiv.org/abs/2602.09411) (2026-02-10, ICLR 2026)
+  [![Code](https://img.shields.io/github/stars/zkkli/K-Sort-Eval.svg?style=social&label=Official)](https://github.com/zkkli/K-Sort-Eval)
+
++ [A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Distance for Retinal Image Synthesis](https://arxiv.org/abs/2502.17160) (2025-02-24)
+
++ [SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](https://arxiv.org/pdf/2603.29186) (2026-03-31)
   [![Code](https://img.shields.io/github/stars/tohoku-nlp/SLVMEval.svg?style=social&label=Official)](https://github.com/tohoku-nlp/SLVMEval)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/tohoku-nlp/SLVMEval)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://slvmeval.github.io/)
@@ -1913,7 +2252,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/DY-Evalab/EvalMuse)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://shh-han.github.io/EvalMuse-project/)
 
-+ [What Makes a Good Generated Image? Investigating Human and Multimodal LLM Image Preference Alignment](https://arxiv.org/pdf/2509.12750) (2025-09)
++ [What Makes a Good Generated Image? Investigating Human and Multimodal LLM Image Preference Alignment](https://arxiv.org/pdf/2509.12750) (2025-09-16)
 
 + [GAIA: Rethinking Action Quality Assessment for AI-Generated Videos](https://arxiv.org/abs/2406.06087) (2024-06-10)
 
@@ -1924,6 +2263,23 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 
 ### 6.2. Survey
+
++ [Instruction-based Image Editing: A Survey on Data, Models, Evaluation, and Applications](https://arxiv.org/abs/2607.25642) (2026-07-28)
+
++ [Operationalizing Fairness in Text-to-Image Models: A Survey of Bias, Fairness Audits and Mitigation Strategies](https://arxiv.org/abs/2604.16516) (2026-04-15, ICLR 2026 AFAA Workshop)
+
++ [A Survey of Body and Face Motion: Datasets, Performance Evaluation Metrics and Generative Techniques](https://arxiv.org/abs/2512.09005) (2025-12-09)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lownish23csz0010.github.io/mogen/)
+
++ [Right Looks, Wrong Reasons: Compositional Fidelity in Text-to-Image Generation](https://arxiv.org/abs/2511.10136) (2025-11-13, AAAI 2026)
+
++ [SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and Privacy of Synthetic Image Generation](https://arxiv.org/abs/2506.19360) (2025-06-24, USENIX Security 2025)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://www.usenix.org/conference/usenixsecurity25/presentation/chung-yunsung)
+
++ [Alignment and Safety of Diffusion Models via Reinforcement Learning and Reward Modeling: A Survey](https://arxiv.org/abs/2505.17352) (2025-05-23)
+
++ [Unveiling Deep Shadows: A Survey and Benchmark on Image and Video Shadow Detection, Removal, and Generation in the Deep Learning Era](https://arxiv.org/abs/2409.02108) (2024-09-03, IJCV)
+  [![Code](https://img.shields.io/github/stars/xw-hu/Unveiling-Deep-Shadows.svg?style=social&label=Official)](https://github.com/xw-hu/Unveiling-Deep-Shadows)
 
 + [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) (2025-03-23)
 
@@ -1994,7 +2350,62 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 6.3. Study
 
-+ [The Intricate Dance of Prompt Complexity, Quality, Diversity, and Consistency in T2I Models](https://arxiv.org/pdf/2510.19557) (2025-10)
++ [The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation](https://arxiv.org/abs/2606.20536) (2026-06-18)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://kyutai.org/fid-lottery/)
+
++ [Multimodal Image Colorization: Quantifying the Impact of Text-Conditioned Guidance on Grayscale-to-Color Translation](https://arxiv.org/abs/2606.20722) (2026-06-16)
+
++ [Evaluating Reasoning Fidelity in Visual Text Generation](https://arxiv.org/abs/2606.04479) (2026-06-03)
+
++ [Train, Test, Re-evaluate: Schedule-Sensitive Evaluation of Generative Data for Hand Detection](https://arxiv.org/abs/2606.01896) (2026-06-01)
+
++ [Rethinking FID Through the Geometry of the Reference Dataset](https://arxiv.org/abs/2605.29335) (2026-05-28)
+
++ [Skill-Aligned Annotation for Reliable Evaluation in Text-to-Image Generation](https://arxiv.org/abs/2605.13223) (2026-05-13)
+  [![Code](https://img.shields.io/github/stars/abdo-eldesokey/skill-aligned-eval.svg?style=social&label=Official)](https://github.com/abdo-eldesokey/skill-aligned-eval)
+
++ [Prompt-to-Gesture: Measuring the Capabilities of Image-to-Video Deictic Gesture Generation](https://arxiv.org/abs/2604.14953) (2026-04-16, FG 2026)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://prompt-to-gesture.github.io/)
+
++ [On Semiotic-Grounded Interpretive Evaluation of Generative Art](https://arxiv.org/abs/2604.08641) (2026-04-09)
+  [![Code](https://img.shields.io/github/stars/songrise/SemJudge.svg?style=social&label=Official)](https://github.com/songrise/SemJudge)
+  ><i>Note: Introduces SemJudge for symbolic and indexical meaning in generated art.</i>
+
++ [How Do Inpainting Artifacts Propagate to Language?](https://arxiv.org/abs/2602.20520) (2026-02-24)
+
++ [Comparative Evaluation of CNN Architectures for Neural Style Transfer in Indonesian Batik Motif Generation: A Comprehensive Study](https://arxiv.org/abs/2601.00888) (2025-12-31)
+
++ [Is Visual Realism Enough? Evaluating Gait Biometric Fidelity in Generative AI Human Animation](https://arxiv.org/abs/2512.19275) (2025-12-22)
+
++ [An evaluation of SVBRDF Prediction from Generative Image Models for Appearance Modeling of 3D Scenes](https://arxiv.org/abs/2512.13950) (2025-12-15)
+  [![Website](https://img.shields.io/badge/Website-9cf)](http://repo-sam.inria.fr/nerphys/svbrdf-evaluation)
+
++ [Cost Savings from Automatic Quality Assessment of Generated Images](https://arxiv.org/abs/2510.16179) (2025-10-17)
+
++ [FailureAtlas:Mapping the Failure Landscape of T2I Models via Active Exploration](https://arxiv.org/abs/2509.21995) (2025-09-26)
+  [![Code](https://img.shields.io/github/stars/cure-lab/FailureAtlas.svg?style=social&label=Official)](https://github.com/cure-lab/FailureAtlas)
+
++ [Hallucination as an Upper Bound: A New Perspective on Text-to-Image Evaluation](https://arxiv.org/abs/2509.21257) (2025-09-25)
+
++ [The Iconicity of the Generated Image](https://arxiv.org/abs/2509.16473) (2025-09-19)
+
++ [Perceptual Evaluation of GANs and Diffusion Models for Generating X-rays](https://arxiv.org/abs/2508.07128) (2025-08-10)
+
++ [Quality Assessment and Distortion-aware Saliency Prediction for AI-Generated Omnidirectional Images](https://arxiv.org/abs/2506.21925) (2025-06-27)
+  [![Code](https://img.shields.io/github/stars/IntMeGroup/AIGCOIQA.svg?style=social&label=Official)](https://github.com/IntMeGroup/AIGCOIQA)
+
++ [How to Train your Text-to-Image Model: Evaluating Design Choices for Synthetic Training Captions](https://arxiv.org/abs/2506.16679) (2025-06-20)
+
++ [Quantitative Comparison of Fine-Tuning Techniques for Pretrained Latent Diffusion Models in the Generation of Unseen SAR Images](https://arxiv.org/abs/2506.13307) (2025-06-16)
+
++ [Re-Thinking the Automatic Evaluation of Image-Text Alignment in Text-to-Image Models](https://arxiv.org/abs/2506.08480) (2025-06-10)
+
++ [RAISE: Realness Assessment for Image Synthesis and Evaluation](https://arxiv.org/abs/2505.19233) (2025-05-25)
+  ><i>Note: Introduces human realness annotations and realness-prediction baselines.</i>
+
++ [Evaluating and Improving the Effectiveness of Synthetic Chest X-Rays for Medical Image Analysis](https://arxiv.org/abs/2411.18602) (2024-11-27)
+
++ [The Intricate Dance of Prompt Complexity, Quality, Diversity, and Consistency in T2I Models](https://arxiv.org/pdf/2510.19557) (2025-10-22)
   [![Code](https://img.shields.io/github/stars/facebookresearch/synthetic_data_utility_prompt_complexity.svg?style=social&label=Official)](https://github.com/facebookresearch/synthetic_data_utility_prompt_complexity)
 
 + [A-Bench: Are LMMs Masters at Evaluating AI-generated Images?](https://arxiv.org/abs/2406.03070) (2024-06-05)
@@ -2052,6 +2463,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Appeal prediction for AI up-scaled Images](https://arxiv.org/abs/2502.14013) (2024-12-12) [![Code](https://img.shields.io/github/stars/Telecommunication-Telemedia-Assessment/ai_upscaling.svg?style=social&label=Official)](https://github.com/Telecommunication-Telemedia-Assessment/ai_upscaling)
 
 ### 6.4. Competition
++ [The First Controllable Bokeh Rendering Challenge at NTIRE 2026](https://arxiv.org/abs/2605.05510) (2026-05-06, NTIRE 2026)
+
 + [NTIRE 2024 Quality Assessment of AI-Generated Content Challenge](https://arxiv.org/abs/2404.16687) (2024-04-25)
 
 + [CVPR 2023 Text Guided Video Editing Competition](https://arxiv.org/abs/2310.16003) (2023-10-24) 
