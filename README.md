@@ -749,10 +749,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 + [MICE-Bench: A Challenging and Comprehensive Benchmark for Multi-Reference Image Creation and Editing](https://icml.cc/virtual/2026/poster/66534) (ICML 2026)
 
-+ ChartE³: A Comprehensive Benchmark for End-to-End Chart Editing
-  [![Code](https://img.shields.io/github/stars/galactic123/ChartE3.svg?style=social&label=Official)](https://github.com/galactic123/ChartE3)
-  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/lishuo123/ChartE3/tree/main)
-
 + [UnicEdit-10M: A Dataset and Benchmark Breaking the Scale-Quality Barrier via Unified Verification for Reasoning-Enriched Edits](https://openaccess.thecvf.com/content/CVPR2026/papers/Ye_UnicEdit-10M_A_Dataset_and_Benchmark_Breaking_the_Scale-Quality_Barrier_via_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/WeChatCV/UnicBench.svg?style=social&label=Official)](https://github.com/WeChatCV/UnicBench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/xiaotanhua/UnicBench)
