@@ -720,6 +720,27 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ [Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](https://arxiv.org/abs/2603.13057) (ECCV 2026)
+  [![Code](https://img.shields.io/github/stars/litelightlite/VTON-IQA.svg?style=social&label=Official)](https://github.com/litelightlite/VTON-IQA)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/zozonext/vtonqbench)
+  [![Hugging Face Demo](https://img.shields.io/badge/Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/zozonext/VTON-IQA)
+  ><i>Note: Introduces the reference-free VTON-IQA framework and the human-annotated VTON-QBench.</i>
+
++ [VTEdit-Bench: A Comprehensive Benchmark for Multi-Reference Image Editing Models in Virtual Try-On](https://arxiv.org/abs/2603.11734) (ECCV 2026)
+  [![Code](https://img.shields.io/github/stars/Hiuyee124/VTEdit-Bench.svg?style=social&label=Official)](https://github.com/Hiuyee124/VTEdit-Bench)
+  ><i>Note: Introduces VTEdit-QA to assess model consistency, cloth consistency, and overall image quality.</i>
+
++ [Virtual Try-On for Cultural Clothing: A Benchmarking Study](https://arxiv.org/abs/2603.07291) (2026-03-07)
+  ><i>Note: Introduces BD-VITON for benchmarking virtual try-on on culturally diverse Bangladeshi garments.</i>
+
++ [OpenVTON-Bench: A Large-Scale High-Resolution Benchmark for Controllable Virtual Try-On Evaluation](https://arxiv.org/abs/2601.22725) (2026-01)
+  [![Code](https://img.shields.io/github/stars/RenxingIntelligence/OpenVTON-Bench.svg?style=social&label=Official)](https://github.com/RenxingIntelligence/OpenVTON-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/RenxingIntelligence/OpenVTON)
+  ><i>Note: Evaluates background consistency, identity fidelity, texture fidelity, shape plausibility, and overall realism.</i>
+
++ [VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on](https://arxiv.org/abs/2601.02945) (2026-01-06)
+  ><i>Note: Provides human opinion scores for clothing fit, body compatibility, and overall quality across images from 11 VTON models.</i>
+
 + [Omni IIE Bench: Benchmarking the Practical Capabilities of Image Editing Models](https://arxiv.org/pdf/2603.16944) (2026-03)
   [![Code](https://img.shields.io/github/stars/Young-2000/OmniIIEBench.svg?style=social&label=Official)](https://github.com/Young-2000/OmniIIEBench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/YamJoy/OmniIIEBench)
@@ -872,6 +893,17 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.5. Evaluation of Video Generation
 
 #### 3.5.1. Evaluation of Text-to-Video Generation
+
++ [EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation](https://arxiv.org/abs/2605.23271) (2026-05-22)
+  ><i>Note: Introduces a pipeline-aware, expert-calibrated framework for evaluating cinematic quality, acting, aesthetics, multi-shot sequencing, and audio-visual integration.</i>
+
++ [MuSS: A Large-Scale Dataset and Cinematic Narrative Benchmark for Multi-Shot Subject-to-Video Generation](https://arxiv.org/abs/2604.23789) (2026-04)
+  [![Code](https://img.shields.io/github/stars/zhang-haojie/MuSS.svg?style=social&label=Official)](https://github.com/zhang-haojie/MuSS)
+  ><i>Note: Introduces the Cinematic Narrative Benchmark and Anti-Copy-Paste Variance (ACP-Var) metric for evaluating continuous storytelling and 3D structural consistency.</i>
+
++ [VGA-Bench: A Unified Benchmark and Multi-Model Framework for Video Aesthetics and Generation Quality Evaluation](https://arxiv.org/abs/2604.10127) (CVPR 2026)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/BestiVictoryLab/VGA-Bench)
+  ><i>Note: Jointly evaluates aesthetic quality, aesthetic tagging, and generation quality with VAQA-Net, VTag-Net, and VGQA-Net.</i>
 
 + [Ref4D-VideoBench: Four-Dimensional Reference-Based Evaluation of Text-to-Video Generative Models](https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Ref4D-VideoBench_Four-Dimensional_Reference-Based_Evaluation_of_Text-to-Video_Generative_Models_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/TAILab-W/Ref4D-VideoBench.svg?style=social&label=Official)](https://github.com/TAILab-W/Ref4D-VideoBench)
@@ -1419,6 +1451,28 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="3.9."></a>
 ### 3.9. Agentic Evaluation
 
++ [VideoArgus: Agentic Rubric-Grounded Unified Evaluation for Video Generation and Editing](https://arxiv.org/abs/2608.05485) (2026-08)
+  [![Code](https://img.shields.io/github/stars/zzzmyyzeng/VideoArgus.svg?style=social&label=Official)](https://github.com/zzzmyyzeng/VideoArgus)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/zengziyun/VideoArgusBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zzzmyyzeng.github.io/VideoArgus/)
+  ><i>Note: Introduces VideoArgus-Bench and sample-specific, evidence-grounded rubrics for five video generation and editing settings.</i>
+
++ [VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation](https://arxiv.org/abs/2606.08091) (2026-06)
+  [![Code](https://img.shields.io/github/stars/JianhuiWei7/VideoWeaver.svg?style=social&label=Official)](https://github.com/JianhuiWei7/VideoWeaver)
+  ><i>Note: Evaluates both agent execution traces and final long videos with an evidence-grounded agent-as-judge.</i>
+
++ [BackTranslation2.0 -- A Linguistically Motivated Metric to Assess Sign Language Production](https://arxiv.org/abs/2606.28673) (ECCV 2026)
+  ><i>Note: Introduces an agentic, linguistically grounded metric for grammatical correctness, phonological accuracy, motion fluency, and generation fidelity in sign language production.</i>
+
++ [Do Joint Audio-Video Generation Models Understand Physics?](https://arxiv.org/abs/2605.07061) (2026-05)
+  [![Code](https://img.shields.io/github/stars/ZijunCui02/AV-Phys.svg?style=social&label=Official)](https://github.com/ZijunCui02/AV-Phys)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ZijunCui/AV-Phys-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zijuncui.com/AV-Phys/)
+  ><i>Note: Introduces AV-Phys Bench and the ReAct-style AV-Phys Agent for evaluating physical commonsense in joint audio-video generation.</i>
+
++ [FAGER: Factually Grounded Evaluation and Refinement of Text-to-Image Models](https://arxiv.org/abs/2605.19111) (2026-05-18)
+  ><i>Note: Agentically constructs factual rubrics to evaluate and refine visually verifiable factual correctness in generated images.</i>
+
 + [EdiVal-Agent: An Object-Centric Framework for Automated, Fine-Grained Evaluation of Multi-Turn Editing](https://arxiv.org/pdf/2509.13399) (2025-09)
   [![Code](https://img.shields.io/github/stars/TianyuCodings/EdiVal.svg?style=social&label=Official)](https://github.com/TianyuCodings/EdiVal)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/C-Tianyu/EdiVal)
@@ -1472,6 +1526,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
+
++ [WearWow: Native 2K Multi-Garment Virtual Try-On via Adaptive Token Packing and Preference Alignment](https://arxiv.org/abs/2607.19923) (2026-07-22)
+  ><i>Note: Introduces the Multi-dimensional Try-on Reward (MTR) system for semantic guidance and cloth-distribution alignment.</i>
 
 + [SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models](https://arxiv.org/pdf/2512.22170) (2025-12)
   [![Code](https://img.shields.io/github/stars/lian700/SoliReward.svg?style=social&label=Official)](https://github.com/lian700/SoliReward)
