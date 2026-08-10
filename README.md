@@ -245,6 +245,13 @@ Papers for CLIP Similarity:
 <a name="2.2."></a>
 ### 2.2. Evaluation Metrics of Image Similarity
 
++ [CLPIPS: A Personalized Metric for AI-Generated Image Similarity](https://arxiv.org/abs/2604.01234) (2026-03-26)
+
++ [MEt3R: Measuring Multi-View Consistency in Generated Images](https://arxiv.org/abs/2501.06336) (2025-01-10)
+
++ [Pathology-Guided Virtual Staining Metric for Evaluation and Training](https://arxiv.org/abs/2507.12624) (2025-07-16)
+  ><i>Note: Introduces the Pathology-Aware Perceptual Image Similarity (PaPIS) metric.</i>
+
 | Metrics | Paper | Code |
 | -------- |  -------- |  ------- |
 | Learned Perceptual Image Patch Similarity (LPIPS) | [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/abs/1801.03924) (2018-01-11) (CVPR 2018) | [![Code](https://img.shields.io/github/stars/richzhang/PerceptualSimilarity.svg?style=social&label=Official)](https://github.com/richzhang/PerceptualSimilarity) [![Website](https://img.shields.io/badge/Website-9cf)](https://richzhang.github.io/PerceptualSimilarity/) |
@@ -270,6 +277,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.1."></a>
 ### 3.1. Evaluation of Unconditional Image Generation
 
++ [Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks](https://arxiv.org/abs/2603.13497) (2026-03-13)
+
 + [AesBench: An Expert Benchmark for Multimodal Large Language Models on Image Aesthetics Perception](https://arxiv.org/abs/2401.08276) (2024-01-16) 
 
 + [A Lightweight Generalizable Evaluation and Enhancement Framework for Generative Models and Generated Samples](https://ieeexplore.ieee.org/document/10495634) (2024-04-16) 
@@ -294,6 +303,27 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [MIBE: Multi-subject Interaction Benchmark and Evaluator for Personalized Image Generation](https://arxiv.org/abs/2607.01383) (2026-07-01)
+
++ [CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation](https://arxiv.org/abs/2606.15867) (2026-06-14)
+
++ [GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation](https://arxiv.org/abs/2605.06641) (2026-05-07)
+
++ [PortraitCraft: A Benchmark for Portrait Composition Understanding and Generation](https://arxiv.org/abs/2604.03611) (2026-04-04)
+
++ [AIBench: Evaluating Visual-Logical Consistency in Academic Illustration Generation](https://arxiv.org/abs/2603.28068) (2026-03-30)
+
++ [MultiBind: A Benchmark for Attribute Misbinding in Multi-Subject Generation](https://arxiv.org/abs/2603.21937) (2026-03-23)
+
++ [Counting Hallucinations in Diffusion Models](https://arxiv.org/abs/2510.13080) (2025-10-15)
+
++ [Beyond the Pixels: VLM-based Evaluation of Identity Preservation in Reference-Guided Synthesis](https://arxiv.org/abs/2511.08087) (2025-11-11)
+
++ [SinSEMI: A One-Shot Image Generation Model and Data-Efficient Evaluation Framework for Semiconductor Inspection Equipment](https://arxiv.org/abs/2511.06740) (2025-11-10)
+
++ [Mind-the-Glitch: Visual Correspondence for Detecting Inconsistencies in Subject-Driven Generation](https://arxiv.org/abs/2509.21989) (2025-09-26)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://abdo-eldesokey.github.io/mind-the-glitch/)
+
 + [Visual Personalization Turing Test](https://arxiv.org/abs/2601.22680) (2026-01-30, CVPR 2026)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://snap-research.github.io/vptt/)
 
@@ -314,7 +344,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/yzc002/LongT2IBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://welldky.github.io/LongT2IBench-Homepage/)
 
-+ [OverLayBench: A Benchmark for Layout-to-Image Generation with Dense Overlaps](https://arxiv.org/pdf/2509.19282) (2025-09)
++ [OverLayBench: A Benchmark for Layout-to-Image Generation with Dense Overlaps](https://arxiv.org/pdf/2509.19282) (2025-09-23)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://mlpc-ucsd.github.io/OverLayBench/)
   ><i>Note: Introduces OverLayScore.</i>
 
@@ -361,7 +391,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://zhengyaofang.github.io/CFM/)
   ><i>Note: Introduces the Color Fidelity Metric (CFM).</i>
 
-+ [PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](https://arxiv.org/pdf/2603.24078) (2026-03)
++ [PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](https://arxiv.org/pdf/2603.24078) (2026-03-25)
   [![Code](https://img.shields.io/github/stars/ArtmeScienceLab/PosterIQ-Benchmark.svg?style=social&label=Official)](https://github.com/ArtmeScienceLab/PosterIQ-Benchmark)
 
 + [MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](https://arxiv.org/abs/2511.22989) (2025/11/28)
@@ -734,6 +764,34 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
+
++ [A Systematic Benchmark of Intraoperative Ultrasound-to-MR Synthesis for Brain Tumour Surgery](https://arxiv.org/abs/2606.00630) (2026-05-30)
+
++ [PhysEditBench: A Protocol-Conditioned Benchmark for Dense Physical-Map Prediction with Image Editors](https://arxiv.org/abs/2605.13493) (2026-05-13)
+
++ [WildRelight: A Real-World Benchmark and Physics-Guided Adaptation for Single-Image Relighting](https://arxiv.org/abs/2605.11696) (2026-05-12)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lez-s.github.io/wildrelight_proj/)
+
++ [StableI2I: Spotting Unintended Changes in Image-to-Image Transition](https://arxiv.org/abs/2605.04453) (2026-05-06)
+  [![Code](https://img.shields.io/github/stars/Henry-Lee-real/StableI2I.svg?style=social&label=Official)](https://github.com/Henry-Lee-real/StableI2I)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/lijiayangCS/StableI2I)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://henry-lee-real.github.io/StableI2I_Page/)
+
++ [ViGoR-Bench: How Far Are Visual Generative Models From Zero-Shot Visual Reasoners?](https://arxiv.org/abs/2603.25823) (2026-03-26)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vincenthancoder.github.io/ViGoR-Bench/)
+
++ [GEBench: Benchmarking Image Generation Models as GUI Environments](https://arxiv.org/abs/2602.09007) (2026-02-09)
+  [![Code](https://img.shields.io/github/stars/stepfun-ai/GEBench.svg?style=social&label=Official)](https://github.com/stepfun-ai/GEBench)
+
++ [Vectra: A New Metric, Dataset, and Model for Visual Quality Assessment in E-Commerce In-Image Machine Translation](https://arxiv.org/abs/2602.07014) (2026-01-31)
+
++ [Contrast-X: A Multi-Modal Contrast Image Synthesis Benchmark and Universal Modality Flow Matching](https://arxiv.org/abs/2601.15884) (2026-01-22)
+  [![Code](https://img.shields.io/github/stars/YifanChen02/Contrast-X.svg?style=social&label=Official)](https://github.com/YifanChen02/Contrast-X)
+
++ [Lightweight CycleGAN Models for Cross-Modality Image Transformation and Experimental Quality Assessment in Fluorescence Microscopy](https://arxiv.org/abs/2510.15579) (2025-10-17)
+
++ [Human Body Restoration with One-Step Diffusion Model and A New Benchmark](https://arxiv.org/abs/2502.01411) (2025-02-03)
+  [![Code](https://img.shields.io/github/stars/gobunu/OSDHuman.svg?style=social&label=Official)](https://github.com/gobunu/OSDHuman)
 
 + [Probing Visual Planning in Image Editing Models](https://arxiv.org/abs/2604.22868) (2026-04-23)
   [![Code](https://img.shields.io/github/stars/spatigen/amaze.svg?style=social&label=Official)](https://github.com/spatigen/amaze)
@@ -1356,6 +1414,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.5. Evaluation of Video Editing
 
++ [A new dataset and comparison for multi-camera frame synthesis](https://arxiv.org/abs/2508.09068) (2025-08-12)
+
 + [OmniEdit-Bench: A Comprehensive Benchmark for Instruction-based Video Editing](https://arxiv.org/abs/2608.05049) (2026-08-05)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/OmniEdit-Bench/OmniEdit-Bench)
 
@@ -1795,6 +1855,18 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [PSR: Scaling Multi-Subject Personalized Image Generation with Pairwise Subject-Consistency Rewards](https://arxiv.org/abs/2512.01236) (2025-12-01)
+  [![Code](https://img.shields.io/github/stars/wang-shulei/PSR.svg?style=social&label=Official)](https://github.com/wang-shulei/PSR)
+  ><i>Note: Introduces Pairwise Subject-Consistency Rewards and a three-dimensional multi-subject personalization benchmark.</i>
+
++ [PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback](https://arxiv.org/abs/2602.12127) (2026-02-12)
+  ><i>Note: Introduces PosterOmni Reward Feedback for entity preservation and aesthetic preference, together with PosterOmni-Bench.</i>
+
++ [USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning](https://arxiv.org/abs/2508.18966) (2025-08-26)
+  [![Code](https://img.shields.io/github/stars/bytedance/USO.svg?style=social&label=Official)](https://github.com/bytedance/USO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://bytedance.github.io/USO/)
+  ><i>Note: Introduces style reward learning and USO-Bench for joint style similarity and subject fidelity evaluation.</i>
+
 + [MagicWand: A Universal Agent for Generation and Evaluation Aligned with User Preference](https://arxiv.org/abs/2511.18352) (2025-11-23)
   ><i>Note: Introduces the human-preference-oriented UniPrefer-100K dataset and UniPreferBench for image and video generation.</i>
 
@@ -2094,6 +2166,15 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 ### 5.1. Image Quality Assessment for AIGC
 
++ [ELIQ: A Label-Free Framework for Quality Assessment of Evolving AI-Generated Images](https://arxiv.org/abs/2602.03558) (2026-02-03)
+
++ [HandEval: Taking the First Step Towards Hand Quality Evaluation in Generated Images](https://arxiv.org/abs/2510.08978) (2025-10-10)
+
++ [AU-IQA: A Benchmark Dataset for Perceptual Quality Assessment of AI-Enhanced User-Generated Content](https://arxiv.org/abs/2508.05016) (2025-08-07)
+  [![Code](https://img.shields.io/github/stars/WNNGGU/AU-IQA-Dataset.svg?style=social&label=Official)](https://github.com/WNNGGU/AU-IQA-Dataset)
+
++ [F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking Face Generation, Customization, and Restoration](https://arxiv.org/abs/2412.13155) (2024-12-17)
+
 + [Patch Knowledge Transfer for Efficient AI-Generated Image Quality Assessment](https://arxiv.org/abs/2607.05605) (2026-07-06)
 
 + [Decoupling Semantics from Distortions: Multi-Scale Two-Stream Vision-Language Alignment for AI-Generated Image Quality Assessment](https://arxiv.org/abs/2606.16799) (2026-06-15, ICME 2026 Spotlight)
@@ -2111,7 +2192,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [DPGF-Net: Dual-Prior Guided Fusion Network for Joint Assessment of Perceptual Quality and Semantic Consistency in AI-Generated Images](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_DPGF-Net_Dual-Prior_Guided_Fusion_Network_for_Joint_Assessment_of_Perceptual_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/leeto221/AGIQA.svg?style=social&label=Official)](https://github.com/leeto221/AGIQA)
 
-+ [Text-Visual Semantic Constrained AI-Generated Image Quality Assessment](https://arxiv.org/pdf/2507.10432) (2025-07)
++ [Text-Visual Semantic Constrained AI-Generated Image Quality Assessment](https://arxiv.org/pdf/2507.10432) (2025-07-14)
   [![Code](https://img.shields.io/github/stars/mozhu1/SC-AGIQA.svg?style=social&label=Official)](https://github.com/mozhu1/SC-AGIQA)
 
 + [D-Judge: How Far Are We? Assessing the Discrepancies Between AI-Synthesized and Natural Images through Multimodal Guidance](https://arxiv.org/pdf/2412.17632) (2024-12)
