@@ -248,6 +248,7 @@ Papers for CLIP Similarity:
 + [CLPIPS: A Personalized Metric for AI-Generated Image Similarity](https://arxiv.org/abs/2604.01234) (2026-03-26)
 
 + [MEt3R: Measuring Multi-View Consistency in Generated Images](https://arxiv.org/abs/2501.06336) (2025-01-10)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://geometric-rl.mpi-inf.mpg.de/met3r/)
 
 + [Pathology-Guided Virtual Staining Metric for Evaluation and Training](https://arxiv.org/abs/2507.12624) (2025-07-16)
   ><i>Note: Introduces the Pathology-Aware Perceptual Image Similarity (PaPIS) metric.</i>
@@ -303,9 +304,123 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.2."></a>
 ### 3.2. Evaluation of Text-to-Image Generation
 
++ [Simile Understanding in Text-to-Image Models: An Evaluation Framework](https://arxiv.org/abs/2608.04750) (2026-08-05)
+
++ [Can Text-to-Image Models Draw from the Right Frame of Reference?](https://arxiv.org/abs/2608.03357) (2026-08-04)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ernie-research/FoR-T2I)
+
++ [ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis](https://arxiv.org/abs/2607.19341) (2026-07-21)
+  [![Code](https://img.shields.io/github/stars/wangyuan123ac/expertverse.github.io.svg?style=social&label=Official)](https://github.com/wangyuan123ac/expertverse.github.io)
+
++ [DynEval: Holistic Evaluations of T2I Generative Models in the Wild](https://arxiv.org/abs/2607.11199) (2026-07-13)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vcl-iisc.github.io/dyneval/)
+
++ [TIIF-Bench: How Does Your T2I Model Follow Your Instructions?](https://arxiv.org/abs/2506.02161) (2025-06-02)
+  [![Code](https://img.shields.io/github/stars/A113N-W3I/TIIF-Bench.svg?style=social&label=Official)](https://github.com/A113N-W3I/TIIF-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/A113NW3I/TIIF-Bench-Data)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://a113n-w3i.github.io/TIIF_Bench/)
+
++ [PIPBench: A Profile-Inclusive Framework for Personalized Image Generation Evaluation](https://arxiv.org/abs/2607.06440) (2026-07-07)
+  [![Code](https://img.shields.io/github/stars/wuyuhang05/PIPBench.svg?style=social&label=Official)](https://github.com/wuyuhang05/PIPBench)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/AirRain03/qwen2vl_7b)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/AirRain03/qwen2vl_32b)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/AirRain03/PIPBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://wuyuhang05.github.io/PIPBench/)
+
++ [KathaTrace: Diagnosing Semantic Trajectory Collapse in Generated Visual Narratives](https://arxiv.org/abs/2607.01312) (2026-07-01)
+
++ [Are Text-to-Image Models Inductivist Turkeys? A Counterfactual Benchmark for Causal Reasoning](https://arxiv.org/abs/2606.24548) (2026-06-23)
+  [![Code](https://img.shields.io/github/stars/jylei16/CF-World.github.io.svg?style=social&label=Official)](https://github.com/jylei16/CF-World.github.io)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://jylei16.github.io/CF-World.github.io/)
+
++ [DSH-Bench: A Difficulty- and Scenario-Aware Benchmark with Hierarchical Subject Taxonomy for Subject-Driven Text-to-Image Generation](https://arxiv.org/abs/2603.08090) (2026-03-09)
+
++ [Scaling Multi-Reference Image Generation with Dynamic Reward Optimization](https://arxiv.org/abs/2606.26947) (2026-06-25)
+  [![Code](https://img.shields.io/github/stars/Weistrass/DyRef.svg?style=social&label=Official)](https://github.com/Weistrass/DyRef)
+
++ [Qwen-Image-Bench: From Generation to Creation in Text-to-Image Evaluation](https://arxiv.org/abs/2605.28091) (2026-05-27)
+  [![Code](https://img.shields.io/github/stars/QwenLM/Qwen-Image-Bench.svg?style=social&label=Official)](https://github.com/QwenLM/Qwen-Image-Bench)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Qwen/Qwen-Image-Bench)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/nvidia/Qwen-Image-Flash)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/flukethoughts/Qwen-Image-Bench-NVFP4)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Civitai/Qwen-Image-Bench-FP8)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Qwen/Qwen-Image-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Charles0131/Qwen-Image-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Temdeun/Temdeun)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/KilersBotz/Qwen-Image-Bench)
+
++ [Can AI Draw Science? A Benchmark for Evaluating Scientific Figure Generation by Text-to-Image and Multimodal Models](https://arxiv.org/abs/2606.28406) (2026-06-24)
+
++ [GeoFidelity-Bench: Evaluating Segment-Level Geographic Fidelity in Text-to-Image Street-View Generation](https://arxiv.org/abs/2606.23669) (2026-06-22)
+  [![Code](https://img.shields.io/github/stars/tantansir/geofidelity-bench-release.svg?style=social&label=Official)](https://github.com/tantansir/geofidelity-bench-release)
+
++ [WeGenBench: A Multidimensional Diagnostic Benchmark towards Text-to-Image Model Optimization](https://arxiv.org/abs/2606.20100) (2026-06-18)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/yinggzhang/WeGenBench-Consistency-COT)
+
++ [GarmentSketch: Large-scale Sketch-to-Fashion Benchmark](https://arxiv.org/abs/2606.14025) (2026-06-12)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://khangbdd.github.io/garmentsketch)
+
++ [The 1st PortraitCraft Challenge: A CVPR 2026 Workshop Competition on Portrait Composition Understanding and Generation](https://arxiv.org/abs/2606.10894) (2026-06-09)
+
++ [Faithful, Enriched, and Precise: Benchmarking Natural-Science Illustration Generation by T2I models](https://arxiv.org/abs/2606.05949) (2026-06-04)
+
++ [TASTE: A Designer-Annotated Multi-Dimensional Preference Dataset for AI-Generated Graphic Design](https://arxiv.org/abs/2605.20731) (2026-05-20)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/purvanshi/TASTE)
+
++ [TextAlign: Preference Alignment for Text Rendering with Hierarchical Rewards](https://arxiv.org/abs/2605.19320) (2026-05-19)
+
++ [DetailMaster: Can Your Text-to-Image Model Handle Long Prompts?](https://arxiv.org/abs/2505.16915) (2025-05-22)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/datajuicer/DetailMaster)
+
++ [Benchmarking and Enhancing Text-to-Image Models for Generating Visual Representations in Early Arithmetic Education](https://arxiv.org/abs/2605.31212) (2026-05-29)
+
++ [DyCoRM: Dynamic Criterion-Aware Reward Modeling for Text-to-Image Generation](https://arxiv.org/abs/2605.25876) (2026-05-25)
+
++ [MaSC: A Masked Similarity Metric for Evaluating Concept-Driven Generation](https://arxiv.org/abs/2605.22469) (2026-05-21)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://masc-metric.github.io/)
+
++ [A Framework for Evaluating Zero-Shot Image Generation in Concept-based Explainability](https://arxiv.org/abs/2605.19855) (2026-05-19)
+  [![Code](https://img.shields.io/github/stars/DataSciencePolimi/ZeroShot-T2I-Concepts.svg?style=social&label=Official)](https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts)
+
++ [Benchmarking and Evolving Reason-Reflect-Rectify for Reflective Visual Generation](https://arxiv.org/abs/2605.19639) (2026-05-19)
+  [![Code](https://img.shields.io/github/stars/xiaomoguhz/R3-Bench.svg?style=social&label=Official)](https://github.com/xiaomoguhz/R3-Bench)
+
++ [ColorConceptBench: A Benchmark for Probabilistic Color-Concept Understanding in Text-to-Image Models](https://arxiv.org/abs/2601.16836) (2026-01-23)
+
++ [TIQA: Human-Aligned Perceptual Text Quality Assessment in Generated Images](https://arxiv.org/abs/2603.07119) (2026-03-07)
+
++ [Benchmarking Layout-Guided Diffusion Models through Unified Semantic-Spatial Evaluation in Closed and Open Settings](https://arxiv.org/abs/2604.25358) (2026-04-28)
+  [![Code](https://img.shields.io/github/stars/lparolari/cobench.svg?style=social&label=Official)](https://github.com/lparolari/cobench)
+
++ [Knowledge Visualization: A Benchmark and Method for Knowledge-Intensive Text-to-Image Generation](https://arxiv.org/abs/2604.22302) (2026-04-24)
+  [![Code](https://img.shields.io/github/stars/zhaoran66/KVBench.svg?style=social&label=Official)](https://github.com/zhaoran66/KVBench)
+
++ [Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning](https://arxiv.org/abs/2508.20751) (2025-08-28)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/Pref-GRPO)
+
++ [GENFIG1: Visual Summaries of Scholarly Work as a Challenge for Vision-Language Models](https://arxiv.org/abs/2604.04172) (2026-04-05)
+
++ [ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](https://arxiv.org/abs/2505.24862) (2025-05-30)
+  [![Code](https://img.shields.io/github/stars/vistorybench/vistorybench.svg?style=social&label=Official)](https://github.com/vistorybench/vistorybench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ViStoryBench/ViStoryBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vistorybench.github.io)
+
++ [When Identities Collapse: A Stress-Test Benchmark for Multi-Subject Personalization](https://arxiv.org/abs/2603.26078) (2026-03-27)
+
++ [BizGenEval: A Systematic Benchmark for Commercial Visual Content Generation](https://arxiv.org/abs/2603.25732) (2026-03-26)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://microsoft.github.io/BizGenEval/)
+
++ [Diffusion Probe: Generated Image Result Prediction Using CNN Probes](https://arxiv.org/abs/2602.23783) (2026-02-27)
+  [![Code](https://img.shields.io/github/stars/Alibaba-YuFeng/DiffusionProbe.svg?style=social&label=Official)](https://github.com/Alibaba-YuFeng/DiffusionProbe)
+
++ [TechImage-Bench: Rubric-Based Evaluation for Technical Image Generation](https://arxiv.org/abs/2512.12220) (2025-12-13)
+
 + [MIBE: Multi-subject Interaction Benchmark and Evaluator for Personalized Image Generation](https://arxiv.org/abs/2607.01383) (2026-07-01)
 
 + [CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation](https://arxiv.org/abs/2606.15867) (2026-06-14)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://longbaocoder2.github.io/cogcanvas/)
+  [![Code](https://img.shields.io/badge/Code-9cf)](https://anonymous.4open.science/r/cogcanvas-eval)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/multimedia-synergy-lab/CogCanvas)
 
 + [GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation](https://arxiv.org/abs/2605.06641) (2026-05-07)
 
@@ -367,10 +482,10 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://hanghuacs.github.io/MMIG-Bench/)
   ><i>Note: Introduces the Aspect Matching Score (AMS).</i>
 
-+ [SciFlow-Bench: Evaluating Structure-Aware Scientific Diagram Generation via Inverse Parsing](https://arxiv.org/pdf/2602.09809) (2026-02)
++ [SciFlow-Bench: Evaluating Structure-Aware Scientific Diagram Generation via Inverse Parsing](https://arxiv.org/abs/2602.09809) (2026-02-10)
   [![Code](https://img.shields.io/github/stars/Tong-0302/SciFlow-Bench.svg?style=social&label=Official)](https://github.com/Tong-0302/SciFlow-Bench)
 
-+ [IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation](https://arxiv.org/pdf/2601.04498) (2026-01)
++ [IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation](https://arxiv.org/abs/2601.04498) (2026-01-08)
   [![Code](https://img.shields.io/github/stars/MisterBrookT/IGenBench.svg?style=social&label=Official)](https://github.com/MisterBrookT/IGenBench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Brookseeworld/IGenBench-Dataset)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://igen-bench.vercel.app/)
@@ -394,10 +509,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](https://arxiv.org/pdf/2603.24078) (2026-03-25)
   [![Code](https://img.shields.io/github/stars/ArtmeScienceLab/PosterIQ-Benchmark.svg?style=social&label=Official)](https://github.com/ArtmeScienceLab/PosterIQ-Benchmark)
 
-+ [MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](https://arxiv.org/abs/2511.22989) (2025/11/28)
++ [MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](https://arxiv.org/abs/2511.22989) (2025-11-28)
   [![Code](https://img.shields.io/github/stars/matsuolab/multibanana.svg?style=social&label=Official)](https://github.com/matsuolab/multibanana)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/kohsei/MultiBanana-Benchmark)
-+ [GenExam: A Multidisciplinary Text-to-Image Exam](https://arxiv.org/abs/2509.14232) (2025-09-18)
++ [GenExam: A Multidisciplinary Text-to-Image Exam](https://arxiv.org/abs/2509.14232) (2025-09-17)
   [![Code](https://img.shields.io/github/stars/OpenGVLab/GenExam.svg?style=social&label=Official)](https://github.com/OpenGVLab/GenExam)
 
 + [What Makes a Scene ? Scene Graph-based Evaluation and Feedback for Controllable Generation](https://arxiv.org/abs/2411.15435) (2024-05-26)
@@ -405,10 +520,15 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Commonsense-T2I Challenge: Can Text-to-Image Generation Models Understand Commonsense?](https://arxiv.org/abs/2406.07546) (2024-08-12)
  [![Website](https://img.shields.io/badge/Website-9cf)](https://zeyofu.github.io/CommonsenseT2I/)
 
-+ [WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation](https://arxiv.org/abs/2503.07265) (2025-05-27)
++ [WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation](https://arxiv.org/abs/2503.07265) (2025-03-10)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/LanguageBind/UniWorld-V1)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/wikeeyang/UniWorld-V1-NF4)
   [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/WISE.svg?style=social&label=Official)](https://github.com/PKU-YuanGroup/WISE)
 
 + [Why Settle for One? Text-to-ImageSet Generation and Evaluation](https://arxiv.org/abs/2506.23275) (2025-06-29)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://chengyou-jia.github.io/T2IS-Home)
+  [![Code](https://img.shields.io/github/stars/chengyou-jia/T2IS.svg?style=social&label=Official)](https://github.com/chengyou-jia/T2IS)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ChengyouJia/T2IS-Bench)
 
 + [LMM4LMM: Benchmarking and Evaluating Large-multimodal Image Generation with LMMs](https://arxiv.org/abs/2504.08358) (2025-04-11)
   [![Code](https://img.shields.io/github/stars/IntMeGroup/LMM4LMM.svg?style=social&label=Official)](https://github.com/IntMeGroup/LMM4LMM)
@@ -766,58 +886,93 @@ There are also recent works on new methods to measure visual similarity (more wi
 ### 3.3. Evaluation of Text-Based Image Editing
 
 + [MIEScore: Human-Aligned Evaluation for Multi-Source Image Editing](https://arxiv.org/abs/2608.02059) (2026-08-03)
+  [![Code](https://img.shields.io/github/stars/IntMeGroup/MIEScore.svg?style=social&label=Official)](https://github.com/IntMeGroup/MIEScore)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/TmpAccount/MIEScore)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/TmpAccount/MIEBench)
 
 + [MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing](https://arxiv.org/abs/2607.27616) (2026-07-30)
+  [![Code](https://img.shields.io/github/stars/AnnLin0628/mpie-bench.svg?style=social&label=Official)](https://github.com/AnnLin0628/mpie-bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/muset-ai/MPIE-Bench)
 
 + [RS-RIE-Bench: Benchmarking Reasoning-Guided Remote Sensing Image Editing](https://arxiv.org/abs/2607.20197) (2026-07-22)
 
 + [WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-centric Image Editing](https://arxiv.org/abs/2603.11593) (2026-03-12)
+  [![Code](https://img.shields.io/github/stars/HuiZhang0812/WeEdit.svg?style=social&label=Official)](https://github.com/HuiZhang0812/WeEdit)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/HuiZhang0812/WeEdit_benchmark)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huizhang0812.github.io/WeEdit/)
 
 + [Do Image Editing Models Understand Lighting?](https://arxiv.org/abs/2606.26738) (2026-06-25)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tim-kuechler.github.io/3DLP/)
 
 + [ChartSync: A Benchmark for Visuo-Logical Cascading Chart Editing](https://arxiv.org/abs/2607.10301) (2026-07-11)
+  [![Code](https://img.shields.io/github/stars/kaka-yjk/ChartSyncCodebase.svg?style=social&label=Official)](https://github.com/kaka-yjk/ChartSyncCodebase)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/JiakangYu/ChartSync)
 
 + [PhyEditBench: A Real-World Multi-Stage Benchmark for Physics-Aware Image Editing](https://arxiv.org/abs/2606.26551) (2026-06-25)
+  [![Code](https://img.shields.io/github/stars/Previsior/PhyEditBench.svg?style=social&label=Official)](https://github.com/Previsior/PhyEditBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Previsior-PhyEdit/phyedit-video)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Previsior-PhyEdit/phyedit-bench)
 
 + [An Extensive Benchmark for Single-round and Multi-round Instruction-based Image Editing](https://arxiv.org/abs/2606.15570) (2026-06-14)
+  [![Code](https://img.shields.io/github/stars/cocoshe/I2EBench.svg?style=social&label=Official)](https://github.com/cocoshe/I2EBench)
 
 + [VDE Bench: Evaluating The Capability of Image Editing Models to Modify Visual Documents](https://arxiv.org/abs/2602.00122) (2026-01-27)
 
 + [PaintBench: Deterministic Evaluation of Precise Visual Editing](https://arxiv.org/abs/2606.00188) (2026-05-29)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://paintbench.github.io/)
 
 + [TextSculptor: Training and Benchmarking Scene Text Editing](https://arxiv.org/abs/2605.21090) (2026-05-20)
+  [![Code](https://img.shields.io/github/stars/linyiheng123/TextSculptor.svg?style=social&label=Official)](https://github.com/linyiheng123/TextSculptor)
 
 + [MULTITEXTEDIT: Benchmarking Cross-Lingual Degradation in Text-in-Image Editing](https://arxiv.org/abs/2605.08163) (2026-05-04)
 
 + [DLEBench: Evaluating Small-scale Object Editing Ability for Instruction-based Image Editing Model](https://arxiv.org/abs/2602.23622) (2026-02-27)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/SPUH/DLEBench)
 
 + [StyleText: A Large-Scale Dataset and Benchmark for Stylized Scene Text Inpainting](https://arxiv.org/abs/2605.17309) (2026-05-17)
 
 + [Editor's Choice: Evaluating Abstract Intent in Image Editing through Atomic Entity Analysis](https://arxiv.org/abs/2605.14842) (2026-05-14)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://venturamor.github.io/EditorsChoice/)
 
 + [Do-Undo Bench: Reversibility for Action Understanding in Image Generation](https://arxiv.org/abs/2512.13609) (2025-12-15)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://s-mahajan.github.io/Do-Undo-Bench/)
 
 + [Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling](https://arxiv.org/abs/2605.13062) (2026-05-13)
+  [![Code](https://img.shields.io/github/stars/bxhsort/Edit-Compass-and-EditReward-Compass.svg?style=social&label=Official)](https://github.com/bxhsort/Edit-Compass-and-EditReward-Compass)
 
 + [PlanViz: Evaluating Planning-Oriented Image Generation and Editing for Computer-Use Tasks](https://arxiv.org/abs/2602.06663) (2026-02-06)
+  [![Code](https://img.shields.io/github/stars/lijunxian111/PlanViz.svg?style=social&label=Official)](https://github.com/lijunxian111/PlanViz)
 
 + [Towards In-Context Tone Style Transfer with A Large-Scale Triplet Dataset](https://arxiv.org/abs/2604.16114) (2026-04-17)
 
 + [Is This Edit Correct? A Multi-Dimensional Benchmark for Reasoning-Aware Image Editing](https://arxiv.org/abs/2606.05172) (2026-04-16)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Yixuan-Ding-ZJU/RE-Edit)
 
 + [Redefining Quality Criteria and Distance-Aware Score Modeling for Image Editing Assessment](https://arxiv.org/abs/2604.12175) (2026-04-14)
 
 + [AIM-Bench: Benchmarking and Improving Affective Image Manipulation via Fine-Grained Hierarchical Control](https://arxiv.org/abs/2604.10454) (2026-04-12)
 
 + [SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing](https://arxiv.org/abs/2604.04911) (2026-04-06)
+  [![Code](https://img.shields.io/github/stars/EasonXiao-888/SpatialEdit.svg?style=social&label=Official)](https://github.com/EasonXiao-888/SpatialEdit)
 
 + [MIRAGE: Benchmarking and Aligning Multi-Instance Image Editing](https://arxiv.org/abs/2604.05180) (2026-04-06)
+  [![Code](https://img.shields.io/github/stars/ZiqianLiu666/MIRAGE.svg?style=social&label=Official)](https://github.com/ZiqianLiu666/MIRAGE)
 
 + [FED-Bench: A Cross-Granular Benchmark for Disentangled Evaluation of Facial Expression Editing](https://arxiv.org/abs/2603.29697) (2026-03-31)
 
 + [GEditBench v2: A Human-Aligned Benchmark for General Image Editing](https://arxiv.org/abs/2603.28547) (2026-03-30)
+  [![Code](https://img.shields.io/github/stars/ZhangqiJiang07/GEditBench_v2.svg?style=social&label=Official)](https://github.com/ZhangqiJiang07/GEditBench_v2)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zhangqijiang07.github.io/gedit2_web/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/GEditBench-v2/PVC-Judge)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/GEditBench-v2/GEditBench-v2)
 
 + [ImagenWorld: Stress-Testing Image Generation Models with Explainable Human Evaluation on Open-ended Real-World Tasks](https://arxiv.org/abs/2603.27862) (2026-03-29)
+  [![Code](https://img.shields.io/github/stars/TIGER-AI-Lab/ImagenWorld.svg?style=social&label=Official)](https://github.com/TIGER-AI-Lab/ImagenWorld)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/ImagenWorld/)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/TIGER-Lab/ImagenWorld)
+
++ [VIBE: How Well Do Models Follow Visual Instructions?](https://arxiv.org/abs/2602.01851) (2026-02-02)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vibe-benchmark.github.io/)
 
 + [Evaluating Image Editing with LLMs: A Comprehensive Benchmark and Intermediate-Layer Probing Approach](https://arxiv.org/abs/2603.19775) (2026-03-20)
 
@@ -826,6 +981,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Scalable Evaluation of the Realism of Synthetic Environmental Augmentations in Images](https://arxiv.org/abs/2603.04325) (2026-03-04)
 
 + [InEdit-Bench: Benchmarking Intermediate Logical Pathways for Intelligent Image Editing Models](https://arxiv.org/abs/2603.03657) (2026-03-04)
+  [![Code](https://img.shields.io/github/stars/SZStrong1/InEdit-Bench.svg?style=social&label=Official)](https://github.com/SZStrong1/InEdit-Bench)
 
 + [Human-Aligned MLLM Judges for Fine-Grained Image Editing Evaluation: A Benchmark, Framework, and Analysis](https://arxiv.org/abs/2602.13028) (2026-02-13)
 
@@ -834,40 +990,66 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [LocateEdit-Bench: A Benchmark for Instruction-Based Editing Localization](https://arxiv.org/abs/2602.05577) (2026-02-05)
 
 + [HYPE-EDIT-1: Benchmark for Measuring Reliability in Frontier Image Editing Models](https://arxiv.org/abs/2602.00105) (2026-01-25)
+  [![Code](https://img.shields.io/github/stars/sourceful-official/hype-edit-1-benchmark.svg?style=social&label=Official)](https://github.com/sourceful-official/hype-edit-1-benchmark)
 
 + [Fine-Grained Human Pose Editing Assessment via Layer-Selective MLLMs](https://arxiv.org/abs/2601.10369) (2026-01-15)
 
 + [PICABench: How Far Are We from Physically Realistic Image Editing?](https://arxiv.org/abs/2510.17681) (2025-10-20)
+  [![Code](https://img.shields.io/github/stars/Andrew0613/PICABench.svg?style=social&label=Official)](https://github.com/Andrew0613/PICABench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://picabench.github.io/)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Andrew613/PICABench)
 
 + [RealDrag: The First Dragging Benchmark with Real Target Image](https://arxiv.org/abs/2512.12287) (2025-12-13)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ahmadzaf/RealDrag)
 
 + [WiseEdit: Benchmarking Cognition- and Creativity-Informed Image Editing](https://arxiv.org/abs/2512.00387) (2025-11-29)
+  [![Code](https://img.shields.io/github/stars/beepkh/WiseEdit.svg?style=social&label=Official)](https://github.com/beepkh/WiseEdit)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/123123chen/WiseEdit-Benchmark)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/midbee/WiseEdit-Results)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/midbee/WiseEdit-Result)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://qnancy.github.io/wiseedit_project_page/)
 
 + [UniREditBench: A Unified Reasoning-based Image Editing Benchmark](https://arxiv.org/abs/2511.01295) (2025-11-03)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://maplebb.github.io/UniREditBench)
 
 + [MedGEN-Bench: Contextually Entangled Benchmark for Open-ended Multimodal Medical Generation](https://arxiv.org/abs/2511.13135) (2025-11-17)
 
 + [MedEBench: Diagnosing Reliability in Text-Guided Medical Image Editing](https://arxiv.org/abs/2506.01921) (2025-06-02)
+  [![Code](https://img.shields.io/github/stars/mliuby/MedEBench.svg?style=social&label=Official)](https://github.com/mliuby/MedEBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/LIUMinghao/MedEBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mliuby.github.io/MedEBench_Website/)
 
 + [SpotEdit: Evaluating Visually-Guided Image Editing Methods](https://arxiv.org/abs/2508.18159) (2025-08-25)
+  [![Code](https://img.shields.io/github/stars/SaraGhazanfari/SpotEdit.svg?style=social&label=Official)](https://github.com/SaraGhazanfari/SpotEdit)
 
 + [EditGarment: An Instruction-Based Garment Editing Dataset Constructed with Automated MLLM Synthesis and Semantic-Aware Evaluation](https://arxiv.org/abs/2508.03497) (2025-08-05)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://yindq99.github.io/EditGarment-project/)
 
 + [ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation](https://arxiv.org/abs/2507.07317) (2025-07-09)
+  [![Code](https://img.shields.io/github/stars/SherryXTChen/ADIEE.svg?style=social&label=Official)](https://github.com/SherryXTChen/ADIEE)
 
 + [GIE-Bench: Towards Grounded Evaluation for Text-Guided Image Editing](https://arxiv.org/abs/2505.11493) (2025-05-16)
+  [![Code](https://img.shields.io/github/stars/apple/ml-gie-bench.svg?style=social&label=Official)](https://github.com/apple/ml-gie-bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://sueqian6.github.io/GIE-Bench-web/)
 
 + [ComplexBench-Edit: Benchmarking Complex Instruction-Driven Image Editing via Compositional Dependencies](https://arxiv.org/abs/2506.12830) (2025-06-15)
+  [![Code](https://img.shields.io/github/stars/llllly26/ComplexBench-Edit.svg?style=social&label=Official)](https://github.com/llllly26/ComplexBench-Edit)
 
 + [ByteMorph: Benchmarking Instruction-Guided Image Editing with Non-Rigid Motions](https://arxiv.org/abs/2506.03107) (2025-06-03)
+  [![Code](https://img.shields.io/github/stars/ByteDance-Seed/BM-code.svg?style=social&label=Official)](https://github.com/ByteDance-Seed/BM-code)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ByteDance-Seed/BM-6M)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ByteDance-Seed/BM-Bench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://boese0601.github.io/bytemorph)
 
 + [RefEdit: A Benchmark and Method for Improving Instruction-based Image Editing Model on Referring Expressions](https://arxiv.org/abs/2506.03448) (2025-06-03)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://refedit.vercel.app)
 
 + [A Systematic Benchmark of Intraoperative Ultrasound-to-MR Synthesis for Brain Tumour Surgery](https://arxiv.org/abs/2606.00630) (2026-05-30)
 
 + [PhysEditBench: A Protocol-Conditioned Benchmark for Dense Physical-Map Prediction with Image Editors](https://arxiv.org/abs/2605.13493) (2026-05-13)
 
 + [WildRelight: A Real-World Benchmark and Physics-Guided Adaptation for Single-Image Relighting](https://arxiv.org/abs/2605.11696) (2026-05-12)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Lez/wildrelight)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://lez-s.github.io/wildrelight_proj/)
 
 + [StableI2I: Spotting Unintended Changes in Image-to-Image Transition](https://arxiv.org/abs/2605.04453) (2026-05-06)
@@ -879,6 +1061,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vincenthancoder.github.io/ViGoR-Bench/)
 
 + [GEBench: Benchmarking Image Generation Models as GUI Environments](https://arxiv.org/abs/2602.09007) (2026-02-09)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/stepfun-ai/GEBench)
   [![Code](https://img.shields.io/github/stars/stepfun-ai/GEBench.svg?style=social&label=Official)](https://github.com/stepfun-ai/GEBench)
 
 + [Vectra: A New Metric, Dataset, and Model for Visual Quality Assessment in E-Commerce In-Image Machine Translation](https://arxiv.org/abs/2602.07014) (2026-01-31)
@@ -922,7 +1105,9 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Young-2000/OmniIIEBench.svg?style=social&label=Official)](https://github.com/Young-2000/OmniIIEBench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/YamJoy/OmniIIEBench)
 
-+ [I2I-Bench: A Comprehensive Benchmark Suite for Image-to-Image Editing Models](https://arxiv.org/pdf/2512.04660) (2025-12)
++ [I2I-Bench: A Comprehensive Benchmark Suite for Image-to-Image Editing Models](https://arxiv.org/abs/2512.04660) (2025-12-04)
+  [![Code](https://img.shields.io/github/stars/IntMeGroup/I2I-Bench.svg?style=social&label=Official)](https://github.com/IntMeGroup/I2I-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Moyao001/I2I-Bench)
 
 + [Inter-Edit: First Benchmark for Interactive Instruction-Based Image Editing](https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Inter-Edit_First_Benchmark_for_Interactive_Instruction-Based_Image_Editing_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/Delong-liu-bupt/Inter-Edit.svg?style=social&label=Official)](https://github.com/Delong-liu-bupt/Inter-Edit)
@@ -936,6 +1121,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   ><i>Note: Introduces LMM4Edit.</i>
 
 + [CompBench: Benchmarking Complex Instruction-Guided Image Editing](https://arxiv.org/pdf/2505.12200) (2025-05)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://comp-bench.github.io/)
   [![Code](https://img.shields.io/github/stars/comp-bench/CompBench.svg?style=social&label=Official)](https://github.com/comp-bench/CompBench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/BohanJia/CompBench)
 
@@ -1072,18 +1258,28 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.5.1. Evaluation of Text-to-Video Generation
 
 + [CultureVidBench: Benchmarking Cultural Understanding in Text-to-Video Generation](https://arxiv.org/abs/2608.01942) (2026-08-03)
+  [![Code](https://img.shields.io/github/stars/hanxjing/CultureVidBench.svg?style=social&label=Official)](https://github.com/hanxjing/CultureVidBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://hanxjing.github.io/CultureVidBench/)
 
 + [FilmBench: A Film-Grade Benchmark for Cinematic Video Generation](https://arxiv.org/abs/2607.24241) (2026-07-27)
+  [![Code](https://img.shields.io/github/stars/Neo-yk/FilmOps.svg?style=social&label=Official)](https://github.com/Neo-yk/FilmOps)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Neo961/FilmOps)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/skylenage/FilmBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Neo961/FilmOps)
 
 + [When Cultures Move: Measuring and Improving Multicultural Text-to-Video Generation](https://arxiv.org/abs/2605.16716) (2026-05-16)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/AIM-SCU/MAVEN_Multicultura_Text-to-Video_Generation)
   [![Code](https://img.shields.io/github/stars/AIM-SCU/MAVEN.svg?style=social&label=Official)](https://github.com/AIM-SCU/MAVEN)
 
 + [Multi-Dimensional Quality Assessment for AI-Generated Human-Centric Videos: Dataset and Model](https://arxiv.org/abs/2607.16742) (2026-07-18)
 
 + [MultiRef-Compass: Towards Comprehensive Evaluation of Multi-Reference-to-Audio-Video Generation](https://arxiv.org/abs/2607.14189) (2026-07-15)
+  [![Code](https://img.shields.io/github/stars/zxhhh0201/MultiRef-Compass.svg?style=social&label=Official)](https://github.com/zxhhh0201/MultiRef-Compass)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/zxhhhhhh/MultiRef-Compass)
 
 + [VGIF-Score: Interpretable and Diagnostic Evaluation of Spatio-Temporal Instruction Following in Video Generation](https://arxiv.org/abs/2607.13527) (2026-07-15)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://pris-cv.github.io/VGIF-SCORE/)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Notyourkev/VGIF-Bench)
   [![Code](https://img.shields.io/github/stars/PRIS-CV/VGIF-SCORE.svg?style=social&label=Official)](https://github.com/PRIS-CV/VGIF-SCORE)
 
 + [GeoT2V-Bench: Benchmarking 3D Consistency in Text-to-Video Models via 3D Reconstruction](https://arxiv.org/abs/2606.24829) (2026-06-23)
@@ -1105,6 +1301,9 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [PEDRA: Evaluating the Realism of Pedestrian Dynamics in Video Generation](https://arxiv.org/abs/2510.20182) (2025-10-23)
 
 + [T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation](https://arxiv.org/abs/2512.21094) (2025-12-24)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://nju-link.github.io/T2AV-Compass/)
+  [![Code](https://img.shields.io/github/stars/NJU-LINK/T2AV-Compass.svg?style=social&label=Official)](https://github.com/NJU-LINK/T2AV-Compass)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/NJU-LINK/T2AV-Compass)
 
 + [OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation](https://arxiv.org/abs/2604.18326) (2026-04-20)
 
@@ -1119,14 +1318,17 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/EduVQA/EduVQA.svg?style=social&label=Official)](https://github.com/EduVQA/EduVQA)
 
 + [WorldJen: An End-to-End Multi-Dimensional Benchmark for Generative Video Models](https://arxiv.org/abs/2605.03475) (2026-05-05)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://moonmath.ai/worldjen/)
 
 + [HumanScore: Benchmarking Human Motions in Generated Videos](https://arxiv.org/abs/2604.20157) (2026-04-22)
 
 + [AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation](https://arxiv.org/abs/2604.08540) (2026-04-09)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://aka.ms/avgenbench)
 
 + [MSG Score: Automated Video Verification for Reliable Multi-Scene Generation](https://arxiv.org/abs/2411.19121) (2024-11-28)
 
 + [VABench: A Comprehensive Benchmark for Audio-Video Generation](https://arxiv.org/abs/2512.09299) (2025-12-10)
+  [![Code](https://img.shields.io/github/stars/tanABCC/VABench.svg?style=social&label=Official)](https://github.com/tanABCC/VABench)
 
 + [MSVBench: Towards Human-Level Evaluation of Multi-Shot Video Generation](https://arxiv.org/abs/2602.23969) (2026-02-27)
 
@@ -1150,6 +1352,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [How Far Are Surgeons from Surgical World Models? A Pilot Study on Zero-shot Surgical Video Generation with Expert Assessment](https://arxiv.org/abs/2511.01775) (2025-11-03)
 
 + [SeqBench: Benchmarking Sequential Narrative Generation in Text-to-Video Models](https://arxiv.org/abs/2510.13042) (2025-10-14)
+  [![Code](https://img.shields.io/github/stars/TangZhengxu/SeqBench-Benchmarking-Sequential-Narrative-Generation-in-Text-to-Video-Models.svg?style=social&label=Official)](https://github.com/TangZhengxu/SeqBench-Benchmarking-Sequential-Narrative-Generation-in-Text-to-Video-Models)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://videobench.github.io/SeqBench.github.io/)
 
 + [DynamicEval: Rethinking Evaluation for Dynamic Text-to-Video Synthesis](https://arxiv.org/abs/2510.07441) (2025-10-08)
@@ -1169,6 +1372,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [FIFA: Unified Faithfulness Evaluation Framework for Text-to-Video and Video-to-Text Generation](https://arxiv.org/abs/2507.06523) (2025-07-09)
 
 + [Beyond Time Shifts: Adapting Omni-LLM as a Reference-Free Evaluator for Generative Audio-Visual Models](https://arxiv.org/abs/2607.09091) (2026-07-10)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/qianyijie/avsync-evaluator)
 
 + [Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos](https://arxiv.org/abs/2605.18984) (2026-05-18)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/DogNeverSleep/Artifact-Bench)
@@ -1199,6 +1403,8 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/atinpothiraj/pqsg.svg?style=social&label=Official)](https://github.com/atinpothiraj/pqsg)
 
 + [Trimming the Long-Tail of Visual World Modeling Evaluation](https://arxiv.org/abs/2606.24256) (2026-06-23)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tailor-bench.github.io)
+  [![Code](https://img.shields.io/github/stars/tailor-bench/code.svg?style=social&label=Official)](https://github.com/tailor-bench/code)
 
 + [Quantitative Video World Model Evaluation for Geometric-Consistency](https://arxiv.org/abs/2605.15185) (2026-05-14)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://pdi-bench.github.io/)
@@ -1229,6 +1435,8 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/phyworldbench/phyworldbench)
 
 + [VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness](https://arxiv.org/abs/2503.21755) (2025-03-27)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/VBench-2.0-project/)
+  [![Code](https://img.shields.io/github/stars/Vchitect/VBench-2.0.svg?style=social&label=Official)](https://github.com/Vchitect/VBench-2.0)
   [![Code](https://img.shields.io/github/stars/Vchitect/VBench.svg?style=social&label=Official)](https://github.com/Vchitect/VBench)
 
 + [Artifact-Aware Evaluation for High-Quality Video Generation](https://arxiv.org/abs/2601.20297) (2026-01-28)
@@ -1281,8 +1489,10 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://stable-cinemetrics.github.io/)
 
 + [Are Synthetic Videos Useful? A Benchmark for Retrieval-Centric Evaluation of Synthetic Videos](https://arxiv.org/abs/2507.02316) (2025-07-03) 
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://jasoncodemaker.github.io/SynTVA/)
 
 + [AIGVE-MACS: Unified Multi-Aspect Commenting and Scoring Model for AI-Generated Video Evaluation](https://arxiv.org/abs/2507.01255) (2025-07-02) 
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/xiaoliux/AIGVE-MACS)
 
 + [BrokenVideos: A Benchmark Dataset for Fine-Grained Artifact Localization in AI-Generated Videos](https://arxiv.org/abs/2506.20103) (2025-06-25) 
 
@@ -1308,6 +1518,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/Video-Bench/Video-Bench.svg?style=social&label=Official)](https://github.com/Video-Bench/Video-Bench)
 
 + [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/abs/2504.02918) (2025-04-03)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://physics-from-video.github.io/morpheus-bench/)
 
 + [Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing](https://arxiv.org/abs/2504.02826) (2025-04-03)
 [![Code](https://img.shields.io/github/stars/PhoenixZ810/RISEBench.svg?style=social&label=Official)](https://github.com/PhoenixZ810/RISEBench)
@@ -1316,6 +1527,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 [![Code](https://img.shields.io/github/stars/Silin159/VinaBench.svg?style=social&label=Official)](https://github.com/Silin159/VinaBench)
 
 + [ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867) (2025-03-21)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://eftv-eval.github.io/etva-eval/)
+  [![Code](https://img.shields.io/github/stars/guankaisi/ETVA.svg?style=social&label=Official)](https://github.com/guankaisi/ETVA)
 
 + [UVE: Are MLLMs Unified Evaluators for AI-Generated Videos?](https://arxiv.org/pdf/2503.09949) (2025-03-13)
   [![Code](https://img.shields.io/github/stars/bytedance/UVE.svg?style=social&label=Official)](https://github.com/bytedance/UVE)
@@ -1459,11 +1672,16 @@ There are also recent works on new methods to measure visual similarity (more wi
 #### 3.5.2. Evaluation of Image-to-Video Generation
 
 + [GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models](https://arxiv.org/abs/2608.05948) (2026-08-06)
+  [![Code](https://img.shields.io/github/stars/InternRobotics/GAUGE.svg?style=social&label=Official)](https://github.com/InternRobotics/GAUGE)
 
 + [MBench: A Comprehensive Benchmark on Memory Capability for Video World Models](https://arxiv.org/abs/2606.00793) (2026-05-30)
+  [![Code](https://img.shields.io/github/stars/study-overflow/MBench.svg?style=social&label=Official)](https://github.com/study-overflow/MBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://peanutup.github.io/MBench-project/)
 
 + [WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation](https://arxiv.org/abs/2605.25874) (2026-05-25)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/meituan-longcat/WBench-weights)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/meituan-longcat/WBench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/meituan-longcat/WBench-examples)
   [![Code](https://img.shields.io/github/stars/meituan-longcat/WBench.svg?style=social&label=Official)](https://github.com/meituan-longcat/WBench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://meituan-longcat.github.io/WBench/)
 
@@ -1477,6 +1695,8 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://bimilab.github.io/paper-GenPD)
 
 + [MME-CoF-Pro: Evaluating Reasoning Coherence in Video Generative Models with Text and Visual Hints](https://arxiv.org/abs/2603.20194) (2026-03-20)
+  [![Code](https://img.shields.io/github/stars/yqi19/MME-CoF-Pro.svg?style=social&label=Official)](https://github.com/yqi19/MME-CoF-Pro)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/yqi19/mme-cof-pro)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://video-reasoning-coherence.github.io/)
 
 + [RISE-Video: Can Video Generators Decode Implicit World Rules?](https://arxiv.org/abs/2602.05986) (2026-02-05)
@@ -1486,8 +1706,11 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [AnimeAgent: Is the Multi-Agent via Image-to-Video models a Good Disney Storytelling Artist?](https://arxiv.org/abs/2602.20664) (2026-02-24)
 
 + [Thinking in Video: Can Video Generators Really Reason About the Real World?](https://arxiv.org/abs/2607.17523) (2026-07-20)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/BRZ911/Thinking-in-Video-Data)
 
 + [KeyFrame-Compass: Towards Comprehensive Evaluation of Keyframe-Conditioned Video Generation](https://arxiv.org/abs/2607.14202) (2026-07-15)
+  [![Code](https://img.shields.io/github/stars/cactusqq/KeyFrame-Compass.svg?style=social&label=Official)](https://github.com/cactusqq/KeyFrame-Compass)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Vickyinmyheart824/KeyFrame-Compass)
 
 + [Beyond the Last Frame: Process-aware Evaluation for Generative Video Reasoning](https://arxiv.org/abs/2512.24952) (2025-12-31)
   [![Code](https://img.shields.io/github/stars/RUCAIBox/VIPER.svg?style=social&label=Official)](https://github.com/RUCAIBox/VIPER)
@@ -1504,9 +1727,13 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Mayank-p3108/MechVerse)
 
 + [WorldMark: A Unified Benchmark Suite for Interactive Video World Models](https://arxiv.org/abs/2604.21686) (2026-04-23)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://alayalab.github.io/WorldMark/)
+  [![Code](https://img.shields.io/github/stars/AlayaLab/WorldMark.svg?style=social&label=Official)](https://github.com/AlayaLab/WorldMark)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://alaya-studio.github.io/WorldMark/)
 
 + [DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving](https://arxiv.org/abs/2601.01528) (2026-01-04)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://drivinggen-bench.github.io/)
+  [![Code](https://img.shields.io/github/stars/youngzhou1999/DrivingGen.svg?style=social&label=Official)](https://github.com/youngzhou1999/DrivingGen)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/yangzhou99/DrivingGen)
 
 + [WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World](https://arxiv.org/abs/2512.10958) (2025-12-11)
@@ -1532,6 +1759,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   ><i>Note: Evaluates animation principles, IP preservation, semantic consistency, motion rationality, and camera-motion consistency.</i>
 
 + [Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](https://arxiv.org/abs/2603.13215) (2026-03-13)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://ziqi-ma.github.io/blog/2026/outofsight/)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/JhanLiufu/StEvo-Bench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://glab-caltech.github.io/STEVOBench/)
   ><i>Note: Introduces STEVO-Bench to evaluate whether state evolution continues correctly under interrupted observation.</i>
@@ -1545,6 +1773,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   ><i>Note: Evaluates spatial understanding, attribute binding, category understanding, and reasoning in I2V models.</i>
 
 + [HyperMotionX: The Dataset and Benchmark with DiT-Based Pose-Guided Human Image Animation of Complex Motions](https://arxiv.org/abs/2505.22977) (2025-05-29)
+  [![Code](https://img.shields.io/github/stars/vivoCameraResearch/hypermotion.svg?style=social&label=Official)](https://github.com/vivoCameraResearch/hypermotion)
   [![Code](https://img.shields.io/github/stars/vivoCameraResearch/Hyper-Motion.svg?style=social&label=Official)](https://github.com/vivoCameraResearch/Hyper-Motion)
   [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/shuolin/HyperMotion)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vivocameraresearch.github.io/hypermotion/)
@@ -1643,22 +1872,32 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [A new dataset and comparison for multi-camera frame synthesis](https://arxiv.org/abs/2508.09068) (2025-08-12)
 
 + [OmniEdit-Bench: A Comprehensive Benchmark for Instruction-based Video Editing](https://arxiv.org/abs/2608.05049) (2026-08-05)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://omniedit-bench.github.io/)
+  [![Code](https://img.shields.io/github/stars/omniedit-bench/omniedit-bench.github.io.svg?style=social&label=Official)](https://github.com/omniedit-bench/omniedit-bench.github.io)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/OmniEdit-Bench/OmniEdit-Bench)
 
 + [MEDit-Bench: A Dataset for Evaluating Message-Driven Narrative Video Editing](https://arxiv.org/abs/2607.25300) (2026-07-28)
 
 + [AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities](https://arxiv.org/abs/2607.24821) (2026-07-17)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://ave-compass.github.io/)
+  [![Code](https://img.shields.io/github/stars/NJU-LINK/AVE-Compass.svg?style=social&label=Official)](https://github.com/NJU-LINK/AVE-Compass)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/NJU-LINK/AVE-Compass-v2)
 
 + [Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing](https://arxiv.org/abs/2606.30599) (2026-06-29)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/bigfacing/GOKU-2M)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Goku-2M/GOKU-2M)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://flying-sky999.github.io/Goku.github.io/)
 
 + [CoVEBench: Can Video Editing Models Handle Complex Instructions?](https://arxiv.org/abs/2606.08415) (2026-06-07)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://nju-link.github.io/CoVEBench/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/datasets/NJU-LINK/CoVEBench)
   [![Code](https://img.shields.io/github/stars/NJU-LINK/CoVEBench.svg?style=social&label=Official)](https://github.com/NJU-LINK/CoVEBench)
 
 + [V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation](https://arxiv.org/abs/2606.05665) (2026-06-04, ICML 2026 Workshop)
 
 + [PROVE: A Perceptual RemOVal cohErence Benchmark for Visual Media](https://arxiv.org/abs/2605.14534) (2026-05-14, ACM MM 2026)
+  [![Code](https://img.shields.io/github/stars/xiaomi-research/prove.svg?style=social&label=Official)](https://github.com/xiaomi-research/prove)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/HigherHu/PROVE-Bench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://xiaomi-research.github.io/prove/)
 
 + [VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects](https://arxiv.org/abs/2604.16272) (2026-04-17)
@@ -1686,6 +1925,9 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Website](https://img.shields.io/badge/Website-9cf)](https://ryanchenyn.github.io/projects/IVEBench/)
 
 + [FiVE: A Fine-grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models](https://arxiv.org/abs/2503.13684) (2025-03-17)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/LIMinghan/FiVE-Fine-Grained-Video-Editing-Benchmark)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/CiaranCw/FiVE-Fine-Grained-Video-Editing-Benchmark)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/harvardairobotics/FiVE-Bench)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/five-benchmark)
 
 + [EditBoard: Towards a Comprehensive Evaluation Benchmark for Text-Based Video Editing Models](https://arxiv.org/pdf/2409.09668) (2024-09)
@@ -1721,6 +1963,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   ><i>Note: Introduces a step-aware reward model for text-motion semantic consistency and motion realism.</i>
 
 + [The Quest for Generalizable Motion Generation: Data, Model, and Evaluation](https://arxiv.org/abs/2510.26794) (2025-10-30, ICLR 2026)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://motrixlab.github.io/2026_iclr_vimogen)
   [![Code](https://img.shields.io/github/stars/MotrixLab/ViMoGen.svg?style=social&label=Official)](https://github.com/MotrixLab/ViMoGen)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://linjing7.github.io/vimogen/)
   ><i>Note: Introduces MBench for motion quality, prompt fidelity, and generalization ability.</i>
@@ -1756,12 +1999,199 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.7.1. Evaluation of Visual-Generation-Model Trustworthiness
 
-+ [TEAR: Temporal-Aware Automated Red-Teaming for Text-to-Video Models](https://arxiv.org/pdf/2511.21145) (2025-11)
++ [Innocent Panels, Hateful Stories: Evaluating and Detecting Hateful Intent in Multi-Turn Visual Story Generation](https://arxiv.org/abs/2608.05210) (2026-08-05)
 
-+ [How Bias Binds: Measuring Hidden Associations for Bias Control in Text-to-Image Compositions](https://arxiv.org/pdf/2511.07091) (2025-11)
++ [Child-Oriented AIGC Video Risk Reviewing: A Benchmark and Knowledge-Supported Iterative Reasoning Framework](https://arxiv.org/abs/2607.22715) (2026-07-21)
+
++ [NAMESAKES: Probing Identity Memorization in Text-to-Image Models](https://arxiv.org/abs/2606.20155) (2026-06-18)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/malper/namesakes)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://namesakes-web.github.io)
+
++ [Inference-Time Concept Suppression and Video-Centric Evaluation for Text-to-Video Models](https://arxiv.org/abs/2607.14194) (2026-07-15)
+
++ [Beyond wheelchairs and blindfolds: Investigating disability stereotypes in T2I models with INCLUDE-BENCH](https://arxiv.org/abs/2607.08515) (2026-07-09)
+
++ [AI's Blind Spots: Geographic Knowledge and Diversity Deficit in Generated Urban Scenario](https://arxiv.org/abs/2506.16898) (2025-06-20)
+
++ [VPA-Guard: Defending and Benchmarking Image-to-Video Generation Against Visual Prompt Attacks](https://arxiv.org/abs/2606.25592) (2026-06-24)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/CSU-JPG/VVA-Bench)
+
++ [Happy Young Women, Grumpy Old Men? Emotion-Driven Demographic Biases in Synthetic Face Generation](https://arxiv.org/abs/2602.00032) (2026-01-18)
+
++ [When Safe Concepts Become Unsafe: Multi-Concept Compositional Vulnerabilities in Text-to-Image Models](https://arxiv.org/abs/2604.15967) (2026-04-17)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/chaoshuo/TwoHamsters)
+
++ [BAFIS: Dataset + Framework to assess occupational Bias and Human Preference in modern Text-to-image Models](https://arxiv.org/abs/2606.20241) (2026-06-18)
+
++ [Generating Fearful Images: Investigating Potential Emotional Biases in Image-Generation Models](https://arxiv.org/abs/2411.05985) (2024-11-08)
+
++ [When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models](https://arxiv.org/abs/2508.03483) (2025-08-05)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Dasool/SODA_images)
+
++ [CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs](https://arxiv.org/abs/2505.10496) (2025-05-15)
+  [![Code](https://img.shields.io/github/stars/Raman1121/CheXGenBench.svg?style=social&label=Official)](https://github.com/Raman1121/CheXGenBench)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/raman07/CheXGenBench-Models-Sana-e20)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/raman07/SynthCheX-75K-v2)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://raman1121.github.io/CheXGenBench/)
+
++ [Aligned but Stereotypical? How System Prompts Shape Demographic Bias in LLM-Based Text-to-Image Models](https://arxiv.org/abs/2512.04981) (2025-12-04)
+  [![Code](https://img.shields.io/github/stars/nahyeonkaty/fairpro.svg?style=social&label=Official)](https://github.com/nahyeonkaty/fairpro)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/nahyeonkaty/fairpro)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://fairpro-t2i.github.io)
+
++ [Gender Artifacts from Art History to Text-to-Image Generation](https://arxiv.org/abs/2606.05829) (2026-06-04)
+
++ [Toward Trustworthy Portrait Editing: Evaluation of Demographic Misrepresentation in I2I Models](https://arxiv.org/abs/2602.16149) (2026-02-18)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://seochan99.github.io/i2i-demographic-bias)
+
++ [Exposing Blindspots: Cultural Bias Evaluation in Generative Image Models](https://arxiv.org/abs/2510.20042) (2025-10-22)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://seochan99.github.io/ECB)
+
++ [SynCred-Bench: Benchmarking Synthetic Credibility in AI-Generated Visual Misinformation](https://arxiv.org/abs/2606.03348) (2026-06-02)
+  [![Code](https://img.shields.io/github/stars/thu-coai/Syncred-Bench.svg?style=social&label=Official)](https://github.com/thu-coai/Syncred-Bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/thu-coai/Syncred-Bench)
+
++ [RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation](https://arxiv.org/abs/2606.01600) (2026-06-01)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Huiqiong0124/RoboTrustBench_Dataset)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huiqiongli.github.io/RoboTrustBench/)
+
++ [SafeGen-Bench: Benchmarking Safety in Image-Conditioned Text-to-Video Generation](https://arxiv.org/abs/2606.01481) (2026-05-31)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/gray311/SafeGen-Bench)
+
++ [Broken Memories: Detecting and Mitigating Memorization in Diffusion Models with Degraded Generations](https://arxiv.org/abs/2605.22050) (2026-05-21)
+
++ [Hallucination Behavior in Multimodal LLMs Across Agricultural Image Interpretation and Generation Tasks](https://arxiv.org/abs/2605.27595) (2026-05-26)
+
++ [FairJudge: Abstention-Aware Multimodal Judges for Fairness and Alignment Evaluation in Text-to-Image Models](https://arxiv.org/abs/2510.22827) (2025-10-26)
+
++ [The Silent Brush: Evaluating Artistic Style Leakage in AI Art Generation](https://arxiv.org/abs/2605.17500) (2026-05-17)
+  [![Code](https://img.shields.io/badge/Code-9cf)](https://anonymous.4open.science/r/ArtArena-EBE4)
+
++ [Red-Teaming Text-to-Image Models via In-Context Experience Replay and Semantic-Preserving Prompt Rewriting](https://arxiv.org/abs/2411.16769) (2024-11-25)
+  [![Code](https://img.shields.io/github/stars/zhiyichin/ICER.svg?style=social&label=Official)](https://github.com/zhiyichin/ICER)
+
++ [Latent Space Probing for Adult Content Detection in Video Generative Models](https://arxiv.org/abs/2605.00874) (2026-04-25)
+
++ [T2I-BiasBench: A Multi-Metric Framework for Auditing Demographic and Cultural Bias in Text-to-Image Models](https://arxiv.org/abs/2604.12481) (2026-04-14)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://gyanendrachaubey.github.io/T2I-BiasBench/)
+
++ [Text-to-Image Models and Their Representation of People from Different Nationalities Engaging in Activities](https://arxiv.org/abs/2504.06313) (2025-04-08)
+
++ [GLEaN: A Text-to-image Bias Detection Approach for Public Comprehension](https://arxiv.org/abs/2604.09923) (2026-04-10)
+  [![Code](https://img.shields.io/github/stars/cultureiolab/GLEaN.svg?style=social&label=Official)](https://github.com/cultureiolab/GLEaN)
+
++ [FlowGuard: Towards Lightweight In-Generation Safety Detection for Diffusion Models via Linear Latent Decoding](https://arxiv.org/abs/2604.07879) (2026-04-09)
+
++ [DialectGen: Benchmarking and Improving Dialect Robustness in Multimodal Generation](https://arxiv.org/abs/2510.14949) (2025-10-16)
+  [![Code](https://img.shields.io/github/stars/DialectGen/DialectGen.svg?style=social&label=Official)](https://github.com/DialectGen/DialectGen)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://dialectgen.github.io/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/uclanlp/DialectGen-stable-diffusion-1.5-text-encoder)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/uclanlp/DialectGen)
+
++ [Erasure or Erosion? Evaluating Compositional Degradation in Unlearned Text-To-Image Diffusion Models](https://arxiv.org/abs/2604.04575) (2026-04-06)
+
++ [From Unlearning to UNBRANDING: A Benchmark for Trademark-Safe Text-to-Image Generation](https://arxiv.org/abs/2512.13953) (2025-12-15)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://gmum.github.io/UNBRANDING/)
+
++ [PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models](https://arxiv.org/abs/2603.21547) (2026-03-23)
+  [![Code](https://img.shields.io/github/stars/YiweiXie/PRObingBasedEvaluation.svg?style=social&label=Official)](https://github.com/YiweiXie/PRObingBasedEvaluation)
+
++ [REFORGE: Multi-modal Attacks Reveal Vulnerable Concept Unlearning in Image Generation Models](https://arxiv.org/abs/2603.16576) (2026-03-17)
+  [![Code](https://img.shields.io/github/stars/Imfatnoily/REFORGE.svg?style=social&label=Official)](https://github.com/Imfatnoily/REFORGE)
+
++ [When Generative Augmentation Hurts: A Benchmark Study of GAN and Diffusion Models for Bias Correction in AI Classification Systems](https://arxiv.org/abs/2603.16134) (2026-03-17)
+
++ [Culture in Action: Evaluating Text-to-Image Models through Social Activities](https://arxiv.org/abs/2511.05681) (2025-11-07)
+
++ [Investigating Disability Representations in Text-to-Image Models](https://arxiv.org/abs/2602.04687) (2026-02-04)
+
++ [GeoDiv: Framework For Measuring Geographical Diversity In Text-To-Image Models](https://arxiv.org/abs/2602.22120) (2026-02-25)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://abhipsabasu.github.io/geodiv)
+
++ [Synthetic History: Evaluating Visual Representations of the Past in Diffusion Models](https://arxiv.org/abs/2505.17064) (2025-05-18)
+
++ [From Preferences to Prejudice: The Role of Alignment Tuning in Shaping Social Bias in Video Diffusion Models](https://arxiv.org/abs/2510.17247) (2025-10-20)
+  [![Code](https://img.shields.io/github/stars/Zefan-Cai/VideoBiasEval.svg?style=social&label=Official)](https://github.com/Zefan-Cai/VideoBiasEval)
+
++ [Aesthetics as Structural Harm: Algorithmic Lookism Across Text-to-Image Generation and Classification](https://arxiv.org/abs/2601.11651) (2026-01-15)
+
++ [Are Video Generation Models Geographically Fair? An Attraction-Centric Evaluation of Global Visual Knowledge](https://arxiv.org/abs/2601.18698) (2026-01-26)
+
++ [Wukong Framework for Not Safe For Work Detection in Text-to-Image systems](https://arxiv.org/abs/2508.00591) (2025-08-01)
+
++ [CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics](https://arxiv.org/abs/2506.08835) (2025-06-10)
+  [![Code](https://img.shields.io/github/stars/mair-lab/CulturalFrames.svg?style=social&label=Official)](https://github.com/mair-lab/CulturalFrames)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/mair-lab/CulturalFrames)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://culturalframes.github.io/)
+
++ [Beautiful Images, Toxic Words: Understanding and Addressing Offensive Text in Generated Images](https://arxiv.org/abs/2502.05066) (2025-02-07)
+  [![Code](https://img.shields.io/github/stars/sprintml/ToxicBench.svg?style=social&label=Official)](https://github.com/sprintml/ToxicBench)
+
++ [Prompting4Debugging: Red-Teaming Text-to-Image Diffusion Models by Finding Problematic Prompts](https://arxiv.org/abs/2309.06135) (2023-09-12)
+  [![Code](https://img.shields.io/github/stars/zhiyichin/P4D.svg?style=social&label=Official)](https://github.com/zhiyichin/P4D)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/zhiyichin/p4d)
+
++ [Bias Detection and Rotation-Robustness Mitigation in Vision-Language Models and Generative Image Models](https://arxiv.org/abs/2601.08860) (2026-01-09)
+
++ [How Many Images Does It Take? Estimating Imitation Thresholds in Text-to-Image Models](https://arxiv.org/abs/2410.15002) (2024-10-19)
+  [![Code](https://img.shields.io/github/stars/vsahil/mimetic-2.svg?style=social&label=Official)](https://github.com/vsahil/mimetic-2)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://how-many-van-goghs-does-it-take.github.io)
+
++ [MineTheGap: Automatic Mining of Biases in Text-to-Image Models](https://arxiv.org/abs/2512.13427) (2025-12-15)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://noa-cohen.github.io/MineTheGap/)
+
++ [DREAM: Scalable Red Teaming for Text-to-Image Generative Systems via Distribution Modeling](https://arxiv.org/abs/2507.16329) (2025-07-22)
+  [![Code](https://img.shields.io/github/stars/AntigoneRandy/DREAM.svg?style=social&label=Official)](https://github.com/AntigoneRandy/DREAM)
+
++ [Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation](https://arxiv.org/abs/2511.17282) (2025-11-21)
+
++ [The Path to Reconciling Quality and Safety in Text-to-Image Generation: Dataset, Method, and Evaluation](https://arxiv.org/abs/2504.14290) (2025-04-19)
+
++ [Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models](https://arxiv.org/abs/2511.04834) (2025-11-06)
+
++ [Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning](https://arxiv.org/abs/2410.05664) (2024-10-08)
+  [![Code](https://img.shields.io/github/stars/ml-postech/HUB.svg?style=social&label=Official)](https://github.com/ml-postech/HUB)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://saemi410.github.io/HUB/)
+
++ [AutoPrompt: Automated Red-Teaming of Text-to-Image Models via LLM-Driven Adversarial Prompts](https://arxiv.org/abs/2510.24034) (2025-10-28)
+
++ [Comprehensive Evaluation and Analysis for NSFW Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2505.15450) (2025-05-21)
+  [![Code](https://img.shields.io/github/stars/ECNU-CILAB/ErasureBenchmark.svg?style=social&label=Official)](https://github.com/ECNU-CILAB/ErasureBenchmark)
+
++ [The Digital Mirror: Gender Bias and Occupational Stereotypes in AI-Generated Images](https://arxiv.org/abs/2510.08628) (2025-10-08)
+
++ [MetaLogic: Robustness Evaluation of Text-to-Image Models via Logically Equivalent Prompts](https://arxiv.org/abs/2510.00796) (2025-10-01)
+
++ [A Large Scale Analysis of Gender Biases in Text-to-Image Generative Models](https://arxiv.org/abs/2503.23398) (2025-03-30)
+
++ [Beyond the Prompt: Gender Bias in Text-to-Image Models, with a Case Study on Hospital Professions](https://arxiv.org/abs/2510.00045) (2025-09-27)
+
++ [Gender Stereotypes in Professional Roles Among Saudis: An Analytical Study of AI-Generated Images Using Language Models](https://arxiv.org/abs/2509.21466) (2025-09-25)
+
++ [BiasMap: Leveraging Cross-Attentions to Discover and Mitigate Hidden Social Biases in Text-to-Image Generation](https://arxiv.org/abs/2509.13496) (2025-09-16)
+
++ [A Framework for Benchmarking Fairness-Utility Trade-offs in Text-to-Image Models via Pareto Frontiers](https://arxiv.org/abs/2508.16752) (2025-08-22)
+
++ [Whose View of Safety? A Deep DIVE Dataset for Pluralistic Alignment of Text-to-Image Models](https://arxiv.org/abs/2507.13383) (2025-07-15)
+
++ [Towards Evaluating Robustness of Prompt Adherence in Text to Image Models](https://arxiv.org/abs/2507.08039) (2025-07-09)
+
++ [Hidden Bias in the Machine: Stereotypes in Text-to-Image Models](https://arxiv.org/abs/2506.13780) (2025-06-09)
+
++ [CuRe: Cultural Gaps in the Long Tail of Text-to-Image Systems](https://arxiv.org/abs/2506.08071) (2025-06-09)
+  [![Code](https://img.shields.io/github/stars/aniketrege/cure-bench.svg?style=social&label=Official)](https://github.com/aniketrege/cure-bench)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/aniketr/cure)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://aniketrege.github.io/cure/)
+
++ [PRJ: Perception-Retrieval-Judgement for Generated Images](https://arxiv.org/abs/2506.03683) (2025-06-04)
+
++ [TEAR: Temporal-Aware Automated Red-Teaming for Text-to-Video Models](https://arxiv.org/abs/2511.21145) (2025-11-26)
+
++ [How Bias Binds: Measuring Hidden Associations for Bias Control in Text-to-Image Compositions](https://arxiv.org/abs/2511.07091) (2025-11-10)
   ><i>Note: Introduces the bias adherence score.</i>
 
-+ [T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](https://arxiv.org/pdf/2510.22300) (2025-10)
++ [T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](https://arxiv.org/abs/2510.22300) (2025-10-25)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/datarr/T2I-RiskyPrompt-ImageDataset)
   [![Code](https://img.shields.io/github/stars/datar001/T2I-RiskyPrompt.svg?style=social&label=Official)](https://github.com/datar001/T2I-RiskyPrompt)
 
 + [Towards Culturally Fair Multimodal Generation: Quantifying and Mitigating Orientalist Biases in Text-to-Visual Models](https://dl.acm.org/doi/epdf/10.1145/3746027.3755251)
@@ -1773,7 +2203,7 @@ There are also recent works on new methods to measure visual similarity (more wi
   [![Code](https://img.shields.io/github/stars/proactivedefensebenchmark/proactivedefensebenchmark.svg?style=social&label=Official)](https://github.com/proactivedefensebenchmark/proactivedefensebenchmark)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://proactivedefensebenchmark.github.io/)
 
-+ [HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing](https://arxiv.org/pdf/2605.24687) (2026-05)
++ [HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing](https://arxiv.org/abs/2605.24687) (2026-05-23)
   [![Code](https://img.shields.io/github/stars/1059684669/HoloFair.svg?style=social&label=Official)](https://github.com/1059684669/HoloFair)
   ><i>Note: Introduces the Multi-attribute, Group-wise Bias Index (MGBI).</i>
 
@@ -1783,7 +2213,7 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Evaluation](https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_EMMA_Concept_Erasure_Benchmark_with_Comprehensive_Semantic_Metrics_and_Diverse_CVPR_2026_paper.pdf) (CVPR 2026)
   [![Code](https://img.shields.io/github/stars/lobsterlulu/EMMA.svg?style=social&label=Official)](https://github.com/lobsterlulu/EMMA)
 
-+ [Erasing More Than Intended? How Concept Erasure Degrades the Generation of Non-Target Concepts](https://arxiv.org/pdf/2501.09833) (2025-01)
++ [Erasing More Than Intended? How Concept Erasure Degrades the Generation of Non-Target Concepts](https://arxiv.org/abs/2501.09833) (2025-01-16)
 
 + [Bias in Gender Bias Benchmarks: How Spurious Features Distort Evaluation](https://arxiv.org/abs/2509.07596) (2025-09-09)
 
@@ -2016,6 +2446,9 @@ Not for visual generation, but related evaluations of other models like LLMs
 [![Code](https://img.shields.io/github/stars/HITsz-TMG/Agentic-CIGEval.svg?style=social&label=Official)](https://github.com/HITsz-TMG/Agentic-CIGEval)
 
 + [Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models](https://arxiv.org/abs/2412.09645) (2024-12-10)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ea-dev/ea-dev-pjlab-results)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/open-ea/ea-cot-t2i)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/open-ea/ea-cot-10k)
 [![Code](https://img.shields.io/github/stars/Vchitect/Evaluation-Agent.svg?style=social&label=Official)](https://github.com/Vchitect/Evaluation-Agent)
 [![Website](https://img.shields.io/badge/Website-9cf)](https://vchitect.github.io/Evaluation-Agent-project/)
 
@@ -2044,6 +2477,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/gxx27/UniKE)
 
 + [AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward](https://arxiv.org/abs/2605.12495) (2026-05-12)
+  [![Code](https://img.shields.io/github/stars/huangrh99/AlphaGRPO.svg?style=social&label=Official)](https://github.com/huangrh99/AlphaGRPO)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://huangrh99.github.io/AlphaGRPO/)
 
 + [MICON-Bench: Benchmarking and Enhancing Multi-Image Context Image Generation in Unified Multimodal Models](https://arxiv.org/abs/2602.19497) (2026-02-23)
@@ -2058,6 +2492,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Website](https://img.shields.io/badge/Website-9cf)](https://weichow23.github.io/weave/)
 
 + [ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation](https://arxiv.org/abs/2511.01163) (2025-11-03)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://roverbench.github.io/)
   [![Code](https://img.shields.io/github/stars/cheryyunl/ROVER.svg?style=social&label=Official)](https://github.com/cheryyunl/ROVER)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/cheryyunl/ROVER)
 
@@ -2067,6 +2502,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Website](https://img.shields.io/badge/Website-9cf)](https://hkust-longgroup.github.io/GIR-Bench/)
 
 + [SUDER: Self-Improving Unified Large Multimodal Models for Understanding and Generation with Dual Self-Rewards](https://arxiv.org/abs/2506.07963) (2025-06-09)
+  [![Code](https://img.shields.io/github/stars/hongjx175/SUDER.svg?style=social&label=Official)](https://github.com/hongjx175/SUDER)
 
 + [FactVerse: A Benchmark for Factual Consistency in Interleaved Image–Text Generation](https://aclanthology.org/2026.acl-long.1323.pdf) (ACL 2026)
 
@@ -2083,19 +2519,28 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [Debiasing Text-to-Image Evaluation via Implicit Cultural Alignment Reward Modeling](https://arxiv.org/abs/2607.15740) (2026-07-17)
+  ><i>Note: Introduces an implicit cultural alignment reward model trained/evaluated on human cultural-preference pairs.</i>
+
 + [IE-Critic-R1: Advancing the Explanatory Measurement of Text-Driven Image Editing for Human Perception Alignment](https://arxiv.org/abs/2511.18055) (2025-11-22)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/Coobiw/IE-Critic-R1-7B)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Coobiw/IE-Bench-4k)
   ><i>Note: Introduces IE-Bench with human MOS annotations and an RLVR-trained critic model for explainable, human-aligned image-editing quality assessment.</i>
 
 + [CoCoEdit: Content-Consistent Image Editing via Region Regularized Reinforcement Learning](https://arxiv.org/abs/2602.14068) (2026-02-15)
   ><i>Note: Introduces a region-regularized pixel-level similarity reward for content consistency during image editing.</i>
 
 + [ReasonEdit: Towards Interpretable Image Editing Evaluation via Reinforcement Learning](https://arxiv.org/abs/2605.07477) (2026-05-08)
+  [![Code](https://img.shields.io/github/stars/IntMeGroup/ReasonEdit.svg?style=social&label=Official)](https://github.com/IntMeGroup/ReasonEdit)
   ><i>Note: Introduces 1.3M human judgments, the human-aligned RE-Reward model, and an interpretable image-editing evaluator.</i>
 
 + [RewardFlow: Generate Images by Optimizing What You Reward](https://arxiv.org/abs/2604.08536) (2026-04-09)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://plan-lab.github.io/rewardflow)
   ><i>Note: Introduces a differentiable VQA reward for semantic alignment, localized grounding, object consistency, and human preference in image editing.</i>
 
 + [GEditBench v2: A Human-Aligned Benchmark for General Image Editing](https://arxiv.org/abs/2603.28547) (2026-03-30)
+  [![Code](https://img.shields.io/github/stars/ZhangqiJiang07/GEditBench_v2.svg?style=social&label=Official)](https://github.com/ZhangqiJiang07/GEditBench_v2)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zhangqijiang07.github.io/gedit2_web/)
   ><i>Note: Introduces PVC-Judge and expert-annotated VCReward-Bench for human-aligned visual-consistency assessment.</i>
 
 + [PISCES: Annotation-free Text-to-Video Post-Training via Optimal Transport-Aligned Rewards](https://arxiv.org/abs/2602.01624) (2026-02-02)
@@ -2135,6 +2580,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Proprio: Latent Self-Scoring and Inference-Time Refinement for Physically Plausible Video Generation](https://arxiv.org/abs/2605.28230) (2026-05-27)
 
 + [PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models](https://arxiv.org/abs/2601.11087) (2026-01-16)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lucaria-academy.github.io/PhysRVG/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/HappyP4nda/PhysRVG)
 
 + [What about gravity in video generation? Post-Training Newton's Laws with Verifiable Rewards](https://arxiv.org/abs/2512.00425) (2025-11-29)
   [![Code](https://img.shields.io/github/stars/cvlab-stonybrook/NewtonRewards.svg?style=social&label=Official)](https://github.com/cvlab-stonybrook/NewtonRewards)
@@ -2144,6 +2591,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   ><i>Note: Introduces the Multi-dimensional Try-on Reward (MTR) system for semantic guidance and cloth-distribution alignment.</i>
 
 + [Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation](https://arxiv.org/abs/2505.23525) (2025-05-29)
+  [![Code](https://img.shields.io/github/stars/fudan-generative-vision/hallo4.svg?style=social&label=Official)](https://github.com/fudan-generative-vision/hallo4)
   [![Code](https://img.shields.io/github/stars/xyz123xyz456/hallo4.svg?style=social&label=Official)](https://github.com/xyz123xyz456/hallo4)
 
 + [SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models](https://arxiv.org/pdf/2512.22170) (2025-12)
@@ -2155,7 +2603,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [Thinking with Frames: Generative Video Distortion Evaluation via Frame Reward Model](https://arxiv.org/pdf/2601.04033) (2026-01-07)
 
-+ [A Benchmark for Text-to-Image Alignment and Kernelized Direct Preference Optimization](https://arxiv.org/pdf/2506.14903) (2025-06)
++ [A Benchmark for Text-to-Image Alignment and Kernelized Direct Preference Optimization](https://arxiv.org/abs/2506.14903) (2025-06-17)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/DetonateT2I/DetonateT2I)
   ><i>Note: Introduces the Alignment Quality Index (AQI).</i>
 
@@ -2178,6 +2626,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Prompt-A-Video: Prompt Your Video Diffusion Model via Preference-Aligned LLM](https://arxiv.org/abs/2412.15156) (2024-12-19) [![Code](https://img.shields.io/github/stars/jiyt17/Prompt-A-Video.svg?style=social&label=Official)](https://github.com/jiyt17/Prompt-A-Video)
 
 + [Improved video generation with human feedback](https://arxiv.org/pdf/2501.13918) (2025-01-23) [![Website](https://img.shields.io/badge/Website-9cf)](https://gongyeliu.github.io/videoalign/)
+  [![Code](https://img.shields.io/github/stars/KwaiVGI/VideoAlign.svg?style=social&label=Official)](https://github.com/KwaiVGI/VideoAlign)
 
 + [LiFT: Leveraging Human Feedback for Text-to-Video Model Alignment](https://arxiv.org/pdf/2412.04814) (2024-12-24) [![Code](https://img.shields.io/github/stars/codegoat24/LiFT.svg?style=social&label=Official)]() [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/LiFT/)
 
@@ -2448,6 +2897,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/mozhu1/SC-AGIQA.svg?style=social&label=Official)](https://github.com/mozhu1/SC-AGIQA)
 
 + [D-Judge: How Far Are We? Assessing the Discrepancies Between AI-Synthesized and Natural Images through Multimodal Guidance](https://arxiv.org/pdf/2412.17632) (2024-12)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Renyang/DANI)
   [![Code](https://img.shields.io/github/stars/ryliu68/DJudge.svg?style=social&label=Official)](https://github.com/ryliu68/DJudge)
 
 + [Towards Explainable Partial-AIGC Image Quality Assessment](https://arxiv.org/pdf/2504.09291) (2025-04)
@@ -2544,6 +2994,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   ><i>Note: Studies nine existing reward models, preference-data scaling, reward-model bias, and ensemble mitigation for image inpainting.</i>
 
 + [Follow-Your-Preference++: Rethinking Preference Alignment for Image Inpainting](https://arxiv.org/abs/2606.03216) (2026-06-02)
+  [![Code](https://img.shields.io/github/stars/shenytzzz/Follow-Your-Preference.svg?style=social&label=Official)](https://github.com/shenytzzz/Follow-Your-Preference)
   ><i>Note: Empirically compares nine existing reward models, analyzes evaluator bias and reward hacking, and studies calibrated reward ensembles.</i>
 
 + [Can We Predict The Human Preference For Text-to-Image Content Prior To Generation And Is It Even Useful To Do So?](https://arxiv.org/abs/2606.05478) (2026-06-03)
@@ -2555,6 +3006,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/Maxwells-Demons/Guidance-Matters.svg?style=social&label=Official)](https://github.com/Maxwells-Demons/Guidance-Matters)
 
 + [GenArena: How Can We Achieve Human-Aligned Evaluation for Visual Generation Tasks?](https://arxiv.org/abs/2602.06013) (2026-02-05)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/rhli/genarena)
   [![Code](https://img.shields.io/github/stars/ruihanglix/genarena.svg?style=social&label=Official)](https://github.com/ruihanglix/genarena)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://genarena.github.io/)
 
@@ -2564,6 +3016,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [FineGRAIN: Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges](https://arxiv.org/abs/2512.02161) (2025-12-01)
 
 + [Evaluating the Evaluators: Metrics for Compositional Text-to-Image Generation](https://arxiv.org/abs/2509.21227) (2025-09-25)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://amirkasaei.com/eval-the-evals/)
 
 + [Evaluating Compositional Generalisation in VLMs and Diffusion Models](https://arxiv.org/abs/2508.20783) (2025-08-28, IWCS 2025)
   [![Code](https://img.shields.io/github/stars/otmive/diffusion_classifier_clip.svg?style=social&label=Official)](https://github.com/otmive/diffusion_classifier_clip)
@@ -2584,7 +3037,7 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/tohoku-nlp/SLVMEval)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://slvmeval.github.io/)
 
-+ [Do Existing Testing Tools Really Uncover Gender Bias in Text-to-Image Models?](https://arxiv.org/pdf/2501.15775) (2025-01)
++ [Do Existing Testing Tools Really Uncover Gender Bias in Text-to-Image Models?](https://arxiv.org/abs/2501.15775) (2025-01-27)
 
 + [EvalMuse-40K: A Reliable and Fine-Grained Benchmark with Comprehensive Human Annotations for Text-to-Image Generation Model Evaluation](https://arxiv.org/pdf/2412.18150) (2024-12)
   [![Code](https://img.shields.io/github/stars/DYEvaLab/EvalMuse.svg?style=social&label=Official)](https://github.com/DYEvaLab/EvalMuse)
@@ -2705,6 +3158,7 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Rethinking FID Through the Geometry of the Reference Dataset](https://arxiv.org/abs/2605.29335) (2026-05-28)
 
 + [Skill-Aligned Annotation for Reliable Evaluation in Text-to-Image Generation](https://arxiv.org/abs/2605.13223) (2026-05-13)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://abdo-eldesokey.github.io/skill-aligned-eval/)
   [![Code](https://img.shields.io/github/stars/abdo-eldesokey/skill-aligned-eval.svg?style=social&label=Official)](https://github.com/abdo-eldesokey/skill-aligned-eval)
 
 + [Prompt-to-Gesture: Measuring the Capabilities of Image-to-Video Deictic Gesture Generation](https://arxiv.org/abs/2604.14953) (2026-04-16, FG 2026)
@@ -2721,6 +3175,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Is Visual Realism Enough? Evaluating Gait Biometric Fidelity in Generative AI Human Animation](https://arxiv.org/abs/2512.19275) (2025-12-22)
 
 + [An evaluation of SVBRDF Prediction from Generative Image Models for Appearance Modeling of 3D Scenes](https://arxiv.org/abs/2512.13950) (2025-12-15)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://repo-sam.inria.fr/nerphys/svbrdf-evaluation)
+  [![Code](https://img.shields.io/github/stars/graphdeco-inria/svbrdf-evaluation.svg?style=social&label=Official)](https://github.com/graphdeco-inria/svbrdf-evaluation)
   [![Website](https://img.shields.io/badge/Website-9cf)](http://repo-sam.inria.fr/nerphys/svbrdf-evaluation)
 
 + [Cost Savings from Automatic Quality Assessment of Generated Images](https://arxiv.org/abs/2510.16179) (2025-10-17)
