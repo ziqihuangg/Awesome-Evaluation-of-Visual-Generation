@@ -2627,6 +2627,234 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="4."></a>
 ## 4. Improving Visual Generation with Evaluation / Feedback / Reward
 
++ [Evaluation-Verification Reward for Consistent Multi-Reference Image Editing](https://arxiv.org/abs/2607.29025) (2026-07-31)
+
++ [OmniPhys: Knowledge-Graph-Driven Benchmarking and Collective Optimization for Physical Commonsense in Text-to-Image Generation](https://arxiv.org/abs/2607.25641) (2026-07-28)
+  [![Code](https://img.shields.io/github/stars/zjukg/OmniPhys.svg?style=social&label=Official)](https://github.com/zjukg/OmniPhys)
+
++ [PRISM: Prompt Refinement via Image-grounded Self-rewarding Mechanism for Text-to-Image Generation](https://arxiv.org/abs/2607.24353) (2026-07-27)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://anonymous.4open.science/r/PRISM-FF81)
+
++ [Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation](https://arxiv.org/abs/2607.11886) (2026-07-13)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huangrh99.github.io/SpectraReward/)
+
++ [Reward Lightning: Fast Video Generation via Homologous Preference Distillation](https://arxiv.org/abs/2607.03960) (2026-07-04)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://reward-lightning.github.io)
+
++ [Optimizing Visual Generative Models via Distribution-wise Rewards](https://arxiv.org/abs/2607.02291) (2026-07-02)
+
++ [PortraitGen: Exemplar-Driven GRPO with Dual-Reward Guidance for Photorealistic Portrait Generation](https://arxiv.org/abs/2606.26930) (2026-06-25)
+
++ [DivRL: Disentangled Self-Similarity Rewards for Diverse Subject-Driven Generation](https://arxiv.org/abs/2606.23950) (2026-06-22)
+  [![Code](https://img.shields.io/github/stars/QianWangX/DivRL.svg?style=social&label=Official)](https://github.com/QianWangX/DivRL)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://qianwangx.github.io/DivRL/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/QWW/DivRL)
+
++ [ProductConsistency: Improving Product Identity Preservation in Instruction-Based Image Editing via SFT and RL](https://arxiv.org/abs/2606.19103) (2026-06-17)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://anonymous.4open.science/r/ProductConsistency-6FCC/README.md)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/FractalAIResearch/Kalaido-qwenedit-lora)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/FractalAIResearch/Kalaido-qwen-2512-lora)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/FractalAIResearch/ProductConsistency-Benchmark)
+
++ [HPSv3++: Scaling Reward Models Across the Full Spectrum of Diffusion Model Capabilities](https://arxiv.org/abs/2606.14657) (2026-06-12)
+  [![Code](https://img.shields.io/github/stars/PlantPotatoOnMoon/HPSv3-PlusPlus.svg?style=social&label=Official)](https://github.com/PlantPotatoOnMoon/HPSv3-PlusPlus)
+
++ [Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback](https://arxiv.org/abs/2606.06113) (2026-06-04)
+
++ [DRM: Diffusion-based Reward Model With Step-wise Guidance](https://arxiv.org/abs/2605.25661) (2026-05-25)
+  [![Code](https://img.shields.io/github/stars/jjaxonx/DRM.svg?style=social&label=Official)](https://github.com/jjaxonx/DRM)
+
++ [Geo-Align: Video Generation Alignment via Metric Geometry Reward](https://arxiv.org/abs/2605.23903) (2026-05-22)
+
++ [AutoRubric-T2I: Robust Rule-Based Reward Model for Text-to-Image Alignment](https://arxiv.org/abs/2605.17602) (2026-05-17)
+  [![Code](https://img.shields.io/github/stars/johnsonkao0213/AutoRubric-T2I.svg?style=social&label=Official)](https://github.com/johnsonkao0213/AutoRubric-T2I)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://johnsonkao0213.github.io/AutoRubric-T2I/)
+
++ [CreFlow: Corrective Reflow for Sparse-Reward Embodied Video Diffusion RL](https://arxiv.org/abs/2605.14274) (2026-05-14)
+
++ [PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation](https://arxiv.org/abs/2605.14269) (2026-05-14)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://phy-motion.github.io/)
+
++ [Arena as Offline Reward: Efficient Fine-Grained Preference Optimization for Diffusion Models](https://arxiv.org/abs/2605.06070) (2026-05-07)
+
++ [AesRM: Improving Video Aesthetics with Expert-Level Feedback](https://arxiv.org/abs/2604.28078) (2026-04-30)
+
++ [Leveraging Verifier-Based Reinforcement Learning in Image Editing](https://arxiv.org/abs/2604.27505) (2026-04-30)
+
++ [HP-Edit: A Human-Preference Post-Training Framework for Image Editing](https://arxiv.org/abs/2604.19406) (2026-04-21)
+
++ [PromptEcho: Annotation-Free Reward from Vision-Language Models for Text-to-Image Reinforcement Learning](https://arxiv.org/abs/2604.12652) (2026-04-14)
+
++ [ReinDriveGen: Reinforcement Post-Training for Out-of-Distribution Driving Scene Generation](https://arxiv.org/abs/2604.01129) (2026-04-01)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://drive-sim.github.io/ReinDriveGen/)
+
++ [VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward](https://arxiv.org/abs/2603.26599) (2026-03-27)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zhaochongan.github.io/projects/VGGRPO/)
+
++ [Policy-based Tuning of Autoregressive Image Models with Instance- and Distribution-Level Rewards](https://arxiv.org/abs/2603.23086) (2026-03-24)
+
++ [VIGOR: VIdeo Geometry-Oriented Reward for Temporal Generative Alignment](https://arxiv.org/abs/2603.16271) (2026-03-17)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vigor-geometry-reward.com/)
+
++ [GlyphPrinter: Region-Grouped Direct Preference Optimization for Glyph-Accurate Visual Text Rendering](https://arxiv.org/abs/2603.15616) (2026-03-16)
+  [![Code](https://img.shields.io/github/stars/FudanCVL/GlyphPrinter.svg?style=social&label=Official)](https://github.com/FudanCVL/GlyphPrinter)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://henghuiding.com/GlyphPrinter/)
+
++ [EditHF-1M: A Million-Scale Rich Human Preference Feedback for Image Editing](https://arxiv.org/abs/2603.14916) (2026-03-16)
+  [![Code](https://img.shields.io/github/stars/IntMeGroup/EditHF.svg?style=social&label=Official)](https://github.com/IntMeGroup/EditHF)
+
++ [LatSearch: Latent Reward-Guided Search for Faster Inference-Time Scaling in Video Diffusion](https://arxiv.org/abs/2603.14526) (2026-03-15)
+  [![Code](https://img.shields.io/github/stars/zengqunzhao/LatSearch.svg?style=social&label=Official)](https://github.com/zengqunzhao/LatSearch)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zengqunzhao.github.io/LatSearch)
+
++ [Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation](https://arxiv.org/abs/2603.12247) (2026-03-12)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://firm-reward.github.io)
+
++ [Learning to Generate via Understanding: Understanding-Driven Intrinsic Rewarding for Unified Multimodal Models](https://arxiv.org/abs/2603.06043) (2026-03-06)
+
++ [When Rubrics Fail: Error Enumeration as Reward in Reference-Free RL Post-Training for Virtual Try-On](https://arxiv.org/abs/2603.05659) (2026-03-05)
+
++ [Bridging Human Evaluation to Infrared and Visible Image Fusion](https://arxiv.org/abs/2603.03871) (2026-03-04)
+  [![Code](https://img.shields.io/github/stars/ALKA-Wind/EVAFusion.svg?style=social&label=Official)](https://github.com/ALKA-Wind/EVAFusion)
+
++ [BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling](https://arxiv.org/abs/2603.01163) (2026-03-01)
+
++ [DesignSense: A Human Preference Dataset and Reward Modeling Framework for Graphic Layout Generation](https://arxiv.org/abs/2602.23438) (2026-02-26)
+
++ [TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering](https://arxiv.org/abs/2602.20903) (2026-02-24)
+  [![Code](https://img.shields.io/github/stars/CIawevy/TextPecker.svg?style=social&label=Official)](https://github.com/CIawevy/TextPecker)
+
++ [Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling](https://arxiv.org/abs/2602.11146) (2026-02-11)
+  [![Code](https://img.shields.io/github/stars/HKUST-C4G/diffusion-rm.svg?style=social&label=Official)](https://github.com/HKUST-C4G/diffusion-rm)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/liuhuohuo/DiNa-LRM-SD35M-12layers)
+
++ [SpatialReward: Bridging the Perception Gap in Online RL for Image Editing via Explicit Spatial Reasoning](https://arxiv.org/abs/2602.07458) (2026-02-07)
+  [![Code](https://img.shields.io/github/stars/lorangan-ddup/SpatialReward.svg?style=social&label=Official)](https://github.com/lorangan-ddup/SpatialReward)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lorangan-ddup.github.io/SpatialReward/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/SpatialReward/SpatialReward-8B)
+
++ [Unified Personalized Reward Model for Vision Generation](https://arxiv.org/abs/2602.02380) (2026-02-02)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/flex)
+
++ [CamPilot: Improving Camera Control in Video Diffusion Model with Efficient Camera Reward Feedback](https://arxiv.org/abs/2601.16214) (2026-01-22)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://a-bigbao.github.io/CamPilot/)
+
++ [Diffusion-DRF: Free, Rich, and Differentiable Reward for Video Diffusion Fine-Tuning](https://arxiv.org/abs/2601.04153) (2026-01-07)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://snap-research.github.io/diffusion-drf/)
+
++ [Understanding Reward Hacking in Text-to-Image Reinforcement Learning](https://arxiv.org/abs/2601.03468) (2026-01-06)
+  [![Code](https://img.shields.io/github/stars/yq-hong/ArtifactReward.svg?style=social&label=Official)](https://github.com/yq-hong/ArtifactReward)
+
++ [PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation](https://arxiv.org/abs/2512.24551) (2025-12-31)
+  [![Code](https://img.shields.io/github/stars/caiyuanhao1998/Open-PhyGDPO.svg?style=social&label=Official)](https://github.com/caiyuanhao1998/Open-PhyGDPO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://caiyuanhao1998.github.io/project/PhyGDPO/)
+
++ [Taming Preference Mode Collapse via Directional Decoupling Alignment in Diffusion Reinforcement Learning](https://arxiv.org/abs/2512.24146) (2025-12-30)
+
++ [GeCo: Evaluating Geometric Consistency for Video Generation via Motion and Structure](https://arxiv.org/abs/2512.22274) (2025-12-25)
+  [![Code](https://img.shields.io/github/stars/ShixuanGu/GeCo.svg?style=social&label=Official)](https://github.com/ShixuanGu/GeCo)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://geco-geoconsistency.github.io/)
+
++ [Generative diffusion models for agricultural AI: plant image generation, indoor-to-outdoor translation, and expert preference alignment](https://arxiv.org/abs/2512.19632) (2025-12-22)
+
++ [MotionEdit: Benchmarking and Learning Motion-Centric Image Editing](https://arxiv.org/abs/2512.10284) (2025-12-11)
+  [![Code](https://img.shields.io/github/stars/elainew728/motion-edit.svg?style=social&label=Official)](https://github.com/elainew728/motion-edit)
+
++ [PaCo-RL: Advancing Reinforcement Learning for Consistent Image Generation with Pairwise Reward Modeling](https://arxiv.org/abs/2512.04784) (2025-12-02)
+  [![Code](https://img.shields.io/github/stars/X-GenGroup/PaCo-RL.svg?style=social&label=Official)](https://github.com/X-GenGroup/PaCo-RL)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://x-gengroup.github.io/HomePage_PaCo-RL/)
+
++ [Taming Camera-Controlled Video Generation with Verifiable Geometry Reward](https://arxiv.org/abs/2512.02870) (2025-12-02)
+
++ [McSc: Motion-Corrective Preference Alignment for Video Generation with Self-Critic Hierarchical Reasoning](https://arxiv.org/abs/2511.22974) (2025-11-28)
+
++ [RubricRL: Simple Generalizable Rewards for Text-to-Image Generation](https://arxiv.org/abs/2511.20651) (2025-11-25)
+
++ [HiCoGen: Hierarchical Compositional Text-to-Image Generation in Diffusion Models via Reinforcement Learning](https://arxiv.org/abs/2511.19965) (2025-11-25)
+
++ [Personalized Reward Modeling for Text-to-Image Generation](https://arxiv.org/abs/2511.19458) (2025-11-21)
+
++ [PhysCorr: Dual-Reward DPO for Physics-Constrained Text-to-Video Generation with Automated Preference Selection](https://arxiv.org/abs/2511.03997) (2025-11-06)
+
++ [M$^{3}$T2IBench: A Large-Scale Multi-Category, Multi-Instance, Multi-Relation Text-to-Image Benchmark](https://arxiv.org/abs/2510.23020) (2025-10-27)
+
++ [StableSketcher: Enhancing Diffusion Model for Pixel-based Sketch Generation via Visual Question Answering Feedback](https://arxiv.org/abs/2510.20093) (2025-10-23)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zihos.github.io/StableSketcher)
+
++ [D2D: Detector-to-Differentiable Critic for Improved Numeracy in Text-to-Image Generation](https://arxiv.org/abs/2510.19278) (2025-10-22)
+
++ [Video Consistency Distance: Enhancing Temporal Consistency for Image-to-Video Generation via Reward-Based Fine-Tuning](https://arxiv.org/abs/2510.19193) (2025-10-22)
+
++ [Uniworld-V2: Reinforce Image Editing with Diffusion Negative-aware Finetuning and MLLM Implicit Feedback](https://arxiv.org/abs/2510.16888) (2025-10-19)
+  [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/UniWorld-V2.svg?style=social&label=Official)](https://github.com/PKU-YuanGroup/UniWorld-V2)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/chestnutlzj/Edit-R1-Qwen-Image-Edit-2509)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/chestnutlzj/Edit-R1-FLUX.1-Kontext-dev)
+
++ [VR-Thinker: Boosting Video Reward Models through Thinking-with-Image Reasoning](https://arxiv.org/abs/2510.10518) (2025-10-12)
+
++ [ImageDoctor: Diagnosing Text-to-Image Generation via Grounded Image Reasoning](https://arxiv.org/abs/2510.01010) (2025-10-01)
+
++ [EditScore: Unlocking Online RL for Image Editing via High-Fidelity Reward Modeling](https://arxiv.org/abs/2509.23909) (2025-09-28)
+  [![Code](https://img.shields.io/github/stars/VectorSpaceLab/EditScore.svg?style=social&label=Official)](https://github.com/VectorSpaceLab/EditScore)
+
++ [RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](https://arxiv.org/abs/2509.16500) (2025-09-20)
+
++ [RewardDance: Reward Scaling in Visual Generation](https://arxiv.org/abs/2509.08826) (2025-09-10)
+
++ [UMO: Scaling Multi-Identity Consistency for Image Customization via Matching Reward](https://arxiv.org/abs/2509.06818) (2025-09-08)
+  [![Code](https://img.shields.io/github/stars/bytedance/UMO.svg?style=social&label=Official)](https://github.com/bytedance/UMO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://bytedance.github.io/UMO/)
+
++ [The Mind's Eye: A Multi-Faceted Reward Framework for Guiding Visual Metaphor Generation](https://arxiv.org/abs/2508.18569) (2025-08-26)
+
++ [FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation](https://arxiv.org/abs/2508.11255) (2025-08-15)
+  [![Code](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-talking2.svg?style=social&label=Official)](https://github.com/Fantasy-AMAP/fantasy-talking2)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://fantasy-amap.github.io/fantasy-talking2/)
+
++ [Uni-Layout: Integrating Human Feedback in Unified Layout Generation and Evaluation](https://arxiv.org/abs/2508.02374) (2025-08-04)
+  [![Code](https://img.shields.io/github/stars/JD-GenX/Uni-Layout.svg?style=social&label=Official)](https://github.com/JD-GenX/Uni-Layout)
+
++ [Multimodal LLMs as Customized Reward Models for Text-to-Image Generation](https://arxiv.org/abs/2507.21391) (2025-07-28)
+  [![Code](https://img.shields.io/github/stars/sjz5202/LLaVA-Reward.svg?style=social&label=Official)](https://github.com/sjz5202/LLaVA-Reward)
+
++ [RDPO: Real Data Preference Optimization for Physics Consistency Video Generation](https://arxiv.org/abs/2506.18655) (2025-06-23)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://wwenxu.github.io/RDPO/)
+
++ [Doctor Approved: Generating Medically Accurate Skin Disease Images through AI-Expert Feedback](https://arxiv.org/abs/2506.12323) (2025-06-14)
+
++ [AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization](https://arxiv.org/abs/2506.07738) (2025-06-06)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://AssetDropper.github.io)
+
++ [GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/abs/2505.17022) (2025-05-22)
+  [![Code](https://img.shields.io/github/stars/gogoduan/GoT-R1.svg?style=social&label=Official)](https://github.com/gogoduan/GoT-R1)
+
++ [We'll Fix it in Post: Improving Text-to-Video Generation with Neuro-Symbolic Feedback](https://arxiv.org/abs/2504.17180) (2025-04-24)
+
++ [Aligning Anime Video Generation with Human Feedback](https://arxiv.org/abs/2504.10044) (2025-04-14)
+  [![Code](https://img.shields.io/github/stars/bilibili/Index-anisora.svg?style=social&label=Official)](https://github.com/bilibili/Index-anisora)
+
++ [Unified Reward Model for Multimodal Understanding and Generation](https://arxiv.org/abs/2503.05236) (2025-03-07)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/CodeGoat24/UnifiedReward-qwen-7b)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/CodeGoat24/UnifiedReward-7b-v1.5)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/CodeGoat24/UnifiedReward-7b)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/CodeGoat24/UnifiedReward-2.0-qwen35-9b)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/CodeGoat24/LiFT-HRA)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/CodeGoat24/UnifiedReward-2.0-T2X-score-data)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/CodeGoat24/VideoDPO)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/CodeGoat24/ImageGen-CoT-Reward-5K)
+
++ [Dual-IPO: Dual-Iterative Preference Optimization for Text-to-Video Generation](https://arxiv.org/abs/2502.02088) (2025-02-04)
+  [![Code](https://img.shields.io/github/stars/SAIS-FUXI/IPO.svg?style=social&label=Official)](https://github.com/SAIS-FUXI/IPO)
+
++ [Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization](https://arxiv.org/abs/2502.01051) (2025-02-03)
+  [![Code](https://img.shields.io/github/stars/Kwai-Kolors/LPO.svg?style=social&label=Official)](https://github.com/Kwai-Kolors/LPO)
+
++ [Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/abs/2501.13926) (2025-01-23)
+  [![Code](https://img.shields.io/github/stars/ZiyuGuo99/Image-Generation-CoT.svg?style=social&label=Official)](https://github.com/ZiyuGuo99/Image-Generation-CoT)
+
++ [Detection-Driven Object Count Optimization for Text-to-Image Diffusion Models](https://arxiv.org/abs/2408.11721) (2024-08-21)
+
 + [Debiasing Text-to-Image Evaluation via Implicit Cultural Alignment Reward Modeling](https://arxiv.org/abs/2607.15740) (2026-07-17)
   ><i>Note: Introduces an implicit cultural alignment reward model trained/evaluated on human cultural-preference pairs.</i>
 
