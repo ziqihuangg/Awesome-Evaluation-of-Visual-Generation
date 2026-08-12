@@ -398,8 +398,6 @@ There are also recent works on new methods to measure visual similarity (more wi
 + [Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning](https://arxiv.org/abs/2508.20751) (2025-08-28)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/Pref-GRPO)
 
-+ [GENFIG1: Visual Summaries of Scholarly Work as a Challenge for Vision-Language Models](https://arxiv.org/abs/2604.04172) (2026-04-05)
-
 + [ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](https://arxiv.org/abs/2505.24862) (2025-05-30)
   [![Code](https://img.shields.io/github/stars/vistorybench/vistorybench.svg?style=social&label=Official)](https://github.com/vistorybench/vistorybench)
   [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/ViStoryBench/ViStoryBench)
@@ -2713,9 +2711,6 @@ Not for visual generation, but related evaluations of other models like LLMs
 + [Learning to Generate via Understanding: Understanding-Driven Intrinsic Rewarding for Unified Multimodal Models](https://arxiv.org/abs/2603.06043) (2026-03-06)
 
 + [When Rubrics Fail: Error Enumeration as Reward in Reference-Free RL Post-Training for Virtual Try-On](https://arxiv.org/abs/2603.05659) (2026-03-05)
-
-+ [Bridging Human Evaluation to Infrared and Visible Image Fusion](https://arxiv.org/abs/2603.03871) (2026-03-04)
-  [![Code](https://img.shields.io/github/stars/ALKA-Wind/EVAFusion.svg?style=social&label=Official)](https://github.com/ALKA-Wind/EVAFusion)
 
 + [BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling](https://arxiv.org/abs/2603.01163) (2026-03-01)
 
