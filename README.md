@@ -2947,17 +2947,21 @@ Not for visual generation, but related evaluations of other models like LLMs
   [![Code](https://img.shields.io/github/stars/MeiGen-AI/PosterReward.svg?style=social&label=Official)](https://github.com/MeiGen-AI/PosterReward)
   [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/MeiGen-AI/PosterReward_v1)
 
-+ [HPSv3: Towards Wide-Spectrum Human Preference Score](https://arxiv.org/pdf/2508.03789) (2025-08)
++ [HPSv3: Towards Wide-Spectrum Human Preference Score](https://arxiv.org/abs/2508.03789) (2025-08-05, ICCV 2025)
   [![Code](https://img.shields.io/github/stars/MizzenAI/HPSv3.svg?style=social&label=Official)](https://github.com/MizzenAI/HPSv3)
   [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/MizzenAI/HPSv3)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/MizzenAI/HPDv3)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://mizzenai.github.io/HPSv3.project/)
 
 + [OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning](https://arxiv.org/abs/2508.21066) (2025-08-28)[![Code](https://img.shields.io/github/stars/bytedance/OneReward)](https://github.com/bytedance/OneReward) [![Website](https://img.shields.io/badge/Website-9cf)](https://one-reward.github.io)
 
 + [Prompt-A-Video: Prompt Your Video Diffusion Model via Preference-Aligned LLM](https://arxiv.org/abs/2412.15156) (2024-12-19) [![Code](https://img.shields.io/github/stars/jiyt17/Prompt-A-Video.svg?style=social&label=Official)](https://github.com/jiyt17/Prompt-A-Video)
 
-+ [Improved video generation with human feedback](https://arxiv.org/pdf/2501.13918) (2025-01-23) [![Website](https://img.shields.io/badge/Website-9cf)](https://gongyeliu.github.io/videoalign/)
++ [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918) (2025-01-23, NeurIPS 2025)
   [![Code](https://img.shields.io/github/stars/KwaiVGI/VideoAlign.svg?style=social&label=Official)](https://github.com/KwaiVGI/VideoAlign)
+  [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/KlingTeam/VideoReward)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/KlingTeam/VideoGen-RewardBench)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://gongyeliu.github.io/videoalign/)
 
 + [LiFT: Leveraging Human Feedback for Text-to-Video Model Alignment](https://arxiv.org/pdf/2412.04814) (2024-12-24) [![Code](https://img.shields.io/github/stars/codegoat24/LiFT.svg?style=social&label=Official)]() [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/LiFT/)
 
