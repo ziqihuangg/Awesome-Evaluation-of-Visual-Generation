@@ -3530,8 +3530,6 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [How to Train your Text-to-Image Model: Evaluating Design Choices for Synthetic Training Captions](https://arxiv.org/abs/2506.16679) (2025-06-20)
 
-+ [Quantitative Comparison of Fine-Tuning Techniques for Pretrained Latent Diffusion Models in the Generation of Unseen SAR Images](https://arxiv.org/abs/2506.13307) (2025-06-16)
-
 + [Re-Thinking the Automatic Evaluation of Image-Text Alignment in Text-to-Image Models](https://arxiv.org/abs/2506.08480) (2025-06-10)
 
 + [RAISE: Realness Assessment for Image Synthesis and Evaluation](https://arxiv.org/abs/2505.19233) (2025-05-25)
