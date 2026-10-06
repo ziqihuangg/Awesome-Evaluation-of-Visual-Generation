@@ -245,6 +245,11 @@ Papers for CLIP Similarity:
 <a name="2.2."></a>
 ### 2.2. Evaluation Metrics of Image Similarity
 
++ [JLD: Perceptual Distance Through A Jacobian Lens](https://arxiv.org/abs/2610.05967) (2026-10-05)
+  [![Code](https://img.shields.io/github/stars/shreshthsaini/jld.svg?style=social&label=Official)](https://github.com/shreshthsaini/jld)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://shreshthsaini.github.io/jld/)
+  ><i>Note: Full-reference perceptual distance using the Jacobian of a frozen vision encoder; fitted from unlabeled images without human quality ratings.</i>
+
 + [CLPIPS: A Personalized Metric for AI-Generated Image Similarity](https://arxiv.org/abs/2604.01234) (2026-03-26)
 
 + [MEt3R: Measuring Multi-View Consistency in Generated Images](https://arxiv.org/abs/2501.06336) (2025-01-10)
