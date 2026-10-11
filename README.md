@@ -1909,6 +1909,8 @@ There are also recent works on new methods to measure visual similarity (more wi
 
 #### 3.5.3. Evaluation of Talking Face Generation
 
++ [PVSync: A Unified Lip-Sync Expert for Timing and Articulation](https://arxiv.org/abs/2610.09223) (2026-10-06)
+
 + [Temporally-Aligned Evaluation for Audio-Driven Talking Head Generation](https://arxiv.org/abs/2606.01031) (2026-05-31)
 
 + [REACT 2026: The Fourth Multiple Appropriate Facial Reaction Generation Challenge: Personalised MAFRG and Appropriate EEG Reaction Prediction](https://arxiv.org/abs/2606.07935) (2026-06-06)
