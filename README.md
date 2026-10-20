@@ -3611,6 +3611,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [ImageBench](https://imagebench.ai) - Public benchmark and comparison site for text-to-image models with side-by-side outputs, pass-rate summaries, and methodology pages.
 
++ [TGK AI Image Generators 2026](https://huggingface.co/datasets/These-Guys-Know/tgk-ai-image-generators-2026) - 13 text-to-image models on the same three briefs (face, exact text on a screen, product ad), first output kept. Includes prompts, settings, recorded costs, placements and failures. [[Article]](https://theseguysknow.io/best-ai-image-generators/)
+
++ [TGK AI Video Generators 2026](https://doi.org/10.5281/zenodo.22703595) - 5 text-to-video models on the same three 10-second tasks (dialogue, action, product ad). Includes prompts, settings, generation times, costs, first outputs and failures. [[Dataset]](https://huggingface.co/datasets/These-Guys-Know/tgk-ai-video-generators-2026)
+
 
 <!-- 
 Papers to read and to organize:
