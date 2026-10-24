@@ -3611,6 +3611,8 @@ Not for visual generation, but related evaluations of other models like LLMs
 
 + [ImageBench](https://imagebench.ai) - Public benchmark and comparison site for text-to-image models with side-by-side outputs, pass-rate summaries, and methodology pages.
 
++ [StagingBench](https://stagingbench.org), an independent benchmark of AI virtual staging tools, with side-by-side results and automatic checks for architecture drift.
+
 
 <!-- 
 Papers to read and to organize:
