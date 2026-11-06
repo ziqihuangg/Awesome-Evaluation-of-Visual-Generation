@@ -991,6 +991,10 @@ There are also recent works on new methods to measure visual similarity (more wi
 <a name="3.3."></a>
 ### 3.3. Evaluation of Text-Based Image Editing
 
++ [InfoEdit: Probing Global Layout Reasoning in Infographic Editing](https://arxiv.org/abs/2609.33286) (2026-09-27)
+  [![Code](https://img.shields.io/github/stars/InfoEdit/InfoEdit.svg?style=social&label=Official)](https://github.com/InfoEdit/InfoEdit)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/InfoEdit/InfoEdit)
+
 + [MIEScore: Human-Aligned Evaluation for Multi-Source Image Editing](https://arxiv.org/abs/2608.02059) (2026-08-03)
   [![Code](https://img.shields.io/github/stars/IntMeGroup/MIEScore.svg?style=social&label=Official)](https://github.com/IntMeGroup/MIEScore)
   [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/TmpAccount/MIEScore)
