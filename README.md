@@ -2568,6 +2568,10 @@ Not for visual generation, but related evaluations of other models like LLMs
 <a name="3.10."></a>
 ### 3.10. Evaluation of Unified Multimodal Models
 
++ [UReason: Benchmarking Reasoning-to-Generation Alignment in Unified Multimodal Models](https://arxiv.org/abs/2602.08336) (2026-02-09, EMNLP 2026)
+  [![Code](https://img.shields.io/github/stars/UReason/UReason.svg?style=social&label=Official)](https://github.com/UReason/UReason)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://ureason.github.io)
+
 + [UEval: A Benchmark for Unified Multimodal Generation](https://arxiv.org/abs/2601.22155) (2026-01-29)
 
 + [A High-Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation](https://arxiv.org/abs/2506.09427) (2025-06-11, ICLR 2026)
